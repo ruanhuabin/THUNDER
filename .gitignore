@@ -1,3 +1,5 @@
 *.mrc
 *.mrcs
-instance/*.txt
+build/
+*.swp
+*.swo
