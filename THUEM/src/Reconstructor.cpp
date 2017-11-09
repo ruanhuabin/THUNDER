@@ -1103,7 +1103,8 @@ void Reconstructor::convoluteC()
     {
         _fft.bwExecutePlanMT(_C3D);
 
-        #pragma omp parallel for
+        //simd is added by huabin
+        #pragma omp parallel for simd
         VOLUME_FOR_EACH_PIXEL_RL(_C3D)
             _C3D.setRL(_C3D.getRL(i, j, k)
                      * _kernelRL(QUAD_3(i, j, k) / gsl_pow_2(PAD_SIZE))

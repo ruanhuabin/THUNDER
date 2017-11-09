@@ -40,7 +40,7 @@ find_package(GSL REQUIRED)
 #endif()
 
 #following two lines add by huabin
-set (CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -O3 -qopenmp")
+set (CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -g -qopenmp -qopt-prefetch=4")
 set(FFTW_INCLUDES "/opt/intel/compilers_and_libraries_2018.1.163/linux/mkl/include/fftw/")
 
 message(STATUS "CXX_FLAGS: ${CMAKE_CXX_FLAGS}")

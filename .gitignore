@@ -4,3 +4,9 @@ build-base/
 build-icc/
 *.swp
 *.swo
+*.log
+*.txt
+instance/output/
+build-base/
+build-icc/
+r000hs/
