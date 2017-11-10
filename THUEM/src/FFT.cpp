@@ -29,7 +29,8 @@ void FFT::fw(Image& img)
     CHECK_SPACE_VALID(_dstC, _srcR);
     ***/
 
-    #pragma omp critical
+    //modify by huabin
+    #pragma omp critical(k)
     fwPlan = fftw_plan_dft_r2c_2d(img.nRowRL(),
                                   img.nColRL(),
                                   _srcR,
@@ -38,7 +39,15 @@ void FFT::fw(Image& img)
 
     fftw_execute(fwPlan);
 
-    FW_CLEAN_UP;
+    //FW_CLEAN_UP;
+
+    //Add by huabin
+    #pragma omp critical(k1)
+    fftw_destroy_plan(fwPlan);
+    _srcR = NULL;
+    _dstC = NULL;
+
+
 }
 
 void FFT::bw(Image& img)
@@ -51,7 +60,8 @@ void FFT::bw(Image& img)
     CHECK_SPACE_VALID(_dstR, _srcC);
     ***/
 
-    #pragma omp critical
+    //modify by huabin
+    #pragma omp critical(a)
     bwPlan = fftw_plan_dft_c2r_2d(img.nRowRL(),
                                   img.nColRL(),
                                   _srcC,
@@ -62,7 +72,13 @@ void FFT::bw(Image& img)
 
     SCALE_RL(img, 1.0 / img.sizeRL());
 
-    BW_CLEAN_UP(img);
+    //BW_CLEAN_UP(img);
+    #pragma omp critical(a1)
+    fftw_destroy_plan(bwPlan); 
+    _dstR = NULL; 
+    _srcC = NULL; 
+    img.clearFT();
+
 }
 
 void FFT::fw(Volume& vol)
@@ -71,7 +87,8 @@ void FFT::fw(Volume& vol)
 
     if (vol.nSlcRL() == 1)
     {
-        #pragma omp critical
+        //modify by huabin
+        #pragma omp critical(b)
         fwPlan = fftw_plan_dft_r2c_2d(vol.nRowRL(),
                                       vol.nColRL(),
                                       _srcR,
@@ -80,7 +97,8 @@ void FFT::fw(Volume& vol)
     }
     else
     {
-        #pragma omp critical
+        //modify by huabin
+        #pragma omp critical(c)
         fwPlan = fftw_plan_dft_r2c_3d(vol.nRowRL(),
                                       vol.nColRL(),
                                       vol.nSlcRL(),
@@ -91,7 +109,13 @@ void FFT::fw(Volume& vol)
 
     fftw_execute(fwPlan);
 
-    FW_CLEAN_UP;
+    //FW_CLEAN_UP;
+    //Add by huabin
+    #pragma omp critical(c1)
+    fftw_destroy_plan(fwPlan);
+    _srcR = NULL;
+    _dstC = NULL;
+
 }
 
 void FFT::bw(Volume& vol)
@@ -100,7 +124,8 @@ void FFT::bw(Volume& vol)
 
     if (vol.nSlcRL() == 1)
     {
-        #pragma omp critical
+        //modify by huabin
+        #pragma omp critical(e)
         fwPlan = fftw_plan_dft_r2c_2d(vol.nRowRL(),
                                       vol.nColRL(),
                                       _srcR,
@@ -109,7 +134,8 @@ void FFT::bw(Volume& vol)
     }
     else
     {
-        #pragma omp critical
+        //modify by huabin
+        #pragma omp critical(e)
         bwPlan = fftw_plan_dft_c2r_3d(vol.nRowRL(),
                                       vol.nColRL(),
                                       vol.nSlcRL(),
@@ -122,7 +148,13 @@ void FFT::bw(Volume& vol)
 
     SCALE_RL(vol, 1.0 / vol.sizeRL());
 
-    BW_CLEAN_UP(vol);
+    //BW_CLEAN_UP(vol);
+    #pragma omp critical(e1)
+    fftw_destroy_plan(bwPlan); 
+    _dstR = NULL; 
+    _srcC = NULL; 
+    vol.clearFT();
+
 }
 
 void FFT::fwMT(Image& img)
@@ -279,7 +311,8 @@ void FFT::bwCreatePlan(const int nCol,
     _srcC = (fftw_complex*)fftw_malloc((nCol / 2 + 1) * nRow * sizeof(Complex));
     _dstR = (double*)fftw_malloc(nCol * nRow * sizeof(double));
 
-    #pragma omp critical
+    //modify by huabin
+    #pragma omp critical(f)
     bwPlan = fftw_plan_dft_c2r_2d(nRow,
                                   nCol,
                                   _srcC,
@@ -297,7 +330,8 @@ void FFT::bwCreatePlan(const int nCol,
     _srcC = (fftw_complex*)fftw_malloc((nCol / 2 + 1) * nRow * nSlc * sizeof(Complex));
     _dstR = (double*)fftw_malloc(nCol * nRow * nSlc * sizeof(double));
 
-    #pragma omp critical
+    //modify by huabin
+    #pragma omp critical(g)
     bwPlan = fftw_plan_dft_c2r_3d(nRow,
                                   nCol,
                                   nSlc,
@@ -497,13 +531,15 @@ void FFT::bwExecutePlanMT(Volume& vol)
 
 void FFT::fwDestroyPlan()
 {
-    #pragma omp critical
+    //modify by huabin
+    #pragma omp critical(h)
     fftw_destroy_plan(fwPlan);
 }
 
 void FFT::bwDestroyPlan()
 {
-    #pragma omp critical
+    //modify by huabin
+    #pragma omp critical(i)
     fftw_destroy_plan(bwPlan);
 }
 

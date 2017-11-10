@@ -1,0 +1,1374 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BMP	Image/BMP.cpp	/^BMP::BMP()$/;"	f	class:BMP	signature:()
+BMP::BMP	Image/BMP.cpp	/^BMP::BMP()$/;"	f	class:BMP	signature:()
+BMP::DataConvert	Image/BMP.cpp	/^void BMP::DataConvert(unsigned char* dst, float* src, int size)$/;"	f	class:BMP	signature:(unsigned char* dst, float* src, int size)
+BMP::DataConvert	Image/BMP.cpp	/^void BMP::DataConvert(unsigned char* dst, short* src, int size)$/;"	f	class:BMP	signature:(unsigned char* dst, short* src, int size)
+BMP::MinMax	Image/BMP.cpp	/^void BMP::MinMax(float* buf, int size, float& min, float& max)$/;"	f	class:BMP	signature:(float* buf, int size, float& min, float& max)
+BMP::MinMax	Image/BMP.cpp	/^void BMP::MinMax(short* buf, int size, short& min, short& max)$/;"	f	class:BMP	signature:(short* buf, int size, short& min, short& max)
+BMP::close	Image/BMP.cpp	/^void BMP::close()$/;"	f	class:BMP	signature:()
+BMP::createBMP	Image/BMP.cpp	/^bool BMP::createBMP(float* buf, int width, int height)$/;"	f	class:BMP	signature:(float* buf, int width, int height)
+BMP::createBMP	Image/BMP.cpp	/^bool BMP::createBMP(short* buf, int width, int height)$/;"	f	class:BMP	signature:(short* buf, int width, int height)
+BMP::createBMP	Image/BMP.cpp	/^bool BMP::createBMP(unsigned char* buf, int width, int height)$/;"	f	class:BMP	signature:(unsigned char* buf, int width, int height)
+BMP::getBitCount	Image/BMP.cpp	/^unsigned short BMP::getBitCount() const$/;"	f	class:BMP	signature:() const
+BMP::getDataSize	Image/BMP.cpp	/^unsigned BMP::getDataSize() const$/;"	f	class:BMP	signature:() const
+BMP::getHeaderSize	Image/BMP.cpp	/^unsigned BMP::getHeaderSize() const$/;"	f	class:BMP	signature:() const
+BMP::getHeight	Image/BMP.cpp	/^unsigned BMP::getHeight() const$/;"	f	class:BMP	signature:() const
+BMP::getWidth	Image/BMP.cpp	/^unsigned BMP::getWidth() const$/;"	f	class:BMP	signature:() const
+BMP::open	Image/BMP.cpp	/^int BMP::open(FILE*& file)$/;"	f	class:BMP	signature:(FILE*& file)
+BMP::open	Image/BMP.cpp	/^int BMP::open(const char* filename, const char* mode)$/;"	f	class:BMP	signature:(const char* filename, const char* mode)
+BMP::readInHeader	Image/BMP.cpp	/^void BMP::readInHeader()$/;"	f	class:BMP	signature:()
+BMP::setHeader	Image/BMP.cpp	/^bool BMP::setHeader(int width, int height)$/;"	f	class:BMP	signature:(int width, int height)
+BMP::writeIm2D	Image/BMP.cpp	/^bool BMP::writeIm2D(unsigned char* buf)$/;"	f	class:BMP	signature:(unsigned char* buf)
+BMP::~BMP	Image/BMP.cpp	/^BMP::~BMP()$/;"	f	class:BMP	signature:()
+BcastFSC	ML/MLModel.cpp	/^void MLModel::BcastFSC(const double thres)$/;"	f	class:MLModel	signature:(const double thres)
+CTF	CTF.cpp	/^double CTF(const double f,$/;"	f	signature:(const double f, const double voltage, const double defocus, const double Cs)
+CTF	CTF.cpp	/^void CTF(Image& dst,$/;"	f	signature:(Image& dst, const double pixelSize, const double voltage, const double defocusU, const double defocusV, const double theta, const double Cs)
+Coordinate5D	Coordinate5D.cpp	/^Coordinate5D::Coordinate5D() {}$/;"	f	class:Coordinate5D	signature:()
+Coordinate5D	Coordinate5D.cpp	/^Coordinate5D::Coordinate5D(const double phi,$/;"	f	class:Coordinate5D	signature:(const double phi, const double theta, const double psi, const double x, const double y)
+Coordinate5D::Coordinate5D	Coordinate5D.cpp	/^Coordinate5D::Coordinate5D() {}$/;"	f	class:Coordinate5D	signature:()
+Coordinate5D::Coordinate5D	Coordinate5D.cpp	/^Coordinate5D::Coordinate5D(const double phi,$/;"	f	class:Coordinate5D	signature:(const double phi, const double theta, const double psi, const double x, const double y)
+DataConvert	Image/BMP.cpp	/^void BMP::DataConvert(unsigned char* dst, float* src, int size)$/;"	f	class:BMP	signature:(unsigned char* dst, float* src, int size)
+DataConvert	Image/BMP.cpp	/^void BMP::DataConvert(unsigned char* dst, short* src, int size)$/;"	f	class:BMP	signature:(unsigned char* dst, short* src, int size)
+Database	Database.cpp	/^Database::Database()$/;"	f	class:Database	signature:()
+Database	Database.cpp	/^Database::Database(const char database[])$/;"	f	class:Database	signature:(const char database[])
+Database::Database	Database.cpp	/^Database::Database()$/;"	f	class:Database	signature:()
+Database::Database	Database.cpp	/^Database::Database(const char database[])$/;"	f	class:Database	signature:(const char database[])
+Database::assign	Database.cpp	/^void Database::assign()$/;"	f	class:Database	signature:()
+Database::cls	Database.cpp	/^int Database::cls(const int i) const$/;"	f	class:Database	signature:(const int i) const
+Database::coordX	Database.cpp	/^double Database::coordX(const int i) const$/;"	f	class:Database	signature:(const int i) const
+Database::coordY	Database.cpp	/^double Database::coordY(const int i) const$/;"	f	class:Database	signature:(const int i) const
+Database::ctf	Database.cpp	/^void Database::ctf(CTFAttr& dst,$/;"	f	class:Database	signature:(CTFAttr& dst, const int i) const
+Database::ctf	Database.cpp	/^void Database::ctf(double& voltage,$/;"	f	class:Database	signature:(double& voltage, double& defocusU, double& defocusV, double& defocusTheta, double& Cs, double& amplitudeConstrast, double& phaseShift, const int i) const
+Database::d	Database.cpp	/^double Database::d(const int i) const$/;"	f	class:Database	signature:(const int i) const
+Database::groupID	Database.cpp	/^int Database::groupID(const int i) const$/;"	f	class:Database	signature:(const int i) const
+Database::index	Database.cpp	/^void Database::index()$/;"	f	class:Database	signature:()
+Database::micrographPath	Database.cpp	/^string Database::micrographPath(const int i) const$/;"	f	class:Database	signature:(const int i) const
+Database::nGroup	Database.cpp	/^int Database::nGroup() const$/;"	f	class:Database	signature:() const
+Database::nParticle	Database.cpp	/^int Database::nParticle() const$/;"	f	class:Database	signature:() const
+Database::nParticleRank	Database.cpp	/^int Database::nParticleRank()$/;"	f	class:Database	signature:()
+Database::offset	Database.cpp	/^long Database::offset(const int i) const$/;"	f	class:Database	signature:(const int i) const
+Database::openDatabase	Database.cpp	/^void Database::openDatabase(const char database[])$/;"	f	class:Database	signature:(const char database[])
+Database::path	Database.cpp	/^string Database::path(const int i) const$/;"	f	class:Database	signature:(const int i) const
+Database::quat	Database.cpp	/^vec4 Database::quat(const int i) const$/;"	f	class:Database	signature:(const int i) const
+Database::saveDatabase	Database.cpp	/^void Database::saveDatabase(const char database[])$/;"	f	class:Database	signature:(const char database[])
+Database::shuffle	Database.cpp	/^void Database::shuffle()$/;"	f	class:Database	signature:()
+Database::split	Database.cpp	/^void Database::split(int& start,$/;"	f	class:Database	signature:(int& start, int& end, const int commRank)
+Database::stdD	Database.cpp	/^double Database::stdD(const int i) const$/;"	f	class:Database	signature:(const int i) const
+Database::stdR	Database.cpp	/^double Database::stdR(const int i) const$/;"	f	class:Database	signature:(const int i) const
+Database::stdTX	Database.cpp	/^double Database::stdTX(const int i) const$/;"	f	class:Database	signature:(const int i) const
+Database::stdTY	Database.cpp	/^double Database::stdTY(const int i) const$/;"	f	class:Database	signature:(const int i) const
+Database::tran	Database.cpp	/^vec2 Database::tran(const int i) const$/;"	f	class:Database	signature:(const int i) const
+Database::~Database	Database.cpp	/^Database::~Database()$/;"	f	class:Database	signature:()
+FFT	FFT.cpp	/^FFT::FFT() : _srcR(NULL),$/;"	f	class:FFT	signature:()
+FFT::FFT	FFT.cpp	/^FFT::FFT() : _srcR(NULL),$/;"	f	class:FFT	signature:()
+FFT::bw	FFT.cpp	/^void FFT::bw(Image& img)$/;"	f	class:FFT	signature:(Image& img)
+FFT::bw	FFT.cpp	/^void FFT::bw(Volume& vol)$/;"	f	class:FFT	signature:(Volume& vol)
+FFT::bwCreatePlan	FFT.cpp	/^void FFT::bwCreatePlan(const int nCol,$/;"	f	class:FFT	signature:(const int nCol, const int nRow)
+FFT::bwCreatePlan	FFT.cpp	/^void FFT::bwCreatePlan(const int nCol,$/;"	f	class:FFT	signature:(const int nCol, const int nRow, const int nSlc)
+FFT::bwCreatePlanMT	FFT.cpp	/^void FFT::bwCreatePlanMT(const int nCol,$/;"	f	class:FFT	signature:(const int nCol, const int nRow)
+FFT::bwCreatePlanMT	FFT.cpp	/^void FFT::bwCreatePlanMT(const int nCol,$/;"	f	class:FFT	signature:(const int nCol, const int nRow, const int nSlc)
+FFT::bwDestroyPlan	FFT.cpp	/^void FFT::bwDestroyPlan()$/;"	f	class:FFT	signature:()
+FFT::bwDestroyPlanMT	FFT.cpp	/^void FFT::bwDestroyPlanMT()$/;"	f	class:FFT	signature:()
+FFT::bwExecutePlan	FFT.cpp	/^void FFT::bwExecutePlan(Image& img)$/;"	f	class:FFT	signature:(Image& img)
+FFT::bwExecutePlan	FFT.cpp	/^void FFT::bwExecutePlan(Volume& vol)$/;"	f	class:FFT	signature:(Volume& vol)
+FFT::bwExecutePlanMT	FFT.cpp	/^void FFT::bwExecutePlanMT(Image& img)$/;"	f	class:FFT	signature:(Image& img)
+FFT::bwExecutePlanMT	FFT.cpp	/^void FFT::bwExecutePlanMT(Volume& vol)$/;"	f	class:FFT	signature:(Volume& vol)
+FFT::bwMT	FFT.cpp	/^void FFT::bwMT(Image& img)$/;"	f	class:FFT	signature:(Image& img)
+FFT::bwMT	FFT.cpp	/^void FFT::bwMT(Volume& vol)$/;"	f	class:FFT	signature:(Volume& vol)
+FFT::fw	FFT.cpp	/^void FFT::fw(Image& img)$/;"	f	class:FFT	signature:(Image& img)
+FFT::fw	FFT.cpp	/^void FFT::fw(Volume& vol)$/;"	f	class:FFT	signature:(Volume& vol)
+FFT::fwCreatePlan	FFT.cpp	/^void FFT::fwCreatePlan(const int nCol,$/;"	f	class:FFT	signature:(const int nCol, const int nRow)
+FFT::fwCreatePlan	FFT.cpp	/^void FFT::fwCreatePlan(const int nCol,$/;"	f	class:FFT	signature:(const int nCol, const int nRow, const int nSlc)
+FFT::fwCreatePlanMT	FFT.cpp	/^void FFT::fwCreatePlanMT(const int nCol,$/;"	f	class:FFT	signature:(const int nCol, const int nRow)
+FFT::fwCreatePlanMT	FFT.cpp	/^void FFT::fwCreatePlanMT(const int nCol,$/;"	f	class:FFT	signature:(const int nCol, const int nRow, const int nSlc)
+FFT::fwDestroyPlan	FFT.cpp	/^void FFT::fwDestroyPlan()$/;"	f	class:FFT	signature:()
+FFT::fwDestroyPlanMT	FFT.cpp	/^void FFT::fwDestroyPlanMT()$/;"	f	class:FFT	signature:()
+FFT::fwExecutePlan	FFT.cpp	/^void FFT::fwExecutePlan(Image& img)$/;"	f	class:FFT	signature:(Image& img)
+FFT::fwExecutePlan	FFT.cpp	/^void FFT::fwExecutePlan(Volume& vol)$/;"	f	class:FFT	signature:(Volume& vol)
+FFT::fwExecutePlanMT	FFT.cpp	/^void FFT::fwExecutePlanMT(Image& img)$/;"	f	class:FFT	signature:(Image& img)
+FFT::fwExecutePlanMT	FFT.cpp	/^void FFT::fwExecutePlanMT(Volume& vol)$/;"	f	class:FFT	signature:(Volume& vol)
+FFT::fwMT	FFT.cpp	/^void FFT::fwMT(Image& img)$/;"	f	class:FFT	signature:(Image& img)
+FFT::fwMT	FFT.cpp	/^void FFT::fwMT(Volume& vol)$/;"	f	class:FFT	signature:(Volume& vol)
+FFT::~FFT	FFT.cpp	/^FFT::~FFT() {}$/;"	f	class:FFT	signature:()
+FRC	Functions/Spectrum.cpp	/^void FRC(vec& dst,$/;"	f	signature:(vec& dst, const Image& A, const Image& B)
+FRC	Functions/Spectrum.cpp	/^void FRC(vec& dst,$/;"	f	signature:(vec& dst, const Volume& A, const Volume& B, const int k)
+FSC	Functions/Spectrum.cpp	/^void FSC(vec& dst,$/;"	f	signature:(vec& dst, const Volume& A, const Volume& B)
+Image	Image/Image.cpp	/^Image::Image() : _nCol(0), _nRow(0) {}$/;"	f	class:Image	signature:()
+Image	Image/Image.cpp	/^Image::Image(const int nCol,$/;"	f	class:Image	signature:(const int nCol, const int nRow, const int space)
+Image::Image	Image/Image.cpp	/^Image::Image() : _nCol(0), _nRow(0) {}$/;"	f	class:Image	signature:()
+Image::Image	Image/Image.cpp	/^Image::Image(const int nCol,$/;"	f	class:Image	signature:(const int nCol, const int nRow, const int space)
+Image::addFT	Image/Image.cpp	/^void Image::addFT(const Complex value,$/;"	f	class:Image	signature:(const Complex value, double iCol, double iRow)
+Image::addFT	Image/Image.cpp	/^void Image::addFT(const Complex value,$/;"	f	class:Image	signature:(const Complex value, int iCol, int iRow)
+Image::addFT	Image/Image.cpp	/^void Image::addFT(const double value,$/;"	f	class:Image	signature:(const double value, double iCol, double iRow)
+Image::addFT	Image/Image.cpp	/^void Image::addFT(const double value,$/;"	f	class:Image	signature:(const double value, int iCol, int iRow)
+Image::addFTHalf	Image/Image.cpp	/^void Image::addFTHalf(const Complex value,$/;"	f	class:Image	signature:(const Complex value, const double w[2][2], const int x0[2])
+Image::addFTHalf	Image/Image.cpp	/^void Image::addFTHalf(const Complex value,$/;"	f	class:Image	signature:(const Complex value, const int iCol, const int iRow)
+Image::addFTHalf	Image/Image.cpp	/^void Image::addFTHalf(const double value,$/;"	f	class:Image	signature:(const double value, const double w[2][2], const int x0[2])
+Image::addFTHalf	Image/Image.cpp	/^void Image::addFTHalf(const double value,$/;"	f	class:Image	signature:(const double value, const int iCol, const int iRow)
+Image::alloc	Image/Image.cpp	/^void Image::alloc(const int nCol,$/;"	f	class:Image	signature:(const int nCol, const int nRow, const int space)
+Image::alloc	Image/Image.cpp	/^void Image::alloc(const int space)$/;"	f	class:Image	signature:(const int space)
+Image::coordinatesInBoundaryFT	Image/Image.cpp	/^void Image::coordinatesInBoundaryFT(const int iCol,$/;"	f	class:Image	signature:(const int iCol, const int iRow) const
+Image::coordinatesInBoundaryRL	Image/Image.cpp	/^void Image::coordinatesInBoundaryRL(const int iCol,$/;"	f	class:Image	signature:(const int iCol, const int iRow) const
+Image::copyImage	Image/Image.cpp	/^Image Image::copyImage() const$/;"	f	class:Image	signature:() const
+Image::getBiLinearFT	Image/Image.cpp	/^Complex Image::getBiLinearFT(const double iCol,$/;"	f	class:Image	signature:(const double iCol, const double iRow) const
+Image::getBiLinearRL	Image/Image.cpp	/^double Image::getBiLinearRL(const double iCol,$/;"	f	class:Image	signature:(const double iCol, const double iRow) const
+Image::getByInterpolationFT	Image/Image.cpp	/^Complex Image::getByInterpolationFT(double iCol,$/;"	f	class:Image	signature:(double iCol, double iRow, const int interp) const
+Image::getFT	Image/Image.cpp	/^Complex Image::getFT(int iCol,$/;"	f	class:Image	signature:(int iCol, int iRow) const
+Image::getFTHalf	Image/Image.cpp	/^Complex Image::getFTHalf(const double w[2][2],$/;"	f	class:Image	signature:(const double w[2][2], const int x0[2]) const
+Image::getFTHalf	Image/Image.cpp	/^Complex Image::getFTHalf(const int iCol,$/;"	f	class:Image	signature:(const int iCol, const int iRow) const
+Image::getRL	Image/Image.cpp	/^double Image::getRL(const int iCol,$/;"	f	class:Image	signature:(const int iCol, const int iRow) const
+Image::saveFTToBMP	Image/Image.cpp	/^void Image::saveFTToBMP(const char* filename, double c) const$/;"	f	class:Image	signature:(const char* filename, double c) const
+Image::saveRLToBMP	Image/Image.cpp	/^void Image::saveRLToBMP(const char* filename) const$/;"	f	class:Image	signature:(const char* filename) const
+Image::setFT	Image/Image.cpp	/^void Image::setFT(const Complex value,$/;"	f	class:Image	signature:(const Complex value, int iCol, int iRow)
+Image::setFTHalf	Image/Image.cpp	/^void Image::setFTHalf(const Complex value,$/;"	f	class:Image	signature:(const Complex value, const int iCol, const int iRow)
+Image::setRL	Image/Image.cpp	/^void Image::setRL(const double value,$/;"	f	class:Image	signature:(const double value, const int iCol, const int iRow)
+Image::swap	Image/Image.cpp	/^void Image::swap(Image& that)$/;"	f	class:Image	signature:(Image& that)
+Image::~Image	Image/Image.cpp	/^Image::~Image() {}$/;"	f	class:Image	signature:()
+ImageBase	Image/ImageBase.cpp	/^ImageBase::ImageBase() : _sizeRL(0), _sizeFT(0)$/;"	f	class:ImageBase	signature:()
+ImageBase::ImageBase	Image/ImageBase.cpp	/^ImageBase::ImageBase() : _sizeRL(0), _sizeFT(0)$/;"	f	class:ImageBase	signature:()
+ImageBase::clear	Image/ImageBase.cpp	/^void ImageBase::clear()$/;"	f	class:ImageBase	signature:()
+ImageBase::clearFT	Image/ImageBase.cpp	/^void ImageBase::clearFT()$/;"	f	class:ImageBase	signature:()
+ImageBase::clearRL	Image/ImageBase.cpp	/^void ImageBase::clearRL()$/;"	f	class:ImageBase	signature:()
+ImageBase::copyBase	Image/ImageBase.cpp	/^ImageBase ImageBase::copyBase() const$/;"	f	class:ImageBase	signature:() const
+ImageBase::copyBase	Image/ImageBase.cpp	/^void ImageBase::copyBase(ImageBase& other) const$/;"	f	class:ImageBase	signature:(ImageBase& other) const
+ImageBase::isEmptyFT	Image/ImageBase.cpp	/^bool ImageBase::isEmptyFT() const$/;"	f	class:ImageBase	signature:() const
+ImageBase::isEmptyRL	Image/ImageBase.cpp	/^bool ImageBase::isEmptyRL() const$/;"	f	class:ImageBase	signature:() const
+ImageBase::sizeFT	Image/ImageBase.cpp	/^size_t ImageBase::sizeFT() const { return _sizeFT; }$/;"	f	class:ImageBase	signature:() const
+ImageBase::sizeRL	Image/ImageBase.cpp	/^size_t ImageBase::sizeRL() const { return _sizeRL; }$/;"	f	class:ImageBase	signature:() const
+ImageBase::swap	Image/ImageBase.cpp	/^void ImageBase::swap(ImageBase& that)$/;"	f	class:ImageBase	signature:(ImageBase& that)
+ImageBase::~ImageBase	Image/ImageBase.cpp	/^ImageBase::~ImageBase()$/;"	f	class:ImageBase	signature:()
+ImageFile	Image/ImageFile.cpp	/^ImageFile::ImageFile() : _file(NULL), _symmetryData(NULL) {}$/;"	f	class:ImageFile	signature:()
+ImageFile	Image/ImageFile.cpp	/^ImageFile::ImageFile(const char* filename,$/;"	f	class:ImageFile	signature:(const char* filename, const char* option)
+ImageFile::ImageFile	Image/ImageFile.cpp	/^ImageFile::ImageFile() : _file(NULL), _symmetryData(NULL) {}$/;"	f	class:ImageFile	signature:()
+ImageFile::ImageFile	Image/ImageFile.cpp	/^ImageFile::ImageFile(const char* filename,$/;"	f	class:ImageFile	signature:(const char* filename, const char* option)
+ImageFile::clear	Image/ImageFile.cpp	/^void ImageFile::clear()$/;"	f	class:ImageFile	signature:()
+ImageFile::display	Image/ImageFile.cpp	/^void ImageFile::display() const$/;"	f	class:ImageFile	signature:() const
+ImageFile::fillMRCHeader	Image/ImageFile.cpp	/^void ImageFile::fillMRCHeader(MRCHeader& header) const$/;"	f	class:ImageFile	signature:(MRCHeader& header) const
+ImageFile::mode	Image/ImageFile.cpp	/^int ImageFile::mode() const { return _metaData.mode; }$/;"	f	class:ImageFile	signature:() const
+ImageFile::nCol	Image/ImageFile.cpp	/^int ImageFile::nCol() const { return _metaData.nCol; }$/;"	f	class:ImageFile	signature:() const
+ImageFile::nRow	Image/ImageFile.cpp	/^int ImageFile::nRow() const { return _metaData.nRow; }$/;"	f	class:ImageFile	signature:() const
+ImageFile::nSlc	Image/ImageFile.cpp	/^int ImageFile::nSlc() const { return _metaData.nSlc; }$/;"	f	class:ImageFile	signature:() const
+ImageFile::readImage	Image/ImageFile.cpp	/^void ImageFile::readImage(Image& dst,$/;"	f	class:ImageFile	signature:(Image& dst, const int iSlc, const char* fileType)
+ImageFile::readImageBMP	Image/ImageFile.cpp	/^void ImageFile::readImageBMP(Image& dst)$/;"	f	class:ImageFile	signature:(Image& dst)
+ImageFile::readImageMRC	Image/ImageFile.cpp	/^void ImageFile::readImageMRC(Image& dst,$/;"	f	class:ImageFile	signature:(Image& dst, const int iSlc)
+ImageFile::readMetaData	Image/ImageFile.cpp	/^void ImageFile::readMetaData()$/;"	f	class:ImageFile	signature:()
+ImageFile::readMetaData	Image/ImageFile.cpp	/^void ImageFile::readMetaData(const Image& src)$/;"	f	class:ImageFile	signature:(const Image& src)
+ImageFile::readMetaData	Image/ImageFile.cpp	/^void ImageFile::readMetaData(const Volume& src)$/;"	f	class:ImageFile	signature:(const Volume& src)
+ImageFile::readMetaDataMRC	Image/ImageFile.cpp	/^void ImageFile::readMetaDataMRC()$/;"	f	class:ImageFile	signature:()
+ImageFile::readSymmetryData	Image/ImageFile.cpp	/^void ImageFile::readSymmetryData()$/;"	f	class:ImageFile	signature:()
+ImageFile::readVolume	Image/ImageFile.cpp	/^void ImageFile::readVolume(Volume& dst,$/;"	f	class:ImageFile	signature:(Volume& dst, const char* fileType)
+ImageFile::readVolumeMRC	Image/ImageFile.cpp	/^void ImageFile::readVolumeMRC(Volume& dst)$/;"	f	class:ImageFile	signature:(Volume& dst)
+ImageFile::setSize	Image/ImageFile.cpp	/^void ImageFile::setSize(const int nCol,$/;"	f	class:ImageFile	signature:(const int nCol, const int nRow, const int nSlc)
+ImageFile::size	Image/ImageFile.cpp	/^int ImageFile::size() const$/;"	f	class:ImageFile	signature:() const
+ImageFile::symmetryDataSize	Image/ImageFile.cpp	/^int ImageFile::symmetryDataSize() const$/;"	f	class:ImageFile	signature:() const
+ImageFile::writeImage	Image/ImageFile.cpp	/^void ImageFile::writeImage(const char dst[],$/;"	f	class:ImageFile	signature:(const char dst[], const Image& src, const double pixelSize)
+ImageFile::writeImageMRC	Image/ImageFile.cpp	/^void ImageFile::writeImageMRC(const char dst[],$/;"	f	class:ImageFile	signature:(const char dst[], const Image& src, const double pixelSize)
+ImageFile::writeVolume	Image/ImageFile.cpp	/^void ImageFile::writeVolume(const char dst[],$/;"	f	class:ImageFile	signature:(const char dst[], const Volume& src, const double pixelSize)
+ImageFile::writeVolumeMRC	Image/ImageFile.cpp	/^void ImageFile::writeVolumeMRC(const char dst[],$/;"	f	class:ImageFile	signature:(const char dst[], const Volume& src, const double pixelSize)
+ImageFile::~ImageFile	Image/ImageFile.cpp	/^ImageFile::~ImageFile()$/;"	f	class:ImageFile	signature:()
+IndexSortAscendComparator	Functions/Functions.cpp	/^struct IndexSortAscendComparator$/;"	s	file:
+IndexSortAscendComparator::operator ()	Functions/Functions.cpp	/^    bool operator()(unsigned int i, unsigned int j) const$/;"	f	struct:IndexSortAscendComparator	access:public	signature:(unsigned int i, unsigned int j) const
+IndexSortAscendComparator::pv	Functions/Functions.cpp	/^    const vec* pv;$/;"	m	struct:IndexSortAscendComparator	file:	access:public
+IndexSortDescendComparator	Functions/Functions.cpp	/^struct IndexSortDescendComparator$/;"	s	file:
+IndexSortDescendComparator::operator ()	Functions/Functions.cpp	/^    bool operator()(unsigned int i, unsigned int j) const$/;"	f	struct:IndexSortDescendComparator	access:public	signature:(unsigned int i, unsigned int j) const
+IndexSortDescendComparator::pv	Functions/Functions.cpp	/^    const vec* pv;$/;"	m	struct:IndexSortDescendComparator	file:	access:public
+InversionSO	Geometry/SymmetryOperation.cpp	/^InversionSO::InversionSO()$/;"	f	class:InversionSO	signature:()
+InversionSO::InversionSO	Geometry/SymmetryOperation.cpp	/^InversionSO::InversionSO()$/;"	f	class:InversionSO	signature:()
+MAP	Reconstructor.cpp	/^bool Reconstructor::MAP() const$/;"	f	class:Reconstructor	signature:() const
+MKB_BLOB_VOL	Functions/Functions.cpp	/^double MKB_BLOB_VOL(const double a,$/;"	f	signature:(const double a, const double alpha)
+MKB_FT	Functions/Functions.cpp	/^double MKB_FT(const double r,$/;"	f	signature:(const double r, const double a, const double alpha)
+MKB_FT_R2	Functions/Functions.cpp	/^double MKB_FT_R2(const double r2,$/;"	f	signature:(const double r2, const double a, const double alpha)
+MKB_RL	Functions/Functions.cpp	/^double MKB_RL(const double r,$/;"	f	signature:(const double r, const double a, const double alpha)
+MKB_RL_R2	Functions/Functions.cpp	/^double MKB_RL_R2(const double r2,$/;"	f	signature:(const double r2, const double a, const double alpha)
+MLModel::BcastFSC	ML/MLModel.cpp	/^void MLModel::BcastFSC(const double thres)$/;"	f	class:MLModel	signature:(const double thres)
+MLModel::appendRef	ML/MLModel.cpp	/^void MLModel::appendRef(Volume ref)$/;"	f	class:MLModel	signature:(Volume ref)
+MLModel::avgHemi	ML/MLModel.cpp	/^void MLModel::avgHemi()$/;"	f	class:MLModel	signature:()
+MLModel::clear	ML/MLModel.cpp	/^void MLModel::clear()$/;"	f	class:MLModel	signature:()
+MLModel::clearRef	ML/MLModel.cpp	/^void MLModel::clearRef()$/;"	f	class:MLModel	signature:()
+MLModel::determineIncreaseR	ML/MLModel.cpp	/^bool MLModel::determineIncreaseR(const double rChangeDecreaseFactor)$/;"	f	class:MLModel	signature:(const double rChangeDecreaseFactor)
+MLModel::determineIncreaseR	ML/MLModel.cpp	/^bool MLModel::determineIncreaseR(const double tVariDecreaseFactor)$/;"	f	class:MLModel	signature:(const double tVariDecreaseFactor)
+MLModel::elevateR	ML/MLModel.cpp	/^void MLModel::elevateR(const double thres)$/;"	f	class:MLModel	signature:(const double thres)
+MLModel::fsc	ML/MLModel.cpp	/^mat MLModel::fsc() const$/;"	f	class:MLModel	signature:() const
+MLModel::fsc	ML/MLModel.cpp	/^vec MLModel::fsc(const int i) const$/;"	f	class:MLModel	signature:(const int i) const
+MLModel::gSearch	ML/MLModel.cpp	/^bool MLModel::gSearch() const$/;"	f	class:MLModel	signature:() const
+MLModel::increaseR	ML/MLModel.cpp	/^bool MLModel::increaseR() const$/;"	f	class:MLModel	signature:() const
+MLModel::init	ML/MLModel.cpp	/^void MLModel::init(const int mode,$/;"	f	class:MLModel	signature:(const int mode, const bool gSearch, const bool lSearch, const bool cSearch, const bool coreFSC, const int coreR, const bool maskFSC, const Volume* mask, const bool goldenStandard, const int k, const int size, const int r, const int pf, const double pixelSize, const double a, const double alpha, const Symmetry* sym)
+MLModel::initProjReco	ML/MLModel.cpp	/^void MLModel::initProjReco()$/;"	f	class:MLModel	signature:()
+MLModel::k	ML/MLModel.cpp	/^int MLModel::k() const$/;"	f	class:MLModel	signature:() const
+MLModel::lSearch	ML/MLModel.cpp	/^bool MLModel::lSearch() const$/;"	f	class:MLModel	signature:() const
+MLModel::lowPassRef	ML/MLModel.cpp	/^void MLModel::lowPassRef(const double thres,$/;"	f	class:MLModel	signature:(const double thres, const double ew)
+MLModel::maxR	ML/MLModel.cpp	/^int MLModel::maxR() const$/;"	f	class:MLModel	signature:() const
+MLModel::mode	ML/MLModel.cpp	/^int MLModel::mode() const$/;"	f	class:MLModel	signature:() const
+MLModel::nRChangeNoDecrease	ML/MLModel.cpp	/^int MLModel::nRChangeNoDecrease() const$/;"	f	class:MLModel	signature:() const
+MLModel::nTopResNoImprove	ML/MLModel.cpp	/^int MLModel::nTopResNoImprove() const$/;"	f	class:MLModel	signature:() const
+MLModel::proj	ML/MLModel.cpp	/^Projector& MLModel::proj(const int i)$/;"	f	class:MLModel	signature:(const int i)
+MLModel::r	ML/MLModel.cpp	/^int MLModel::r() const$/;"	f	class:MLModel	signature:() const
+MLModel::rChange	ML/MLModel.cpp	/^double MLModel::rChange() const$/;"	f	class:MLModel	signature:() const
+MLModel::rChangePrev	ML/MLModel.cpp	/^double MLModel::rChangePrev() const$/;"	f	class:MLModel	signature:() const
+MLModel::rGlobal	ML/MLModel.cpp	/^int MLModel::rGlobal() const$/;"	f	class:MLModel	signature:() const
+MLModel::rPrev	ML/MLModel.cpp	/^int MLModel::rPrev() const$/;"	f	class:MLModel	signature:() const
+MLModel::rT	ML/MLModel.cpp	/^int MLModel::rT() const$/;"	f	class:MLModel	signature:() const
+MLModel::rU	ML/MLModel.cpp	/^int MLModel::rU() const$/;"	f	class:MLModel	signature:() const
+MLModel::rUPrev	ML/MLModel.cpp	/^int MLModel::rUPrev() const$/;"	f	class:MLModel	signature:() const
+MLModel::rVari	ML/MLModel.cpp	/^double MLModel::rVari() const$/;"	f	class:MLModel	signature:() const
+MLModel::reco	ML/MLModel.cpp	/^Reconstructor& MLModel::reco(const int i)$/;"	f	class:MLModel	signature:(const int i)
+MLModel::ref	ML/MLModel.cpp	/^Volume& MLModel::ref(const int i)$/;"	f	class:MLModel	signature:(const int i)
+MLModel::refreshProj	ML/MLModel.cpp	/^void MLModel::refreshProj()$/;"	f	class:MLModel	signature:()
+MLModel::refreshReco	ML/MLModel.cpp	/^void MLModel::refreshReco()$/;"	f	class:MLModel	signature:()
+MLModel::refreshSNR	ML/MLModel.cpp	/^void MLModel::refreshSNR()$/;"	f	class:MLModel	signature:()
+MLModel::refreshSig	ML/MLModel.cpp	/^void MLModel::refreshSig(const vec& sig)$/;"	f	class:MLModel	signature:(const vec& sig)
+MLModel::refreshTau	ML/MLModel.cpp	/^void MLModel::refreshTau()$/;"	f	class:MLModel	signature:()
+MLModel::res	ML/MLModel.cpp	/^int MLModel::res() const$/;"	f	class:MLModel	signature:() const
+MLModel::resT	ML/MLModel.cpp	/^int MLModel::resT() const$/;"	f	class:MLModel	signature:() const
+MLModel::resetRChange	ML/MLModel.cpp	/^void MLModel::resetRChange()$/;"	f	class:MLModel	signature:()
+MLModel::resetReco	ML/MLModel.cpp	/^void MLModel::resetReco()$/;"	f	class:MLModel	signature:()
+MLModel::resetTVari	ML/MLModel.cpp	/^void MLModel::resetTVari()$/;"	f	class:MLModel	signature:()
+MLModel::resolutionA	ML/MLModel.cpp	/^double MLModel::resolutionA(const double thres) const$/;"	f	class:MLModel	signature:(const double thres) const
+MLModel::resolutionA	ML/MLModel.cpp	/^double MLModel::resolutionA(const int i,$/;"	f	class:MLModel	signature:(const int i, const double thres) const
+MLModel::resolutionP	ML/MLModel.cpp	/^int MLModel::resolutionP(const double thres,$/;"	f	class:MLModel	signature:(const double thres, const bool inverse) const
+MLModel::resolutionP	ML/MLModel.cpp	/^int MLModel::resolutionP(const int i,$/;"	f	class:MLModel	signature:(const int i, const double thres, const bool inverse) const
+MLModel::searchType	ML/MLModel.cpp	/^int MLModel::searchType()$/;"	f	class:MLModel	signature:()
+MLModel::searchTypePrev	ML/MLModel.cpp	/^int MLModel::searchTypePrev() const$/;"	f	class:MLModel	signature:() const
+MLModel::setGSearch	ML/MLModel.cpp	/^void MLModel::setGSearch(const bool gSearch)$/;"	f	class:MLModel	signature:(const bool gSearch)
+MLModel::setIncreaseR	ML/MLModel.cpp	/^void MLModel::setIncreaseR(const bool increaseR)$/;"	f	class:MLModel	signature:(const bool increaseR)
+MLModel::setLSearch	ML/MLModel.cpp	/^void MLModel::setLSearch(const bool lSearch)$/;"	f	class:MLModel	signature:(const bool lSearch)
+MLModel::setMaxRU	ML/MLModel.cpp	/^void MLModel::setMaxRU()$/;"	f	class:MLModel	signature:()
+MLModel::setMode	ML/MLModel.cpp	/^void MLModel::setMode(const int mode)$/;"	f	class:MLModel	signature:(const int mode)
+MLModel::setNRChangeNoDecrease	ML/MLModel.cpp	/^void MLModel::setNRChangeNoDecrease(const int nRChangeNoDecrease)$/;"	f	class:MLModel	signature:(const int nRChangeNoDecrease)
+MLModel::setNTopResNoImprove	ML/MLModel.cpp	/^void MLModel::setNTopResNoImprove(const int nTopResNoImprove)$/;"	f	class:MLModel	signature:(const int nTopResNoImprove)
+MLModel::setProjMaxRadius	ML/MLModel.cpp	/^void MLModel::setProjMaxRadius(const int maxRadius)$/;"	f	class:MLModel	signature:(const int maxRadius)
+MLModel::setR	ML/MLModel.cpp	/^void MLModel::setR(const int r)$/;"	f	class:MLModel	signature:(const int r)
+MLModel::setRChange	ML/MLModel.cpp	/^void MLModel::setRChange(const double rChange)$/;"	f	class:MLModel	signature:(const double rChange)
+MLModel::setRGlobal	ML/MLModel.cpp	/^void MLModel::setRGlobal(const int rGlobal)$/;"	f	class:MLModel	signature:(const int rGlobal)
+MLModel::setRT	ML/MLModel.cpp	/^void MLModel::setRT(const int rT)$/;"	f	class:MLModel	signature:(const int rT)
+MLModel::setRU	ML/MLModel.cpp	/^void MLModel::setRU(const int rU)$/;"	f	class:MLModel	signature:(const int rU)
+MLModel::setRVari	ML/MLModel.cpp	/^void MLModel::setRVari(const double rVari)$/;"	f	class:MLModel	signature:(const double rVari)
+MLModel::setRes	ML/MLModel.cpp	/^void MLModel::setRes(const int res)$/;"	f	class:MLModel	signature:(const int res)
+MLModel::setResT	ML/MLModel.cpp	/^void MLModel::setResT(const int resT)$/;"	f	class:MLModel	signature:(const int resT)
+MLModel::setSearchType	ML/MLModel.cpp	/^void MLModel::setSearchType(const int searchType)$/;"	f	class:MLModel	signature:(const int searchType)
+MLModel::setSearchTypePrev	ML/MLModel.cpp	/^void MLModel::setSearchTypePrev(const int searchTypePrev)$/;"	f	class:MLModel	signature:(const int searchTypePrev)
+MLModel::setStdRChange	ML/MLModel.cpp	/^void MLModel::setStdRChange(const double stdRChange)$/;"	f	class:MLModel	signature:(const double stdRChange)
+MLModel::setStdRVari	ML/MLModel.cpp	/^void MLModel::setStdRVari(const double stdRVari)$/;"	f	class:MLModel	signature:(const double stdRVari)
+MLModel::setStdTVariS0	ML/MLModel.cpp	/^void MLModel::setStdTVariS0(const double stdTVariS0)$/;"	f	class:MLModel	signature:(const double stdTVariS0)
+MLModel::setStdTVariS1	ML/MLModel.cpp	/^void MLModel::setStdTVariS1(const double stdTVariS1)$/;"	f	class:MLModel	signature:(const double stdTVariS1)
+MLModel::setTVariS0	ML/MLModel.cpp	/^void MLModel::setTVariS0(const double tVariS0)$/;"	f	class:MLModel	signature:(const double tVariS0)
+MLModel::setTVariS1	ML/MLModel.cpp	/^void MLModel::setTVariS1(const double tVariS1)$/;"	f	class:MLModel	signature:(const double tVariS1)
+MLModel::size	ML/MLModel.cpp	/^int MLModel::size() const$/;"	f	class:MLModel	signature:() const
+MLModel::snr	ML/MLModel.cpp	/^mat MLModel::snr() const$/;"	f	class:MLModel	signature:() const
+MLModel::snr	ML/MLModel.cpp	/^vec MLModel::snr(const int i) const$/;"	f	class:MLModel	signature:(const int i) const
+MLModel::stdRChange	ML/MLModel.cpp	/^double MLModel::stdRChange() const$/;"	f	class:MLModel	signature:() const
+MLModel::stdRVari	ML/MLModel.cpp	/^double MLModel::stdRVari() const$/;"	f	class:MLModel	signature:() const
+MLModel::stdTVariS0	ML/MLModel.cpp	/^double MLModel::stdTVariS0() const$/;"	f	class:MLModel	signature:() const
+MLModel::stdTVariS1	ML/MLModel.cpp	/^double MLModel::stdTVariS1() const$/;"	f	class:MLModel	signature:() const
+MLModel::tVariS0	ML/MLModel.cpp	/^double MLModel::tVariS0() const$/;"	f	class:MLModel	signature:() const
+MLModel::tVariS0Prev	ML/MLModel.cpp	/^double MLModel::tVariS0Prev() const$/;"	f	class:MLModel	signature:() const
+MLModel::tVariS1	ML/MLModel.cpp	/^double MLModel::tVariS1() const$/;"	f	class:MLModel	signature:() const
+MLModel::tVariS1Prev	ML/MLModel.cpp	/^double MLModel::tVariS1Prev() const$/;"	f	class:MLModel	signature:() const
+MLModel::tau	ML/MLModel.cpp	/^vec MLModel::tau(const int i) const$/;"	f	class:MLModel	signature:(const int i) const
+MLModel::updateR	ML/MLModel.cpp	/^void MLModel::updateR(const double thres)$/;"	f	class:MLModel	signature:(const double thres)
+MLModel::updateRU	ML/MLModel.cpp	/^void MLModel::updateRU()$/;"	f	class:MLModel	signature:()
+MLModel::~MLModel	ML/MLModel.cpp	/^MLModel::~MLModel()$/;"	f	class:MLModel	signature:()
+MLOptimiser::allReduceN	ML/MLOptimiser.cpp	/^void MLOptimiser::allReduceN()$/;"	f	class:MLOptimiser	signature:()
+MLOptimiser::allReduceSigma	ML/MLOptimiser.cpp	/^void MLOptimiser::allReduceSigma(const bool group)$/;"	f	class:MLOptimiser	signature:(const bool group)
+MLOptimiser::allocPreCal	ML/MLOptimiser.cpp	/^void MLOptimiser::allocPreCal(const bool pixelMajor,$/;"	f	class:MLOptimiser	signature:(const bool pixelMajor, const bool ctf)
+MLOptimiser::allocPreCalIdx	ML/MLOptimiser.cpp	/^void MLOptimiser::allocPreCalIdx(const double rU,$/;"	f	class:MLOptimiser	signature:(const double rU, const double rL)
+MLOptimiser::avgStdR	ML/MLOptimiser.cpp	/^void MLOptimiser::avgStdR(double& stdR)$/;"	f	class:MLOptimiser	signature:(double& stdR)
+MLOptimiser::avgStdT	ML/MLOptimiser.cpp	/^void MLOptimiser::avgStdT(double& stdT)$/;"	f	class:MLOptimiser	signature:(double& stdT)
+MLOptimiser::bCastNPar	ML/MLOptimiser.cpp	/^void MLOptimiser::bCastNPar()$/;"	f	class:MLOptimiser	signature:()
+MLOptimiser::bcastGroupInfo	ML/MLOptimiser.cpp	/^void MLOptimiser::bcastGroupInfo()$/;"	f	class:MLOptimiser	signature:()
+MLOptimiser::bwImg	ML/MLOptimiser.cpp	/^void MLOptimiser::bwImg()$/;"	f	class:MLOptimiser	signature:()
+MLOptimiser::clear	ML/MLOptimiser.cpp	/^void MLOptimiser::clear()$/;"	f	class:MLOptimiser	signature:()
+MLOptimiser::correctScale	ML/MLOptimiser.cpp	/^void MLOptimiser::correctScale(const bool init,$/;"	f	class:MLOptimiser	signature:(const bool init, const bool coord, const bool group)
+MLOptimiser::displayStatImg	ML/MLOptimiser.cpp	/^void MLOptimiser::displayStatImg()$/;"	f	class:MLOptimiser	signature:()
+MLOptimiser::expectation	ML/MLOptimiser.cpp	/^void MLOptimiser::expectation()$/;"	f	class:MLOptimiser	signature:()
+MLOptimiser::freePreCal	ML/MLOptimiser.cpp	/^void MLOptimiser::freePreCal(const bool ctf)$/;"	f	class:MLOptimiser	signature:(const bool ctf)
+MLOptimiser::freePreCalIdx	ML/MLOptimiser.cpp	/^void MLOptimiser::freePreCalIdx()$/;"	f	class:MLOptimiser	signature:()
+MLOptimiser::fwImg	ML/MLOptimiser.cpp	/^void MLOptimiser::fwImg()$/;"	f	class:MLOptimiser	signature:()
+MLOptimiser::init	ML/MLOptimiser.cpp	/^void MLOptimiser::init()$/;"	f	class:MLOptimiser	signature:()
+MLOptimiser::initCTF	ML/MLOptimiser.cpp	/^void MLOptimiser::initCTF()$/;"	f	class:MLOptimiser	signature:()
+MLOptimiser::initID	ML/MLOptimiser.cpp	/^void MLOptimiser::initID()$/;"	f	class:MLOptimiser	signature:()
+MLOptimiser::initImg	ML/MLOptimiser.cpp	/^void MLOptimiser::initImg()$/;"	f	class:MLOptimiser	signature:()
+MLOptimiser::initMask	ML/MLOptimiser.cpp	/^void MLOptimiser::initMask()$/;"	f	class:MLOptimiser	signature:()
+MLOptimiser::initParticles	ML/MLOptimiser.cpp	/^void MLOptimiser::initParticles()$/;"	f	class:MLOptimiser	signature:()
+MLOptimiser::initRef	ML/MLOptimiser.cpp	/^void MLOptimiser::initRef()$/;"	f	class:MLOptimiser	signature:()
+MLOptimiser::initSigma	ML/MLOptimiser.cpp	/^void MLOptimiser::initSigma()$/;"	f	class:MLOptimiser	signature:()
+MLOptimiser::loadParticles	ML/MLOptimiser.cpp	/^void MLOptimiser::loadParticles()$/;"	f	class:MLOptimiser	signature:()
+MLOptimiser::maskImg	ML/MLOptimiser.cpp	/^void MLOptimiser::maskImg()$/;"	f	class:MLOptimiser	signature:()
+MLOptimiser::maxR	ML/MLOptimiser.cpp	/^int MLOptimiser::maxR() const$/;"	f	class:MLOptimiser	signature:() const
+MLOptimiser::maximization	ML/MLOptimiser.cpp	/^void MLOptimiser::maximization()$/;"	f	class:MLOptimiser	signature:()
+MLOptimiser::normCorrection	ML/MLOptimiser.cpp	/^void MLOptimiser::normCorrection()$/;"	f	class:MLOptimiser	signature:()
+MLOptimiser::normaliseImg	ML/MLOptimiser.cpp	/^void MLOptimiser::normaliseImg()$/;"	f	class:MLOptimiser	signature:()
+MLOptimiser::para	ML/MLOptimiser.cpp	/^MLOptimiserPara& MLOptimiser::para()$/;"	f	class:MLOptimiser	signature:()
+MLOptimiser::reCentreImg	ML/MLOptimiser.cpp	/^void MLOptimiser::reCentreImg()$/;"	f	class:MLOptimiser	signature:()
+MLOptimiser::reMaskImg	ML/MLOptimiser.cpp	/^void MLOptimiser::reMaskImg()$/;"	f	class:MLOptimiser	signature:()
+MLOptimiser::reconstructRef	ML/MLOptimiser.cpp	/^void MLOptimiser::reconstructRef()$/;"	f	class:MLOptimiser	signature:()
+MLOptimiser::refreshClassDistr	ML/MLOptimiser.cpp	/^void MLOptimiser::refreshClassDistr()$/;"	f	class:MLOptimiser	signature:()
+MLOptimiser::refreshRotationChange	ML/MLOptimiser.cpp	/^void MLOptimiser::refreshRotationChange()$/;"	f	class:MLOptimiser	signature:()
+MLOptimiser::refreshScale	ML/MLOptimiser.cpp	/^void MLOptimiser::refreshScale(const bool coord,$/;"	f	class:MLOptimiser	signature:(const bool coord, const bool group)
+MLOptimiser::refreshVariance	ML/MLOptimiser.cpp	/^void MLOptimiser::refreshVariance()$/;"	f	class:MLOptimiser	signature:()
+MLOptimiser::run	ML/MLOptimiser.cpp	/^void MLOptimiser::run()$/;"	f	class:MLOptimiser	signature:()
+MLOptimiser::saveBestProjections	ML/MLOptimiser.cpp	/^void MLOptimiser::saveBestProjections()$/;"	f	class:MLOptimiser	signature:()
+MLOptimiser::saveCTFs	ML/MLOptimiser.cpp	/^void MLOptimiser::saveCTFs()$/;"	f	class:MLOptimiser	signature:()
+MLOptimiser::saveDatabase	ML/MLOptimiser.cpp	/^void MLOptimiser::saveDatabase() const$/;"	f	class:MLOptimiser	signature:() const
+MLOptimiser::saveFSC	ML/MLOptimiser.cpp	/^void MLOptimiser::saveFSC(const bool finished) const$/;"	f	class:MLOptimiser	signature:(const bool finished) const
+MLOptimiser::saveImages	ML/MLOptimiser.cpp	/^void MLOptimiser::saveImages()$/;"	f	class:MLOptimiser	signature:()
+MLOptimiser::saveReference	ML/MLOptimiser.cpp	/^void MLOptimiser::saveReference(const bool finished)$/;"	f	class:MLOptimiser	signature:(const bool finished)
+MLOptimiser::saveSig	ML/MLOptimiser.cpp	/^void MLOptimiser::saveSig() const$/;"	f	class:MLOptimiser	signature:() const
+MLOptimiser::saveTau	ML/MLOptimiser.cpp	/^void MLOptimiser::saveTau() const$/;"	f	class:MLOptimiser	signature:() const
+MLOptimiser::setPara	ML/MLOptimiser.cpp	/^void MLOptimiser::setPara(const MLOptimiserPara& para)$/;"	f	class:MLOptimiser	signature:(const MLOptimiserPara& para)
+MLOptimiser::size	ML/MLOptimiser.cpp	/^int MLOptimiser::size() const$/;"	f	class:MLOptimiser	signature:() const
+MLOptimiser::solventFlatten	ML/MLOptimiser.cpp	/^void MLOptimiser::solventFlatten(const bool mask)$/;"	f	class:MLOptimiser	signature:(const bool mask)
+MLOptimiser::statImg	ML/MLOptimiser.cpp	/^void MLOptimiser::statImg()$/;"	f	class:MLOptimiser	signature:()
+MLOptimiser::substractBgImg	ML/MLOptimiser.cpp	/^void MLOptimiser::substractBgImg()$/;"	f	class:MLOptimiser	signature:()
+MLOptimiser::~MLOptimiser	ML/MLOptimiser.cpp	/^MLOptimiser::~MLOptimiser()$/;"	f	class:MLOptimiser	signature:()
+MPI_Allreduce_Large	Parallel.cpp	/^void MPI_Allreduce_Large(void* buf,$/;"	f	signature:(void* buf, size_t count, MPI_Datatype datatype, MPI_Op op, MPI_Comm comm)
+MPI_Bcast_Large	Parallel.cpp	/^void MPI_Bcast_Large(void* buf,$/;"	f	signature:(void* buf, size_t count, MPI_Datatype datatype, int root, MPI_Comm comm)
+MPI_Recv_Large	Parallel.cpp	/^void MPI_Recv_Large(void* buf,$/;"	f	signature:(void* buf, size_t count, MPI_Datatype datatype, int source, int tag, MPI_Comm comm)
+MPI_Ssend_Large	Parallel.cpp	/^void MPI_Ssend_Large(const void* buf,$/;"	f	signature:(const void* buf, size_t count, MPI_Datatype datatype, int dest, int tag, MPI_Comm comm)
+MinMax	Image/BMP.cpp	/^void BMP::MinMax(float* buf, int size, float& min, float& max)$/;"	f	class:BMP	signature:(float* buf, int size, float& min, float& max)
+MinMax	Image/BMP.cpp	/^void BMP::MinMax(short* buf, int size, short& min, short& max)$/;"	f	class:BMP	signature:(short* buf, int size, short& min, short& max)
+NIK_RL	Functions/Functions.cpp	/^double NIK_RL(const double r)$/;"	f	signature:(const double r)
+Parallel	Parallel.cpp	/^Parallel::Parallel() {}$/;"	f	class:Parallel	signature:()
+Parallel::Parallel	Parallel.cpp	/^Parallel::Parallel() {}$/;"	f	class:Parallel	signature:()
+Parallel::commRank	Parallel.cpp	/^int Parallel::commRank() const$/;"	f	class:Parallel	signature:() const
+Parallel::commSize	Parallel.cpp	/^int Parallel::commSize() const$/;"	f	class:Parallel	signature:() const
+Parallel::hemi	Parallel.cpp	/^MPI_Comm Parallel::hemi() const$/;"	f	class:Parallel	signature:() const
+Parallel::isA	Parallel.cpp	/^bool Parallel::isA() const$/;"	f	class:Parallel	signature:() const
+Parallel::isB	Parallel.cpp	/^bool Parallel::isB() const$/;"	f	class:Parallel	signature:() const
+Parallel::isMaster	Parallel.cpp	/^bool Parallel::isMaster() const$/;"	f	class:Parallel	signature:() const
+Parallel::setCommRank	Parallel.cpp	/^void Parallel::setCommRank(const int commRank)$/;"	f	class:Parallel	signature:(const int commRank)
+Parallel::setCommSize	Parallel.cpp	/^void Parallel::setCommSize(const int commSize)$/;"	f	class:Parallel	signature:(const int commSize)
+Parallel::setHemi	Parallel.cpp	/^void Parallel::setHemi(const MPI_Comm& hemi)$/;"	f	class:Parallel	signature:(const MPI_Comm& hemi)
+Parallel::setMPIEnv	Parallel.cpp	/^void Parallel::setMPIEnv()$/;"	f	class:Parallel	signature:()
+Parallel::setMPIEnv	Parallel.cpp	/^void Parallel::setMPIEnv(const int commSize,$/;"	f	class:Parallel	signature:(const int commSize, const int commRank, const MPI_Comm& hemi)
+Parallel::~Parallel	Parallel.cpp	/^Parallel::~Parallel() {}$/;"	f	class:Parallel	signature:()
+Particle	Particle.cpp	/^Particle::Particle()$/;"	f	class:Particle	signature:()
+Particle	Particle.cpp	/^Particle::Particle(const int mode,$/;"	f	class:Particle	signature:(const int mode, const int nC, const int nR, const int nT, const int nD, const double transS, const double transQ, const Symmetry* sym)
+Particle::Particle	Particle.cpp	/^Particle::Particle()$/;"	f	class:Particle	signature:()
+Particle::Particle	Particle.cpp	/^Particle::Particle(const int mode,$/;"	f	class:Particle	signature:(const int mode, const int nC, const int nR, const int nT, const int nD, const double transS, const double transQ, const Symmetry* sym)
+Particle::c	Particle.cpp	/^uvec Particle::c() const { return _c; }$/;"	f	class:Particle	signature:() const
+Particle::c	Particle.cpp	/^void Particle::c(unsigned int& dst,$/;"	f	class:Particle	signature:(unsigned int& dst, const int i) const
+Particle::calVari	Particle.cpp	/^void Particle::calVari(const ParticleType pt)$/;"	f	class:Particle	signature:(const ParticleType pt)
+Particle::clear	Particle.cpp	/^void Particle::clear() {}$/;"	f	class:Particle	signature:()
+Particle::compress	Particle.cpp	/^double Particle::compress() const$/;"	f	class:Particle	signature:() const
+Particle::copy	Particle.cpp	/^Particle Particle::copy() const$/;"	f	class:Particle	signature:() const
+Particle::copy	Particle.cpp	/^void Particle::copy(Particle& that) const$/;"	f	class:Particle	signature:(Particle& that) const
+Particle::d	Particle.cpp	/^vec Particle::d() const { return _d; }$/;"	f	class:Particle	signature:() const
+Particle::d	Particle.cpp	/^void Particle::d(double& d,$/;"	f	class:Particle	signature:(double& d, const int i) const
+Particle::diffTopC	Particle.cpp	/^bool Particle::diffTopC()$/;"	f	class:Particle	signature:()
+Particle::diffTopD	Particle.cpp	/^double Particle::diffTopD()$/;"	f	class:Particle	signature:()
+Particle::diffTopR	Particle.cpp	/^double Particle::diffTopR()$/;"	f	class:Particle	signature:()
+Particle::diffTopT	Particle.cpp	/^double Particle::diffTopT()$/;"	f	class:Particle	signature:()
+Particle::iSort	Particle.cpp	/^uvec Particle::iSort(const ParticleType pt) const$/;"	f	class:Particle	signature:(const ParticleType pt) const
+Particle::init	Particle.cpp	/^void Particle::init(const int mode,$/;"	f	class:Particle	signature:(const int mode, const double transS, const double transQ, const Symmetry* sym)
+Particle::init	Particle.cpp	/^void Particle::init(const int mode,$/;"	f	class:Particle	signature:(const int mode, const int nC, const int nR, const int nT, const int nD, const double transS, const double transQ, const Symmetry* sym)
+Particle::initD	Particle.cpp	/^void Particle::initD(const int nD,$/;"	f	class:Particle	signature:(const int nD, const double sD)
+Particle::k0	Particle.cpp	/^double Particle::k0() const$/;"	f	class:Particle	signature:() const
+Particle::k1	Particle.cpp	/^double Particle::k1() const$/;"	f	class:Particle	signature:() const
+Particle::load	Particle.cpp	/^void Particle::load(const int nR,$/;"	f	class:Particle	signature:(const int nR, const int nT, const int nD, const vec4& quat, const double stdR, const vec2& tran, const double stdTX, const double stdTY, const double d, const double stdD)
+Particle::mode	Particle.cpp	/^int Particle::mode() const { return _mode; }$/;"	f	class:Particle	signature:() const
+Particle::mulWC	Particle.cpp	/^void Particle::mulWC(const double wC,$/;"	f	class:Particle	signature:(const double wC, const int i)
+Particle::mulWD	Particle.cpp	/^void Particle::mulWD(const double wD,$/;"	f	class:Particle	signature:(const double wD, const int i)
+Particle::mulWR	Particle.cpp	/^void Particle::mulWR(const double wR,$/;"	f	class:Particle	signature:(const double wR, const int i)
+Particle::mulWT	Particle.cpp	/^void Particle::mulWT(const double wT,$/;"	f	class:Particle	signature:(const double wT, const int i)
+Particle::nC	Particle.cpp	/^int Particle::nC() const { return _nC; }$/;"	f	class:Particle	signature:() const
+Particle::nD	Particle.cpp	/^int Particle::nD() const { return _nD; }$/;"	f	class:Particle	signature:() const
+Particle::nR	Particle.cpp	/^int Particle::nR() const { return _nR; }$/;"	f	class:Particle	signature:() const
+Particle::nT	Particle.cpp	/^int Particle::nT() const { return _nT; }$/;"	f	class:Particle	signature:() const
+Particle::normW	Particle.cpp	/^void Particle::normW()$/;"	f	class:Particle	signature:()
+Particle::perturb	Particle.cpp	/^void Particle::perturb(const double pf,$/;"	f	class:Particle	signature:(const double pf, const ParticleType pt)
+Particle::quaternion	Particle.cpp	/^void Particle::quaternion(vec4& dst,$/;"	f	class:Particle	signature:(vec4& dst, const int i) const
+Particle::r	Particle.cpp	/^mat4 Particle::r() const { return _r; }$/;"	f	class:Particle	signature:() const
+Particle::rand	Particle.cpp	/^void Particle::rand(double& df) const$/;"	f	class:Particle	signature:(double& df) const
+Particle::rand	Particle.cpp	/^void Particle::rand(mat22& rot) const$/;"	f	class:Particle	signature:(mat22& rot) const
+Particle::rand	Particle.cpp	/^void Particle::rand(mat33& rot) const$/;"	f	class:Particle	signature:(mat33& rot) const
+Particle::rand	Particle.cpp	/^void Particle::rand(unsigned int& cls) const$/;"	f	class:Particle	signature:(unsigned int& cls) const
+Particle::rand	Particle.cpp	/^void Particle::rand(unsigned int& cls,$/;"	f	class:Particle	signature:(unsigned int& cls, mat22& rot, vec2& tran, double& df) const
+Particle::rand	Particle.cpp	/^void Particle::rand(unsigned int& cls,$/;"	f	class:Particle	signature:(unsigned int& cls, mat33& rot, vec2& tran, double& df) const
+Particle::rand	Particle.cpp	/^void Particle::rand(unsigned int& cls,$/;"	f	class:Particle	signature:(unsigned int& cls, vec4& quat, vec2& tran, double& df) const
+Particle::rand	Particle.cpp	/^void Particle::rand(vec2& tran) const$/;"	f	class:Particle	signature:(vec2& tran) const
+Particle::rand	Particle.cpp	/^void Particle::rand(vec4& quat) const$/;"	f	class:Particle	signature:(vec4& quat) const
+Particle::rank1st	Particle.cpp	/^void Particle::rank1st(double& df) const$/;"	f	class:Particle	signature:(double& df) const
+Particle::rank1st	Particle.cpp	/^void Particle::rank1st(mat22& rot) const$/;"	f	class:Particle	signature:(mat22& rot) const
+Particle::rank1st	Particle.cpp	/^void Particle::rank1st(mat33& rot) const$/;"	f	class:Particle	signature:(mat33& rot) const
+Particle::rank1st	Particle.cpp	/^void Particle::rank1st(unsigned int& cls) const$/;"	f	class:Particle	signature:(unsigned int& cls) const
+Particle::rank1st	Particle.cpp	/^void Particle::rank1st(unsigned int& cls,$/;"	f	class:Particle	signature:(unsigned int& cls, mat22& rot, vec2& tran, double& df) const
+Particle::rank1st	Particle.cpp	/^void Particle::rank1st(unsigned int& cls,$/;"	f	class:Particle	signature:(unsigned int& cls, mat33& rot, vec2& tran, double& df) const
+Particle::rank1st	Particle.cpp	/^void Particle::rank1st(unsigned int& cls,$/;"	f	class:Particle	signature:(unsigned int& cls, vec4& quat, vec2& tran, double& df) const
+Particle::rank1st	Particle.cpp	/^void Particle::rank1st(vec2& tran) const$/;"	f	class:Particle	signature:(vec2& tran) const
+Particle::rank1st	Particle.cpp	/^void Particle::rank1st(vec4& quat) const$/;"	f	class:Particle	signature:(vec4& quat) const
+Particle::reCentre	Particle.cpp	/^void Particle::reCentre()$/;"	f	class:Particle	signature:()
+Particle::resample	Particle.cpp	/^void Particle::resample(const int n,$/;"	f	class:Particle	signature:(const int n, const ParticleType pt)
+Particle::reset	Particle.cpp	/^void Particle::reset()$/;"	f	class:Particle	signature:()
+Particle::reset	Particle.cpp	/^void Particle::reset(const int nC,$/;"	f	class:Particle	signature:(const int nC, const int nR, const int nT, const int nD)
+Particle::rot	Particle.cpp	/^void Particle::rot(mat22& dst,$/;"	f	class:Particle	signature:(mat22& dst, const int i) const
+Particle::rot	Particle.cpp	/^void Particle::rot(mat33& dst,$/;"	f	class:Particle	signature:(mat33& dst, const int i) const
+Particle::s0	Particle.cpp	/^double Particle::s0() const$/;"	f	class:Particle	signature:() const
+Particle::s1	Particle.cpp	/^double Particle::s1() const$/;"	f	class:Particle	signature:() const
+Particle::setC	Particle.cpp	/^void Particle::setC(const unsigned int src,$/;"	f	class:Particle	signature:(const unsigned int src, const int i)
+Particle::setC	Particle.cpp	/^void Particle::setC(const uvec& c) { _c = c; }$/;"	f	class:Particle	signature:(const uvec& c)
+Particle::setD	Particle.cpp	/^void Particle::setD(const double d,$/;"	f	class:Particle	signature:(const double d, const int i)
+Particle::setD	Particle.cpp	/^void Particle::setD(const vec& d) { _d = d; }$/;"	f	class:Particle	signature:(const vec& d)
+Particle::setK0	Particle.cpp	/^void Particle::setK0(const double k0)$/;"	f	class:Particle	signature:(const double k0)
+Particle::setK1	Particle.cpp	/^void Particle::setK1(const double k1)$/;"	f	class:Particle	signature:(const double k1)
+Particle::setMode	Particle.cpp	/^void Particle::setMode(const int mode) { _mode = mode; }$/;"	f	class:Particle	signature:(const int mode)
+Particle::setNC	Particle.cpp	/^void Particle::setNC(const int nC) { _nC = nC; }$/;"	f	class:Particle	signature:(const int nC)
+Particle::setND	Particle.cpp	/^void Particle::setND(const int nD) { _nD = nD; }$/;"	f	class:Particle	signature:(const int nD)
+Particle::setNR	Particle.cpp	/^void Particle::setNR(const int nR) { _nR = nR; }$/;"	f	class:Particle	signature:(const int nR)
+Particle::setNT	Particle.cpp	/^void Particle::setNT(const int nT) { _nT = nT; }$/;"	f	class:Particle	signature:(const int nT)
+Particle::setQuaternion	Particle.cpp	/^void Particle::setQuaternion(const vec4& src,$/;"	f	class:Particle	signature:(const vec4& src, const int i)
+Particle::setR	Particle.cpp	/^void Particle::setR(const mat4& r) { _r = r; }$/;"	f	class:Particle	signature:(const mat4& r)
+Particle::setS0	Particle.cpp	/^void Particle::setS0(const double s0)$/;"	f	class:Particle	signature:(const double s0)
+Particle::setS1	Particle.cpp	/^void Particle::setS1(const double s1)$/;"	f	class:Particle	signature:(const double s1)
+Particle::setSymmetry	Particle.cpp	/^void Particle::setSymmetry(const Symmetry* sym) { _sym = sym; }$/;"	f	class:Particle	signature:(const Symmetry* sym)
+Particle::setT	Particle.cpp	/^void Particle::setT(const mat2& t) { _t = t; }$/;"	f	class:Particle	signature:(const mat2& t)
+Particle::setT	Particle.cpp	/^void Particle::setT(const vec2& src,$/;"	f	class:Particle	signature:(const vec2& src, const int i)
+Particle::setTransQ	Particle.cpp	/^void Particle::setTransQ(const double transQ) { _transQ = transQ; }$/;"	f	class:Particle	signature:(const double transQ)
+Particle::setTransS	Particle.cpp	/^void Particle::setTransS(const double transS) { _transS = transS; }$/;"	f	class:Particle	signature:(const double transS)
+Particle::setWC	Particle.cpp	/^void Particle::setWC(const double wC,$/;"	f	class:Particle	signature:(const double wC, const int i)
+Particle::setWC	Particle.cpp	/^void Particle::setWC(const vec& wC) { _wC = wC; }$/;"	f	class:Particle	signature:(const vec& wC)
+Particle::setWD	Particle.cpp	/^void Particle::setWD(const double wD,$/;"	f	class:Particle	signature:(const double wD, const int i)
+Particle::setWD	Particle.cpp	/^void Particle::setWD(const vec& wD) { _wD = wD; }$/;"	f	class:Particle	signature:(const vec& wD)
+Particle::setWR	Particle.cpp	/^void Particle::setWR(const double wR,$/;"	f	class:Particle	signature:(const double wR, const int i)
+Particle::setWR	Particle.cpp	/^void Particle::setWR(const vec& wR) { _wR = wR; }$/;"	f	class:Particle	signature:(const vec& wR)
+Particle::setWT	Particle.cpp	/^void Particle::setWT(const double wT,$/;"	f	class:Particle	signature:(const double wT, const int i)
+Particle::setWT	Particle.cpp	/^void Particle::setWT(const vec& wT) { _wT = wT; }$/;"	f	class:Particle	signature:(const vec& wT)
+Particle::shuffle	Particle.cpp	/^void Particle::shuffle()$/;"	f	class:Particle	signature:()
+Particle::shuffle	Particle.cpp	/^void Particle::shuffle(const ParticleType pt)$/;"	f	class:Particle	signature:(const ParticleType pt)
+Particle::sort	Particle.cpp	/^void Particle::sort()$/;"	f	class:Particle	signature:()
+Particle::sort	Particle.cpp	/^void Particle::sort(const int n,$/;"	f	class:Particle	signature:(const int n, const ParticleType pt)
+Particle::sort	Particle.cpp	/^void Particle::sort(const int nC,$/;"	f	class:Particle	signature:(const int nC, const int nR, const int nT, const int nD)
+Particle::symmetrise	Particle.cpp	/^void Particle::symmetrise()$/;"	f	class:Particle	signature:()
+Particle::symmetry	Particle.cpp	/^const Symmetry* Particle::symmetry() const { return _sym; }$/;"	f	class:Particle	signature:() const
+Particle::t	Particle.cpp	/^mat2 Particle::t() const { return _t; }$/;"	f	class:Particle	signature:() const
+Particle::t	Particle.cpp	/^void Particle::t(vec2& dst,$/;"	f	class:Particle	signature:(vec2& dst, const int i) const
+Particle::transQ	Particle.cpp	/^double Particle::transQ() const { return _transQ; }$/;"	f	class:Particle	signature:() const
+Particle::transS	Particle.cpp	/^double Particle::transS() const { return _transS; }$/;"	f	class:Particle	signature:() const
+Particle::vari	Particle.cpp	/^void Particle::vari(double& k0,$/;"	f	class:Particle	signature:(double& k0, double& k1, double& s0, double& s1, double& rho, double& s) const
+Particle::vari	Particle.cpp	/^void Particle::vari(double& rVari,$/;"	f	class:Particle	signature:(double& rVari, double& s0, double& s1, double& s) const
+Particle::wC	Particle.cpp	/^double Particle::wC(const int i) const$/;"	f	class:Particle	signature:(const int i) const
+Particle::wC	Particle.cpp	/^vec Particle::wC() const { return _wC; }$/;"	f	class:Particle	signature:() const
+Particle::wD	Particle.cpp	/^double Particle::wD(const int i) const$/;"	f	class:Particle	signature:(const int i) const
+Particle::wD	Particle.cpp	/^vec Particle::wD() const { return _wD; }$/;"	f	class:Particle	signature:() const
+Particle::wR	Particle.cpp	/^double Particle::wR(const int i) const$/;"	f	class:Particle	signature:(const int i) const
+Particle::wR	Particle.cpp	/^vec Particle::wR() const { return _wR; }$/;"	f	class:Particle	signature:() const
+Particle::wT	Particle.cpp	/^double Particle::wT(const int i) const$/;"	f	class:Particle	signature:(const int i) const
+Particle::wT	Particle.cpp	/^vec Particle::wT() const { return _wT; }$/;"	f	class:Particle	signature:() const
+Particle::~Particle	Particle.cpp	/^Particle::~Particle()$/;"	f	class:Particle	signature:()
+Postprocess	Postprocess.cpp	/^Postprocess::Postprocess() {}$/;"	f	class:Postprocess	signature:()
+Postprocess	Postprocess.cpp	/^Postprocess::Postprocess(const char mapAFilename[],$/;"	f	class:Postprocess	signature:(const char mapAFilename[], const char mapBFilename[], const char maskFilename[], const double pixelSize)
+Postprocess::Postprocess	Postprocess.cpp	/^Postprocess::Postprocess() {}$/;"	f	class:Postprocess	signature:()
+Postprocess::Postprocess	Postprocess.cpp	/^Postprocess::Postprocess(const char mapAFilename[],$/;"	f	class:Postprocess	signature:(const char mapAFilename[], const char mapBFilename[], const char maskFilename[], const double pixelSize)
+Postprocess::maskAB	Postprocess.cpp	/^void Postprocess::maskAB()$/;"	f	class:Postprocess	signature:()
+Postprocess::maskABRF	Postprocess.cpp	/^void Postprocess::maskABRF()$/;"	f	class:Postprocess	signature:()
+Postprocess::maxR	Postprocess.cpp	/^int Postprocess::maxR()$/;"	f	class:Postprocess	signature:()
+Postprocess::mergeAB	Postprocess.cpp	/^void Postprocess::mergeAB()$/;"	f	class:Postprocess	signature:()
+Postprocess::randomPhaseAB	Postprocess.cpp	/^void Postprocess::randomPhaseAB(const int randomPhaseThres)$/;"	f	class:Postprocess	signature:(const int randomPhaseThres)
+Postprocess::run	Postprocess.cpp	/^void Postprocess::run()$/;"	f	class:Postprocess	signature:()
+Postprocess::saveFSC	Postprocess.cpp	/^void Postprocess::saveFSC() const$/;"	f	class:Postprocess	signature:() const
+Projector	Projector.cpp	/^Projector::Projector()$/;"	f	class:Projector	signature:()
+Projector::Projector	Projector.cpp	/^Projector::Projector()$/;"	f	class:Projector	signature:()
+Projector::gridCorrection	Projector.cpp	/^void Projector::gridCorrection()$/;"	f	class:Projector	signature:()
+Projector::interp	Projector.cpp	/^int Projector::interp() const$/;"	f	class:Projector	signature:() const
+Projector::isEmpty2D	Projector.cpp	/^bool Projector::isEmpty2D() const$/;"	f	class:Projector	signature:() const
+Projector::isEmpty3D	Projector.cpp	/^bool Projector::isEmpty3D() const$/;"	f	class:Projector	signature:() const
+Projector::maxRadius	Projector.cpp	/^int Projector::maxRadius() const$/;"	f	class:Projector	signature:() const
+Projector::mode	Projector.cpp	/^int Projector::mode() const$/;"	f	class:Projector	signature:() const
+Projector::pf	Projector.cpp	/^int Projector::pf() const$/;"	f	class:Projector	signature:() const
+Projector::project	Projector.cpp	/^void Projector::project(Complex* dst,$/;"	f	class:Projector	signature:(Complex* dst, const mat22& mat, const int* iCol, const int* iRow, const int nPxl) const
+Projector::project	Projector.cpp	/^void Projector::project(Complex* dst,$/;"	f	class:Projector	signature:(Complex* dst, const mat22& rot, const vec2& t, const int nCol, const int nRow, const int* iCol, const int* iRow, const int nPxl) const
+Projector::project	Projector.cpp	/^void Projector::project(Complex* dst,$/;"	f	class:Projector	signature:(Complex* dst, const mat33& mat, const int* iCol, const int* iRow, const int nPxl) const
+Projector::project	Projector.cpp	/^void Projector::project(Complex* dst,$/;"	f	class:Projector	signature:(Complex* dst, const mat33& rot, const vec2& t, const int nCol, const int nRow, const int* iCol, const int* iRow, const int nPxl) const
+Projector::project	Projector.cpp	/^void Projector::project(Image& dst,$/;"	f	class:Projector	signature:(Image& dst, const mat22& mat) const
+Projector::project	Projector.cpp	/^void Projector::project(Image& dst,$/;"	f	class:Projector	signature:(Image& dst, const mat22& mat, const int* iCol, const int* iRow, const int* iPxl, const int nPxl) const
+Projector::project	Projector.cpp	/^void Projector::project(Image& dst,$/;"	f	class:Projector	signature:(Image& dst, const mat22& rot, const vec2& t) const
+Projector::project	Projector.cpp	/^void Projector::project(Image& dst,$/;"	f	class:Projector	signature:(Image& dst, const mat22& rot, const vec2& t, const int* iCol, const int* iRow, const int* iPxl, const int nPxl) const
+Projector::project	Projector.cpp	/^void Projector::project(Image& dst,$/;"	f	class:Projector	signature:(Image& dst, const mat33& mat) const
+Projector::project	Projector.cpp	/^void Projector::project(Image& dst,$/;"	f	class:Projector	signature:(Image& dst, const mat33& mat, const int* iCol, const int* iRow, const int* iPxl, const int nPxl) const
+Projector::project	Projector.cpp	/^void Projector::project(Image& dst,$/;"	f	class:Projector	signature:(Image& dst, const mat33& rot, const vec2& t) const
+Projector::project	Projector.cpp	/^void Projector::project(Image& dst,$/;"	f	class:Projector	signature:(Image& dst, const mat33& rot, const vec2& t, const int* iCol, const int* iRow, const int* iPxl, const int nPxl) const
+Projector::projectMT	Projector.cpp	/^void Projector::projectMT(Complex* dst,$/;"	f	class:Projector	signature:(Complex* dst, const mat22& mat, const int* iCol, const int* iRow, const int nPxl) const
+Projector::projectMT	Projector.cpp	/^void Projector::projectMT(Complex* dst,$/;"	f	class:Projector	signature:(Complex* dst, const mat22& rot, const vec2& t, const int nCol, const int nRow, const int* iCol, const int* iRow, const int nPxl) const
+Projector::projectMT	Projector.cpp	/^void Projector::projectMT(Complex* dst,$/;"	f	class:Projector	signature:(Complex* dst, const mat33& mat, const int* iCol, const int* iRow, const int nPxl) const
+Projector::projectMT	Projector.cpp	/^void Projector::projectMT(Complex* dst,$/;"	f	class:Projector	signature:(Complex* dst, const mat33& rot, const vec2& t, const int nCol, const int nRow, const int* iCol, const int* iRow, const int nPxl) const
+Projector::projectMT	Projector.cpp	/^void Projector::projectMT(Image& dst,$/;"	f	class:Projector	signature:(Image& dst, const mat22& mat) const
+Projector::projectMT	Projector.cpp	/^void Projector::projectMT(Image& dst,$/;"	f	class:Projector	signature:(Image& dst, const mat22& mat, const int* iCol, const int* iRow, const int* iPxl, const int nPxl) const
+Projector::projectMT	Projector.cpp	/^void Projector::projectMT(Image& dst,$/;"	f	class:Projector	signature:(Image& dst, const mat22& rot, const vec2& t) const
+Projector::projectMT	Projector.cpp	/^void Projector::projectMT(Image& dst,$/;"	f	class:Projector	signature:(Image& dst, const mat22& rot, const vec2& t, const int* iCol, const int* iRow, const int* iPxl, const int nPxl) const
+Projector::projectMT	Projector.cpp	/^void Projector::projectMT(Image& dst,$/;"	f	class:Projector	signature:(Image& dst, const mat33& mat) const
+Projector::projectMT	Projector.cpp	/^void Projector::projectMT(Image& dst,$/;"	f	class:Projector	signature:(Image& dst, const mat33& mat, const int* iCol, const int* iRow, const int* iPxl, const int nPxl) const
+Projector::projectMT	Projector.cpp	/^void Projector::projectMT(Image& dst,$/;"	f	class:Projector	signature:(Image& dst, const mat33& rot, const vec2& t) const
+Projector::projectMT	Projector.cpp	/^void Projector::projectMT(Image& dst,$/;"	f	class:Projector	signature:(Image& dst, const mat33& rot, const vec2& t, const int* iCol, const int* iRow, const int* iPxl, const int nPxl) const
+Projector::projectee2D	Projector.cpp	/^const Image& Projector::projectee2D() const$/;"	f	class:Projector	signature:() const
+Projector::projectee3D	Projector.cpp	/^const Volume& Projector::projectee3D() const$/;"	f	class:Projector	signature:() const
+Projector::setInterp	Projector.cpp	/^void Projector::setInterp(const int interp)$/;"	f	class:Projector	signature:(const int interp)
+Projector::setMaxRadius	Projector.cpp	/^void Projector::setMaxRadius(const int maxRadius)$/;"	f	class:Projector	signature:(const int maxRadius)
+Projector::setMode	Projector.cpp	/^void Projector::setMode(const int mode)$/;"	f	class:Projector	signature:(const int mode)
+Projector::setPf	Projector.cpp	/^void Projector::setPf(const int pf)$/;"	f	class:Projector	signature:(const int pf)
+Projector::setProjectee	Projector.cpp	/^void Projector::setProjectee(Image src)$/;"	f	class:Projector	signature:(Image src)
+Projector::setProjectee	Projector.cpp	/^void Projector::setProjectee(Volume src)$/;"	f	class:Projector	signature:(Volume src)
+Projector::swap	Projector.cpp	/^void Projector::swap(Projector& that)$/;"	f	class:Projector	signature:(Projector& that)
+Projector::~Projector	Projector.cpp	/^Projector::~Projector() {}$/;"	f	class:Projector	signature:()
+Reconstructor	Reconstructor.cpp	/^Reconstructor::Reconstructor()$/;"	f	class:Reconstructor	signature:()
+Reconstructor	Reconstructor.cpp	/^Reconstructor::Reconstructor(const int mode,$/;"	f	class:Reconstructor	signature:(const int mode, const int size, const int pf, const Symmetry* sym, const double a, const double alpha)
+Reconstructor::MAP	Reconstructor.cpp	/^bool Reconstructor::MAP() const$/;"	f	class:Reconstructor	signature:() const
+Reconstructor::Reconstructor	Reconstructor.cpp	/^Reconstructor::Reconstructor()$/;"	f	class:Reconstructor	signature:()
+Reconstructor::Reconstructor	Reconstructor.cpp	/^Reconstructor::Reconstructor(const int mode,$/;"	f	class:Reconstructor	signature:(const int mode, const int size, const int pf, const Symmetry* sym, const double a, const double alpha)
+Reconstructor::allReduceF	Reconstructor.cpp	/^void Reconstructor::allReduceF()$/;"	f	class:Reconstructor	signature:()
+Reconstructor::allReduceT	Reconstructor.cpp	/^void Reconstructor::allReduceT()$/;"	f	class:Reconstructor	signature:()
+Reconstructor::allocSpace	Reconstructor.cpp	/^void Reconstructor::allocSpace()$/;"	f	class:Reconstructor	signature:()
+Reconstructor::checkC	Reconstructor.cpp	/^double Reconstructor::checkC() const$/;"	f	class:Reconstructor	signature:() const
+Reconstructor::convoluteC	Reconstructor.cpp	/^void Reconstructor::convoluteC()$/;"	f	class:Reconstructor	signature:()
+Reconstructor::init	Reconstructor.cpp	/^void Reconstructor::init(const int mode,$/;"	f	class:Reconstructor	signature:(const int mode, const int size, const int pf, const Symmetry* sym, const double a, const double alpha)
+Reconstructor::insert	Reconstructor.cpp	/^void Reconstructor::insert(const Image& src,$/;"	f	class:Reconstructor	signature:(const Image& src, const Image& ctf, const mat22& rot, const double w)
+Reconstructor::insert	Reconstructor.cpp	/^void Reconstructor::insert(const Image& src,$/;"	f	class:Reconstructor	signature:(const Image& src, const Image& ctf, const mat33& rot, const double w)
+Reconstructor::insertP	Reconstructor.cpp	/^void Reconstructor::insertP(const Image& src,$/;"	f	class:Reconstructor	signature:(const Image& src, const Image& ctf, const mat22& rot, const double w)
+Reconstructor::insertP	Reconstructor.cpp	/^void Reconstructor::insertP(const Image& src,$/;"	f	class:Reconstructor	signature:(const Image& src, const Image& ctf, const mat33& rot, const double w)
+Reconstructor::joinHalf	Reconstructor.cpp	/^bool Reconstructor::joinHalf() const$/;"	f	class:Reconstructor	signature:() const
+Reconstructor::maxRadius	Reconstructor.cpp	/^int Reconstructor::maxRadius() const$/;"	f	class:Reconstructor	signature:() const
+Reconstructor::mode	Reconstructor.cpp	/^int Reconstructor::mode() const$/;"	f	class:Reconstructor	signature:() const
+Reconstructor::preCal	Reconstructor.cpp	/^void Reconstructor::preCal(int& nPxl,$/;"	f	class:Reconstructor	signature:(int& nPxl, const int* iCol, const int* iRow, const int* iPxl, const int* iSig) const
+Reconstructor::reconstruct	Reconstructor.cpp	/^void Reconstructor::reconstruct(Image& dst)$/;"	f	class:Reconstructor	signature:(Image& dst)
+Reconstructor::reconstruct	Reconstructor.cpp	/^void Reconstructor::reconstruct(Volume& dst)$/;"	f	class:Reconstructor	signature:(Volume& dst)
+Reconstructor::reset	Reconstructor.cpp	/^void Reconstructor::reset()$/;"	f	class:Reconstructor	signature:()
+Reconstructor::resizeSpace	Reconstructor.cpp	/^void Reconstructor::resizeSpace(const int size)$/;"	f	class:Reconstructor	signature:(const int size)
+Reconstructor::setFSC	Reconstructor.cpp	/^void Reconstructor::setFSC(const vec& FSC)$/;"	f	class:Reconstructor	signature:(const vec& FSC)
+Reconstructor::setJoinHalf	Reconstructor.cpp	/^void Reconstructor::setJoinHalf(const bool joinHalf)$/;"	f	class:Reconstructor	signature:(const bool joinHalf)
+Reconstructor::setMAP	Reconstructor.cpp	/^void Reconstructor::setMAP(const bool MAP)$/;"	f	class:Reconstructor	signature:(const bool MAP)
+Reconstructor::setMaxRadius	Reconstructor.cpp	/^void Reconstructor::setMaxRadius(const int maxRadius)$/;"	f	class:Reconstructor	signature:(const int maxRadius)
+Reconstructor::setMode	Reconstructor.cpp	/^void Reconstructor::setMode(const int mode)$/;"	f	class:Reconstructor	signature:(const int mode)
+Reconstructor::setPreCal	Reconstructor.cpp	/^void Reconstructor::setPreCal(const int nPxl,$/;"	f	class:Reconstructor	signature:(const int nPxl, const int* iCol, const int* iRow, const int* iPxl, const int* iSig)
+Reconstructor::setSig	Reconstructor.cpp	/^void Reconstructor::setSig(const vec& sig)$/;"	f	class:Reconstructor	signature:(const vec& sig)
+Reconstructor::setSymmetry	Reconstructor.cpp	/^void Reconstructor::setSymmetry(const Symmetry* sym)$/;"	f	class:Reconstructor	signature:(const Symmetry* sym)
+Reconstructor::setTau	Reconstructor.cpp	/^void Reconstructor::setTau(const vec& tau)$/;"	f	class:Reconstructor	signature:(const vec& tau)
+Reconstructor::symmetrizeF	Reconstructor.cpp	/^void Reconstructor::symmetrizeF()$/;"	f	class:Reconstructor	signature:()
+Reconstructor::symmetrizeT	Reconstructor.cpp	/^void Reconstructor::symmetrizeT()$/;"	f	class:Reconstructor	signature:()
+Reconstructor::~Reconstructor	Reconstructor.cpp	/^Reconstructor::~Reconstructor()$/;"	f	class:Reconstructor	signature:()
+ReflexionSO	Geometry/SymmetryOperation.cpp	/^ReflexionSO::ReflexionSO(const double x,$/;"	f	class:ReflexionSO	signature:(const double x, const double y, const double z)
+ReflexionSO::ReflexionSO	Geometry/SymmetryOperation.cpp	/^ReflexionSO::ReflexionSO(const double x,$/;"	f	class:ReflexionSO	signature:(const double x, const double y, const double z)
+Regex	Utils.cpp	/^    Regex(const char* pattern, int flags)$/;"	f	class:__anon2::Regex	access:public	signature:(const char* pattern, int flags)
+Regex	Utils.cpp	/^class Regex {$/;"	c	namespace:__anon2	file:
+RotationSO	Geometry/SymmetryOperation.cpp	/^RotationSO::RotationSO(const int fold,$/;"	f	class:RotationSO	signature:(const int fold, const double x, const double y, const double z)
+RotationSO::RotationSO	Geometry/SymmetryOperation.cpp	/^RotationSO::RotationSO(const int fold,$/;"	f	class:RotationSO	signature:(const int fold, const double x, const double y, const double z)
+Sp	ML/MLOptimiser.cpp	/^    Sp() : _w(-DBL_MAX), _k(0), _iR(0), _iT(0) {};$/;"	f	struct:Sp	access:public	signature:()
+Sp	ML/MLOptimiser.cpp	/^    Sp(const double w,$/;"	f	struct:Sp	access:public	signature:(const double w, const unsigned int k, const unsigned int iR, const unsigned int iT)
+Sp	ML/MLOptimiser.cpp	/^struct Sp$/;"	s	file:
+Sp::Sp	ML/MLOptimiser.cpp	/^    Sp() : _w(-DBL_MAX), _k(0), _iR(0), _iT(0) {};$/;"	f	struct:Sp	access:public	signature:()
+Sp::Sp	ML/MLOptimiser.cpp	/^    Sp(const double w,$/;"	f	struct:Sp	access:public	signature:(const double w, const unsigned int k, const unsigned int iR, const unsigned int iT)
+Sp::_iR	ML/MLOptimiser.cpp	/^    unsigned int _iR;$/;"	m	struct:Sp	file:	access:public
+Sp::_iT	ML/MLOptimiser.cpp	/^    unsigned int _iT;$/;"	m	struct:Sp	file:	access:public
+Sp::_k	ML/MLOptimiser.cpp	/^    unsigned int _k;$/;"	m	struct:Sp	file:	access:public
+Sp::_w	ML/MLOptimiser.cpp	/^    double _w;$/;"	m	struct:Sp	file:	access:public
+SpWeightComparator	ML/MLOptimiser.cpp	/^struct SpWeightComparator$/;"	s	file:
+SpWeightComparator::operator ()	ML/MLOptimiser.cpp	/^    bool operator()(const Sp& a, const Sp& b) const$/;"	f	struct:SpWeightComparator	access:public	signature:(const Sp& a, const Sp& b) const
+Symmetry	Geometry/Symmetry.cpp	/^Symmetry::Symmetry() {}$/;"	f	class:Symmetry	signature:()
+Symmetry	Geometry/Symmetry.cpp	/^Symmetry::Symmetry(const Symmetry& that)$/;"	f	class:Symmetry	signature:(const Symmetry& that)
+Symmetry	Geometry/Symmetry.cpp	/^Symmetry::Symmetry(const char sym[])$/;"	f	class:Symmetry	signature:(const char sym[])
+Symmetry	Geometry/Symmetry.cpp	/^Symmetry::Symmetry(const int pgGroup,$/;"	f	class:Symmetry	signature:(const int pgGroup, const int pgOrder)
+Symmetry::Symmetry	Geometry/Symmetry.cpp	/^Symmetry::Symmetry() {}$/;"	f	class:Symmetry	signature:()
+Symmetry::Symmetry	Geometry/Symmetry.cpp	/^Symmetry::Symmetry(const Symmetry& that)$/;"	f	class:Symmetry	signature:(const Symmetry& that)
+Symmetry::Symmetry	Geometry/Symmetry.cpp	/^Symmetry::Symmetry(const char sym[])$/;"	f	class:Symmetry	signature:(const char sym[])
+Symmetry::Symmetry	Geometry/Symmetry.cpp	/^Symmetry::Symmetry(const int pgGroup,$/;"	f	class:Symmetry	signature:(const int pgGroup, const int pgOrder)
+Symmetry::append	Geometry/Symmetry.cpp	/^void Symmetry::append(const mat33& L,$/;"	f	class:Symmetry	signature:(const mat33& L, const mat33& R)
+Symmetry::append	Geometry/Symmetry.cpp	/^void Symmetry::append(const vec4& quat)$/;"	f	class:Symmetry	signature:(const vec4& quat)
+Symmetry::clear	Geometry/Symmetry.cpp	/^void Symmetry::clear()$/;"	f	class:Symmetry	signature:()
+Symmetry::completePointGroup	Geometry/Symmetry.cpp	/^void Symmetry::completePointGroup()$/;"	f	class:Symmetry	signature:()
+Symmetry::fillLR	Geometry/Symmetry.cpp	/^void Symmetry::fillLR(const vector<SymmetryOperation>& entry)$/;"	f	class:Symmetry	signature:(const vector<SymmetryOperation>& entry)
+Symmetry::get	Geometry/Symmetry.cpp	/^void Symmetry::get(mat33& L,$/;"	f	class:Symmetry	signature:(mat33& L, mat33& R, const int i) const
+Symmetry::init	Geometry/Symmetry.cpp	/^void Symmetry::init()$/;"	f	class:Symmetry	signature:()
+Symmetry::init	Geometry/Symmetry.cpp	/^void Symmetry::init(const char sym[])$/;"	f	class:Symmetry	signature:(const char sym[])
+Symmetry::init	Geometry/Symmetry.cpp	/^void Symmetry::init(const vector<SymmetryOperation>& entry)$/;"	f	class:Symmetry	signature:(const vector<SymmetryOperation>& entry)
+Symmetry::nSymmetryElement	Geometry/Symmetry.cpp	/^int Symmetry::nSymmetryElement() const$/;"	f	class:Symmetry	signature:() const
+Symmetry::novo	Geometry/Symmetry.cpp	/^bool Symmetry::novo(const mat33& L,$/;"	f	class:Symmetry	signature:(const mat33& L, const mat33& R) const
+Symmetry::operator =	Geometry/Symmetry.cpp	/^Symmetry& Symmetry::operator=(const Symmetry& that)$/;"	f	class:Symmetry	signature:(const Symmetry& that)
+Symmetry::pgGroup	Geometry/Symmetry.cpp	/^int Symmetry::pgGroup() const$/;"	f	class:Symmetry	signature:() const
+Symmetry::pgOrder	Geometry/Symmetry.cpp	/^int Symmetry::pgOrder() const$/;"	f	class:Symmetry	signature:() const
+Symmetry::quat	Geometry/Symmetry.cpp	/^vec4 Symmetry::quat(const int i) const$/;"	f	class:Symmetry	signature:(const int i) const
+Symmetry::set	Geometry/Symmetry.cpp	/^void Symmetry::set(const mat33& L,$/;"	f	class:Symmetry	signature:(const mat33& L, const mat33& R, const int i)
+Symmetry::set	Geometry/Symmetry.cpp	/^void Symmetry::set(const vec4& quat,$/;"	f	class:Symmetry	signature:(const vec4& quat, const int i)
+Symmetry::~Symmetry	Geometry/Symmetry.cpp	/^Symmetry::~Symmetry()$/;"	f	class:Symmetry	signature:()
+SymmetryOperation	Geometry/SymmetryOperation.cpp	/^SymmetryOperation::SymmetryOperation(const InversionSO ivs)$/;"	f	class:SymmetryOperation	signature:(const InversionSO ivs)
+SymmetryOperation	Geometry/SymmetryOperation.cpp	/^SymmetryOperation::SymmetryOperation(const ReflexionSO rfs)$/;"	f	class:SymmetryOperation	signature:(const ReflexionSO rfs)
+SymmetryOperation	Geometry/SymmetryOperation.cpp	/^SymmetryOperation::SymmetryOperation(const RotationSO rts)$/;"	f	class:SymmetryOperation	signature:(const RotationSO rts)
+SymmetryOperation::SymmetryOperation	Geometry/SymmetryOperation.cpp	/^SymmetryOperation::SymmetryOperation(const InversionSO ivs)$/;"	f	class:SymmetryOperation	signature:(const InversionSO ivs)
+SymmetryOperation::SymmetryOperation	Geometry/SymmetryOperation.cpp	/^SymmetryOperation::SymmetryOperation(const ReflexionSO rfs)$/;"	f	class:SymmetryOperation	signature:(const ReflexionSO rfs)
+SymmetryOperation::SymmetryOperation	Geometry/SymmetryOperation.cpp	/^SymmetryOperation::SymmetryOperation(const RotationSO rts)$/;"	f	class:SymmetryOperation	signature:(const RotationSO rts)
+TIK_RL	Functions/Functions.cpp	/^double TIK_RL(const double r)$/;"	f	signature:(const double r)
+TabFunction	TabFunction.cpp	/^TabFunction::TabFunction() : _a(0), _b(0), _s(0), _n(0) {}$/;"	f	class:TabFunction	signature:()
+TabFunction	TabFunction.cpp	/^TabFunction::TabFunction(function<double(const double)> func,$/;"	f	class:TabFunction	signature:(function<double(const double)> func, const double a, const double b, const int n)
+TabFunction::TabFunction	TabFunction.cpp	/^TabFunction::TabFunction() : _a(0), _b(0), _s(0), _n(0) {}$/;"	f	class:TabFunction	signature:()
+TabFunction::TabFunction	TabFunction.cpp	/^TabFunction::TabFunction(function<double(const double)> func,$/;"	f	class:TabFunction	signature:(function<double(const double)> func, const double a, const double b, const int n)
+TabFunction::init	TabFunction.cpp	/^void TabFunction::init(function<double(const double)> func,$/;"	f	class:TabFunction	signature:(function<double(const double)> func, const double a, const double b, const int n)
+TabFunction::operator ()	TabFunction.cpp	/^double TabFunction::operator()(const double x) const$/;"	f	class:TabFunction	signature:(const double x) const
+TabFunction::~TabFunction	TabFunction.cpp	/^TabFunction::~TabFunction()$/;"	f	class:TabFunction	signature:()
+ThreadLocalRNG	Functions/Random.cpp	/^            ThreadLocalRNG()$/;"	f	class:__anon1::ThreadLocalRNG	access:public	signature:()
+ThreadLocalRNG	Functions/Random.cpp	/^    class ThreadLocalRNG$/;"	c	namespace:__anon1	file:
+Volume	Image/Volume.cpp	/^Volume::Volume() : _nCol(0), _nRow(0), _nSlc(0) {}$/;"	f	class:Volume	signature:()
+Volume	Image/Volume.cpp	/^Volume::Volume(const int nCol,$/;"	f	class:Volume	signature:(const int nCol, const int nRow, const int nSlc, const int space)
+Volume::Volume	Image/Volume.cpp	/^Volume::Volume() : _nCol(0), _nRow(0), _nSlc(0) {}$/;"	f	class:Volume	signature:()
+Volume::Volume	Image/Volume.cpp	/^Volume::Volume(const int nCol,$/;"	f	class:Volume	signature:(const int nCol, const int nRow, const int nSlc, const int space)
+Volume::addFT	Image/Volume.cpp	/^void Volume::addFT(const Complex value,$/;"	f	class:Volume	signature:(const Complex value, const double iCol, const double iRow, const double iSlc, const double a, const TabFunction& kernel)
+Volume::addFT	Image/Volume.cpp	/^void Volume::addFT(const Complex value,$/;"	f	class:Volume	signature:(const Complex value, const double iCol, const double iRow, const double iSlc, const double a, const double alpha)
+Volume::addFT	Image/Volume.cpp	/^void Volume::addFT(const Complex value,$/;"	f	class:Volume	signature:(const Complex value, double iCol, double iRow, double iSlc)
+Volume::addFT	Image/Volume.cpp	/^void Volume::addFT(const Complex value,$/;"	f	class:Volume	signature:(const Complex value, int iCol, int iRow, int iSlc)
+Volume::addFT	Image/Volume.cpp	/^void Volume::addFT(const double value,$/;"	f	class:Volume	signature:(const double value, const double iCol, const double iRow, const double iSlc, const double a, const TabFunction& kernel)
+Volume::addFT	Image/Volume.cpp	/^void Volume::addFT(const double value,$/;"	f	class:Volume	signature:(const double value, const double iCol, const double iRow, const double iSlc, const double a, const double alpha)
+Volume::addFT	Image/Volume.cpp	/^void Volume::addFT(const double value,$/;"	f	class:Volume	signature:(const double value, double iCol, double iRow, double iSlc)
+Volume::addFT	Image/Volume.cpp	/^void Volume::addFT(const double value,$/;"	f	class:Volume	signature:(const double value, int iCol, int iRow, int iSlc)
+Volume::addFTHalf	Image/Volume.cpp	/^void Volume::addFTHalf(const Complex value,$/;"	f	class:Volume	signature:(const Complex value, const double w[2][2][2], const int x0[3])
+Volume::addFTHalf	Image/Volume.cpp	/^void Volume::addFTHalf(const Complex value,$/;"	f	class:Volume	signature:(const Complex value, const int iCol, const int iRow, const int iSlc)
+Volume::addFTHalf	Image/Volume.cpp	/^void Volume::addFTHalf(const double value,$/;"	f	class:Volume	signature:(const double value, const double w[2][2][2], const int x0[3])
+Volume::addFTHalf	Image/Volume.cpp	/^void Volume::addFTHalf(const double value,$/;"	f	class:Volume	signature:(const double value, const int iCol, const int iRow, const int iSlc)
+Volume::addRL	Image/Volume.cpp	/^void Volume::addRL(const double value,$/;"	f	class:Volume	signature:(const double value, const int iCol, const int iRow, const int iSlc)
+Volume::alloc	Image/Volume.cpp	/^void Volume::alloc(const int nCol,$/;"	f	class:Volume	signature:(const int nCol, const int nRow, const int nSlc, const int space)
+Volume::alloc	Image/Volume.cpp	/^void Volume::alloc(int space)$/;"	f	class:Volume	signature:(int space)
+Volume::clear	Image/Volume.cpp	/^void Volume::clear()$/;"	f	class:Volume	signature:()
+Volume::coordinatesInBoundaryFT	Image/Volume.cpp	/^void Volume::coordinatesInBoundaryFT(const int iCol,$/;"	f	class:Volume	signature:(const int iCol, const int iRow, const int iSlc) const
+Volume::coordinatesInBoundaryRL	Image/Volume.cpp	/^void Volume::coordinatesInBoundaryRL(const int iCol,$/;"	f	class:Volume	signature:(const int iCol, const int iRow, const int iSlc) const
+Volume::copyVolume	Image/Volume.cpp	/^Volume Volume::copyVolume() const$/;"	f	class:Volume	signature:() const
+Volume::getByInterpolationFT	Image/Volume.cpp	/^Complex Volume::getByInterpolationFT(double iCol,$/;"	f	class:Volume	signature:(double iCol, double iRow, double iSlc, const int interp) const
+Volume::getByInterpolationRL	Image/Volume.cpp	/^double Volume::getByInterpolationRL(const double iCol,$/;"	f	class:Volume	signature:(const double iCol, const double iRow, const double iSlc, const int interp) const
+Volume::getFT	Image/Volume.cpp	/^Complex Volume::getFT(int iCol,$/;"	f	class:Volume	signature:(int iCol, int iRow, int iSlc) const
+Volume::getFTHalf	Image/Volume.cpp	/^Complex Volume::getFTHalf(const double w[2][2][2],$/;"	f	class:Volume	signature:(const double w[2][2][2], const int x0[3]) const
+Volume::getFTHalf	Image/Volume.cpp	/^Complex Volume::getFTHalf(const int iCol,$/;"	f	class:Volume	signature:(const int iCol, const int iRow, const int iSlc) const
+Volume::getRL	Image/Volume.cpp	/^double Volume::getRL(const double w[2][2][2],$/;"	f	class:Volume	signature:(const double w[2][2][2], const int x0[3]) const
+Volume::getRL	Image/Volume.cpp	/^double Volume::getRL(const int iCol,$/;"	f	class:Volume	signature:(const int iCol, const int iRow, const int iSlc) const
+Volume::initBox	Image/Volume.cpp	/^void Volume::initBox()$/;"	f	class:Volume	signature:()
+Volume::setFT	Image/Volume.cpp	/^void Volume::setFT(const Complex value,$/;"	f	class:Volume	signature:(const Complex value, int iCol, int iRow, int iSlc)
+Volume::setFTHalf	Image/Volume.cpp	/^void Volume::setFTHalf(const Complex value,$/;"	f	class:Volume	signature:(const Complex value, const int iCol, const int iRow, const int iSlc)
+Volume::setRL	Image/Volume.cpp	/^void Volume::setRL(const double value,$/;"	f	class:Volume	signature:(const double value, const int iCol, const int iRow, const int iSlc)
+Volume::swap	Image/Volume.cpp	/^void Volume::swap(Volume& that)$/;"	f	class:Volume	signature:(Volume& that)
+Volume::~Volume	Image/Volume.cpp	/^Volume::~Volume() {}$/;"	f	class:Volume	signature:()
+__anon1::ThreadLocalRNG	Functions/Random.cpp	/^    class ThreadLocalRNG$/;"	c	namespace:__anon1	file:
+__anon1::ThreadLocalRNG::ThreadLocalRNG	Functions/Random.cpp	/^            ThreadLocalRNG()$/;"	f	class:__anon1::ThreadLocalRNG	access:public	signature:()
+__anon1::ThreadLocalRNG::deallocate	Functions/Random.cpp	/^            static void deallocate(void* p)$/;"	f	class:__anon1::ThreadLocalRNG	file:	access:private	signature:(void* p)
+__anon1::ThreadLocalRNG::get	Functions/Random.cpp	/^            gsl_rng* get()$/;"	f	class:__anon1::ThreadLocalRNG	access:public	signature:()
+__anon1::ThreadLocalRNG::key	Functions/Random.cpp	/^            pthread_key_t key;$/;"	m	class:__anon1::ThreadLocalRNG	file:	access:private
+__anon1::ThreadLocalRNG::seed_from_time	Functions/Random.cpp	/^            static bool seed_from_time(unsigned long* out)$/;"	f	class:__anon1::ThreadLocalRNG	access:public	signature:(unsigned long* out)
+__anon1::ThreadLocalRNG::seed_from_urandom	Functions/Random.cpp	/^            static bool seed_from_urandom(unsigned long* out)$/;"	f	class:__anon1::ThreadLocalRNG	access:public	signature:(unsigned long* out)
+__anon1::ThreadLocalRNG::~ThreadLocalRNG	Functions/Random.cpp	/^            ~ThreadLocalRNG()$/;"	f	class:__anon1::ThreadLocalRNG	access:public	signature:()
+__anon2::Regex	Utils.cpp	/^class Regex {$/;"	c	namespace:__anon2	file:
+__anon2::Regex::Regex	Utils.cpp	/^    Regex(const char* pattern, int flags)$/;"	f	class:__anon2::Regex	access:public	signature:(const char* pattern, int flags)
+__anon2::Regex::getInternal	Utils.cpp	/^    regex_t* getInternal()$/;"	f	class:__anon2::Regex	access:public	signature:()
+__anon2::Regex::regex	Utils.cpp	/^    regex_t regex;$/;"	m	class:__anon2::Regex	file:	access:private
+__anon2::Regex::~Regex	Utils.cpp	/^    ~Regex()$/;"	f	class:__anon2::Regex	access:public	signature:()
+_iR	ML/MLOptimiser.cpp	/^    unsigned int _iR;$/;"	m	struct:Sp	file:	access:public
+_iT	ML/MLOptimiser.cpp	/^    unsigned int _iT;$/;"	m	struct:Sp	file:	access:public
+_k	ML/MLOptimiser.cpp	/^    unsigned int _k;$/;"	m	struct:Sp	file:	access:public
+_w	ML/MLOptimiser.cpp	/^    double _w;$/;"	m	struct:Sp	file:	access:public
+addFT	Image/Image.cpp	/^void Image::addFT(const Complex value,$/;"	f	class:Image	signature:(const Complex value, double iCol, double iRow)
+addFT	Image/Image.cpp	/^void Image::addFT(const Complex value,$/;"	f	class:Image	signature:(const Complex value, int iCol, int iRow)
+addFT	Image/Image.cpp	/^void Image::addFT(const double value,$/;"	f	class:Image	signature:(const double value, double iCol, double iRow)
+addFT	Image/Image.cpp	/^void Image::addFT(const double value,$/;"	f	class:Image	signature:(const double value, int iCol, int iRow)
+addFT	Image/Volume.cpp	/^void Volume::addFT(const Complex value,$/;"	f	class:Volume	signature:(const Complex value, const double iCol, const double iRow, const double iSlc, const double a, const TabFunction& kernel)
+addFT	Image/Volume.cpp	/^void Volume::addFT(const Complex value,$/;"	f	class:Volume	signature:(const Complex value, const double iCol, const double iRow, const double iSlc, const double a, const double alpha)
+addFT	Image/Volume.cpp	/^void Volume::addFT(const Complex value,$/;"	f	class:Volume	signature:(const Complex value, double iCol, double iRow, double iSlc)
+addFT	Image/Volume.cpp	/^void Volume::addFT(const Complex value,$/;"	f	class:Volume	signature:(const Complex value, int iCol, int iRow, int iSlc)
+addFT	Image/Volume.cpp	/^void Volume::addFT(const double value,$/;"	f	class:Volume	signature:(const double value, const double iCol, const double iRow, const double iSlc, const double a, const TabFunction& kernel)
+addFT	Image/Volume.cpp	/^void Volume::addFT(const double value,$/;"	f	class:Volume	signature:(const double value, const double iCol, const double iRow, const double iSlc, const double a, const double alpha)
+addFT	Image/Volume.cpp	/^void Volume::addFT(const double value,$/;"	f	class:Volume	signature:(const double value, double iCol, double iRow, double iSlc)
+addFT	Image/Volume.cpp	/^void Volume::addFT(const double value,$/;"	f	class:Volume	signature:(const double value, int iCol, int iRow, int iSlc)
+addFTHalf	Image/Image.cpp	/^void Image::addFTHalf(const Complex value,$/;"	f	class:Image	signature:(const Complex value, const double w[2][2], const int x0[2])
+addFTHalf	Image/Image.cpp	/^void Image::addFTHalf(const Complex value,$/;"	f	class:Image	signature:(const Complex value, const int iCol, const int iRow)
+addFTHalf	Image/Image.cpp	/^void Image::addFTHalf(const double value,$/;"	f	class:Image	signature:(const double value, const double w[2][2], const int x0[2])
+addFTHalf	Image/Image.cpp	/^void Image::addFTHalf(const double value,$/;"	f	class:Image	signature:(const double value, const int iCol, const int iRow)
+addFTHalf	Image/Volume.cpp	/^void Volume::addFTHalf(const Complex value,$/;"	f	class:Volume	signature:(const Complex value, const double w[2][2][2], const int x0[3])
+addFTHalf	Image/Volume.cpp	/^void Volume::addFTHalf(const Complex value,$/;"	f	class:Volume	signature:(const Complex value, const int iCol, const int iRow, const int iSlc)
+addFTHalf	Image/Volume.cpp	/^void Volume::addFTHalf(const double value,$/;"	f	class:Volume	signature:(const double value, const double w[2][2][2], const int x0[3])
+addFTHalf	Image/Volume.cpp	/^void Volume::addFTHalf(const double value,$/;"	f	class:Volume	signature:(const double value, const int iCol, const int iRow, const int iSlc)
+addRL	Image/Volume.cpp	/^void Volume::addRL(const double value,$/;"	f	class:Volume	signature:(const double value, const int iCol, const int iRow, const int iSlc)
+alignZ	Geometry/Euler.cpp	/^void alignZ(mat33& dst,$/;"	f	signature:(mat33& dst, const vec3& vec)
+allReduceF	Reconstructor.cpp	/^void Reconstructor::allReduceF()$/;"	f	class:Reconstructor	signature:()
+allReduceN	ML/MLOptimiser.cpp	/^void MLOptimiser::allReduceN()$/;"	f	class:MLOptimiser	signature:()
+allReduceSigma	ML/MLOptimiser.cpp	/^void MLOptimiser::allReduceSigma(const bool group)$/;"	f	class:MLOptimiser	signature:(const bool group)
+allReduceT	Reconstructor.cpp	/^void Reconstructor::allReduceT()$/;"	f	class:Reconstructor	signature:()
+alloc	Image/Image.cpp	/^void Image::alloc(const int nCol,$/;"	f	class:Image	signature:(const int nCol, const int nRow, const int space)
+alloc	Image/Image.cpp	/^void Image::alloc(const int space)$/;"	f	class:Image	signature:(const int space)
+alloc	Image/Volume.cpp	/^void Volume::alloc(const int nCol,$/;"	f	class:Volume	signature:(const int nCol, const int nRow, const int nSlc, const int space)
+alloc	Image/Volume.cpp	/^void Volume::alloc(int space)$/;"	f	class:Volume	signature:(int space)
+allocPreCal	ML/MLOptimiser.cpp	/^void MLOptimiser::allocPreCal(const bool pixelMajor,$/;"	f	class:MLOptimiser	signature:(const bool pixelMajor, const bool ctf)
+allocPreCalIdx	ML/MLOptimiser.cpp	/^void MLOptimiser::allocPreCalIdx(const double rU,$/;"	f	class:MLOptimiser	signature:(const double rU, const double rL)
+allocSpace	Reconstructor.cpp	/^void Reconstructor::allocSpace()$/;"	f	class:Reconstructor	signature:()
+angle	Geometry/Euler.cpp	/^void angle(double& phi,$/;"	f	signature:(double& phi, double& theta, const vec3& src)
+angle	Geometry/Euler.cpp	/^void angle(double& phi,$/;"	f	signature:(double& phi, double& theta, double& psi, const mat33& src)
+angle	Geometry/Euler.cpp	/^void angle(double& phi,$/;"	f	signature:(double& phi, double& theta, double& psi, const vec4& src)
+append	Geometry/Symmetry.cpp	/^void Symmetry::append(const mat33& L,$/;"	f	class:Symmetry	signature:(const mat33& L, const mat33& R)
+append	Geometry/Symmetry.cpp	/^void Symmetry::append(const vec4& quat)$/;"	f	class:Symmetry	signature:(const vec4& quat)
+appendRef	ML/MLModel.cpp	/^void MLModel::appendRef(Volume ref)$/;"	f	class:MLModel	signature:(Volume ref)
+assign	Database.cpp	/^void Database::assign()$/;"	f	class:Database	signature:()
+asymmetry	Geometry/Symmetry.cpp	/^bool asymmetry(const Symmetry& sym)$/;"	f	signature:(const Symmetry& sym)
+autoMask	Functions/Mask.cpp	/^void autoMask(Volume& dst,$/;"	f	signature:(Volume& dst, const Volume& src, const double ext, const double ew, const double r)
+autoMask	Functions/Mask.cpp	/^void autoMask(Volume& dst,$/;"	f	signature:(Volume& dst, const Volume& src, const double ext, const double r)
+autoMask	Functions/Mask.cpp	/^void autoMask(Volume& dst,$/;"	f	signature:(Volume& dst, const Volume& src, const double r)
+avgHemi	ML/MLModel.cpp	/^void MLModel::avgHemi()$/;"	f	class:MLModel	signature:()
+avgStdR	ML/MLOptimiser.cpp	/^void MLOptimiser::avgStdR(double& stdR)$/;"	f	class:MLOptimiser	signature:(double& stdR)
+avgStdT	ML/MLOptimiser.cpp	/^void MLOptimiser::avgStdT(double& stdT)$/;"	f	class:MLOptimiser	signature:(double& stdT)
+bCastNPar	ML/MLOptimiser.cpp	/^void MLOptimiser::bCastNPar()$/;"	f	class:MLOptimiser	signature:()
+bFactorEst	Functions/Spectrum.cpp	/^void bFactorEst(double& bFactor,$/;"	f	signature:(double& bFactor, const Volume& vol, const int rU, const int rL)
+bFactorFilter	Functions/Filter.cpp	/^void bFactorFilter(Image& dst,$/;"	f	signature:(Image& dst, const Image& src, const double bFactor)
+bFactorFilter	Functions/Filter.cpp	/^void bFactorFilter(Volume& dst,$/;"	f	signature:(Volume& dst, const Volume& src, const double bFactor)
+background	Functions/Mask.cpp	/^double background(const Image& img,$/;"	f	signature:(const Image& img, const Image& alpha)
+background	Functions/Mask.cpp	/^double background(const Image& img,$/;"	f	signature:(const Image& img, const double r, const double ew)
+background	Functions/Mask.cpp	/^double background(const Volume& vol,$/;"	f	signature:(const Volume& vol, const Volume& alpha)
+background	Functions/Mask.cpp	/^double background(const Volume& vol,$/;"	f	signature:(const Volume& vol, const double r, const double ew)
+background	Functions/Mask.cpp	/^double background(const Volume& vol,$/;"	f	signature:(const Volume& vol, const double rU, const double rL, const double ew)
+bcastGroupInfo	ML/MLOptimiser.cpp	/^void MLOptimiser::bcastGroupInfo()$/;"	f	class:MLOptimiser	signature:()
+bgMeanStddev	Image/ImageFunctions.cpp	/^void bgMeanStddev(double& mean,$/;"	f	signature:(double& mean, double& stddev, const Image& src, const double r)
+bgMeanStddev	Image/ImageFunctions.cpp	/^void bgMeanStddev(double& mean,$/;"	f	signature:(double& mean, double& stddev, const Volume& src, const double r)
+bgMeanStddev	Image/ImageFunctions.cpp	/^void bgMeanStddev(double& mean,$/;"	f	signature:(double& mean, double& stddev, const Volume& src, const double rU, const double rL)
+bgStddev	Image/ImageFunctions.cpp	/^double bgStddev(const double mean,$/;"	f	signature:(const double mean, const Image& src, const double r)
+bgStddev	Image/ImageFunctions.cpp	/^double bgStddev(const double mean,$/;"	f	signature:(const double mean, const Volume& src, const double r)
+binning	Image/ImageFunctions.cpp	/^void binning(Image& dst,$/;"	f	signature:(Image& dst, const Image& src, const int bf)
+bw	FFT.cpp	/^void FFT::bw(Image& img)$/;"	f	class:FFT	signature:(Image& img)
+bw	FFT.cpp	/^void FFT::bw(Volume& vol)$/;"	f	class:FFT	signature:(Volume& vol)
+bwCreatePlan	FFT.cpp	/^void FFT::bwCreatePlan(const int nCol,$/;"	f	class:FFT	signature:(const int nCol, const int nRow)
+bwCreatePlan	FFT.cpp	/^void FFT::bwCreatePlan(const int nCol,$/;"	f	class:FFT	signature:(const int nCol, const int nRow, const int nSlc)
+bwCreatePlanMT	FFT.cpp	/^void FFT::bwCreatePlanMT(const int nCol,$/;"	f	class:FFT	signature:(const int nCol, const int nRow)
+bwCreatePlanMT	FFT.cpp	/^void FFT::bwCreatePlanMT(const int nCol,$/;"	f	class:FFT	signature:(const int nCol, const int nRow, const int nSlc)
+bwDestroyPlan	FFT.cpp	/^void FFT::bwDestroyPlan()$/;"	f	class:FFT	signature:()
+bwDestroyPlanMT	FFT.cpp	/^void FFT::bwDestroyPlanMT()$/;"	f	class:FFT	signature:()
+bwExecutePlan	FFT.cpp	/^void FFT::bwExecutePlan(Image& img)$/;"	f	class:FFT	signature:(Image& img)
+bwExecutePlan	FFT.cpp	/^void FFT::bwExecutePlan(Volume& vol)$/;"	f	class:FFT	signature:(Volume& vol)
+bwExecutePlanMT	FFT.cpp	/^void FFT::bwExecutePlanMT(Image& img)$/;"	f	class:FFT	signature:(Image& img)
+bwExecutePlanMT	FFT.cpp	/^void FFT::bwExecutePlanMT(Volume& vol)$/;"	f	class:FFT	signature:(Volume& vol)
+bwImg	ML/MLOptimiser.cpp	/^void MLOptimiser::bwImg()$/;"	f	class:MLOptimiser	signature:()
+bwMT	FFT.cpp	/^void FFT::bwMT(Image& img)$/;"	f	class:FFT	signature:(Image& img)
+bwMT	FFT.cpp	/^void FFT::bwMT(Volume& vol)$/;"	f	class:FFT	signature:(Volume& vol)
+c	Particle.cpp	/^uvec Particle::c() const { return _c; }$/;"	f	class:Particle	signature:() const
+c	Particle.cpp	/^void Particle::c(unsigned int& dst,$/;"	f	class:Particle	signature:(unsigned int& dst, const int i) const
+calVari	Particle.cpp	/^void Particle::calVari(const ParticleType pt)$/;"	f	class:Particle	signature:(const ParticleType pt)
+centreMeanStddev	Image/ImageFunctions.cpp	/^void centreMeanStddev(double& mean,$/;"	f	signature:(double& mean, double& stddev, const Image& src, const double r)
+centreStddev	Image/ImageFunctions.cpp	/^double centreStddev(const double mean,$/;"	f	signature:(const double mean, const Image& src, const double r)
+checkC	Reconstructor.cpp	/^double Reconstructor::checkC() const$/;"	f	class:Reconstructor	signature:() const
+clear	Geometry/Symmetry.cpp	/^void Symmetry::clear()$/;"	f	class:Symmetry	signature:()
+clear	Image/ImageBase.cpp	/^void ImageBase::clear()$/;"	f	class:ImageBase	signature:()
+clear	Image/ImageFile.cpp	/^void ImageFile::clear()$/;"	f	class:ImageFile	signature:()
+clear	Image/Volume.cpp	/^void Volume::clear()$/;"	f	class:Volume	signature:()
+clear	ML/MLModel.cpp	/^void MLModel::clear()$/;"	f	class:MLModel	signature:()
+clear	ML/MLOptimiser.cpp	/^void MLOptimiser::clear()$/;"	f	class:MLOptimiser	signature:()
+clear	Particle.cpp	/^void Particle::clear() {}$/;"	f	class:Particle	signature:()
+clearFT	Image/ImageBase.cpp	/^void ImageBase::clearFT()$/;"	f	class:ImageBase	signature:()
+clearRL	Image/ImageBase.cpp	/^void ImageBase::clearRL()$/;"	f	class:ImageBase	signature:()
+clearRef	ML/MLModel.cpp	/^void MLModel::clearRef()$/;"	f	class:MLModel	signature:()
+close	Image/BMP.cpp	/^void BMP::close()$/;"	f	class:BMP	signature:()
+cls	Database.cpp	/^int Database::cls(const int i) const$/;"	f	class:Database	signature:(const int i) const
+commRank	Parallel.cpp	/^int Parallel::commRank() const$/;"	f	class:Parallel	signature:() const
+commSize	Parallel.cpp	/^int Parallel::commSize() const$/;"	f	class:Parallel	signature:() const
+completePointGroup	Geometry/Symmetry.cpp	/^void Symmetry::completePointGroup()$/;"	f	class:Symmetry	signature:()
+completePointGroupHelper	Geometry/Symmetry.cpp	/^static bool completePointGroupHelper(umat& table,$/;"	f	file:	signature:(umat& table, int& i, int& j)
+compress	Particle.cpp	/^double Particle::compress() const$/;"	f	class:Particle	signature:() const
+conf	Logging.cpp	/^static el::Configurations conf;$/;"	v	file:
+convoluteC	Reconstructor.cpp	/^void Reconstructor::convoluteC()$/;"	f	class:Reconstructor	signature:()
+coordX	Database.cpp	/^double Database::coordX(const int i) const$/;"	f	class:Database	signature:(const int i) const
+coordY	Database.cpp	/^double Database::coordY(const int i) const$/;"	f	class:Database	signature:(const int i) const
+coordinatesInBoundaryFT	Image/Image.cpp	/^void Image::coordinatesInBoundaryFT(const int iCol,$/;"	f	class:Image	signature:(const int iCol, const int iRow) const
+coordinatesInBoundaryFT	Image/Volume.cpp	/^void Volume::coordinatesInBoundaryFT(const int iCol,$/;"	f	class:Volume	signature:(const int iCol, const int iRow, const int iSlc) const
+coordinatesInBoundaryRL	Image/Image.cpp	/^void Image::coordinatesInBoundaryRL(const int iCol,$/;"	f	class:Image	signature:(const int iCol, const int iRow) const
+coordinatesInBoundaryRL	Image/Volume.cpp	/^void Volume::coordinatesInBoundaryRL(const int iCol,$/;"	f	class:Volume	signature:(const int iCol, const int iRow, const int iSlc) const
+copy	Particle.cpp	/^Particle Particle::copy() const$/;"	f	class:Particle	signature:() const
+copy	Particle.cpp	/^void Particle::copy(Particle& that) const$/;"	f	class:Particle	signature:(Particle& that) const
+copyBase	Image/ImageBase.cpp	/^ImageBase ImageBase::copyBase() const$/;"	f	class:ImageBase	signature:() const
+copyBase	Image/ImageBase.cpp	/^void ImageBase::copyBase(ImageBase& other) const$/;"	f	class:ImageBase	signature:(ImageBase& other) const
+copyImage	Image/Image.cpp	/^Image Image::copyImage() const$/;"	f	class:Image	signature:() const
+copyVolume	Image/Volume.cpp	/^Volume Volume::copyVolume() const$/;"	f	class:Volume	signature:() const
+correctScale	ML/MLOptimiser.cpp	/^void MLOptimiser::correctScale(const bool init,$/;"	f	class:MLOptimiser	signature:(const bool init, const bool coord, const bool group)
+countSymmetryElement	Geometry/SymmetryFunctions.cpp	/^void countSymmetryElement(int& nSymmetryElement,$/;"	f	signature:(int& nSymmetryElement, int& nRotation, int& nReflexion, int& nInversion, const vector<SymmetryOperation>& entry)
+createBMP	Image/BMP.cpp	/^bool BMP::createBMP(float* buf, int width, int height)$/;"	f	class:BMP	signature:(float* buf, int width, int height)
+createBMP	Image/BMP.cpp	/^bool BMP::createBMP(short* buf, int width, int height)$/;"	f	class:BMP	signature:(short* buf, int width, int height)
+createBMP	Image/BMP.cpp	/^bool BMP::createBMP(unsigned char* buf, int width, int height)$/;"	f	class:BMP	signature:(unsigned char* buf, int width, int height)
+crossCorrelation	Image/ImageFunctions.cpp	/^void crossCorrelation(Image& dst,$/;"	f	signature:(Image& dst, const Image& a, const Image& b, const double r)
+ctf	Database.cpp	/^void Database::ctf(CTFAttr& dst,$/;"	f	class:Database	signature:(CTFAttr& dst, const int i) const
+ctf	Database.cpp	/^void Database::ctf(double& voltage,$/;"	f	class:Database	signature:(double& voltage, double& defocusU, double& defocusV, double& defocusTheta, double& Cs, double& amplitudeConstrast, double& phaseShift, const int i) const
+cumsum	Functions/Functions.cpp	/^vec cumsum(const vec& v)$/;"	f	signature:(const vec& v)
+d	Database.cpp	/^double Database::d(const int i) const$/;"	f	class:Database	signature:(const int i) const
+d	Particle.cpp	/^vec Particle::d() const { return _d; }$/;"	f	class:Particle	signature:() const
+d	Particle.cpp	/^void Particle::d(double& d,$/;"	f	class:Particle	signature:(double& d, const int i) const
+dataVSPrior	ML/MLOptimiser.cpp	/^double dataVSPrior(const Image& dat,$/;"	f	signature:(const Image& dat, const Image& pri, const Image& ctf, const vec& sigRcp, const double rU, const double rL)
+dataVSPrior	ML/MLOptimiser.cpp	/^double dataVSPrior(const Image& dat,$/;"	f	signature:(const Image& dat, const Image& pri, const Image& tra, const Image& ctf, const vec& sigRcp, const double rU, const double rL)
+deallocate	Functions/Random.cpp	/^            static void deallocate(void* p)$/;"	f	class:__anon1::ThreadLocalRNG	file:	access:private	signature:(void* p)
+determineIncreaseR	ML/MLModel.cpp	/^bool MLModel::determineIncreaseR(const double rChangeDecreaseFactor)$/;"	f	class:MLModel	signature:(const double rChangeDecreaseFactor)
+determineIncreaseR	ML/MLModel.cpp	/^bool MLModel::determineIncreaseR(const double tVariDecreaseFactor)$/;"	f	class:MLModel	signature:(const double tVariDecreaseFactor)
+diffTopC	Particle.cpp	/^bool Particle::diffTopC()$/;"	f	class:Particle	signature:()
+diffTopD	Particle.cpp	/^double Particle::diffTopD()$/;"	f	class:Particle	signature:()
+diffTopR	Particle.cpp	/^double Particle::diffTopR()$/;"	f	class:Particle	signature:()
+diffTopT	Particle.cpp	/^double Particle::diffTopT()$/;"	f	class:Particle	signature:()
+direction	Geometry/Euler.cpp	/^void direction(vec3& dst,$/;"	f	signature:(vec3& dst, const double phi, const double theta)
+display	Coordinate5D.cpp	/^void display(const Coordinate5D& coord)$/;"	f	signature:(const Coordinate5D& coord)
+display	Geometry/Symmetry.cpp	/^void display(const Symmetry& sym)$/;"	f	signature:(const Symmetry& sym)
+display	Geometry/SymmetryOperation.cpp	/^void display(const SymmetryOperation so)$/;"	f	signature:(const SymmetryOperation so)
+display	Geometry/SymmetryOperation.cpp	/^void display(const vector<SymmetryOperation>& soList)$/;"	f	signature:(const vector<SymmetryOperation>& soList)
+display	Image/ImageFile.cpp	/^void ImageFile::display() const$/;"	f	class:ImageFile	signature:() const
+display	Parallel.cpp	/^void display(const Parallel& parallel)$/;"	f	signature:(const Parallel& parallel)
+display	Particle.cpp	/^void display(const Particle& par)$/;"	f	signature:(const Particle& par)
+displayStatImg	ML/MLOptimiser.cpp	/^void MLOptimiser::displayStatImg()$/;"	f	class:MLOptimiser	signature:()
+elevateR	ML/MLModel.cpp	/^void MLModel::elevateR(const double thres)$/;"	f	class:MLModel	signature:(const double thres)
+expectation	ML/MLOptimiser.cpp	/^void MLOptimiser::expectation()$/;"	f	class:MLOptimiser	signature:()
+extMask	Functions/Mask.cpp	/^void extMask(Volume& vol,$/;"	f	signature:(Volume& vol, const double ext)
+extract	Image/ImageFunctions.cpp	/^void extract(Image& dst,$/;"	f	signature:(Image& dst, const Image& src, const int xOff, const int yOff)
+fillLR	Geometry/Symmetry.cpp	/^void Symmetry::fillLR(const vector<SymmetryOperation>& entry)$/;"	f	class:Symmetry	signature:(const vector<SymmetryOperation>& entry)
+fillMRCHeader	Image/ImageFile.cpp	/^void ImageFile::fillMRCHeader(MRCHeader& header) const$/;"	f	class:ImageFile	signature:(MRCHeader& header) const
+fillSymmetryEntry	Geometry/SymmetryFunctions.cpp	/^void fillSymmetryEntry(vector<SymmetryOperation>& entry,$/;"	f	signature:(vector<SymmetryOperation>& entry, const int pgGroup, const int pgOrder)
+freePreCal	ML/MLOptimiser.cpp	/^void MLOptimiser::freePreCal(const bool ctf)$/;"	f	class:MLOptimiser	signature:(const bool ctf)
+freePreCalIdx	ML/MLOptimiser.cpp	/^void MLOptimiser::freePreCalIdx()$/;"	f	class:MLOptimiser	signature:()
+fsc	ML/MLModel.cpp	/^mat MLModel::fsc() const$/;"	f	class:MLModel	signature:() const
+fsc	ML/MLModel.cpp	/^vec MLModel::fsc(const int i) const$/;"	f	class:MLModel	signature:(const int i) const
+fscWeightingFilter	Functions/Filter.cpp	/^void fscWeightingFilter(Volume& dst,$/;"	f	signature:(Volume& dst, const Volume& src, const vec& fsc)
+fw	FFT.cpp	/^void FFT::fw(Image& img)$/;"	f	class:FFT	signature:(Image& img)
+fw	FFT.cpp	/^void FFT::fw(Volume& vol)$/;"	f	class:FFT	signature:(Volume& vol)
+fwCreatePlan	FFT.cpp	/^void FFT::fwCreatePlan(const int nCol,$/;"	f	class:FFT	signature:(const int nCol, const int nRow)
+fwCreatePlan	FFT.cpp	/^void FFT::fwCreatePlan(const int nCol,$/;"	f	class:FFT	signature:(const int nCol, const int nRow, const int nSlc)
+fwCreatePlanMT	FFT.cpp	/^void FFT::fwCreatePlanMT(const int nCol,$/;"	f	class:FFT	signature:(const int nCol, const int nRow)
+fwCreatePlanMT	FFT.cpp	/^void FFT::fwCreatePlanMT(const int nCol,$/;"	f	class:FFT	signature:(const int nCol, const int nRow, const int nSlc)
+fwDestroyPlan	FFT.cpp	/^void FFT::fwDestroyPlan()$/;"	f	class:FFT	signature:()
+fwDestroyPlanMT	FFT.cpp	/^void FFT::fwDestroyPlanMT()$/;"	f	class:FFT	signature:()
+fwExecutePlan	FFT.cpp	/^void FFT::fwExecutePlan(Image& img)$/;"	f	class:FFT	signature:(Image& img)
+fwExecutePlan	FFT.cpp	/^void FFT::fwExecutePlan(Volume& vol)$/;"	f	class:FFT	signature:(Volume& vol)
+fwExecutePlanMT	FFT.cpp	/^void FFT::fwExecutePlanMT(Image& img)$/;"	f	class:FFT	signature:(Image& img)
+fwExecutePlanMT	FFT.cpp	/^void FFT::fwExecutePlanMT(Volume& vol)$/;"	f	class:FFT	signature:(Volume& vol)
+fwImg	ML/MLOptimiser.cpp	/^void MLOptimiser::fwImg()$/;"	f	class:MLOptimiser	signature:()
+fwMT	FFT.cpp	/^void FFT::fwMT(Image& img)$/;"	f	class:FFT	signature:(Image& img)
+fwMT	FFT.cpp	/^void FFT::fwMT(Volume& vol)$/;"	f	class:FFT	signature:(Volume& vol)
+gSearch	ML/MLModel.cpp	/^bool MLModel::gSearch() const$/;"	f	class:MLModel	signature:() const
+genMask	Functions/Mask.cpp	/^void genMask(Volume& dst,$/;"	f	signature:(Volume& dst, const Volume& src, const double thres)
+genMask	Functions/Mask.cpp	/^void genMask(Volume& dst,$/;"	f	signature:(Volume& dst, const Volume& src, const double thres, const double ext)
+genMask	Functions/Mask.cpp	/^void genMask(Volume& dst,$/;"	f	signature:(Volume& dst, const Volume& src, const double thres, const double ext, const double ew)
+get	Functions/Random.cpp	/^            gsl_rng* get()$/;"	f	class:__anon1::ThreadLocalRNG	access:public	signature:()
+get	Geometry/Symmetry.cpp	/^void Symmetry::get(mat33& L,$/;"	f	class:Symmetry	signature:(mat33& L, mat33& R, const int i) const
+getBiLinearFT	Image/Image.cpp	/^Complex Image::getBiLinearFT(const double iCol,$/;"	f	class:Image	signature:(const double iCol, const double iRow) const
+getBiLinearRL	Image/Image.cpp	/^double Image::getBiLinearRL(const double iCol,$/;"	f	class:Image	signature:(const double iCol, const double iRow) const
+getBitCount	Image/BMP.cpp	/^unsigned short BMP::getBitCount() const$/;"	f	class:BMP	signature:() const
+getByInterpolationFT	Image/Image.cpp	/^Complex Image::getByInterpolationFT(double iCol,$/;"	f	class:Image	signature:(double iCol, double iRow, const int interp) const
+getByInterpolationFT	Image/Volume.cpp	/^Complex Volume::getByInterpolationFT(double iCol,$/;"	f	class:Volume	signature:(double iCol, double iRow, double iSlc, const int interp) const
+getByInterpolationRL	Image/Volume.cpp	/^double Volume::getByInterpolationRL(const double iCol,$/;"	f	class:Volume	signature:(const double iCol, const double iRow, const double iSlc, const int interp) const
+getDataSize	Image/BMP.cpp	/^unsigned BMP::getDataSize() const$/;"	f	class:BMP	signature:() const
+getFT	Image/Image.cpp	/^Complex Image::getFT(int iCol,$/;"	f	class:Image	signature:(int iCol, int iRow) const
+getFT	Image/Volume.cpp	/^Complex Volume::getFT(int iCol,$/;"	f	class:Volume	signature:(int iCol, int iRow, int iSlc) const
+getFTHalf	Image/Image.cpp	/^Complex Image::getFTHalf(const double w[2][2],$/;"	f	class:Image	signature:(const double w[2][2], const int x0[2]) const
+getFTHalf	Image/Image.cpp	/^Complex Image::getFTHalf(const int iCol,$/;"	f	class:Image	signature:(const int iCol, const int iRow) const
+getFTHalf	Image/Volume.cpp	/^Complex Volume::getFTHalf(const double w[2][2][2],$/;"	f	class:Volume	signature:(const double w[2][2][2], const int x0[3]) const
+getFTHalf	Image/Volume.cpp	/^Complex Volume::getFTHalf(const int iCol,$/;"	f	class:Volume	signature:(const int iCol, const int iRow, const int iSlc) const
+getHeaderSize	Image/BMP.cpp	/^unsigned BMP::getHeaderSize() const$/;"	f	class:BMP	signature:() const
+getHeight	Image/BMP.cpp	/^unsigned BMP::getHeight() const$/;"	f	class:BMP	signature:() const
+getInternal	Utils.cpp	/^    regex_t* getInternal()$/;"	f	class:__anon2::Regex	access:public	signature:()
+getRL	Image/Image.cpp	/^double Image::getRL(const int iCol,$/;"	f	class:Image	signature:(const int iCol, const int iRow) const
+getRL	Image/Volume.cpp	/^double Volume::getRL(const double w[2][2][2],$/;"	f	class:Volume	signature:(const double w[2][2][2], const int x0[3]) const
+getRL	Image/Volume.cpp	/^double Volume::getRL(const int iCol,$/;"	f	class:Volume	signature:(const int iCol, const int iRow, const int iSlc) const
+getTempDirectory	Utils.cpp	/^const char* getTempDirectory(void)$/;"	f	signature:(void)
+getWidth	Image/BMP.cpp	/^unsigned BMP::getWidth() const$/;"	f	class:BMP	signature:() const
+get_random_engine	Functions/Random.cpp	/^gsl_rng* get_random_engine()$/;"	f	signature:()
+gridCorrection	Projector.cpp	/^void Projector::gridCorrection()$/;"	f	class:Projector	signature:()
+groupID	Database.cpp	/^int Database::groupID(const int i) const$/;"	f	class:Database	signature:(const int i) const
+hemi	Parallel.cpp	/^MPI_Comm Parallel::hemi() const$/;"	f	class:Parallel	signature:() const
+highPassFilter	Functions/Filter.cpp	/^void highPassFilter(Image& dst,$/;"	f	signature:(Image& dst, const Image& src, const double thres, const double ew)
+highPassFilter	Functions/Filter.cpp	/^void highPassFilter(Volume& dst,$/;"	f	signature:(Volume& dst, const Volume& src, const double thres, const double ew)
+iSort	Particle.cpp	/^uvec Particle::iSort(const ParticleType pt) const$/;"	f	class:Particle	signature:(const ParticleType pt) const
+increaseR	ML/MLModel.cpp	/^bool MLModel::increaseR() const$/;"	f	class:MLModel	signature:() const
+index	Database.cpp	/^void Database::index()$/;"	f	class:Database	signature:()
+index_sort_ascend	Functions/Functions.cpp	/^uvec index_sort_ascend(const vec& v)$/;"	f	signature:(const vec& v)
+index_sort_descend	Functions/Functions.cpp	/^uvec index_sort_descend(const vec& v)$/;"	f	signature:(const vec& v)
+inferACG	Functions/DirectionalStat.cpp	/^void inferACG(double& k0,$/;"	f	signature:(double& k0, double& k1, const mat4& src)
+inferACG	Functions/DirectionalStat.cpp	/^void inferACG(mat44& dst,$/;"	f	signature:(mat44& dst, const mat4& src)
+inferACG	Functions/DirectionalStat.cpp	/^void inferACG(vec4& mean,$/;"	f	signature:(vec4& mean, const mat4& src)
+inferVMS	Functions/DirectionalStat.cpp	/^void inferVMS(double& kappa,$/;"	f	signature:(double& kappa, const mat2& src)
+inferVMS	Functions/DirectionalStat.cpp	/^void inferVMS(double& kappa,$/;"	f	signature:(double& kappa, const mat4& src)
+inferVMS	Functions/DirectionalStat.cpp	/^void inferVMS(vec2& mu,$/;"	f	signature:(vec2& mu, double& kappa, const mat2& src)
+inferVMS	Functions/DirectionalStat.cpp	/^void inferVMS(vec4& mu,$/;"	f	signature:(vec4& mu, double& kappa, const mat4& src)
+init	Geometry/Symmetry.cpp	/^void Symmetry::init()$/;"	f	class:Symmetry	signature:()
+init	Geometry/Symmetry.cpp	/^void Symmetry::init(const char sym[])$/;"	f	class:Symmetry	signature:(const char sym[])
+init	Geometry/Symmetry.cpp	/^void Symmetry::init(const vector<SymmetryOperation>& entry)$/;"	f	class:Symmetry	signature:(const vector<SymmetryOperation>& entry)
+init	ML/MLModel.cpp	/^void MLModel::init(const int mode,$/;"	f	class:MLModel	signature:(const int mode, const bool gSearch, const bool lSearch, const bool cSearch, const bool coreFSC, const int coreR, const bool maskFSC, const Volume* mask, const bool goldenStandard, const int k, const int size, const int r, const int pf, const double pixelSize, const double a, const double alpha, const Symmetry* sym)
+init	ML/MLOptimiser.cpp	/^void MLOptimiser::init()$/;"	f	class:MLOptimiser	signature:()
+init	Particle.cpp	/^void Particle::init(const int mode,$/;"	f	class:Particle	signature:(const int mode, const double transS, const double transQ, const Symmetry* sym)
+init	Particle.cpp	/^void Particle::init(const int mode,$/;"	f	class:Particle	signature:(const int mode, const int nC, const int nR, const int nT, const int nD, const double transS, const double transQ, const Symmetry* sym)
+init	Reconstructor.cpp	/^void Reconstructor::init(const int mode,$/;"	f	class:Reconstructor	signature:(const int mode, const int size, const int pf, const Symmetry* sym, const double a, const double alpha)
+init	TabFunction.cpp	/^void TabFunction::init(function<double(const double)> func,$/;"	f	class:TabFunction	signature:(function<double(const double)> func, const double a, const double b, const int n)
+initBox	Image/Volume.cpp	/^void Volume::initBox()$/;"	f	class:Volume	signature:()
+initCTF	ML/MLOptimiser.cpp	/^void MLOptimiser::initCTF()$/;"	f	class:MLOptimiser	signature:()
+initD	Particle.cpp	/^void Particle::initD(const int nD,$/;"	f	class:Particle	signature:(const int nD, const double sD)
+initID	ML/MLOptimiser.cpp	/^void MLOptimiser::initID()$/;"	f	class:MLOptimiser	signature:()
+initImg	ML/MLOptimiser.cpp	/^void MLOptimiser::initImg()$/;"	f	class:MLOptimiser	signature:()
+initMask	ML/MLOptimiser.cpp	/^void MLOptimiser::initMask()$/;"	f	class:MLOptimiser	signature:()
+initParticles	ML/MLOptimiser.cpp	/^void MLOptimiser::initParticles()$/;"	f	class:MLOptimiser	signature:()
+initProjReco	ML/MLModel.cpp	/^void MLModel::initProjReco()$/;"	f	class:MLModel	signature:()
+initRef	ML/MLOptimiser.cpp	/^void MLOptimiser::initRef()$/;"	f	class:MLOptimiser	signature:()
+initSigma	ML/MLOptimiser.cpp	/^void MLOptimiser::initSigma()$/;"	f	class:MLOptimiser	signature:()
+insert	Reconstructor.cpp	/^void Reconstructor::insert(const Image& src,$/;"	f	class:Reconstructor	signature:(const Image& src, const Image& ctf, const mat22& rot, const double w)
+insert	Reconstructor.cpp	/^void Reconstructor::insert(const Image& src,$/;"	f	class:Reconstructor	signature:(const Image& src, const Image& ctf, const mat33& rot, const double w)
+insertP	Reconstructor.cpp	/^void Reconstructor::insertP(const Image& src,$/;"	f	class:Reconstructor	signature:(const Image& src, const Image& ctf, const mat22& rot, const double w)
+insertP	Reconstructor.cpp	/^void Reconstructor::insertP(const Image& src,$/;"	f	class:Reconstructor	signature:(const Image& src, const Image& ctf, const mat33& rot, const double w)
+interp	Projector.cpp	/^int Projector::interp() const$/;"	f	class:Projector	signature:() const
+isA	Parallel.cpp	/^bool Parallel::isA() const$/;"	f	class:Parallel	signature:() const
+isB	Parallel.cpp	/^bool Parallel::isB() const$/;"	f	class:Parallel	signature:() const
+isEmpty2D	Projector.cpp	/^bool Projector::isEmpty2D() const$/;"	f	class:Projector	signature:() const
+isEmpty3D	Projector.cpp	/^bool Projector::isEmpty3D() const$/;"	f	class:Projector	signature:() const
+isEmptyFT	Image/ImageBase.cpp	/^bool ImageBase::isEmptyFT() const$/;"	f	class:ImageBase	signature:() const
+isEmptyRL	Image/ImageBase.cpp	/^bool ImageBase::isEmptyRL() const$/;"	f	class:ImageBase	signature:() const
+isMaster	Parallel.cpp	/^bool Parallel::isMaster() const$/;"	f	class:Parallel	signature:() const
+joinHalf	Reconstructor.cpp	/^bool Reconstructor::joinHalf() const$/;"	f	class:Reconstructor	signature:() const
+k	ML/MLModel.cpp	/^int MLModel::k() const$/;"	f	class:MLModel	signature:() const
+k0	Particle.cpp	/^double Particle::k0() const$/;"	f	class:Particle	signature:() const
+k1	Particle.cpp	/^double Particle::k1() const$/;"	f	class:Particle	signature:() const
+key	Functions/Random.cpp	/^            pthread_key_t key;$/;"	m	class:__anon1::ThreadLocalRNG	file:	access:private
+lSearch	ML/MLModel.cpp	/^bool MLModel::lSearch() const$/;"	f	class:MLModel	signature:() const
+load	Particle.cpp	/^void Particle::load(const int nR,$/;"	f	class:Particle	signature:(const int nR, const int nT, const int nD, const vec4& quat, const double stdR, const vec2& tran, const double stdTX, const double stdTY, const double d, const double stdD)
+loadParticles	ML/MLOptimiser.cpp	/^void MLOptimiser::loadParticles()$/;"	f	class:MLOptimiser	signature:()
+logDataVSPrior	ML/MLOptimiser.cpp	/^double logDataVSPrior(const Complex* dat,$/;"	f	signature:(const Complex* dat, const Complex* pri, const double* ctf, const double* sigRcp, const int m)
+logDataVSPrior	ML/MLOptimiser.cpp	/^double logDataVSPrior(const Complex* dat,$/;"	f	signature:(const Complex* dat, const Complex* pri, const double* frequency, const double* defocus, const double df, const double K1, const double K2, const double* sigRcp, const int m)
+logDataVSPrior	ML/MLOptimiser.cpp	/^double logDataVSPrior(const Image& dat,$/;"	f	signature:(const Image& dat, const Image& pri, const Image& ctf, const vec& sigRcp, const double rU, const double rL)
+logDataVSPrior	ML/MLOptimiser.cpp	/^double logDataVSPrior(const Image& dat,$/;"	f	signature:(const Image& dat, const Image& pri, const Image& ctf, const vec& sigRcp, const int* iPxl, const int* iSig, const int m)
+logDataVSPrior	ML/MLOptimiser.cpp	/^double logDataVSPrior(const Image& dat,$/;"	f	signature:(const Image& dat, const Image& pri, const Image& tra, const Image& ctf, const vec& sigRcp, const double rU, const double rL)
+logDataVSPrior	ML/MLOptimiser.cpp	/^double logDataVSPrior(const Image& dat,$/;"	f	signature:(const Image& dat, const Image& pri, const Image& tra, const Image& ctf, const vec& sigRcp, const int* iPxl, const int* iSig, const int m)
+logDataVSPrior	ML/MLOptimiser.cpp	/^vec logDataVSPrior(const Complex* dat,$/;"	f	signature:(const Complex* dat, const Complex* pri, const double* ctf, const double* sigRcp, const int n, const int m)
+logDataVSPrior	ML/MLOptimiser.cpp	/^vec logDataVSPrior(const vector<Image>& dat,$/;"	f	signature:(const vector<Image>& dat, const Image& pri, const vector<Image>& ctf, const vector<int>& groupID, const mat& sigRcp, const double rU, const double rL)
+logDataVSPrior	ML/MLOptimiser.cpp	/^vec logDataVSPrior(const vector<Image>& dat,$/;"	f	signature:(const vector<Image>& dat, const Image& pri, const vector<Image>& ctf, const vector<int>& groupID, const mat& sigRcp, const int* iPxl, const int* iSig, const int m)
+loggerInit	Logging.cpp	/^void loggerInit(int argc, const char* const * argv)$/;"	f	signature:(int argc, const char* const * argv)
+lowPassFilter	Functions/Filter.cpp	/^void lowPassFilter(Image& dst,$/;"	f	signature:(Image& dst, const Image& src, const double thres, const double ew)
+lowPassFilter	Functions/Filter.cpp	/^void lowPassFilter(Volume& dst,$/;"	f	signature:(Volume& dst, const Volume& src, const double thres, const double ew)
+lowPassRef	ML/MLModel.cpp	/^void MLModel::lowPassRef(const double thres,$/;"	f	class:MLModel	signature:(const double thres, const double ew)
+maskAB	Postprocess.cpp	/^void Postprocess::maskAB()$/;"	f	class:Postprocess	signature:()
+maskABRF	Postprocess.cpp	/^void Postprocess::maskABRF()$/;"	f	class:Postprocess	signature:()
+maskImg	ML/MLOptimiser.cpp	/^void MLOptimiser::maskImg()$/;"	f	class:MLOptimiser	signature:()
+maxR	ML/MLModel.cpp	/^int MLModel::maxR() const$/;"	f	class:MLModel	signature:() const
+maxR	ML/MLOptimiser.cpp	/^int MLOptimiser::maxR() const$/;"	f	class:MLOptimiser	signature:() const
+maxR	Postprocess.cpp	/^int Postprocess::maxR()$/;"	f	class:Postprocess	signature:()
+maxRadius	Projector.cpp	/^int Projector::maxRadius() const$/;"	f	class:Projector	signature:() const
+maxRadius	Reconstructor.cpp	/^int Reconstructor::maxRadius() const$/;"	f	class:Reconstructor	signature:() const
+maximization	ML/MLOptimiser.cpp	/^void MLOptimiser::maximization()$/;"	f	class:MLOptimiser	signature:()
+meanStddev	Image/ImageFunctions.cpp	/^void meanStddev(double& mean,$/;"	f	signature:(double& mean, double& stddev, const Image& src)
+median	Functions/Functions.cpp	/^double median(vec src,$/;"	f	signature:(vec src, const int n)
+mergeAB	Postprocess.cpp	/^void Postprocess::mergeAB()$/;"	f	class:Postprocess	signature:()
+micrographPath	Database.cpp	/^string Database::micrographPath(const int i) const$/;"	f	class:Database	signature:(const int i) const
+mode	Image/ImageFile.cpp	/^int ImageFile::mode() const { return _metaData.mode; }$/;"	f	class:ImageFile	signature:() const
+mode	ML/MLModel.cpp	/^int MLModel::mode() const$/;"	f	class:MLModel	signature:() const
+mode	Particle.cpp	/^int Particle::mode() const { return _mode; }$/;"	f	class:Particle	signature:() const
+mode	Projector.cpp	/^int Projector::mode() const$/;"	f	class:Projector	signature:() const
+mode	Reconstructor.cpp	/^int Reconstructor::mode() const$/;"	f	class:Reconstructor	signature:() const
+mul	Image/ImageFunctions.cpp	/^void mul(Image& dst,$/;"	f	signature:(Image& dst, const Image& a, const Image& b, const int r)
+mul	Image/ImageFunctions.cpp	/^void mul(Image& dst,$/;"	f	signature:(Image& dst, const Image& a, const Image& b, const int* iPxl, const int nPxl)
+mulWC	Particle.cpp	/^void Particle::mulWC(const double wC,$/;"	f	class:Particle	signature:(const double wC, const int i)
+mulWD	Particle.cpp	/^void Particle::mulWD(const double wD,$/;"	f	class:Particle	signature:(const double wD, const int i)
+mulWR	Particle.cpp	/^void Particle::mulWR(const double wR,$/;"	f	class:Particle	signature:(const double wR, const int i)
+mulWT	Particle.cpp	/^void Particle::mulWT(const double wT,$/;"	f	class:Particle	signature:(const double wT, const int i)
+nC	Particle.cpp	/^int Particle::nC() const { return _nC; }$/;"	f	class:Particle	signature:() const
+nCol	Image/ImageFile.cpp	/^int ImageFile::nCol() const { return _metaData.nCol; }$/;"	f	class:ImageFile	signature:() const
+nD	Particle.cpp	/^int Particle::nD() const { return _nD; }$/;"	f	class:Particle	signature:() const
+nGroup	Database.cpp	/^int Database::nGroup() const$/;"	f	class:Database	signature:() const
+nParticle	Database.cpp	/^int Database::nParticle() const$/;"	f	class:Database	signature:() const
+nParticleRank	Database.cpp	/^int Database::nParticleRank()$/;"	f	class:Database	signature:()
+nPixel	Functions/Mask.cpp	/^double nPixel(const double r,$/;"	f	signature:(const double r, const double ew)
+nR	Particle.cpp	/^int Particle::nR() const { return _nR; }$/;"	f	class:Particle	signature:() const
+nRChangeNoDecrease	ML/MLModel.cpp	/^int MLModel::nRChangeNoDecrease() const$/;"	f	class:MLModel	signature:() const
+nRow	Image/ImageFile.cpp	/^int ImageFile::nRow() const { return _metaData.nRow; }$/;"	f	class:ImageFile	signature:() const
+nSlc	Image/ImageFile.cpp	/^int ImageFile::nSlc() const { return _metaData.nSlc; }$/;"	f	class:ImageFile	signature:() const
+nSymmetryElement	Geometry/Symmetry.cpp	/^int Symmetry::nSymmetryElement() const$/;"	f	class:Symmetry	signature:() const
+nT	Particle.cpp	/^int Particle::nT() const { return _nT; }$/;"	f	class:Particle	signature:() const
+nTopResNoImprove	ML/MLModel.cpp	/^int MLModel::nTopResNoImprove() const$/;"	f	class:MLModel	signature:() const
+nVoxel	Functions/Mask.cpp	/^double nVoxel(const double r,$/;"	f	signature:(const double r, const double ew)
+norm	Image/ImageBase.cpp	/^double norm(ImageBase& base)$/;"	f	signature:(ImageBase& base)
+normCorrection	ML/MLOptimiser.cpp	/^void MLOptimiser::normCorrection()$/;"	f	class:MLOptimiser	signature:()
+normW	Particle.cpp	/^void Particle::normW()$/;"	f	class:Particle	signature:()
+normalise	Image/ImageBase.cpp	/^void normalise(ImageBase& base)$/;"	f	signature:(ImageBase& base)
+normalise	Image/ImageFunctions.cpp	/^void normalise(Image& img,$/;"	f	signature:(Image& img, const double wDust, const double bDust, const double r)
+normaliseImg	ML/MLOptimiser.cpp	/^void MLOptimiser::normaliseImg()$/;"	f	class:MLOptimiser	signature:()
+novo	Geometry/Symmetry.cpp	/^bool Symmetry::novo(const mat33& L,$/;"	f	class:Symmetry	signature:(const mat33& L, const mat33& R) const
+nyquist	Functions/Spectrum.cpp	/^double nyquist(const double pixelSize)$/;"	f	signature:(const double pixelSize)
+offset	Database.cpp	/^long Database::offset(const int i) const$/;"	f	class:Database	signature:(const int i) const
+open	Image/BMP.cpp	/^int BMP::open(FILE*& file)$/;"	f	class:BMP	signature:(FILE*& file)
+open	Image/BMP.cpp	/^int BMP::open(const char* filename, const char* mode)$/;"	f	class:BMP	signature:(const char* filename, const char* mode)
+openDatabase	Database.cpp	/^void Database::openDatabase(const char database[])$/;"	f	class:Database	signature:(const char database[])
+operator ()	Functions/Functions.cpp	/^    bool operator()(unsigned int i, unsigned int j) const$/;"	f	struct:IndexSortAscendComparator	access:public	signature:(unsigned int i, unsigned int j) const
+operator ()	Functions/Functions.cpp	/^    bool operator()(unsigned int i, unsigned int j) const$/;"	f	struct:IndexSortDescendComparator	access:public	signature:(unsigned int i, unsigned int j) const
+operator ()	ML/MLOptimiser.cpp	/^    bool operator()(const Sp& a, const Sp& b) const$/;"	f	struct:SpWeightComparator	access:public	signature:(const Sp& a, const Sp& b) const
+operator ()	TabFunction.cpp	/^double TabFunction::operator()(const double x) const$/;"	f	class:TabFunction	signature:(const double x) const
+operator =	Geometry/Symmetry.cpp	/^Symmetry& Symmetry::operator=(const Symmetry& that)$/;"	f	class:Symmetry	signature:(const Symmetry& that)
+para	ML/MLOptimiser.cpp	/^MLOptimiserPara& MLOptimiser::para()$/;"	f	class:MLOptimiser	signature:()
+path	Database.cpp	/^string Database::path(const int i) const$/;"	f	class:Database	signature:(const int i) const
+pdfACG	Functions/DirectionalStat.cpp	/^double pdfACG(const vec4& x,$/;"	f	signature:(const vec4& x, const double k0, const double k1)
+pdfACG	Functions/DirectionalStat.cpp	/^double pdfACG(const vec4& x,$/;"	f	signature:(const vec4& x, const mat44& sig)
+pdfVMS	Functions/DirectionalStat.cpp	/^double pdfVMS(const vec2& x,$/;"	f	signature:(const vec2& x, const vec2& mu, const double kappa)
+periodic	Functions/Functions.cpp	/^int periodic(double& x,$/;"	f	signature:(double& x, const double p)
+perturb	Particle.cpp	/^void Particle::perturb(const double pf,$/;"	f	class:Particle	signature:(const double pf, const ParticleType pt)
+pf	Projector.cpp	/^int Projector::pf() const$/;"	f	class:Projector	signature:() const
+pgGroup	Geometry/Symmetry.cpp	/^int Symmetry::pgGroup() const$/;"	f	class:Symmetry	signature:() const
+pgOrder	Geometry/Symmetry.cpp	/^int Symmetry::pgOrder() const$/;"	f	class:Symmetry	signature:() const
+powerSpectrum	Functions/Spectrum.cpp	/^void powerSpectrum(vec& dst,$/;"	f	signature:(vec& dst, const Image& src, const int r)
+powerSpectrum	Functions/Spectrum.cpp	/^void powerSpectrum(vec& dst,$/;"	f	signature:(vec& dst, const Volume& src, const int r)
+preCal	Reconstructor.cpp	/^void Reconstructor::preCal(int& nPxl,$/;"	f	class:Reconstructor	signature:(int& nPxl, const int* iCol, const int* iRow, const int* iPxl, const int* iSig) const
+proj	ML/MLModel.cpp	/^Projector& MLModel::proj(const int i)$/;"	f	class:MLModel	signature:(const int i)
+project	Projector.cpp	/^void Projector::project(Complex* dst,$/;"	f	class:Projector	signature:(Complex* dst, const mat22& mat, const int* iCol, const int* iRow, const int nPxl) const
+project	Projector.cpp	/^void Projector::project(Complex* dst,$/;"	f	class:Projector	signature:(Complex* dst, const mat22& rot, const vec2& t, const int nCol, const int nRow, const int* iCol, const int* iRow, const int nPxl) const
+project	Projector.cpp	/^void Projector::project(Complex* dst,$/;"	f	class:Projector	signature:(Complex* dst, const mat33& mat, const int* iCol, const int* iRow, const int nPxl) const
+project	Projector.cpp	/^void Projector::project(Complex* dst,$/;"	f	class:Projector	signature:(Complex* dst, const mat33& rot, const vec2& t, const int nCol, const int nRow, const int* iCol, const int* iRow, const int nPxl) const
+project	Projector.cpp	/^void Projector::project(Image& dst,$/;"	f	class:Projector	signature:(Image& dst, const mat22& mat) const
+project	Projector.cpp	/^void Projector::project(Image& dst,$/;"	f	class:Projector	signature:(Image& dst, const mat22& mat, const int* iCol, const int* iRow, const int* iPxl, const int nPxl) const
+project	Projector.cpp	/^void Projector::project(Image& dst,$/;"	f	class:Projector	signature:(Image& dst, const mat22& rot, const vec2& t) const
+project	Projector.cpp	/^void Projector::project(Image& dst,$/;"	f	class:Projector	signature:(Image& dst, const mat22& rot, const vec2& t, const int* iCol, const int* iRow, const int* iPxl, const int nPxl) const
+project	Projector.cpp	/^void Projector::project(Image& dst,$/;"	f	class:Projector	signature:(Image& dst, const mat33& mat) const
+project	Projector.cpp	/^void Projector::project(Image& dst,$/;"	f	class:Projector	signature:(Image& dst, const mat33& mat, const int* iCol, const int* iRow, const int* iPxl, const int nPxl) const
+project	Projector.cpp	/^void Projector::project(Image& dst,$/;"	f	class:Projector	signature:(Image& dst, const mat33& rot, const vec2& t) const
+project	Projector.cpp	/^void Projector::project(Image& dst,$/;"	f	class:Projector	signature:(Image& dst, const mat33& rot, const vec2& t, const int* iCol, const int* iRow, const int* iPxl, const int nPxl) const
+projectMT	Projector.cpp	/^void Projector::projectMT(Complex* dst,$/;"	f	class:Projector	signature:(Complex* dst, const mat22& mat, const int* iCol, const int* iRow, const int nPxl) const
+projectMT	Projector.cpp	/^void Projector::projectMT(Complex* dst,$/;"	f	class:Projector	signature:(Complex* dst, const mat22& rot, const vec2& t, const int nCol, const int nRow, const int* iCol, const int* iRow, const int nPxl) const
+projectMT	Projector.cpp	/^void Projector::projectMT(Complex* dst,$/;"	f	class:Projector	signature:(Complex* dst, const mat33& mat, const int* iCol, const int* iRow, const int nPxl) const
+projectMT	Projector.cpp	/^void Projector::projectMT(Complex* dst,$/;"	f	class:Projector	signature:(Complex* dst, const mat33& rot, const vec2& t, const int nCol, const int nRow, const int* iCol, const int* iRow, const int nPxl) const
+projectMT	Projector.cpp	/^void Projector::projectMT(Image& dst,$/;"	f	class:Projector	signature:(Image& dst, const mat22& mat) const
+projectMT	Projector.cpp	/^void Projector::projectMT(Image& dst,$/;"	f	class:Projector	signature:(Image& dst, const mat22& mat, const int* iCol, const int* iRow, const int* iPxl, const int nPxl) const
+projectMT	Projector.cpp	/^void Projector::projectMT(Image& dst,$/;"	f	class:Projector	signature:(Image& dst, const mat22& rot, const vec2& t) const
+projectMT	Projector.cpp	/^void Projector::projectMT(Image& dst,$/;"	f	class:Projector	signature:(Image& dst, const mat22& rot, const vec2& t, const int* iCol, const int* iRow, const int* iPxl, const int nPxl) const
+projectMT	Projector.cpp	/^void Projector::projectMT(Image& dst,$/;"	f	class:Projector	signature:(Image& dst, const mat33& mat) const
+projectMT	Projector.cpp	/^void Projector::projectMT(Image& dst,$/;"	f	class:Projector	signature:(Image& dst, const mat33& mat, const int* iCol, const int* iRow, const int* iPxl, const int nPxl) const
+projectMT	Projector.cpp	/^void Projector::projectMT(Image& dst,$/;"	f	class:Projector	signature:(Image& dst, const mat33& rot, const vec2& t) const
+projectMT	Projector.cpp	/^void Projector::projectMT(Image& dst,$/;"	f	class:Projector	signature:(Image& dst, const mat33& rot, const vec2& t, const int* iCol, const int* iRow, const int* iPxl, const int nPxl) const
+projectee2D	Projector.cpp	/^const Image& Projector::projectee2D() const$/;"	f	class:Projector	signature:() const
+projectee3D	Projector.cpp	/^const Volume& Projector::projectee3D() const$/;"	f	class:Projector	signature:() const
+pv	Functions/Functions.cpp	/^    const vec* pv;$/;"	m	struct:IndexSortAscendComparator	file:	access:public
+pv	Functions/Functions.cpp	/^    const vec* pv;$/;"	m	struct:IndexSortDescendComparator	file:	access:public
+quat	Database.cpp	/^vec4 Database::quat(const int i) const$/;"	f	class:Database	signature:(const int i) const
+quat	Geometry/Symmetry.cpp	/^vec4 Symmetry::quat(const int i) const$/;"	f	class:Symmetry	signature:(const int i) const
+quaternion	Geometry/Euler.cpp	/^void quaternion(vec4& dst,$/;"	f	signature:(vec4& dst, const double phi, const double theta, const double psi)
+quaternion	Geometry/Euler.cpp	/^void quaternion(vec4& dst,$/;"	f	signature:(vec4& dst, const double phi, const vec3& axis)
+quaternion	Geometry/Euler.cpp	/^void quaternion(vec4& dst,$/;"	f	signature:(vec4& dst, const mat33& src)
+quaternion	Particle.cpp	/^void Particle::quaternion(vec4& dst,$/;"	f	class:Particle	signature:(vec4& dst, const int i) const
+quaternion_conj	Functions/Functions.cpp	/^vec4 quaternion_conj(const vec4& quat)$/;"	f	signature:(const vec4& quat)
+quaternion_mul	Functions/Functions.cpp	/^void quaternion_mul(vec4& dst,$/;"	f	signature:(vec4& dst, const vec4& a, const vec4& b)
+r	ML/MLModel.cpp	/^int MLModel::r() const$/;"	f	class:MLModel	signature:() const
+r	Particle.cpp	/^mat4 Particle::r() const { return _r; }$/;"	f	class:Particle	signature:() const
+rChange	ML/MLModel.cpp	/^double MLModel::rChange() const$/;"	f	class:MLModel	signature:() const
+rChangePrev	ML/MLModel.cpp	/^double MLModel::rChangePrev() const$/;"	f	class:MLModel	signature:() const
+rGlobal	ML/MLModel.cpp	/^int MLModel::rGlobal() const$/;"	f	class:MLModel	signature:() const
+rPrev	ML/MLModel.cpp	/^int MLModel::rPrev() const$/;"	f	class:MLModel	signature:() const
+rT	ML/MLModel.cpp	/^int MLModel::rT() const$/;"	f	class:MLModel	signature:() const
+rU	ML/MLModel.cpp	/^int MLModel::rU() const$/;"	f	class:MLModel	signature:() const
+rUPrev	ML/MLModel.cpp	/^int MLModel::rUPrev() const$/;"	f	class:MLModel	signature:() const
+rVari	ML/MLModel.cpp	/^double MLModel::rVari() const$/;"	f	class:MLModel	signature:() const
+rand	Particle.cpp	/^void Particle::rand(double& df) const$/;"	f	class:Particle	signature:(double& df) const
+rand	Particle.cpp	/^void Particle::rand(mat22& rot) const$/;"	f	class:Particle	signature:(mat22& rot) const
+rand	Particle.cpp	/^void Particle::rand(mat33& rot) const$/;"	f	class:Particle	signature:(mat33& rot) const
+rand	Particle.cpp	/^void Particle::rand(unsigned int& cls) const$/;"	f	class:Particle	signature:(unsigned int& cls) const
+rand	Particle.cpp	/^void Particle::rand(unsigned int& cls,$/;"	f	class:Particle	signature:(unsigned int& cls, mat22& rot, vec2& tran, double& df) const
+rand	Particle.cpp	/^void Particle::rand(unsigned int& cls,$/;"	f	class:Particle	signature:(unsigned int& cls, mat33& rot, vec2& tran, double& df) const
+rand	Particle.cpp	/^void Particle::rand(unsigned int& cls,$/;"	f	class:Particle	signature:(unsigned int& cls, vec4& quat, vec2& tran, double& df) const
+rand	Particle.cpp	/^void Particle::rand(vec2& tran) const$/;"	f	class:Particle	signature:(vec2& tran) const
+rand	Particle.cpp	/^void Particle::rand(vec4& quat) const$/;"	f	class:Particle	signature:(vec4& quat) const
+randDirection	Geometry/Euler.cpp	/^void randDirection(vec2& dir)$/;"	f	signature:(vec2& dir)
+randQuaternion	Geometry/Euler.cpp	/^void randQuaternion(vec4& quat)$/;"	f	signature:(vec4& quat)
+randRotate2D	Geometry/Euler.cpp	/^void randRotate2D(mat22& rot)$/;"	f	signature:(mat22& rot)
+randRotate3D	Geometry/Euler.cpp	/^void randRotate3D(mat33& rot)$/;"	f	signature:(mat33& rot)
+randomPhase	Functions/Spectrum.cpp	/^void randomPhase(Volume& dst,$/;"	f	signature:(Volume& dst, const Volume& src, const int r)
+randomPhaseAB	Postprocess.cpp	/^void Postprocess::randomPhaseAB(const int randomPhaseThres)$/;"	f	class:Postprocess	signature:(const int randomPhaseThres)
+rank1st	Particle.cpp	/^void Particle::rank1st(double& df) const$/;"	f	class:Particle	signature:(double& df) const
+rank1st	Particle.cpp	/^void Particle::rank1st(mat22& rot) const$/;"	f	class:Particle	signature:(mat22& rot) const
+rank1st	Particle.cpp	/^void Particle::rank1st(mat33& rot) const$/;"	f	class:Particle	signature:(mat33& rot) const
+rank1st	Particle.cpp	/^void Particle::rank1st(unsigned int& cls) const$/;"	f	class:Particle	signature:(unsigned int& cls) const
+rank1st	Particle.cpp	/^void Particle::rank1st(unsigned int& cls,$/;"	f	class:Particle	signature:(unsigned int& cls, mat22& rot, vec2& tran, double& df) const
+rank1st	Particle.cpp	/^void Particle::rank1st(unsigned int& cls,$/;"	f	class:Particle	signature:(unsigned int& cls, mat33& rot, vec2& tran, double& df) const
+rank1st	Particle.cpp	/^void Particle::rank1st(unsigned int& cls,$/;"	f	class:Particle	signature:(unsigned int& cls, vec4& quat, vec2& tran, double& df) const
+rank1st	Particle.cpp	/^void Particle::rank1st(vec2& tran) const$/;"	f	class:Particle	signature:(vec2& tran) const
+rank1st	Particle.cpp	/^void Particle::rank1st(vec4& quat) const$/;"	f	class:Particle	signature:(vec4& quat) const
+reCentre	Particle.cpp	/^void Particle::reCentre()$/;"	f	class:Particle	signature:()
+reCentreImg	ML/MLOptimiser.cpp	/^void MLOptimiser::reCentreImg()$/;"	f	class:MLOptimiser	signature:()
+reMaskImg	ML/MLOptimiser.cpp	/^void MLOptimiser::reMaskImg()$/;"	f	class:MLOptimiser	signature:()
+readImage	Image/ImageFile.cpp	/^void ImageFile::readImage(Image& dst,$/;"	f	class:ImageFile	signature:(Image& dst, const int iSlc, const char* fileType)
+readImageBMP	Image/ImageFile.cpp	/^void ImageFile::readImageBMP(Image& dst)$/;"	f	class:ImageFile	signature:(Image& dst)
+readImageMRC	Image/ImageFile.cpp	/^void ImageFile::readImageMRC(Image& dst,$/;"	f	class:ImageFile	signature:(Image& dst, const int iSlc)
+readInHeader	Image/BMP.cpp	/^void BMP::readInHeader()$/;"	f	class:BMP	signature:()
+readMetaData	Image/ImageFile.cpp	/^void ImageFile::readMetaData()$/;"	f	class:ImageFile	signature:()
+readMetaData	Image/ImageFile.cpp	/^void ImageFile::readMetaData(const Image& src)$/;"	f	class:ImageFile	signature:(const Image& src)
+readMetaData	Image/ImageFile.cpp	/^void ImageFile::readMetaData(const Volume& src)$/;"	f	class:ImageFile	signature:(const Volume& src)
+readMetaDataMRC	Image/ImageFile.cpp	/^void ImageFile::readMetaDataMRC()$/;"	f	class:ImageFile	signature:()
+readSymmetryData	Image/ImageFile.cpp	/^void ImageFile::readSymmetryData()$/;"	f	class:ImageFile	signature:()
+readVolume	Image/ImageFile.cpp	/^void ImageFile::readVolume(Volume& dst,$/;"	f	class:ImageFile	signature:(Volume& dst, const char* fileType)
+readVolumeMRC	Image/ImageFile.cpp	/^void ImageFile::readVolumeMRC(Volume& dst)$/;"	f	class:ImageFile	signature:(Volume& dst)
+reco	ML/MLModel.cpp	/^Reconstructor& MLModel::reco(const int i)$/;"	f	class:MLModel	signature:(const int i)
+reconstruct	Reconstructor.cpp	/^void Reconstructor::reconstruct(Image& dst)$/;"	f	class:Reconstructor	signature:(Image& dst)
+reconstruct	Reconstructor.cpp	/^void Reconstructor::reconstruct(Volume& dst)$/;"	f	class:Reconstructor	signature:(Volume& dst)
+reconstructRef	ML/MLOptimiser.cpp	/^void MLOptimiser::reconstructRef()$/;"	f	class:MLOptimiser	signature:()
+ref	ML/MLModel.cpp	/^Volume& MLModel::ref(const int i)$/;"	f	class:MLModel	signature:(const int i)
+reflect3D	Geometry/Euler.cpp	/^void reflect3D(mat33& dst,$/;"	f	signature:(mat33& dst, const vec3& plane)
+refreshClassDistr	ML/MLOptimiser.cpp	/^void MLOptimiser::refreshClassDistr()$/;"	f	class:MLOptimiser	signature:()
+refreshProj	ML/MLModel.cpp	/^void MLModel::refreshProj()$/;"	f	class:MLModel	signature:()
+refreshReco	ML/MLModel.cpp	/^void MLModel::refreshReco()$/;"	f	class:MLModel	signature:()
+refreshRotationChange	ML/MLOptimiser.cpp	/^void MLOptimiser::refreshRotationChange()$/;"	f	class:MLOptimiser	signature:()
+refreshSNR	ML/MLModel.cpp	/^void MLModel::refreshSNR()$/;"	f	class:MLModel	signature:()
+refreshScale	ML/MLOptimiser.cpp	/^void MLOptimiser::refreshScale(const bool coord,$/;"	f	class:MLOptimiser	signature:(const bool coord, const bool group)
+refreshSig	ML/MLModel.cpp	/^void MLModel::refreshSig(const vec& sig)$/;"	f	class:MLModel	signature:(const vec& sig)
+refreshTau	ML/MLModel.cpp	/^void MLModel::refreshTau()$/;"	f	class:MLModel	signature:()
+refreshVariance	ML/MLOptimiser.cpp	/^void MLOptimiser::refreshVariance()$/;"	f	class:MLOptimiser	signature:()
+regex	Utils.cpp	/^    regex_t regex;$/;"	m	class:__anon2::Regex	file:	access:private
+regexMatches	Utils.cpp	/^bool regexMatches(const char* str, const char* pattern)$/;"	f	signature:(const char* str, const char* pattern)
+regionBgSoftMask	Functions/Mask.cpp	/^void regionBgSoftMask(Image& dst,$/;"	f	signature:(Image& dst, const Image& src, const double r, const double ew, const double rU, const double rL)
+regionBgSoftMask	Functions/Mask.cpp	/^void regionBgSoftMask(Volume& dst,$/;"	f	signature:(Volume& dst, const Volume& src, const double r, const double ew, const double rU, const double rL)
+regionMean	Functions/Mask.cpp	/^double regionMean(const Image& img,$/;"	f	signature:(const Image& img, const double rU, const double rL)
+regionMean	Functions/Mask.cpp	/^double regionMean(const Image& img,$/;"	f	signature:(const Image& img, const int r)
+regionMean	Functions/Mask.cpp	/^double regionMean(const Volume& vol,$/;"	f	signature:(const Volume& vol, const double rU, const double rL)
+regionMean	Functions/Mask.cpp	/^double regionMean(const Volume& vol,$/;"	f	signature:(const Volume& vol, const int r)
+removeDust	Image/ImageFunctions.cpp	/^void removeDust(Image& img,$/;"	f	signature:(Image& img, const double wDust, const double bDust, const double mean, const double stddev)
+removeIsolatedPoint	Functions/Mask.cpp	/^void removeIsolatedPoint(Volume& vol)$/;"	f	signature:(Volume& vol)
+res	ML/MLModel.cpp	/^int MLModel::res() const$/;"	f	class:MLModel	signature:() const
+resA2P	Functions/Spectrum.cpp	/^double resA2P(const double resA,$/;"	f	signature:(const double resA, const int imageSize, const double pixelSize)
+resA2P	Functions/Spectrum.cpp	/^void resA2P(vec& res,$/;"	f	signature:(vec& res, const int imageSize, const double pixelSize)
+resP	Functions/Spectrum.cpp	/^int resP(const vec& fsc,$/;"	f	signature:(const vec& fsc, const double thres, const int pf, const int rL, const bool inverse)
+resP2A	Functions/Spectrum.cpp	/^double resP2A(const double resP,$/;"	f	signature:(const double resP, const int imageSize, const double pixelSize)
+resP2A	Functions/Spectrum.cpp	/^void resP2A(vec& res,$/;"	f	signature:(vec& res, const int imageSize, const double pixelSize)
+resT	ML/MLModel.cpp	/^int MLModel::resT() const$/;"	f	class:MLModel	signature:() const
+resample	Particle.cpp	/^void Particle::resample(const int n,$/;"	f	class:Particle	signature:(const int n, const ParticleType pt)
+reset	Particle.cpp	/^void Particle::reset()$/;"	f	class:Particle	signature:()
+reset	Particle.cpp	/^void Particle::reset(const int nC,$/;"	f	class:Particle	signature:(const int nC, const int nR, const int nT, const int nD)
+reset	Reconstructor.cpp	/^void Reconstructor::reset()$/;"	f	class:Reconstructor	signature:()
+resetRChange	ML/MLModel.cpp	/^void MLModel::resetRChange()$/;"	f	class:MLModel	signature:()
+resetReco	ML/MLModel.cpp	/^void MLModel::resetReco()$/;"	f	class:MLModel	signature:()
+resetTVari	ML/MLModel.cpp	/^void MLModel::resetTVari()$/;"	f	class:MLModel	signature:()
+resizeSpace	Reconstructor.cpp	/^void Reconstructor::resizeSpace(const int size)$/;"	f	class:Reconstructor	signature:(const int size)
+resolutionA	ML/MLModel.cpp	/^double MLModel::resolutionA(const double thres) const$/;"	f	class:MLModel	signature:(const double thres) const
+resolutionA	ML/MLModel.cpp	/^double MLModel::resolutionA(const int i,$/;"	f	class:MLModel	signature:(const int i, const double thres) const
+resolutionP	ML/MLModel.cpp	/^int MLModel::resolutionP(const double thres,$/;"	f	class:MLModel	signature:(const double thres, const bool inverse) const
+resolutionP	ML/MLModel.cpp	/^int MLModel::resolutionP(const int i,$/;"	f	class:MLModel	signature:(const int i, const double thres, const bool inverse) const
+ringAverage	Functions/Spectrum.cpp	/^Complex ringAverage(const int resP,$/;"	f	signature:(const int resP, const Image& img, const function<Complex(const Complex)> func)
+ringAverage	Functions/Spectrum.cpp	/^double ringAverage(const int resP,$/;"	f	signature:(const int resP, const Image& img, const function<double(const Complex)> func)
+rot	Particle.cpp	/^void Particle::rot(mat22& dst,$/;"	f	class:Particle	signature:(mat22& dst, const int i) const
+rot	Particle.cpp	/^void Particle::rot(mat33& dst,$/;"	f	class:Particle	signature:(mat33& dst, const int i) const
+rotate2D	Geometry/Euler.cpp	/^void rotate2D(mat22& dst, const double phi)$/;"	f	signature:(mat22& dst, const double phi)
+rotate2D	Geometry/Euler.cpp	/^void rotate2D(mat22& dst, const vec2& vec)$/;"	f	signature:(mat22& dst, const vec2& vec)
+rotate3D	Geometry/Euler.cpp	/^void rotate3D(mat33& dst,$/;"	f	signature:(mat33& dst, const double phi, const char axis)
+rotate3D	Geometry/Euler.cpp	/^void rotate3D(mat33& dst,$/;"	f	signature:(mat33& dst, const double phi, const double theta, const double psi)
+rotate3D	Geometry/Euler.cpp	/^void rotate3D(mat33& dst,$/;"	f	signature:(mat33& dst, const double phi, const vec3& axis)
+rotate3D	Geometry/Euler.cpp	/^void rotate3D(mat33& dst,$/;"	f	signature:(mat33& dst, const vec4& src)
+rotate3DX	Geometry/Euler.cpp	/^void rotate3DX(mat33& dst, const double phi)$/;"	f	signature:(mat33& dst, const double phi)
+rotate3DY	Geometry/Euler.cpp	/^void rotate3DY(mat33& dst, const double phi)$/;"	f	signature:(mat33& dst, const double phi)
+rotate3DZ	Geometry/Euler.cpp	/^void rotate3DZ(mat33& dst, const double phi)$/;"	f	signature:(mat33& dst, const double phi)
+run	ML/MLOptimiser.cpp	/^void MLOptimiser::run()$/;"	f	class:MLOptimiser	signature:()
+run	Postprocess.cpp	/^void Postprocess::run()$/;"	f	class:Postprocess	signature:()
+s0	Particle.cpp	/^double Particle::s0() const$/;"	f	class:Particle	signature:() const
+s1	Particle.cpp	/^double Particle::s1() const$/;"	f	class:Particle	signature:() const
+sampleACG	Functions/DirectionalStat.cpp	/^void sampleACG(mat4& dst,$/;"	f	signature:(mat4& dst, const double k0, const double k1, const int n)
+sampleACG	Functions/DirectionalStat.cpp	/^void sampleACG(mat4& dst,$/;"	f	signature:(mat4& dst, const mat44& src, const int n)
+sampleVMS	Functions/DirectionalStat.cpp	/^void sampleVMS(mat2& dst,$/;"	f	signature:(mat2& dst, const vec2& mu, const double kappa, const double n)
+sampleVMS	Functions/DirectionalStat.cpp	/^void sampleVMS(mat4& dst,$/;"	f	signature:(mat4& dst, const vec4& mu, const double kappa, const double n)
+save	Particle.cpp	/^void save(const char filename[],$/;"	f	signature:(const char filename[], const Particle& par)
+save	Particle.cpp	/^void save(const char filename[],$/;"	f	signature:(const char filename[], const Particle& par, const ParticleType pt)
+saveBestProjections	ML/MLOptimiser.cpp	/^void MLOptimiser::saveBestProjections()$/;"	f	class:MLOptimiser	signature:()
+saveCTFs	ML/MLOptimiser.cpp	/^void MLOptimiser::saveCTFs()$/;"	f	class:MLOptimiser	signature:()
+saveDatabase	Database.cpp	/^void Database::saveDatabase(const char database[])$/;"	f	class:Database	signature:(const char database[])
+saveDatabase	ML/MLOptimiser.cpp	/^void MLOptimiser::saveDatabase() const$/;"	f	class:MLOptimiser	signature:() const
+saveFSC	ML/MLOptimiser.cpp	/^void MLOptimiser::saveFSC(const bool finished) const$/;"	f	class:MLOptimiser	signature:(const bool finished) const
+saveFSC	Postprocess.cpp	/^void Postprocess::saveFSC() const$/;"	f	class:Postprocess	signature:() const
+saveFTToBMP	Image/Image.cpp	/^void Image::saveFTToBMP(const char* filename, double c) const$/;"	f	class:Image	signature:(const char* filename, double c) const
+saveImages	ML/MLOptimiser.cpp	/^void MLOptimiser::saveImages()$/;"	f	class:MLOptimiser	signature:()
+saveRLToBMP	Image/Image.cpp	/^void Image::saveRLToBMP(const char* filename) const$/;"	f	class:Image	signature:(const char* filename) const
+saveReference	ML/MLOptimiser.cpp	/^void MLOptimiser::saveReference(const bool finished)$/;"	f	class:MLOptimiser	signature:(const bool finished)
+saveSig	ML/MLOptimiser.cpp	/^void MLOptimiser::saveSig() const$/;"	f	class:MLOptimiser	signature:() const
+saveTau	ML/MLOptimiser.cpp	/^void MLOptimiser::saveTau() const$/;"	f	class:MLOptimiser	signature:() const
+scale3D	Geometry/Euler.cpp	/^void scale3D(mat33& dst,$/;"	f	signature:(mat33& dst, const vec3& vec)
+scaleDataVSPrior	ML/MLOptimiser.cpp	/^void scaleDataVSPrior(vec& sXA,$/;"	f	signature:(vec& sXA, vec& sAA, const Image& dat, const Image& pri, const Image& ctf, const double rU, const double rL)
+searchType	ML/MLModel.cpp	/^int MLModel::searchType()$/;"	f	class:MLModel	signature:()
+searchTypePrev	ML/MLModel.cpp	/^int MLModel::searchTypePrev() const$/;"	f	class:MLModel	signature:() const
+seed_from_time	Functions/Random.cpp	/^            static bool seed_from_time(unsigned long* out)$/;"	f	class:__anon1::ThreadLocalRNG	access:public	signature:(unsigned long* out)
+seed_from_urandom	Functions/Random.cpp	/^            static bool seed_from_urandom(unsigned long* out)$/;"	f	class:__anon1::ThreadLocalRNG	access:public	signature:(unsigned long* out)
+set	Geometry/Symmetry.cpp	/^void Symmetry::set(const mat33& L,$/;"	f	class:Symmetry	signature:(const mat33& L, const mat33& R, const int i)
+set	Geometry/Symmetry.cpp	/^void Symmetry::set(const vec4& quat,$/;"	f	class:Symmetry	signature:(const vec4& quat, const int i)
+setC	Particle.cpp	/^void Particle::setC(const unsigned int src,$/;"	f	class:Particle	signature:(const unsigned int src, const int i)
+setC	Particle.cpp	/^void Particle::setC(const uvec& c) { _c = c; }$/;"	f	class:Particle	signature:(const uvec& c)
+setCommRank	Parallel.cpp	/^void Parallel::setCommRank(const int commRank)$/;"	f	class:Parallel	signature:(const int commRank)
+setCommSize	Parallel.cpp	/^void Parallel::setCommSize(const int commSize)$/;"	f	class:Parallel	signature:(const int commSize)
+setD	Particle.cpp	/^void Particle::setD(const double d,$/;"	f	class:Particle	signature:(const double d, const int i)
+setD	Particle.cpp	/^void Particle::setD(const vec& d) { _d = d; }$/;"	f	class:Particle	signature:(const vec& d)
+setFSC	Reconstructor.cpp	/^void Reconstructor::setFSC(const vec& FSC)$/;"	f	class:Reconstructor	signature:(const vec& FSC)
+setFT	Image/Image.cpp	/^void Image::setFT(const Complex value,$/;"	f	class:Image	signature:(const Complex value, int iCol, int iRow)
+setFT	Image/Volume.cpp	/^void Volume::setFT(const Complex value,$/;"	f	class:Volume	signature:(const Complex value, int iCol, int iRow, int iSlc)
+setFTHalf	Image/Image.cpp	/^void Image::setFTHalf(const Complex value,$/;"	f	class:Image	signature:(const Complex value, const int iCol, const int iRow)
+setFTHalf	Image/Volume.cpp	/^void Volume::setFTHalf(const Complex value,$/;"	f	class:Volume	signature:(const Complex value, const int iCol, const int iRow, const int iSlc)
+setGSearch	ML/MLModel.cpp	/^void MLModel::setGSearch(const bool gSearch)$/;"	f	class:MLModel	signature:(const bool gSearch)
+setHeader	Image/BMP.cpp	/^bool BMP::setHeader(int width, int height)$/;"	f	class:BMP	signature:(int width, int height)
+setHemi	Parallel.cpp	/^void Parallel::setHemi(const MPI_Comm& hemi)$/;"	f	class:Parallel	signature:(const MPI_Comm& hemi)
+setIncreaseR	ML/MLModel.cpp	/^void MLModel::setIncreaseR(const bool increaseR)$/;"	f	class:MLModel	signature:(const bool increaseR)
+setInterp	Projector.cpp	/^void Projector::setInterp(const int interp)$/;"	f	class:Projector	signature:(const int interp)
+setJoinHalf	Reconstructor.cpp	/^void Reconstructor::setJoinHalf(const bool joinHalf)$/;"	f	class:Reconstructor	signature:(const bool joinHalf)
+setK0	Particle.cpp	/^void Particle::setK0(const double k0)$/;"	f	class:Particle	signature:(const double k0)
+setK1	Particle.cpp	/^void Particle::setK1(const double k1)$/;"	f	class:Particle	signature:(const double k1)
+setLSearch	ML/MLModel.cpp	/^void MLModel::setLSearch(const bool lSearch)$/;"	f	class:MLModel	signature:(const bool lSearch)
+setMAP	Reconstructor.cpp	/^void Reconstructor::setMAP(const bool MAP)$/;"	f	class:Reconstructor	signature:(const bool MAP)
+setMPIEnv	Parallel.cpp	/^void Parallel::setMPIEnv()$/;"	f	class:Parallel	signature:()
+setMPIEnv	Parallel.cpp	/^void Parallel::setMPIEnv(const int commSize,$/;"	f	class:Parallel	signature:(const int commSize, const int commRank, const MPI_Comm& hemi)
+setMaxRU	ML/MLModel.cpp	/^void MLModel::setMaxRU()$/;"	f	class:MLModel	signature:()
+setMaxRadius	Projector.cpp	/^void Projector::setMaxRadius(const int maxRadius)$/;"	f	class:Projector	signature:(const int maxRadius)
+setMaxRadius	Reconstructor.cpp	/^void Reconstructor::setMaxRadius(const int maxRadius)$/;"	f	class:Reconstructor	signature:(const int maxRadius)
+setMode	ML/MLModel.cpp	/^void MLModel::setMode(const int mode)$/;"	f	class:MLModel	signature:(const int mode)
+setMode	Particle.cpp	/^void Particle::setMode(const int mode) { _mode = mode; }$/;"	f	class:Particle	signature:(const int mode)
+setMode	Projector.cpp	/^void Projector::setMode(const int mode)$/;"	f	class:Projector	signature:(const int mode)
+setMode	Reconstructor.cpp	/^void Reconstructor::setMode(const int mode)$/;"	f	class:Reconstructor	signature:(const int mode)
+setNC	Particle.cpp	/^void Particle::setNC(const int nC) { _nC = nC; }$/;"	f	class:Particle	signature:(const int nC)
+setND	Particle.cpp	/^void Particle::setND(const int nD) { _nD = nD; }$/;"	f	class:Particle	signature:(const int nD)
+setNR	Particle.cpp	/^void Particle::setNR(const int nR) { _nR = nR; }$/;"	f	class:Particle	signature:(const int nR)
+setNRChangeNoDecrease	ML/MLModel.cpp	/^void MLModel::setNRChangeNoDecrease(const int nRChangeNoDecrease)$/;"	f	class:MLModel	signature:(const int nRChangeNoDecrease)
+setNT	Particle.cpp	/^void Particle::setNT(const int nT) { _nT = nT; }$/;"	f	class:Particle	signature:(const int nT)
+setNTopResNoImprove	ML/MLModel.cpp	/^void MLModel::setNTopResNoImprove(const int nTopResNoImprove)$/;"	f	class:MLModel	signature:(const int nTopResNoImprove)
+setPara	ML/MLOptimiser.cpp	/^void MLOptimiser::setPara(const MLOptimiserPara& para)$/;"	f	class:MLOptimiser	signature:(const MLOptimiserPara& para)
+setPf	Projector.cpp	/^void Projector::setPf(const int pf)$/;"	f	class:Projector	signature:(const int pf)
+setPreCal	Reconstructor.cpp	/^void Reconstructor::setPreCal(const int nPxl,$/;"	f	class:Reconstructor	signature:(const int nPxl, const int* iCol, const int* iRow, const int* iPxl, const int* iSig)
+setProjMaxRadius	ML/MLModel.cpp	/^void MLModel::setProjMaxRadius(const int maxRadius)$/;"	f	class:MLModel	signature:(const int maxRadius)
+setProjectee	Projector.cpp	/^void Projector::setProjectee(Image src)$/;"	f	class:Projector	signature:(Image src)
+setProjectee	Projector.cpp	/^void Projector::setProjectee(Volume src)$/;"	f	class:Projector	signature:(Volume src)
+setQuaternion	Particle.cpp	/^void Particle::setQuaternion(const vec4& src,$/;"	f	class:Particle	signature:(const vec4& src, const int i)
+setR	ML/MLModel.cpp	/^void MLModel::setR(const int r)$/;"	f	class:MLModel	signature:(const int r)
+setR	Particle.cpp	/^void Particle::setR(const mat4& r) { _r = r; }$/;"	f	class:Particle	signature:(const mat4& r)
+setRChange	ML/MLModel.cpp	/^void MLModel::setRChange(const double rChange)$/;"	f	class:MLModel	signature:(const double rChange)
+setRGlobal	ML/MLModel.cpp	/^void MLModel::setRGlobal(const int rGlobal)$/;"	f	class:MLModel	signature:(const int rGlobal)
+setRL	Image/Image.cpp	/^void Image::setRL(const double value,$/;"	f	class:Image	signature:(const double value, const int iCol, const int iRow)
+setRL	Image/Volume.cpp	/^void Volume::setRL(const double value,$/;"	f	class:Volume	signature:(const double value, const int iCol, const int iRow, const int iSlc)
+setRT	ML/MLModel.cpp	/^void MLModel::setRT(const int rT)$/;"	f	class:MLModel	signature:(const int rT)
+setRU	ML/MLModel.cpp	/^void MLModel::setRU(const int rU)$/;"	f	class:MLModel	signature:(const int rU)
+setRVari	ML/MLModel.cpp	/^void MLModel::setRVari(const double rVari)$/;"	f	class:MLModel	signature:(const double rVari)
+setRes	ML/MLModel.cpp	/^void MLModel::setRes(const int res)$/;"	f	class:MLModel	signature:(const int res)
+setResT	ML/MLModel.cpp	/^void MLModel::setResT(const int resT)$/;"	f	class:MLModel	signature:(const int resT)
+setS0	Particle.cpp	/^void Particle::setS0(const double s0)$/;"	f	class:Particle	signature:(const double s0)
+setS1	Particle.cpp	/^void Particle::setS1(const double s1)$/;"	f	class:Particle	signature:(const double s1)
+setSearchType	ML/MLModel.cpp	/^void MLModel::setSearchType(const int searchType)$/;"	f	class:MLModel	signature:(const int searchType)
+setSearchTypePrev	ML/MLModel.cpp	/^void MLModel::setSearchTypePrev(const int searchTypePrev)$/;"	f	class:MLModel	signature:(const int searchTypePrev)
+setSig	Reconstructor.cpp	/^void Reconstructor::setSig(const vec& sig)$/;"	f	class:Reconstructor	signature:(const vec& sig)
+setSize	Image/ImageFile.cpp	/^void ImageFile::setSize(const int nCol,$/;"	f	class:ImageFile	signature:(const int nCol, const int nRow, const int nSlc)
+setStdRChange	ML/MLModel.cpp	/^void MLModel::setStdRChange(const double stdRChange)$/;"	f	class:MLModel	signature:(const double stdRChange)
+setStdRVari	ML/MLModel.cpp	/^void MLModel::setStdRVari(const double stdRVari)$/;"	f	class:MLModel	signature:(const double stdRVari)
+setStdTVariS0	ML/MLModel.cpp	/^void MLModel::setStdTVariS0(const double stdTVariS0)$/;"	f	class:MLModel	signature:(const double stdTVariS0)
+setStdTVariS1	ML/MLModel.cpp	/^void MLModel::setStdTVariS1(const double stdTVariS1)$/;"	f	class:MLModel	signature:(const double stdTVariS1)
+setSymmetry	Particle.cpp	/^void Particle::setSymmetry(const Symmetry* sym) { _sym = sym; }$/;"	f	class:Particle	signature:(const Symmetry* sym)
+setSymmetry	Reconstructor.cpp	/^void Reconstructor::setSymmetry(const Symmetry* sym)$/;"	f	class:Reconstructor	signature:(const Symmetry* sym)
+setT	Particle.cpp	/^void Particle::setT(const mat2& t) { _t = t; }$/;"	f	class:Particle	signature:(const mat2& t)
+setT	Particle.cpp	/^void Particle::setT(const vec2& src,$/;"	f	class:Particle	signature:(const vec2& src, const int i)
+setTVariS0	ML/MLModel.cpp	/^void MLModel::setTVariS0(const double tVariS0)$/;"	f	class:MLModel	signature:(const double tVariS0)
+setTVariS1	ML/MLModel.cpp	/^void MLModel::setTVariS1(const double tVariS1)$/;"	f	class:MLModel	signature:(const double tVariS1)
+setTau	Reconstructor.cpp	/^void Reconstructor::setTau(const vec& tau)$/;"	f	class:Reconstructor	signature:(const vec& tau)
+setTransQ	Particle.cpp	/^void Particle::setTransQ(const double transQ) { _transQ = transQ; }$/;"	f	class:Particle	signature:(const double transQ)
+setTransS	Particle.cpp	/^void Particle::setTransS(const double transS) { _transS = transS; }$/;"	f	class:Particle	signature:(const double transS)
+setWC	Particle.cpp	/^void Particle::setWC(const double wC,$/;"	f	class:Particle	signature:(const double wC, const int i)
+setWC	Particle.cpp	/^void Particle::setWC(const vec& wC) { _wC = wC; }$/;"	f	class:Particle	signature:(const vec& wC)
+setWD	Particle.cpp	/^void Particle::setWD(const double wD,$/;"	f	class:Particle	signature:(const double wD, const int i)
+setWD	Particle.cpp	/^void Particle::setWD(const vec& wD) { _wD = wD; }$/;"	f	class:Particle	signature:(const vec& wD)
+setWR	Particle.cpp	/^void Particle::setWR(const double wR,$/;"	f	class:Particle	signature:(const double wR, const int i)
+setWR	Particle.cpp	/^void Particle::setWR(const vec& wR) { _wR = wR; }$/;"	f	class:Particle	signature:(const vec& wR)
+setWT	Particle.cpp	/^void Particle::setWT(const double wT,$/;"	f	class:Particle	signature:(const double wT, const int i)
+setWT	Particle.cpp	/^void Particle::setWT(const vec& wT) { _wT = wT; }$/;"	f	class:Particle	signature:(const vec& wT)
+sharpen	Functions/Spectrum.cpp	/^void sharpen(Volume& dst,$/;"	f	signature:(Volume& dst, const Volume& src, const double thres, const double ew, const double bFactor)
+sharpen	Functions/Spectrum.cpp	/^void sharpen(Volume& dst,$/;"	f	signature:(Volume& dst, const Volume& src, const double thres, const double ew, const int rU, const int rL)
+shellAverage	Functions/Spectrum.cpp	/^double shellAverage(const int resP,$/;"	f	signature:(const int resP, const Volume& vol, const function<double(const Complex)> func)
+shellAverage	Functions/Spectrum.cpp	/^void shellAverage(vec& dst,$/;"	f	signature:(vec& dst, const Volume& src, const function<double(const Complex)> func, const int r)
+shuffle	Database.cpp	/^void Database::shuffle()$/;"	f	class:Database	signature:()
+shuffle	Particle.cpp	/^void Particle::shuffle()$/;"	f	class:Particle	signature:()
+shuffle	Particle.cpp	/^void Particle::shuffle(const ParticleType pt)$/;"	f	class:Particle	signature:(const ParticleType pt)
+size	Image/ImageFile.cpp	/^int ImageFile::size() const$/;"	f	class:ImageFile	signature:() const
+size	ML/MLModel.cpp	/^int MLModel::size() const$/;"	f	class:MLModel	signature:() const
+size	ML/MLOptimiser.cpp	/^int MLOptimiser::size() const$/;"	f	class:MLOptimiser	signature:() const
+sizeFT	Image/ImageBase.cpp	/^size_t ImageBase::sizeFT() const { return _sizeFT; }$/;"	f	class:ImageBase	signature:() const
+sizeRL	Image/ImageBase.cpp	/^size_t ImageBase::sizeRL() const { return _sizeRL; }$/;"	f	class:ImageBase	signature:() const
+snr	ML/MLModel.cpp	/^mat MLModel::snr() const$/;"	f	class:MLModel	signature:() const
+snr	ML/MLModel.cpp	/^vec MLModel::snr(const int i) const$/;"	f	class:MLModel	signature:(const int i) const
+softEdge	Functions/Mask.cpp	/^void softEdge(Volume& vol,$/;"	f	signature:(Volume& vol, const double ew)
+softMask	Functions/Mask.cpp	/^void softMask(Image& dst,$/;"	f	signature:(Image& dst, const Image& src, const Image& alpha)
+softMask	Functions/Mask.cpp	/^void softMask(Image& dst,$/;"	f	signature:(Image& dst, const Image& src, const Image& alpha, const double bg)
+softMask	Functions/Mask.cpp	/^void softMask(Image& dst,$/;"	f	signature:(Image& dst, const Image& src, const Image& alpha, const double bgMean, const double bgStd)
+softMask	Functions/Mask.cpp	/^void softMask(Image& dst,$/;"	f	signature:(Image& dst, const Image& src, const double r, const double ew)
+softMask	Functions/Mask.cpp	/^void softMask(Image& dst,$/;"	f	signature:(Image& dst, const Image& src, const double r, const double ew, const double bg)
+softMask	Functions/Mask.cpp	/^void softMask(Image& dst,$/;"	f	signature:(Image& dst, const Image& src, const double r, const double ew, const double bgMean, const double bgStd)
+softMask	Functions/Mask.cpp	/^void softMask(Image& mask,$/;"	f	signature:(Image& mask, const double r, const double ew)
+softMask	Functions/Mask.cpp	/^void softMask(Volume& dst,$/;"	f	signature:(Volume& dst, const Volume& src, const Volume& alpha)
+softMask	Functions/Mask.cpp	/^void softMask(Volume& dst,$/;"	f	signature:(Volume& dst, const Volume& src, const Volume& alpha, const double bg)
+softMask	Functions/Mask.cpp	/^void softMask(Volume& dst,$/;"	f	signature:(Volume& dst, const Volume& src, const double r, const double ew)
+softMask	Functions/Mask.cpp	/^void softMask(Volume& dst,$/;"	f	signature:(Volume& dst, const Volume& src, const double r, const double ew, const double bg)
+softMask	Functions/Mask.cpp	/^void softMask(Volume& mask,$/;"	f	signature:(Volume& mask, const double r, const double ew)
+solventFlatten	ML/MLOptimiser.cpp	/^void MLOptimiser::solventFlatten(const bool mask)$/;"	f	class:MLOptimiser	signature:(const bool mask)
+sort	Particle.cpp	/^void Particle::sort()$/;"	f	class:Particle	signature:()
+sort	Particle.cpp	/^void Particle::sort(const int n,$/;"	f	class:Particle	signature:(const int n, const ParticleType pt)
+sort	Particle.cpp	/^void Particle::sort(const int nC,$/;"	f	class:Particle	signature:(const int nC, const int nR, const int nT, const int nD)
+split	Database.cpp	/^void Database::split(int& start,$/;"	f	class:Database	signature:(int& start, int& end, const int commRank)
+statImg	ML/MLOptimiser.cpp	/^void MLOptimiser::statImg()$/;"	f	class:MLOptimiser	signature:()
+stat_MAS	Functions/Functions.cpp	/^void stat_MAS(double& mean,$/;"	f	signature:(double& mean, double& std, vec src, const int n)
+stdD	Database.cpp	/^double Database::stdD(const int i) const$/;"	f	class:Database	signature:(const int i) const
+stdR	Database.cpp	/^double Database::stdR(const int i) const$/;"	f	class:Database	signature:(const int i) const
+stdRChange	ML/MLModel.cpp	/^double MLModel::stdRChange() const$/;"	f	class:MLModel	signature:() const
+stdRVari	ML/MLModel.cpp	/^double MLModel::stdRVari() const$/;"	f	class:MLModel	signature:() const
+stdTVariS0	ML/MLModel.cpp	/^double MLModel::stdTVariS0() const$/;"	f	class:MLModel	signature:() const
+stdTVariS1	ML/MLModel.cpp	/^double MLModel::stdTVariS1() const$/;"	f	class:MLModel	signature:() const
+stdTX	Database.cpp	/^double Database::stdTX(const int i) const$/;"	f	class:Database	signature:(const int i) const
+stdTY	Database.cpp	/^double Database::stdTY(const int i) const$/;"	f	class:Database	signature:(const int i) const
+stddev	Image/ImageFunctions.cpp	/^double stddev(const double mean,$/;"	f	signature:(const double mean, const Image& src)
+substractBgImg	ML/MLOptimiser.cpp	/^void MLOptimiser::substractBgImg()$/;"	f	class:MLOptimiser	signature:()
+swap	Image/Image.cpp	/^void Image::swap(Image& that)$/;"	f	class:Image	signature:(Image& that)
+swap	Image/ImageBase.cpp	/^void ImageBase::swap(ImageBase& that)$/;"	f	class:ImageBase	signature:(ImageBase& that)
+swap	Image/Volume.cpp	/^void Volume::swap(Volume& that)$/;"	f	class:Volume	signature:(Volume& that)
+swap	Projector.cpp	/^void Projector::swap(Projector& that)$/;"	f	class:Projector	signature:(Projector& that)
+swingTwist	Geometry/Euler.cpp	/^void swingTwist(vec4& swing,$/;"	f	signature:(vec4& swing, vec4& twist, const vec4& src, const vec3& vec)
+symmetrise	Particle.cpp	/^void Particle::symmetrise()$/;"	f	class:Particle	signature:()
+symmetrizeF	Reconstructor.cpp	/^void Reconstructor::symmetrizeF()$/;"	f	class:Reconstructor	signature:()
+symmetrizeT	Reconstructor.cpp	/^void Reconstructor::symmetrizeT()$/;"	f	class:Reconstructor	signature:()
+symmetry	Particle.cpp	/^const Symmetry* Particle::symmetry() const { return _sym; }$/;"	f	class:Particle	signature:() const
+symmetryCounterpart	Geometry/Symmetry.cpp	/^void symmetryCounterpart(vec4& dst,$/;"	f	signature:(vec4& dst, const Symmetry& sym)
+symmetryDataSize	Image/ImageFile.cpp	/^int ImageFile::symmetryDataSize() const$/;"	f	class:ImageFile	signature:() const
+symmetryGroup	Geometry/SymmetryFunctions.cpp	/^void symmetryGroup(int& pgGroup,$/;"	f	signature:(int& pgGroup, int& pgOrder, const char sym[])
+symmetryRotation	Geometry/Symmetry.cpp	/^void symmetryRotation(vector<mat33>& sr,$/;"	f	signature:(vector<mat33>& sr, const mat33 rot, const Symmetry* sym)
+t	Particle.cpp	/^mat2 Particle::t() const { return _t; }$/;"	f	class:Particle	signature:() const
+t	Particle.cpp	/^void Particle::t(vec2& dst,$/;"	f	class:Particle	signature:(vec2& dst, const int i) const
+tVariS0	ML/MLModel.cpp	/^double MLModel::tVariS0() const$/;"	f	class:MLModel	signature:() const
+tVariS0Prev	ML/MLModel.cpp	/^double MLModel::tVariS0Prev() const$/;"	f	class:MLModel	signature:() const
+tVariS1	ML/MLModel.cpp	/^double MLModel::tVariS1() const$/;"	f	class:MLModel	signature:() const
+tVariS1Prev	ML/MLModel.cpp	/^double MLModel::tVariS1Prev() const$/;"	f	class:MLModel	signature:() const
+tau	ML/MLModel.cpp	/^vec MLModel::tau(const int i) const$/;"	f	class:MLModel	signature:(const int i) const
+timing	Functions/Timer.cpp	/^void timing()$/;"	f	signature:()
+tran	Database.cpp	/^vec2 Database::tran(const int i) const$/;"	f	class:Database	signature:(const int i) const
+transQ	Particle.cpp	/^double Particle::transQ() const { return _transQ; }$/;"	f	class:Particle	signature:() const
+transS	Particle.cpp	/^double Particle::transS() const { return _transS; }$/;"	f	class:Particle	signature:() const
+translate	Image/ImageFunctions.cpp	/^void translate(Complex* dst,$/;"	f	signature:(Complex* dst, const Complex* src, const double nTransCol, const double nTransRow, const int nCol, const int nRow, const int* iCol, const int* iRow, const int nPxl)
+translate	Image/ImageFunctions.cpp	/^void translate(Complex* dst,$/;"	f	signature:(Complex* dst, const double nTransCol, const double nTransRow, const int nCol, const int nRow, const int* iCol, const int* iRow, const int nPxl)
+translate	Image/ImageFunctions.cpp	/^void translate(Image& dst,$/;"	f	signature:(Image& dst, const Image& src, const double nTransCol, const double nTransRow)
+translate	Image/ImageFunctions.cpp	/^void translate(Image& dst,$/;"	f	signature:(Image& dst, const Image& src, const double nTransCol, const double nTransRow, const int* iCol, const int* iRow, const int* iPxl, const int nPxl)
+translate	Image/ImageFunctions.cpp	/^void translate(Image& dst,$/;"	f	signature:(Image& dst, const Image& src, const double r, const double nTransCol, const double nTransRow)
+translate	Image/ImageFunctions.cpp	/^void translate(Image& dst,$/;"	f	signature:(Image& dst, const double nTransCol, const double nTransRow)
+translate	Image/ImageFunctions.cpp	/^void translate(Image& dst,$/;"	f	signature:(Image& dst, const double nTransCol, const double nTransRow, const int* iCol, const int* iRow, const int* iPxl, const int nPxl)
+translate	Image/ImageFunctions.cpp	/^void translate(Image& dst,$/;"	f	signature:(Image& dst, const double r, const double nTransCol, const double nTransRow)
+translate	Image/ImageFunctions.cpp	/^void translate(int& nTransCol,$/;"	f	signature:(int& nTransCol, int& nTransRow, const Image& a, const Image& b, const double r, const int maxX, const int maxY)
+translate3D	Geometry/Euler.cpp	/^void translate3D(mat44& dst,$/;"	f	signature:(mat44& dst, const vec3& vec)
+translateMT	Image/ImageFunctions.cpp	/^void translateMT(Complex* dst,$/;"	f	signature:(Complex* dst, const Complex* src, const double nTransCol, const double nTransRow, const int nCol, const int nRow, const int* iCol, const int* iRow, const int nPxl)
+translateMT	Image/ImageFunctions.cpp	/^void translateMT(Complex* dst,$/;"	f	signature:(Complex* dst, const double nTransCol, const double nTransRow, const int nCol, const int nRow, const int* iCol, const int* iRow, const int nPxl)
+translateMT	Image/ImageFunctions.cpp	/^void translateMT(Image& dst,$/;"	f	signature:(Image& dst, const Image& src, const double nTransCol, const double nTransRow)
+translateMT	Image/ImageFunctions.cpp	/^void translateMT(Image& dst,$/;"	f	signature:(Image& dst, const Image& src, const double nTransCol, const double nTransRow, const int* iCol, const int* iRow, const int* iPxl, const int nPxl)
+translateMT	Image/ImageFunctions.cpp	/^void translateMT(Image& dst,$/;"	f	signature:(Image& dst, const Image& src, const double r, const double nTransCol, const double nTransRow)
+translateMT	Image/ImageFunctions.cpp	/^void translateMT(Image& dst,$/;"	f	signature:(Image& dst, const double nTransCol, const double nTransRow)
+translateMT	Image/ImageFunctions.cpp	/^void translateMT(Image& dst,$/;"	f	signature:(Image& dst, const double nTransCol, const double nTransRow, const int* iCol, const int* iRow, const int* iPxl, const int nPxl)
+translateMT	Image/ImageFunctions.cpp	/^void translateMT(Image& dst,$/;"	f	signature:(Image& dst, const double r, const double nTransCol, const double nTransRow)
+updateR	ML/MLModel.cpp	/^void MLModel::updateR(const double thres)$/;"	f	class:MLModel	signature:(const double thres)
+updateRU	ML/MLModel.cpp	/^void MLModel::updateRU()$/;"	f	class:MLModel	signature:()
+vari	Particle.cpp	/^void Particle::vari(double& k0,$/;"	f	class:Particle	signature:(double& k0, double& k1, double& s0, double& s1, double& rho, double& s) const
+vari	Particle.cpp	/^void Particle::vari(double& rVari,$/;"	f	class:Particle	signature:(double& rVari, double& s0, double& s1, double& s) const
+wC	Particle.cpp	/^double Particle::wC(const int i) const$/;"	f	class:Particle	signature:(const int i) const
+wC	Particle.cpp	/^vec Particle::wC() const { return _wC; }$/;"	f	class:Particle	signature:() const
+wD	Particle.cpp	/^double Particle::wD(const int i) const$/;"	f	class:Particle	signature:(const int i) const
+wD	Particle.cpp	/^vec Particle::wD() const { return _wD; }$/;"	f	class:Particle	signature:() const
+wR	Particle.cpp	/^double Particle::wR(const int i) const$/;"	f	class:Particle	signature:(const int i) const
+wR	Particle.cpp	/^vec Particle::wR() const { return _wR; }$/;"	f	class:Particle	signature:() const
+wT	Particle.cpp	/^double Particle::wT(const int i) const$/;"	f	class:Particle	signature:(const int i) const
+wT	Particle.cpp	/^vec Particle::wT() const { return _wT; }$/;"	f	class:Particle	signature:() const
+writeIm2D	Image/BMP.cpp	/^bool BMP::writeIm2D(unsigned char* buf)$/;"	f	class:BMP	signature:(unsigned char* buf)
+writeImage	Image/ImageFile.cpp	/^void ImageFile::writeImage(const char dst[],$/;"	f	class:ImageFile	signature:(const char dst[], const Image& src, const double pixelSize)
+writeImageMRC	Image/ImageFile.cpp	/^void ImageFile::writeImageMRC(const char dst[],$/;"	f	class:ImageFile	signature:(const char dst[], const Image& src, const double pixelSize)
+writeVolume	Image/ImageFile.cpp	/^void ImageFile::writeVolume(const char dst[],$/;"	f	class:ImageFile	signature:(const char dst[], const Volume& src, const double pixelSize)
+writeVolumeMRC	Image/ImageFile.cpp	/^void ImageFile::writeVolumeMRC(const char dst[],$/;"	f	class:ImageFile	signature:(const char dst[], const Volume& src, const double pixelSize)
+~BMP	Image/BMP.cpp	/^BMP::~BMP()$/;"	f	class:BMP	signature:()
+~Database	Database.cpp	/^Database::~Database()$/;"	f	class:Database	signature:()
+~FFT	FFT.cpp	/^FFT::~FFT() {}$/;"	f	class:FFT	signature:()
+~Image	Image/Image.cpp	/^Image::~Image() {}$/;"	f	class:Image	signature:()
+~ImageBase	Image/ImageBase.cpp	/^ImageBase::~ImageBase()$/;"	f	class:ImageBase	signature:()
+~ImageFile	Image/ImageFile.cpp	/^ImageFile::~ImageFile()$/;"	f	class:ImageFile	signature:()
+~MLModel	ML/MLModel.cpp	/^MLModel::~MLModel()$/;"	f	class:MLModel	signature:()
+~MLOptimiser	ML/MLOptimiser.cpp	/^MLOptimiser::~MLOptimiser()$/;"	f	class:MLOptimiser	signature:()
+~Parallel	Parallel.cpp	/^Parallel::~Parallel() {}$/;"	f	class:Parallel	signature:()
+~Particle	Particle.cpp	/^Particle::~Particle()$/;"	f	class:Particle	signature:()
+~Projector	Projector.cpp	/^Projector::~Projector() {}$/;"	f	class:Projector	signature:()
+~Reconstructor	Reconstructor.cpp	/^Reconstructor::~Reconstructor()$/;"	f	class:Reconstructor	signature:()
+~Regex	Utils.cpp	/^    ~Regex()$/;"	f	class:__anon2::Regex	access:public	signature:()
+~Symmetry	Geometry/Symmetry.cpp	/^Symmetry::~Symmetry()$/;"	f	class:Symmetry	signature:()
+~TabFunction	TabFunction.cpp	/^TabFunction::~TabFunction()$/;"	f	class:TabFunction	signature:()
+~ThreadLocalRNG	Functions/Random.cpp	/^            ~ThreadLocalRNG()$/;"	f	class:__anon1::ThreadLocalRNG	access:public	signature:()
+~Volume	Image/Volume.cpp	/^Volume::~Volume() {}$/;"	f	class:Volume	signature:()

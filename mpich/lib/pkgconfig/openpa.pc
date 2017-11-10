@@ -1,4 +1,4 @@
-prefix=/ShareEM/hbruan/opt/mpich
+prefix=/root/THUNDER/mpich
 exec_prefix=${prefix}
 libdir=${exec_prefix}/lib
 includedir=${prefix}/include

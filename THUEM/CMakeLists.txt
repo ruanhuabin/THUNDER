@@ -1,7 +1,8 @@
 cmake_minimum_required(VERSION 2.8.5 FATAL_ERROR)
 project(thuem)
 
-set (COMMON_FLAGS "-Wall -Wno-uninitialized -Wno-deprecated-declarations -Wsign-compare -pthread ${ADDITIONAL_FLAGS}")
+#-mkl flag added by huabin
+set (COMMON_FLAGS "-Wall -Wno-uninitialized -Wno-deprecated-declarations -Wsign-compare -pthread -mkl ${ADDITIONAL_FLAGS}")
 set (CMAKE_C_FLAGS "${COMMON_FLAGS} -fno-strict-aliasing")
 set (CMAKE_CXX_FLAGS "${COMMON_FLAGS}")
 
@@ -23,25 +24,38 @@ if (SHENWEI)
 endif()
 
 list(APPEND CMAKE_MODULE_PATH "${PROJECT_SOURCE_DIR}/cmake")
-find_package(FFTW REQUIRED)
+#comment by huabin
+#find_package(FFTW REQUIRED)
 find_package(GSL REQUIRED)
 
-if (NOT SHENWEI)
-    include(CheckCXXCompilerFlag)
-    CHECK_CXX_COMPILER_FLAG("-fopenmp" HAS_OPENMP)
+#comment by huabin
+#if (NOT SHENWEI)
+    #include(CheckCXXCompilerFlag)
+    #CHECK_CXX_COMPILER_FLAG("-fopenmp" HAS_OPENMP)
     
-    if (${HAS_OPENMP})
-        set (CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -fopenmp")
-        set (CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fopenmp")
-    endif()
-endif()
+    #if (${HAS_OPENMP})
+        #set (CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -g -qopenmp")
+        #set (CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -g -qopenmp")
+    #endif()
+#endif()
+
+#following two lines add by huabin
+set (CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -O3 -qopenmp")
+set(FFTW_INCLUDES "/opt/intel/compilers_and_libraries_2018.1.163/linux/mkl/include/fftw/")
+
+message(STATUS "CXX_FLAGS: ${CMAKE_CXX_FLAGS}")
+#message(STATUS "fftlib:${FFTW_LIBRARIES}")
+#message(STATUS "gsllib:${GSL_LIBRARIES}")
+#message(STATUS "globlib:${GLOG_LIBRARIES}")
+#message(STATUS "fftopenmplib:${FFTWOMP_LIBRARIES}")
+#message(STATUS "hasopenmp:${HAS_OPENMP}")
+#message(STATUS "source dir:${PROJECT_SOURCE_DIR}")
+#message(STATUS "fft include:${FFTW_INCLUDES}")
 
 # includes and linker flags
 include_directories(${FFTW_INCLUDES} ${GSL_INCLUDE_DIRS})
 
 link_libraries(${FFTW_LIBRARIES} ${FFTWOMP_LIBRARIES} ${GSL_LIBRARIES} ${GLOG_LIBRARIES} ${CMAKE_DL_LIBS})
-#link_libraries(${FFTW_LIBRARIES} ${FFTWOMP_LIBRARIES} ${GSL_LIBRARY} ${GSL_CBLAS_LIBRARY} ${GLOG_LIBRARIES} ${CMAKE_DL_LIBS})
-#link_libraries(${FFTW_LIBRARIES} ${FFTWOMP_LIBRARIES} ${GSL_LIBRARY} ${GSL_CBLAS_LIBRARY} ${GLOG_LIBRARIES})
 
 if (ADDITIONAL_LINKER_FLAGS)
     link_libraries(${ADDITIONAL_LINKER_FLAGS})

@@ -1,4 +1,4 @@
-#! /bin/bash
+#! /usr/bin/bash
 #
 # (C) 2006 by Argonne National Laboratory.
 #     See COPYRIGHT in top-level directory.
@@ -28,11 +28,11 @@
 #
 # Directory locations: Fixed for any MPI implementation.
 # Set from the directory arguments to configure (e.g., --prefix=/usr/local)
-prefix=/ShareEM/hbruan/opt/mpich
-exec_prefix=/ShareEM/hbruan/opt/mpich
-sysconfdir=/ShareEM/hbruan/opt/mpich/etc
-includedir=/ShareEM/hbruan/opt/mpich/include
-libdir=/ShareEM/hbruan/opt/mpich/lib
+prefix=/root/THUNDER/mpich
+exec_prefix=/root/THUNDER/mpich
+sysconfdir=/root/THUNDER/mpich/etc
+includedir=/root/THUNDER/mpich/include
+libdir=/root/THUNDER/mpich/lib
 modincdir=${prefix}/include
 
 # Default settings for compiler, flags, and libraries

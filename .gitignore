@@ -1,5 +1,6 @@
 *.mrc
 *.mrcs
-build/
+build-base/
+build-icc/
 *.swp
 *.swo

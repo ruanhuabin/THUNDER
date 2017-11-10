@@ -1,453 +1,1084 @@
-27/10/2017 13:46:15.767 INFO  [LOGGER_SYS] Initialising Processes
-27/10/2017 13:46:15.767 INFO  [LOGGER_SYS] Initialising Processes
-27/10/2017 13:46:15.813 INFO  [LOGGER_SYS] Initialising Processes
-27/10/2017 13:46:15.853 INFO  [LOGGER_SYS] Process 1 Initialised
-27/10/2017 13:46:15.853 INFO  [LOGGER_SYS] Process 0 Initialised
-27/10/2017 13:46:15.854 INFO  [LOGGER_SYS] Process 2 Initialised
-27/10/2017 13:46:15.854 INFO  [LOGGER_SYS] Initialising Threads Setting in FFTW
-27/10/2017 13:46:15.856 INFO  [LOGGER_SYS] Initialising Threads Setting in FFTW
-27/10/2017 13:46:15.857 INFO  [LOGGER_SYS] Initialising Threads Setting in FFTW
-27/10/2017 13:46:15.858 INFO  [LOGGER_SYS] Openning Parameter File
-27/10/2017 13:46:15.859 INFO  [LOGGER_SYS] Openning Parameter File
-27/10/2017 13:46:15.861 INFO  [LOGGER_SYS] Openning Parameter File
-27/10/2017 13:46:15.863 INFO  [LOGGER_SYS] Setting Maximum Number of Threads Per Process
-27/10/2017 13:46:15.864 INFO  [LOGGER_SYS] Setting Maximum Number of Threads Per Process
-27/10/2017 13:46:15.865 INFO  [LOGGER_SYS] Setting Maximum Number of Threads Per Process
-27/10/2017 13:46:15.865 INFO  [LOGGER_SYS] Maximum Number of Threads in a Process is 1
-27/10/2017 13:46:15.866 INFO  [LOGGER_SYS] Maximum Number of Threads in a Process is 1
-27/10/2017 13:46:15.867 INFO  [LOGGER_SYS] Maximum Number of Threads in a Process is 1
-27/10/2017 13:46:15.868 INFO  [LOGGER_SYS] Initialising Threads Setting in FFTW
-27/10/2017 13:46:15.869 INFO  [LOGGER_SYS] Initialising Threads Setting in FFTW
-27/10/2017 13:46:15.870 INFO  [LOGGER_SYS] Initialising Threads Setting in FFTW
-27/10/2017 13:46:15.872 INFO  [LOGGER_SYS] Setting Time Limit for Creating FFTW Plan
-27/10/2017 13:46:15.874 INFO  [LOGGER_SYS] Setting Time Limit for Creating FFTW Plan
-27/10/2017 13:46:15.875 INFO  [LOGGER_SYS] Setting Parameters
-27/10/2017 13:46:15.875 INFO  [LOGGER_SYS] Setting Time Limit for Creating FFTW Plan
-27/10/2017 13:46:15.876 INFO  [LOGGER_SYS] Setting Parameters
-27/10/2017 13:46:15.877 INFO  [LOGGER_SYS] Setting MPI Environment
-27/10/2017 13:46:15.878 INFO  [LOGGER_SYS] Setting Parameters
-27/10/2017 13:46:15.879 INFO  [LOGGER_SYS] Setting MPI Environment
-27/10/2017 13:46:15.886 INFO  [LOGGER_SYS] Setting MPI Environment
-27/10/2017 13:46:15.897 INFO  [LOGGER_SYS] Running
-27/10/2017 13:46:15.897 INFO  [LOGGER_SYS] Running
-27/10/2017 13:46:15.897 INFO  [LOGGER_SYS] Running
-27/10/2017 13:46:15.907 INFO  [LOGGER_ROUND] MASTER: Initialising MLOptimiser
-27/10/2017 13:46:15.911 INFO  [LOGGER_INIT] MASTER: The Program is Running under 3D Mode
-27/10/2017 13:46:15.912 INFO  [LOGGER_INIT] MASTER: Setting MPI Environment of _model
-27/10/2017 13:46:15.912 INFO  [LOGGER_INIT] MASTER: Setting up Symmetry
-27/10/2017 13:46:15.912 INFO  [LOGGER_INIT] MASTER: Number of Class(es): 1
-27/10/2017 13:46:15.912 INFO  [LOGGER_INIT] MASTER: Initialising FFTW Plan
-27/10/2017 13:46:17.626 INFO  [LOGGER_INIT] MASTER: Initialising Class Distribution
-27/10/2017 13:46:17.626 INFO  [LOGGER_INIT] MASTER: Passing Parameters to _model
-27/10/2017 13:46:17.626 INFO  [LOGGER_INIT] MASTER: Determining Search Type
-27/10/2017 13:46:17.626 INFO  [LOGGER_INIT] MASTER: Search Type : Global
-27/10/2017 13:46:17.636 INFO  [LOGGER_INIT] MASTER: Information Under 1 Pixels in Fourier Space will be Ignored during Comparison
-27/10/2017 13:46:17.636 INFO  [LOGGER_INIT] MASTER: Checking Radius of Mask
-27/10/2017 13:46:17.636 INFO  [LOGGER_INIT] MASTER: Information Under 40 Angstrom will be Used for Performing Intensity Scale Correction
-27/10/2017 13:46:17.637 INFO  [LOGGER_INIT] MASTER: Information Under 9 (Pixel) will be Used for Performing Intensity Scale Correction
-27/10/2017 13:46:17.637 INFO  [LOGGER_INIT] MASTER: Seting Frequency Upper Boudary during Global Search
-27/10/2017 13:46:17.637 INFO  [LOGGER_INIT] MASTER: Global Search Resolution Limit : 12 (Angstrom), 29 (Pixel)
-27/10/2017 13:46:17.637 INFO  [LOGGER_INIT] MASTER: Setting Parameters: _r, _iter
-27/10/2017 13:46:17.637 INFO  [LOGGER_SYS] MASTER: Resetting Frequency Boundary of Reconstructor to 62
-27/10/2017 13:46:17.646 INFO  [LOGGER_INIT] MASTER: Setting MPI Environment of _exp
-27/10/2017 13:46:17.648 INFO  [LOGGER_INIT] MASTER: Openning Database File
-27/10/2017 13:46:17.648 INFO  [LOGGER_INIT] MASTER: Shuffling Particles
-27/10/2017 13:46:17.655 INFO  [LOGGER_INIT] MASTER: Assigning Particles to Each Process
-27/10/2017 13:46:17.656 INFO  [LOGGER_INIT] MASTER: Indexing the Offset in Database
-27/10/2017 13:46:17.656 INFO  [LOGGER_INIT] MASTER: Appending Initial References into _model
-27/10/2017 13:46:17.656 INFO  [LOGGER_INIT] MASTER: Read Initial Model from Hard-disk
-27/10/2017 13:46:27.986 INFO  [LOGGER_INIT] MASTER: Broadcasting Total Number of 2D Images
-27/10/2017 13:46:28.016 INFO  [LOGGER_INIT] MASTER: Total Number of Images: 3
-27/10/2017 13:46:28.016 INFO  [LOGGER_INIT] MASTER: Broadacasting Information of Groups
-27/10/2017 13:46:28.016 INFO  [LOGGER_INIT] B_LEAD: Initialising IDs of 2D Images
-27/10/2017 13:46:28.016 INFO  [LOGGER_INIT] MASTER: Getting Number of Groups from Database
-27/10/2017 13:46:28.026 INFO  [LOGGER_INIT] A_LEAD: Initialising IDs of 2D Images
-27/10/2017 13:46:28.029 INFO  [LOGGER_INIT] A_LEAD: IDs of 2D Images Initialised
-27/10/2017 13:46:28.029 INFO  [LOGGER_INIT] A_LEAD: Setting Parameter _N
-27/10/2017 13:46:28.029 INFO  [LOGGER_INIT] A_LEAD: Number of Images in Hemisphere A: 2
-27/10/2017 13:46:28.029 INFO  [LOGGER_INIT] A_LEAD: Parameter _N Set
-27/10/2017 13:46:28.029 INFO  [LOGGER_INIT] A_LEAD: Initialising 2D Images
-27/10/2017 13:46:28.029 INFO  [LOGGER_INIT] A_LEAD: Reading Images from Disk
-27/10/2017 13:46:28.029 INFO  [LOGGER_SYS] A_LEAD: 10% Percentage of Images Read
-27/10/2017 13:46:28.018 INFO  [LOGGER_INIT] B_LEAD: IDs of 2D Images Initialised
-27/10/2017 13:46:28.048 INFO  [LOGGER_INIT] B_LEAD: Setting Parameter _N
-27/10/2017 13:46:28.048 INFO  [LOGGER_INIT] B_LEAD: Number of Images in Hemisphere B: 1
-27/10/2017 13:46:28.048 INFO  [LOGGER_INIT] B_LEAD: Parameter _N Set
-27/10/2017 13:46:28.048 INFO  [LOGGER_INIT] B_LEAD: Initialising 2D Images
-27/10/2017 13:46:28.048 INFO  [LOGGER_INIT] B_LEAD: Reading Images from Disk
-27/10/2017 13:46:28.049 INFO  [LOGGER_SYS] B_LEAD: 10% Percentage of Images Read
-27/10/2017 13:46:28.093 INFO  [LOGGER_SYS] A_LEAD: 20% Percentage of Images Read
-27/10/2017 13:46:28.127 INFO  [LOGGER_INIT] RANK 2: Images Read from Disk
-27/10/2017 13:46:28.141 INFO  [LOGGER_INIT] B_LEAD: Images Read from Disk
-27/10/2017 13:46:28.141 INFO  [LOGGER_INIT] B_LEAD: Setting 0 to Offset between Images and Original Images
-27/10/2017 13:46:28.141 INFO  [LOGGER_INIT] B_LEAD: Offset between Images and Original Images are Set to 0
-27/10/2017 13:46:28.141 INFO  [LOGGER_INIT] B_LEAD: Substructing Mean of Noise, Making the Noise Have Zero Mean
-27/10/2017 13:46:28.144 INFO  [LOGGER_INIT] RANK 1: Images Read from Disk
-27/10/2017 13:46:28.145 INFO  [LOGGER_INIT] A_LEAD: Images Read from Disk
-27/10/2017 13:46:28.145 INFO  [LOGGER_INIT] A_LEAD: Setting 0 to Offset between Images and Original Images
-27/10/2017 13:46:28.145 INFO  [LOGGER_INIT] A_LEAD: Offset between Images and Original Images are Set to 0
-27/10/2017 13:46:28.145 INFO  [LOGGER_INIT] A_LEAD: Substructing Mean of Noise, Making the Noise Have Zero Mean
-27/10/2017 13:46:28.214 INFO  [LOGGER_INIT] B_LEAD: Mean of Noise Substructed
-27/10/2017 13:46:28.216 INFO  [LOGGER_INIT] B_LEAD: Performing Statistics of 2D Images
-27/10/2017 13:46:28.233 INFO  [LOGGER_INIT] A_LEAD: Mean of Noise Substructed
-27/10/2017 13:46:28.236 INFO  [LOGGER_INIT] A_LEAD: Performing Statistics of 2D Images
-27/10/2017 13:46:28.251 INFO  [LOGGER_INIT] B_LEAD: Statistics Performed of 2D Images
-27/10/2017 13:46:28.252 INFO  [LOGGER_INIT] B_LEAD: Displaying Statistics of 2D Images Before Normalising
-27/10/2017 13:46:28.253 INFO  [LOGGER_INIT] B_LEAD: Mean of Centre : -0.00599186
-27/10/2017 13:46:28.253 INFO  [LOGGER_INIT] B_LEAD: Standard Deviation of Noise  : 1
-27/10/2017 13:46:28.253 INFO  [LOGGER_INIT] B_LEAD: Standard Deviation of Data   : 1.00105
-27/10/2017 13:46:28.253 INFO  [LOGGER_INIT] B_LEAD: Standard Deviation of Signal : 0.00105054
-27/10/2017 13:46:28.253 INFO  [LOGGER_INIT] B_LEAD: Standard Devation of Standard Deviation of Noise : 0
-27/10/2017 13:46:28.253 INFO  [LOGGER_INIT] B_LEAD: Statistics of 2D Images Bofore Normalising Displayed
-27/10/2017 13:46:28.253 INFO  [LOGGER_INIT] B_LEAD: Masking on 2D Images
-27/10/2017 13:46:28.272 INFO  [LOGGER_INIT] B_LEAD: 2D Images Masked
-27/10/2017 13:46:28.272 INFO  [LOGGER_INIT] B_LEAD: Normalising 2D Images, Making the Noise Have Standard Deviation of 1
-27/10/2017 13:46:28.274 INFO  [LOGGER_INIT] B_LEAD: 2D Images Normalised
-27/10/2017 13:46:28.274 INFO  [LOGGER_INIT] B_LEAD: Displaying Statistics of 2D Images After Normalising
-27/10/2017 13:46:28.274 INFO  [LOGGER_INIT] B_LEAD: Mean of Centre : -0.00599186
-27/10/2017 13:46:28.274 INFO  [LOGGER_INIT] B_LEAD: Standard Deviation of Noise  : 1
-27/10/2017 13:46:28.274 INFO  [LOGGER_INIT] B_LEAD: Standard Deviation of Data   : 1.00105
-27/10/2017 13:46:28.274 INFO  [LOGGER_INIT] B_LEAD: Standard Deviation of Signal : 0.00105054
-27/10/2017 13:46:28.274 INFO  [LOGGER_INIT] B_LEAD: Standard Devation of Standard Deviation of Noise : 0
-27/10/2017 13:46:28.274 INFO  [LOGGER_INIT] B_LEAD: Statistics of 2D Images After Normalising Displayed
-27/10/2017 13:46:28.274 INFO  [LOGGER_INIT] B_LEAD: Performing Fourier Transform on 2D Images
-27/10/2017 13:46:28.295 INFO  [LOGGER_INIT] B_LEAD: Fourier Transform on 2D Images Performed
-27/10/2017 13:46:28.295 INFO  [LOGGER_INIT] B_LEAD: 2D Images Initialised
-27/10/2017 13:46:28.295 INFO  [LOGGER_INIT] B_LEAD: Generating CTFs
-27/10/2017 13:46:28.316 INFO  [LOGGER_INIT] A_LEAD: Statistics Performed of 2D Images
-27/10/2017 13:46:28.318 INFO  [LOGGER_INIT] A_LEAD: Displaying Statistics of 2D Images Before Normalising
-27/10/2017 13:46:28.318 INFO  [LOGGER_INIT] A_LEAD: Mean of Centre : 0.00364656
-27/10/2017 13:46:28.318 INFO  [LOGGER_INIT] A_LEAD: Standard Deviation of Noise  : 1
-27/10/2017 13:46:28.318 INFO  [LOGGER_INIT] A_LEAD: Standard Deviation of Data   : 1.00344
-27/10/2017 13:46:28.318 INFO  [LOGGER_INIT] A_LEAD: Standard Deviation of Signal : 0.00343985
-27/10/2017 13:46:28.319 INFO  [LOGGER_INIT] A_LEAD: Standard Devation of Standard Deviation of Noise : 0
-27/10/2017 13:46:28.319 INFO  [LOGGER_INIT] A_LEAD: Statistics of 2D Images Bofore Normalising Displayed
-27/10/2017 13:46:28.319 INFO  [LOGGER_INIT] A_LEAD: Masking on 2D Images
-27/10/2017 13:46:28.349 INFO  [LOGGER_INIT] A_LEAD: 2D Images Masked
-27/10/2017 13:46:28.349 INFO  [LOGGER_INIT] A_LEAD: Normalising 2D Images, Making the Noise Have Standard Deviation of 1
-27/10/2017 13:46:28.352 INFO  [LOGGER_INIT] A_LEAD: 2D Images Normalised
-27/10/2017 13:46:28.352 INFO  [LOGGER_INIT] A_LEAD: Displaying Statistics of 2D Images After Normalising
-27/10/2017 13:46:28.352 INFO  [LOGGER_INIT] A_LEAD: Mean of Centre : 0.00364656
-27/10/2017 13:46:28.352 INFO  [LOGGER_INIT] A_LEAD: Standard Deviation of Noise  : 1
-27/10/2017 13:46:28.352 INFO  [LOGGER_INIT] A_LEAD: Standard Deviation of Data   : 1.00344
-27/10/2017 13:46:28.353 INFO  [LOGGER_INIT] A_LEAD: Standard Deviation of Signal : 0.00343985
-27/10/2017 13:46:28.353 INFO  [LOGGER_INIT] A_LEAD: Standard Devation of Standard Deviation of Noise : 0
-27/10/2017 13:46:28.353 INFO  [LOGGER_INIT] A_LEAD: Statistics of 2D Images After Normalising Displayed
-27/10/2017 13:46:28.353 INFO  [LOGGER_INIT] A_LEAD: Performing Fourier Transform on 2D Images
-27/10/2017 13:46:28.355 INFO  [LOGGER_INIT] B_LEAD: CTFs Generated
-27/10/2017 13:46:28.366 INFO  [LOGGER_INIT] B_LEAD: Initialising Particle Filters
-27/10/2017 13:46:28.366 INFO  [LOGGER_INIT] B_LEAD: Particle Filters Initialised
-27/10/2017 13:46:28.392 INFO  [LOGGER_INIT] A_LEAD: Fourier Transform on 2D Images Performed
-27/10/2017 13:46:28.396 INFO  [LOGGER_INIT] A_LEAD: 2D Images Initialised
-27/10/2017 13:46:28.396 INFO  [LOGGER_INIT] A_LEAD: Generating CTFs
-27/10/2017 13:46:28.500 INFO  [LOGGER_INIT] A_LEAD: CTFs Generated
-27/10/2017 13:46:28.500 INFO  [LOGGER_INIT] A_LEAD: Initialising Particle Filters
-27/10/2017 13:46:28.500 INFO  [LOGGER_INIT] A_LEAD: Particle Filters Initialised
-27/10/2017 13:46:28.500 INFO  [LOGGER_INIT] A_LEAD: Storing GroupID
-27/10/2017 13:46:28.501 INFO  [LOGGER_INIT] MASTER: Number of Group: 52
-27/10/2017 13:46:28.506 INFO  [LOGGER_INIT] MASTER: Setting Up Space for Storing Sigma
-27/10/2017 13:46:28.506 INFO  [LOGGER_INIT] MASTER: Setting Up Space for Storing Intensity Scale
-27/10/2017 13:46:28.526 INFO  [LOGGER_INIT] MASTER: Information of Groups Broadcasted
-27/10/2017 13:46:28.526 INFO  [LOGGER_ROUND] B_LEAD: Applying Solvent Flatten on Reference(s)
-27/10/2017 13:46:28.528 INFO  [LOGGER_ROUND] B_LEAD: Inverse Fourier Transforming Reference 0
-27/10/2017 13:46:28.536 INFO  [LOGGER_ROUND] A_LEAD: Applying Solvent Flatten on Reference(s)
-27/10/2017 13:46:28.544 INFO  [LOGGER_ROUND] A_LEAD: Inverse Fourier Transforming Reference 0
-27/10/2017 13:46:33.666 INFO  [LOGGER_ROUND] B_LEAD: Subtracting Background from Reference 0
-27/10/2017 13:46:35.742 INFO  [LOGGER_ROUND] A_LEAD: Subtracting Background from Reference 0
-27/10/2017 13:46:39.694 INFO  [LOGGER_ROUND] B_LEAD: Mean of Background Noise of Reference 0: 0.0826649
-27/10/2017 13:46:40.434 INFO  [LOGGER_ROUND] B_LEAD: Performing Solvent Flatten of Reference 0
-27/10/2017 13:46:42.335 INFO  [LOGGER_ROUND] A_LEAD: Mean of Background Noise of Reference 0: 0.0826649
-27/10/2017 13:46:42.891 INFO  [LOGGER_ROUND] A_LEAD: Performing Solvent Flatten of Reference 0
-27/10/2017 13:46:44.361 INFO  [LOGGER_ROUND] B_LEAD: Fourier Transforming Reference 0
-27/10/2017 13:46:46.221 INFO  [LOGGER_ROUND] A_LEAD: Fourier Transforming Reference 0
-27/10/2017 13:46:48.621 INFO  [LOGGER_INIT] B_LEAD: Setting Up Projectors and Reconstructors of _model
-27/10/2017 13:46:48.621 INFO  [LOGGER_INIT] B_LEAD: Appending Projectors and Reconstructors
-27/10/2017 13:46:48.621 INFO  [LOGGER_INIT] B_LEAD: Appending Projector of Reference 0
-27/10/2017 13:46:48.621 INFO  [LOGGER_INIT] B_LEAD: Appending Reconstructor of Reference 0
-27/10/2017 13:46:48.621 INFO  [LOGGER_INIT] B_LEAD: Projectors and Reconstructors Appended
-27/10/2017 13:46:48.621 INFO  [LOGGER_INIT] B_LEAD: Setting Up MPI Environment of Reconstructors
-27/10/2017 13:46:48.621 INFO  [LOGGER_INIT] B_LEAD: MPI Environment of Reconstructors Set Up
-27/10/2017 13:46:48.621 INFO  [LOGGER_INIT] B_LEAD: Refreshing Projectors
-27/10/2017 13:46:51.099 INFO  [LOGGER_INIT] A_LEAD: Setting Up Projectors and Reconstructors of _model
-27/10/2017 13:46:51.099 INFO  [LOGGER_INIT] A_LEAD: Appending Projectors and Reconstructors
-27/10/2017 13:46:51.099 INFO  [LOGGER_INIT] A_LEAD: Appending Projector of Reference 0
-27/10/2017 13:46:51.100 INFO  [LOGGER_INIT] A_LEAD: Appending Reconstructor of Reference 0
-27/10/2017 13:46:51.100 INFO  [LOGGER_INIT] A_LEAD: Projectors and Reconstructors Appended
-27/10/2017 13:46:51.100 INFO  [LOGGER_INIT] A_LEAD: Setting Up MPI Environment of Reconstructors
-27/10/2017 13:46:51.100 INFO  [LOGGER_INIT] A_LEAD: MPI Environment of Reconstructors Set Up
-27/10/2017 13:46:51.100 INFO  [LOGGER_INIT] A_LEAD: Refreshing Projectors
-27/10/2017 13:49:10.133 INFO  [LOGGER_INIT] B_LEAD: Projectors Refreshed
-27/10/2017 13:49:10.133 INFO  [LOGGER_INIT] B_LEAD: Refreshing Reconstructors
-27/10/2017 13:49:10.133 INFO  [LOGGER_SYS] B_LEAD: Refreshing Reconstructor(s) with Frequency Upper Boundary : 62
-27/10/2017 13:49:10.146 INFO  [LOGGER_SYS] B_LEAD: Reconstructor of Class 0 Initialising
-27/10/2017 13:49:10.146 INFO  [LOGGER_RECO] B_LEAD: Initialising Kernels
-27/10/2017 13:49:10.576 INFO  [LOGGER_RECO] B_LEAD: Creating Fourier Transform Plans
-27/10/2017 13:49:11.752 INFO  [LOGGER_INIT] A_LEAD: Projectors Refreshed
-27/10/2017 13:49:11.752 INFO  [LOGGER_INIT] A_LEAD: Refreshing Reconstructors
-27/10/2017 13:49:11.752 INFO  [LOGGER_SYS] A_LEAD: Refreshing Reconstructor(s) with Frequency Upper Boundary : 62
-27/10/2017 13:49:11.756 INFO  [LOGGER_SYS] A_LEAD: Reconstructor of Class 0 Initialising
-27/10/2017 13:49:11.756 INFO  [LOGGER_RECO] A_LEAD: Initialising Kernels
-27/10/2017 13:49:12.019 INFO  [LOGGER_RECO] A_LEAD: Creating Fourier Transform Plans
-27/10/2017 13:50:46.631 INFO  [LOGGER_RECO] A_LEAD: Allocating Spaces
-27/10/2017 13:50:47.366 INFO  [LOGGER_RECO] B_LEAD: Allocating Spaces
-27/10/2017 13:51:14.237 INFO  [LOGGER_SYS] A_LEAD: Reconstructor of Class 0 Setting Up Max Radius
-27/10/2017 13:51:14.237 INFO  [LOGGER_INIT] A_LEAD: Reconstructors Refreshed
-27/10/2017 13:51:17.394 INFO  [LOGGER_SYS] B_LEAD: Reconstructor of Class 0 Setting Up Max Radius
-27/10/2017 13:51:17.394 INFO  [LOGGER_INIT] B_LEAD: Reconstructors Refreshed
-27/10/2017 13:51:17.406 INFO  [LOGGER_SYS] A_LEAD: Refreshing Scale
-27/10/2017 13:51:17.406 INFO  [LOGGER_SYS] B_LEAD: Refreshing Scale
-27/10/2017 13:51:17.406 INFO  [LOGGER_INIT] MASTER: Projectors and Reconstructors Set Up
-27/10/2017 13:51:17.418 INFO  [LOGGER_INIT] MASTER: Re-balancing Intensity Scale
-27/10/2017 13:51:17.418 INFO  [LOGGER_INIT] MASTER: Re-balancing Intensity Scale Using Random Projections
-27/10/2017 13:51:17.418 INFO  [LOGGER_SYS] MASTER: Upper Boundary Frequency for Scale Correction: 9
-27/10/2017 13:51:17.446 INFO  [LOGGER_ROUND] MASTER: Accumulating Intensity Scale Information from All Processes
-27/10/2017 13:51:17.506 INFO  [LOGGER_SYS] A_LEAD: Correcting Scale
-27/10/2017 13:51:17.507 INFO  [LOGGER_ROUND] MASTER: Median Intensity Scale: 0.000594662
-27/10/2017 13:51:17.516 INFO  [LOGGER_SYS] B_LEAD: Correcting Scale
-27/10/2017 13:51:17.518 INFO  [LOGGER_ROUND] MASTER: Removing Extreme Values from Intensity Scale
-27/10/2017 13:51:17.520 INFO  [LOGGER_ROUND] MASTER: Average Intensity Scale: 0.000594662
-27/10/2017 13:51:17.520 INFO  [LOGGER_ROUND] MASTER: Standard Deviation of Intensity Scale: 0
-27/10/2017 13:51:17.884 INFO  [LOGGER_ROUND] A_LEAD: Refreshing Projectors After Intensity Scale Correction
-27/10/2017 13:51:18.271 INFO  [LOGGER_ROUND] B_LEAD: Refreshing Projectors After Intensity Scale Correction
-27/10/2017 13:53:14.348 INFO  [LOGGER_INIT] MASTER: Intensity Scale Re-balanced
-27/10/2017 13:53:14.348 INFO  [LOGGER_INIT] B_LEAD: Estimating Initial Sigma
-27/10/2017 13:53:14.348 INFO  [LOGGER_INIT] A_LEAD: Estimating Initial Sigma
-27/10/2017 13:53:14.359 INFO  [LOGGER_INIT] B_LEAD: Calculating Average Image
-27/10/2017 13:53:14.361 INFO  [LOGGER_INIT] A_LEAD: Calculating Average Image
-27/10/2017 13:53:14.418 INFO  [LOGGER_INIT] B_LEAD: Calculating Average Power Spectrum
-27/10/2017 13:53:14.419 INFO  [LOGGER_INIT] A_LEAD: Calculating Average Power Spectrum
-27/10/2017 13:53:14.478 INFO  [LOGGER_INIT] B_LEAD: Calculating Expectation for Initializing Sigma
-27/10/2017 13:53:14.482 INFO  [LOGGER_INIT] A_LEAD: Calculating Expectation for Initializing Sigma
-27/10/2017 13:53:15.183 INFO  [LOGGER_INIT] A_LEAD: Substract avgPs and psAvg for _sig
-27/10/2017 13:53:15.183 INFO  [LOGGER_INIT] A_LEAD: Calculating Reciprocal of Sigma
-27/10/2017 13:53:15.191 INFO  [LOGGER_INIT] A_LEAD: Estimating Initial Sigma Using Random Projections
-27/10/2017 13:53:15.191 INFO  [LOGGER_INIT] A_LEAD: Calculating Average Image
-27/10/2017 13:53:15.216 INFO  [LOGGER_INIT] A_LEAD: Calculating Average Power Spectrum
-27/10/2017 13:53:15.269 INFO  [LOGGER_INIT] A_LEAD: Calculating Expectation for Initializing Sigma
-27/10/2017 13:53:15.415 INFO  [LOGGER_INIT] B_LEAD: Substract avgPs and psAvg for _sig
-27/10/2017 13:53:15.416 INFO  [LOGGER_INIT] B_LEAD: Calculating Reciprocal of Sigma
-27/10/2017 13:53:15.417 INFO  [LOGGER_INIT] B_LEAD: Estimating Initial Sigma Using Random Projections
-27/10/2017 13:53:15.417 INFO  [LOGGER_INIT] B_LEAD: Calculating Average Image
-27/10/2017 13:53:15.418 INFO  [LOGGER_INIT] B_LEAD: Calculating Average Power Spectrum
-27/10/2017 13:53:15.423 INFO  [LOGGER_INIT] B_LEAD: Calculating Expectation for Initializing Sigma
-27/10/2017 13:53:16.131 INFO  [LOGGER_INIT] A_LEAD: Substract avgPs and psAvg for _sig
-27/10/2017 13:53:16.131 INFO  [LOGGER_INIT] A_LEAD: Calculating Reciprocal of Sigma
-27/10/2017 13:53:16.387 INFO  [LOGGER_INIT] B_LEAD: Substract avgPs and psAvg for _sig
-27/10/2017 13:53:16.388 INFO  [LOGGER_INIT] B_LEAD: Calculating Reciprocal of Sigma
-27/10/2017 13:53:16.412 INFO  [LOGGER_INIT] MASTER: Sigma Initialised
-27/10/2017 13:53:16.417 INFO  [LOGGER_ROUND] MASTER: Saving Some Data
-27/10/2017 13:53:16.423 INFO  [LOGGER_ROUND] MASTER: Entering Iteration
-27/10/2017 13:53:16.436 INFO  [LOGGER_ROUND] MASTER: Round 0
-27/10/2017 13:53:16.436 INFO  [LOGGER_ROUND] MASTER: Search Type : Global Search
-27/10/2017 13:53:16.638 INFO  [LOGGER_ROUND] MASTER: Performing Expectation
-27/10/2017 13:53:16.638 INFO  [LOGGER_ROUND] MASTER: Waiting for All Processes Finishing Expectation
-27/10/2017 13:53:16.661 INFO  [LOGGER_ROUND] A_LEAD: Allocating Space for Pre-calcuation in Expectation
-27/10/2017 13:53:16.683 INFO  [LOGGER_ROUND] A_LEAD: Space for Pre-calcuation in Expectation Allocated
-27/10/2017 13:53:16.684 INFO  [LOGGER_ROUND] B_LEAD: Allocating Space for Pre-calcuation in Expectation
-27/10/2017 13:53:16.685 INFO  [LOGGER_ROUND] B_LEAD: Space for Pre-calcuation in Expectation Allocated
-27/10/2017 13:53:16.700 INFO  [LOGGER_ROUND] A_LEAD: Minimum Standard Deviation of Rotation in Scanning Phase: 0.0464159
-27/10/2017 13:53:16.702 INFO  [LOGGER_ROUND] A_LEAD: Minimum Standard Deviation of Translation in Scanning Phase: 0.813954
-27/10/2017 13:53:16.897 INFO  [LOGGER_ROUND] B_LEAD: 10% Initial Phase of Global Search Performed
-27/10/2017 13:53:16.952 INFO  [LOGGER_ROUND] A_LEAD: 10% Initial Phase of Global Search Performed
-27/10/2017 13:53:17.107 INFO  [LOGGER_ROUND] B_LEAD: 20% Initial Phase of Global Search Performed
-27/10/2017 13:53:17.243 INFO  [LOGGER_ROUND] A_LEAD: 20% Initial Phase of Global Search Performed
-27/10/2017 13:53:17.292 INFO  [LOGGER_ROUND] B_LEAD: 30% Initial Phase of Global Search Performed
-27/10/2017 13:53:17.479 INFO  [LOGGER_ROUND] B_LEAD: 40% Initial Phase of Global Search Performed
-27/10/2017 13:53:17.528 INFO  [LOGGER_ROUND] A_LEAD: 30% Initial Phase of Global Search Performed
-27/10/2017 13:53:17.643 INFO  [LOGGER_ROUND] B_LEAD: 50% Initial Phase of Global Search Performed
-27/10/2017 13:53:17.773 INFO  [LOGGER_ROUND] A_LEAD: 40% Initial Phase of Global Search Performed
-27/10/2017 13:53:17.824 INFO  [LOGGER_ROUND] B_LEAD: 60% Initial Phase of Global Search Performed
-27/10/2017 13:53:18.008 INFO  [LOGGER_ROUND] A_LEAD: 50% Initial Phase of Global Search Performed
-27/10/2017 13:53:18.010 INFO  [LOGGER_ROUND] B_LEAD: 70% Initial Phase of Global Search Performed
-27/10/2017 13:53:18.162 INFO  [LOGGER_ROUND] A_LEAD: 60% Initial Phase of Global Search Performed
-27/10/2017 13:53:18.190 INFO  [LOGGER_ROUND] B_LEAD: 80% Initial Phase of Global Search Performed
-27/10/2017 13:53:18.309 INFO  [LOGGER_ROUND] B_LEAD: 90% Initial Phase of Global Search Performed
-27/10/2017 13:53:18.416 INFO  [LOGGER_ROUND] B_LEAD: Initial Phase of Global Search Performed.
-27/10/2017 13:53:18.417 INFO  [LOGGER_ROUND] B_LEAD: Initial Phase of Global Search in Hemisphere B Performed
-27/10/2017 13:53:18.445 INFO  [LOGGER_ROUND] A_LEAD: 70% Initial Phase of Global Search Performed
-27/10/2017 13:53:18.740 INFO  [LOGGER_ROUND] A_LEAD: 80% Initial Phase of Global Search Performed
-27/10/2017 13:53:18.861 INFO  [LOGGER_ROUND] B_LEAD: 10% Expectation Performed
-27/10/2017 13:53:18.866 INFO  [LOGGER_ROUND] B_LEAD: Freeing Space for Pre-calcuation in Expectation
-27/10/2017 13:53:18.871 INFO  [LOGGER_ROUND] RANK 2: Expectation Accomplished, with Filtering 11 Times over 1 Images
-27/10/2017 13:53:19.001 INFO  [LOGGER_ROUND] A_LEAD: 90% Initial Phase of Global Search Performed
-27/10/2017 13:53:19.189 INFO  [LOGGER_ROUND] A_LEAD: Initial Phase of Global Search Performed.
-27/10/2017 13:53:19.189 INFO  [LOGGER_ROUND] A_LEAD: Initial Phase of Global Search in Hemisphere A Performed
-27/10/2017 13:53:19.701 INFO  [LOGGER_ROUND] A_LEAD: 10% Expectation Performed
-27/10/2017 13:53:20.438 INFO  [LOGGER_ROUND] A_LEAD: 20% Expectation Performed
-27/10/2017 13:53:20.439 INFO  [LOGGER_ROUND] A_LEAD: Freeing Space for Pre-calcuation in Expectation
-27/10/2017 13:53:20.439 INFO  [LOGGER_ROUND] RANK 1: Expectation Accomplished, with Filtering 22 Times over 2 Images
-27/10/2017 13:53:20.439 INFO  [LOGGER_ROUND] MASTER: All Processes Finishing Expectation
-27/10/2017 13:53:20.441 INFO  [LOGGER_ROUND] MASTER: Determining Percentage of Images Belonging to Each Class
-27/10/2017 13:53:20.466 INFO  [LOGGER_ROUND] MASTER: 100% Percentage of Images Belonging to Class 0
-27/10/2017 13:53:20.473 INFO  [LOGGER_ROUND] MASTER: Percentage of Images Belonging to Each Class Determined
-27/10/2017 13:53:20.480 INFO  [LOGGER_ROUND] MASTER: Best Projections Saved
-27/10/2017 13:53:20.480 INFO  [LOGGER_ROUND] MASTER: Saving Database
-27/10/2017 13:53:20.552 INFO  [LOGGER_ROUND] MASTER: Database Saved
-27/10/2017 13:53:20.552 INFO  [LOGGER_ROUND] MASTER: Calculating Variance of Rotation and Translation
-27/10/2017 13:53:20.552 INFO  [LOGGER_SYS] A_LEAD: Maximum Rotation Variance: 0.118293
-27/10/2017 13:53:20.552 INFO  [LOGGER_ROUND] MASTER: Rotation Variance : 0.117321
-27/10/2017 13:53:20.552 INFO  [LOGGER_SYS] B_LEAD: Maximum Rotation Variance: 0.118293
-27/10/2017 13:53:20.555 INFO  [LOGGER_ROUND] MASTER: Translation Variance : 31.9063, 31.5584
-27/10/2017 13:53:20.567 INFO  [LOGGER_ROUND] MASTER: Standard Deviation of Rotation Variance : 0.00144092
-27/10/2017 13:53:20.567 INFO  [LOGGER_ROUND] MASTER: Standard Deviation of Translation Variance : 5.09858, 7.80807
-27/10/2017 13:53:20.567 INFO  [LOGGER_ROUND] MASTER: Variance of Rotation and Translation Calculated
-27/10/2017 13:53:20.567 INFO  [LOGGER_ROUND] MASTER: Calculating Changes of Rotation between Iterations
-27/10/2017 13:53:20.567 INFO  [LOGGER_ROUND] MASTER: Average Rotation Change : 0.289816
-27/10/2017 13:53:20.567 INFO  [LOGGER_ROUND] B_LEAD: Generate Sigma for the Next Iteration
-27/10/2017 13:53:20.567 INFO  [LOGGER_ROUND] MASTER: Standard Deviation of Rotation Change : 0.331452
-27/10/2017 13:53:20.567 INFO  [LOGGER_ROUND] A_LEAD: Generate Sigma for the Next Iteration
-27/10/2017 13:53:20.569 INFO  [LOGGER_ROUND] B_LEAD: Clearing Up Sigma
-27/10/2017 13:53:20.570 INFO  [LOGGER_ROUND] MASTER: Performing Maximization
-27/10/2017 13:53:20.575 INFO  [LOGGER_ROUND] A_LEAD: Clearing Up Sigma
-27/10/2017 13:53:20.576 INFO  [LOGGER_ROUND] B_LEAD: Recalculating Sigma
-27/10/2017 13:53:20.578 INFO  [LOGGER_ROUND] MASTER: Normalisation Noise
-27/10/2017 13:53:20.581 INFO  [LOGGER_ROUND] MASTER: Re-Loading Images from Original Images
-27/10/2017 13:53:20.581 INFO  [LOGGER_ROUND] MASTER: Re-Masking Images
-27/10/2017 13:53:20.581 INFO  [LOGGER_ROUND] MASTER: Saving Sigma and Tau
-27/10/2017 13:53:20.579 INFO  [LOGGER_ROUND] A_LEAD: Recalculating Sigma
-27/10/2017 13:53:20.590 INFO  [LOGGER_ROUND] B_LEAD: Averaging Sigma of Images Belonging to the Same Group
-27/10/2017 13:53:20.592 INFO  [LOGGER_ROUND] B_LEAD: Reconstruct Reference
-27/10/2017 13:53:20.592 INFO  [LOGGER_ROUND] B_LEAD: Allocating Space for Pre-calcuation in Reconstruction
-27/10/2017 13:53:20.593 INFO  [LOGGER_ROUND] B_LEAD: Inserting High Probability 2D Images into Reconstructor
-27/10/2017 13:53:20.626 INFO  [LOGGER_ROUND] A_LEAD: Averaging Sigma of Images Belonging to the Same Group
-27/10/2017 13:53:20.636 INFO  [LOGGER_ROUND] A_LEAD: Reconstruct Reference
-27/10/2017 13:53:20.637 INFO  [LOGGER_ROUND] A_LEAD: Allocating Space for Pre-calcuation in Reconstruction
-27/10/2017 13:53:20.637 INFO  [LOGGER_ROUND] A_LEAD: Inserting High Probability 2D Images into Reconstructor
-27/10/2017 13:53:21.942 INFO  [LOGGER_ROUND] B_LEAD: Reconstructing Reference 0 for Next Iteration
-27/10/2017 13:53:21.942 INFO  [LOGGER_RECO] B_LEAD: Reconstructing Under 3D Mode
-27/10/2017 13:53:21.944 INFO  [LOGGER_RECO] B_LEAD: Allreducing T
-27/10/2017 13:53:21.944 INFO  [LOGGER_RECO] B_LEAD: Waiting for Synchronizing all Processes in Hemisphere B
-27/10/2017 13:53:21.944 INFO  [LOGGER_MPI] MPI_Allreduce_Large: Transmitting 2 Block(s).
-27/10/2017 13:53:21.946 INFO  [LOGGER_MPI] MPI_Allreduce_Large: Transmitting Block 0
-27/10/2017 13:53:21.946 INFO  [LOGGER_MPI] MPI_Allreduce_Large: Transmitting Block 1
-27/10/2017 13:53:21.946 INFO  [LOGGER_RECO] B_LEAD: Normalising T and F
-27/10/2017 13:53:23.246 INFO  [LOGGER_ROUND] A_LEAD: Reconstructing Reference 0 for Next Iteration
-27/10/2017 13:53:23.246 INFO  [LOGGER_RECO] A_LEAD: Reconstructing Under 3D Mode
-27/10/2017 13:53:23.248 INFO  [LOGGER_RECO] A_LEAD: Allreducing T
-27/10/2017 13:53:23.248 INFO  [LOGGER_RECO] A_LEAD: Waiting for Synchronizing all Processes in Hemisphere A
-27/10/2017 13:53:23.248 INFO  [LOGGER_MPI] MPI_Allreduce_Large: Transmitting 2 Block(s).
-27/10/2017 13:53:23.256 INFO  [LOGGER_MPI] MPI_Allreduce_Large: Transmitting Block 0
-27/10/2017 13:53:23.256 INFO  [LOGGER_MPI] MPI_Allreduce_Large: Transmitting Block 1
-27/10/2017 13:53:23.256 INFO  [LOGGER_RECO] A_LEAD: Normalising T and F
-27/10/2017 13:53:28.289 INFO  [LOGGER_RECO] A_LEAD: Symmetrizing T
-27/10/2017 13:53:31.307 INFO  [LOGGER_RECO] B_LEAD: Symmetrizing T
-27/10/2017 13:56:56.844 INFO  [LOGGER_SYS] B_LEAD: End of Avg = 0.168633, 0.254039, 0.763973, 0.763973, 0.763973
-27/10/2017 13:56:56.845 INFO  [LOGGER_SYS] B_LEAD: End of FSC = 1
-27/10/2017 13:57:02.151 INFO  [LOGGER_RECO] B_LEAD: Initialising W
-27/10/2017 13:57:11.357 INFO  [LOGGER_SYS] A_LEAD: End of Avg = 0.554823, 0.753871, 0.982311, 0.982311, 0.982311
-27/10/2017 13:57:11.357 INFO  [LOGGER_SYS] A_LEAD: End of FSC = 1
-27/10/2017 13:57:11.855 INFO  [LOGGER_RECO] B_LEAD: Balancing Weights Round 0
-27/10/2017 13:57:11.855 INFO  [LOGGER_RECO] B_LEAD: Determining C
-27/10/2017 13:57:17.019 INFO  [LOGGER_RECO] B_LEAD: Convoluting C
-27/10/2017 13:57:18.557 INFO  [LOGGER_RECO] A_LEAD: Initialising W
-27/10/2017 13:57:25.951 INFO  [LOGGER_RECO] A_LEAD: Balancing Weights Round 0
-27/10/2017 13:57:25.951 INFO  [LOGGER_RECO] A_LEAD: Determining C
-27/10/2017 13:57:28.500 INFO  [LOGGER_RECO] A_LEAD: Convoluting C
-27/10/2017 13:58:58.776 INFO  [LOGGER_RECO] B_LEAD: Re-Calculating W
-27/10/2017 13:59:03.680 INFO  [LOGGER_RECO] B_LEAD: Calculating Distance to Total Balanced
-27/10/2017 13:59:11.731 INFO  [LOGGER_RECO] B_LEAD: Distance to Total Balanced: 10.0771
-27/10/2017 13:59:11.731 INFO  [LOGGER_RECO] B_LEAD: Balancing Weights Round 1
-27/10/2017 13:59:11.731 INFO  [LOGGER_RECO] B_LEAD: Determining C
-27/10/2017 13:59:12.545 INFO  [LOGGER_RECO] A_LEAD: Re-Calculating W
-27/10/2017 13:59:17.485 INFO  [LOGGER_RECO] B_LEAD: Convoluting C
-27/10/2017 13:59:18.596 INFO  [LOGGER_RECO] A_LEAD: Calculating Distance to Total Balanced
-27/10/2017 13:59:28.002 INFO  [LOGGER_RECO] A_LEAD: Distance to Total Balanced: 9.44202
-27/10/2017 13:59:28.002 INFO  [LOGGER_RECO] A_LEAD: Balancing Weights Round 1
-27/10/2017 13:59:28.002 INFO  [LOGGER_RECO] A_LEAD: Determining C
-27/10/2017 13:59:33.833 INFO  [LOGGER_RECO] A_LEAD: Convoluting C
-27/10/2017 14:01:05.503 INFO  [LOGGER_RECO] B_LEAD: Re-Calculating W
-27/10/2017 14:01:11.168 INFO  [LOGGER_RECO] B_LEAD: Calculating Distance to Total Balanced
-27/10/2017 14:01:19.985 INFO  [LOGGER_RECO] B_LEAD: Distance to Total Balanced: 66.6219
-27/10/2017 14:01:19.985 INFO  [LOGGER_RECO] B_LEAD: Balancing Weights Round 2
-27/10/2017 14:01:19.985 INFO  [LOGGER_RECO] B_LEAD: Determining C
-27/10/2017 14:01:25.857 INFO  [LOGGER_RECO] B_LEAD: Convoluting C
-27/10/2017 14:01:39.853 INFO  [LOGGER_RECO] A_LEAD: Re-Calculating W
-27/10/2017 14:01:45.878 INFO  [LOGGER_RECO] A_LEAD: Calculating Distance to Total Balanced
-27/10/2017 14:01:51.997 INFO  [LOGGER_RECO] A_LEAD: Distance to Total Balanced: 11.6878
-27/10/2017 14:01:51.997 INFO  [LOGGER_RECO] A_LEAD: Balancing Weights Round 2
-27/10/2017 14:01:51.997 INFO  [LOGGER_RECO] A_LEAD: Determining C
-27/10/2017 14:01:56.024 INFO  [LOGGER_RECO] A_LEAD: Convoluting C
-27/10/2017 14:03:07.945 INFO  [LOGGER_RECO] B_LEAD: Re-Calculating W
-27/10/2017 14:03:13.662 INFO  [LOGGER_RECO] B_LEAD: Calculating Distance to Total Balanced
-27/10/2017 14:03:22.978 INFO  [LOGGER_RECO] B_LEAD: Distance to Total Balanced: 20.0123
-27/10/2017 14:03:22.978 INFO  [LOGGER_RECO] B_LEAD: Balancing Weights Round 3
-27/10/2017 14:03:22.978 INFO  [LOGGER_RECO] B_LEAD: Determining C
-27/10/2017 14:03:27.967 INFO  [LOGGER_RECO] B_LEAD: Convoluting C
-27/10/2017 14:03:46.459 INFO  [LOGGER_RECO] A_LEAD: Re-Calculating W
-27/10/2017 14:03:51.766 INFO  [LOGGER_RECO] A_LEAD: Calculating Distance to Total Balanced
-27/10/2017 14:04:00.880 INFO  [LOGGER_RECO] A_LEAD: Distance to Total Balanced: 0.813448
-27/10/2017 14:04:00.881 INFO  [LOGGER_RECO] A_LEAD: Balancing Weights Round 3
-27/10/2017 14:04:00.881 INFO  [LOGGER_RECO] A_LEAD: Determining C
-27/10/2017 14:04:04.744 INFO  [LOGGER_RECO] A_LEAD: Convoluting C
-27/10/2017 14:05:12.227 INFO  [LOGGER_RECO] B_LEAD: Re-Calculating W
-27/10/2017 14:05:16.112 INFO  [LOGGER_RECO] B_LEAD: Calculating Distance to Total Balanced
-27/10/2017 14:05:23.150 INFO  [LOGGER_RECO] B_LEAD: Distance to Total Balanced: 3.71395
-27/10/2017 14:05:23.150 INFO  [LOGGER_RECO] B_LEAD: Balancing Weights Round 4
-27/10/2017 14:05:23.150 INFO  [LOGGER_RECO] B_LEAD: Determining C
-27/10/2017 14:05:26.903 INFO  [LOGGER_RECO] B_LEAD: Convoluting C
-27/10/2017 14:05:48.411 INFO  [LOGGER_RECO] A_LEAD: Re-Calculating W
-27/10/2017 14:05:54.713 INFO  [LOGGER_RECO] A_LEAD: Calculating Distance to Total Balanced
-27/10/2017 14:06:02.758 INFO  [LOGGER_RECO] A_LEAD: Distance to Total Balanced: 0.728102
-27/10/2017 14:06:02.758 INFO  [LOGGER_RECO] A_LEAD: Balancing Weights Round 4
-27/10/2017 14:06:02.758 INFO  [LOGGER_RECO] A_LEAD: Determining C
-27/10/2017 14:06:06.836 INFO  [LOGGER_RECO] A_LEAD: Convoluting C
-27/10/2017 14:07:10.954 INFO  [LOGGER_RECO] B_LEAD: Re-Calculating W
-27/10/2017 14:07:16.621 INFO  [LOGGER_RECO] B_LEAD: Calculating Distance to Total Balanced
-27/10/2017 14:07:27.095 INFO  [LOGGER_RECO] B_LEAD: Distance to Total Balanced: 0.64574
-27/10/2017 14:07:27.095 INFO  [LOGGER_RECO] B_LEAD: Balancing Weights Round 5
-27/10/2017 14:07:27.095 INFO  [LOGGER_RECO] B_LEAD: Determining C
-27/10/2017 14:07:32.113 INFO  [LOGGER_RECO] B_LEAD: Convoluting C
-27/10/2017 14:07:45.548 INFO  [LOGGER_RECO] A_LEAD: Re-Calculating W
-27/10/2017 14:07:49.287 INFO  [LOGGER_RECO] A_LEAD: Calculating Distance to Total Balanced
-27/10/2017 14:07:56.292 INFO  [LOGGER_RECO] A_LEAD: Distance to Total Balanced: 0.654613
-27/10/2017 14:07:56.292 INFO  [LOGGER_RECO] A_LEAD: Balancing Weights Round 5
-27/10/2017 14:07:56.292 INFO  [LOGGER_RECO] A_LEAD: Determining C
-27/10/2017 14:08:00.389 INFO  [LOGGER_RECO] A_LEAD: Convoluting C
-27/10/2017 14:09:27.447 INFO  [LOGGER_RECO] B_LEAD: Re-Calculating W
-27/10/2017 14:09:32.146 INFO  [LOGGER_RECO] B_LEAD: Calculating Distance to Total Balanced
-27/10/2017 14:09:38.596 INFO  [LOGGER_RECO] B_LEAD: Distance to Total Balanced: 0.56252
-27/10/2017 14:09:38.597 INFO  [LOGGER_RECO] B_LEAD: Balancing Weights Round 6
-27/10/2017 14:09:38.597 INFO  [LOGGER_RECO] B_LEAD: Determining C
-27/10/2017 14:09:43.289 INFO  [LOGGER_RECO] B_LEAD: Convoluting C
-27/10/2017 14:09:46.896 INFO  [LOGGER_RECO] A_LEAD: Re-Calculating W
-27/10/2017 14:09:51.002 INFO  [LOGGER_RECO] A_LEAD: Calculating Distance to Total Balanced
-27/10/2017 14:09:57.148 INFO  [LOGGER_RECO] A_LEAD: Distance to Total Balanced: 0.512083
-27/10/2017 14:09:57.148 INFO  [LOGGER_RECO] A_LEAD: Balancing Weights Round 6
-27/10/2017 14:09:57.148 INFO  [LOGGER_RECO] A_LEAD: Determining C
-27/10/2017 14:10:00.587 INFO  [LOGGER_RECO] A_LEAD: Convoluting C
-27/10/2017 14:11:43.716 INFO  [LOGGER_RECO] B_LEAD: Re-Calculating W
-27/10/2017 14:11:45.675 INFO  [LOGGER_RECO] A_LEAD: Re-Calculating W
-27/10/2017 14:11:49.914 INFO  [LOGGER_RECO] B_LEAD: Calculating Distance to Total Balanced
-27/10/2017 14:11:51.902 INFO  [LOGGER_RECO] A_LEAD: Calculating Distance to Total Balanced
-27/10/2017 14:11:56.611 INFO  [LOGGER_RECO] B_LEAD: Distance to Total Balanced: 0.471175
-27/10/2017 14:11:56.612 INFO  [LOGGER_RECO] B_LEAD: Balancing Weights Round 7
-27/10/2017 14:11:56.612 INFO  [LOGGER_RECO] B_LEAD: Determining C
-27/10/2017 14:12:00.022 INFO  [LOGGER_RECO] A_LEAD: Distance to Total Balanced: 0.385788
-27/10/2017 14:12:00.022 INFO  [LOGGER_RECO] A_LEAD: Balancing Weights Round 7
-27/10/2017 14:12:00.023 INFO  [LOGGER_RECO] A_LEAD: Determining C
-27/10/2017 14:12:01.285 INFO  [LOGGER_RECO] B_LEAD: Convoluting C
-27/10/2017 14:12:06.450 INFO  [LOGGER_RECO] A_LEAD: Convoluting C
-27/10/2017 14:13:58.520 INFO  [LOGGER_RECO] B_LEAD: Re-Calculating W
-27/10/2017 14:14:00.832 INFO  [LOGGER_RECO] A_LEAD: Re-Calculating W
-27/10/2017 14:14:02.544 INFO  [LOGGER_RECO] B_LEAD: Calculating Distance to Total Balanced
-27/10/2017 14:14:05.278 INFO  [LOGGER_RECO] A_LEAD: Calculating Distance to Total Balanced
-27/10/2017 14:14:12.144 INFO  [LOGGER_RECO] A_LEAD: Distance to Total Balanced: 0.340232
-27/10/2017 14:14:12.144 INFO  [LOGGER_RECO] A_LEAD: Balancing Weights Round 8
-27/10/2017 14:14:12.144 INFO  [LOGGER_RECO] A_LEAD: Determining C
-27/10/2017 14:14:12.878 INFO  [LOGGER_RECO] B_LEAD: Distance to Total Balanced: 0.413737
-27/10/2017 14:14:12.878 INFO  [LOGGER_RECO] B_LEAD: Balancing Weights Round 8
-27/10/2017 14:14:12.878 INFO  [LOGGER_RECO] B_LEAD: Determining C
-27/10/2017 14:14:16.708 INFO  [LOGGER_RECO] A_LEAD: Convoluting C
-27/10/2017 14:14:18.867 INFO  [LOGGER_RECO] B_LEAD: Convoluting C
-27/10/2017 14:16:02.485 INFO  [LOGGER_RECO] B_LEAD: Re-Calculating W
-27/10/2017 14:16:06.451 INFO  [LOGGER_RECO] B_LEAD: Calculating Distance to Total Balanced
-27/10/2017 14:16:09.082 INFO  [LOGGER_RECO] A_LEAD: Re-Calculating W
-27/10/2017 14:16:12.942 INFO  [LOGGER_RECO] B_LEAD: Distance to Total Balanced: 0.373319
-27/10/2017 14:16:12.942 INFO  [LOGGER_RECO] B_LEAD: Balancing Weights Round 9
-27/10/2017 14:16:12.942 INFO  [LOGGER_RECO] B_LEAD: Determining C
-27/10/2017 14:16:15.076 INFO  [LOGGER_RECO] A_LEAD: Calculating Distance to Total Balanced
-27/10/2017 14:16:18.500 INFO  [LOGGER_RECO] B_LEAD: Convoluting C
-27/10/2017 14:16:25.683 INFO  [LOGGER_RECO] A_LEAD: Distance to Total Balanced: 0.290023
-27/10/2017 14:16:25.683 INFO  [LOGGER_RECO] A_LEAD: Balancing Weights Round 9
-27/10/2017 14:16:25.683 INFO  [LOGGER_RECO] A_LEAD: Determining C
-27/10/2017 14:16:29.601 INFO  [LOGGER_RECO] A_LEAD: Convoluting C
+10/11/2017 23:58:06.638 INFO  [LOGGER_SYS] Initialising Processes
+10/11/2017 23:58:06.638 INFO  [LOGGER_SYS] Initialising Processes
+10/11/2017 23:58:06.641 INFO  [LOGGER_SYS] Initialising Processes
+10/11/2017 23:58:06.664 INFO  [LOGGER_SYS] Process 0 Initialised
+10/11/2017 23:58:06.664 INFO  [LOGGER_SYS] Process 1 Initialised
+10/11/2017 23:58:06.664 INFO  [LOGGER_SYS] Process 2 Initialised
+10/11/2017 23:58:06.664 INFO  [LOGGER_SYS] Initialising Threads Setting in FFTW
+10/11/2017 23:58:06.664 INFO  [LOGGER_SYS] Initialising Threads Setting in FFTW
+10/11/2017 23:58:06.664 INFO  [LOGGER_SYS] Initialising Threads Setting in FFTW
+10/11/2017 23:58:06.665 INFO  [LOGGER_SYS] Openning Parameter File
+10/11/2017 23:58:06.665 INFO  [LOGGER_SYS] Openning Parameter File
+10/11/2017 23:58:06.665 INFO  [LOGGER_SYS] Openning Parameter File
+10/11/2017 23:58:06.665 INFO  [LOGGER_SYS] Setting Maximum Number of Threads Per Process
+10/11/2017 23:58:06.665 INFO  [LOGGER_SYS] Setting Maximum Number of Threads Per Process
+10/11/2017 23:58:06.665 INFO  [LOGGER_SYS] Setting Maximum Number of Threads Per Process
+10/11/2017 23:58:06.684 INFO  [LOGGER_SYS] Maximum Number of Threads in a Process is 126
+10/11/2017 23:58:06.684 INFO  [LOGGER_SYS] Initialising Threads Setting in FFTW
+10/11/2017 23:58:06.690 INFO  [LOGGER_SYS] Maximum Number of Threads in a Process is 126
+10/11/2017 23:58:06.691 INFO  [LOGGER_SYS] Initialising Threads Setting in FFTW
+10/11/2017 23:58:06.693 INFO  [LOGGER_SYS] Maximum Number of Threads in a Process is 126
+10/11/2017 23:58:06.693 INFO  [LOGGER_SYS] Initialising Threads Setting in FFTW
+10/11/2017 23:58:06.709 INFO  [LOGGER_SYS] Setting Time Limit for Creating FFTW Plan
+10/11/2017 23:58:06.709 INFO  [LOGGER_SYS] Setting Parameters
+10/11/2017 23:58:06.709 INFO  [LOGGER_SYS] Setting MPI Environment
+10/11/2017 23:58:06.713 INFO  [LOGGER_SYS] Setting Time Limit for Creating FFTW Plan
+10/11/2017 23:58:06.713 INFO  [LOGGER_SYS] Setting Parameters
+10/11/2017 23:58:06.713 INFO  [LOGGER_SYS] Setting MPI Environment
+10/11/2017 23:58:06.715 INFO  [LOGGER_SYS] Setting Time Limit for Creating FFTW Plan
+10/11/2017 23:58:06.715 INFO  [LOGGER_SYS] Setting Parameters
+10/11/2017 23:58:06.715 INFO  [LOGGER_SYS] Setting MPI Environment
+10/11/2017 23:58:06.716 INFO  [LOGGER_SYS] Running
+10/11/2017 23:58:06.716 INFO  [LOGGER_SYS] Running
+10/11/2017 23:58:06.716 INFO  [LOGGER_SYS] Running
+10/11/2017 23:58:06.716 INFO  [LOGGER_ROUND] MASTER: Initialising MLOptimiser
+10/11/2017 23:58:06.716 INFO  [LOGGER_INIT] MASTER: The Program is Running under 3D Mode
+10/11/2017 23:58:06.716 INFO  [LOGGER_INIT] MASTER: Setting MPI Environment of _model
+10/11/2017 23:58:06.716 INFO  [LOGGER_INIT] MASTER: Setting up Symmetry
+10/11/2017 23:58:06.717 INFO  [LOGGER_INIT] MASTER: Number of Class(es): 1
+10/11/2017 23:58:06.717 INFO  [LOGGER_INIT] MASTER: Initialising FFTW Plan
+10/11/2017 23:58:06.722 INFO  [LOGGER_INIT] MASTER: Initialising Class Distribution
+10/11/2017 23:58:06.723 INFO  [LOGGER_INIT] MASTER: Passing Parameters to _model
+10/11/2017 23:58:06.723 INFO  [LOGGER_INIT] MASTER: Determining Search Type
+10/11/2017 23:58:06.723 INFO  [LOGGER_INIT] MASTER: Search Type : Global
+10/11/2017 23:58:06.723 INFO  [LOGGER_INIT] MASTER: Information Under 1 Pixels in Fourier Space will be Ignored during Comparison
+10/11/2017 23:58:06.723 INFO  [LOGGER_INIT] MASTER: Checking Radius of Mask
+10/11/2017 23:58:06.723 INFO  [LOGGER_INIT] MASTER: Information Under 40 Angstrom will be Used for Performing Intensity Scale Correction
+10/11/2017 23:58:06.723 INFO  [LOGGER_INIT] MASTER: Information Under 9 (Pixel) will be Used for Performing Intensity Scale Correction
+10/11/2017 23:58:06.723 INFO  [LOGGER_INIT] MASTER: Seting Frequency Upper Boudary during Global Search
+10/11/2017 23:58:06.723 INFO  [LOGGER_INIT] MASTER: Global Search Resolution Limit : 15 (Angstrom), 23 (Pixel)
+10/11/2017 23:58:06.723 INFO  [LOGGER_INIT] MASTER: Setting Parameters: _r, _iter
+10/11/2017 23:58:06.724 INFO  [LOGGER_SYS] MASTER: Resetting Frequency Boundary of Reconstructor to 49
+10/11/2017 23:58:06.724 INFO  [LOGGER_INIT] MASTER: Setting MPI Environment of _exp
+10/11/2017 23:58:06.724 INFO  [LOGGER_INIT] MASTER: Openning Database File
+10/11/2017 23:58:06.724 INFO  [LOGGER_INIT] MASTER: Shuffling Particles
+10/11/2017 23:58:06.727 INFO  [LOGGER_INIT] MASTER: Assigning Particles to Each Process
+10/11/2017 23:58:06.730 INFO  [LOGGER_INIT] MASTER: Indexing the Offset in Database
+10/11/2017 23:58:06.736 INFO  [LOGGER_INIT] MASTER: Appending Initial References into _model
+10/11/2017 23:58:06.736 INFO  [LOGGER_INIT] MASTER: Read Initial Model from Hard-disk
+10/11/2017 23:58:07.397 INFO  [LOGGER_INIT] MASTER: Broadcasting Total Number of 2D Images
+10/11/2017 23:58:07.401 INFO  [LOGGER_INIT] B_LEAD: Initialising IDs of 2D Images
+10/11/2017 23:58:07.401 INFO  [LOGGER_INIT] A_LEAD: Initialising IDs of 2D Images
+10/11/2017 23:58:07.401 INFO  [LOGGER_INIT] MASTER: Total Number of Images: 1875
+10/11/2017 23:58:07.401 INFO  [LOGGER_INIT] MASTER: Broadacasting Information of Groups
+10/11/2017 23:58:07.401 INFO  [LOGGER_INIT] A_LEAD: IDs of 2D Images Initialised
+10/11/2017 23:58:07.401 INFO  [LOGGER_INIT] B_LEAD: IDs of 2D Images Initialised
+10/11/2017 23:58:07.401 INFO  [LOGGER_INIT] MASTER: Getting Number of Groups from Database
+10/11/2017 23:58:07.401 INFO  [LOGGER_INIT] A_LEAD: Setting Parameter _N
+10/11/2017 23:58:07.401 INFO  [LOGGER_INIT] B_LEAD: Setting Parameter _N
+10/11/2017 23:58:07.401 INFO  [LOGGER_INIT] A_LEAD: Number of Images in Hemisphere A: 938
+10/11/2017 23:58:07.401 INFO  [LOGGER_INIT] B_LEAD: Number of Images in Hemisphere B: 937
+10/11/2017 23:58:07.401 INFO  [LOGGER_INIT] A_LEAD: Parameter _N Set
+10/11/2017 23:58:07.401 INFO  [LOGGER_INIT] B_LEAD: Parameter _N Set
+10/11/2017 23:58:07.401 INFO  [LOGGER_INIT] A_LEAD: Initialising 2D Images
+10/11/2017 23:58:07.401 INFO  [LOGGER_INIT] B_LEAD: Initialising 2D Images
+10/11/2017 23:58:07.401 INFO  [LOGGER_INIT] A_LEAD: Reading Images from Disk
+10/11/2017 23:58:07.401 INFO  [LOGGER_INIT] B_LEAD: Reading Images from Disk
+10/11/2017 23:58:07.652 INFO  [LOGGER_SYS] B_LEAD: 10% Percentage of Images Read
+10/11/2017 23:58:07.652 INFO  [LOGGER_SYS] A_LEAD: 10% Percentage of Images Read
+10/11/2017 23:58:07.903 INFO  [LOGGER_SYS] B_LEAD: 20% Percentage of Images Read
+10/11/2017 23:58:07.903 INFO  [LOGGER_SYS] A_LEAD: 20% Percentage of Images Read
+10/11/2017 23:58:08.154 INFO  [LOGGER_SYS] B_LEAD: 30% Percentage of Images Read
+10/11/2017 23:58:08.154 INFO  [LOGGER_SYS] A_LEAD: 30% Percentage of Images Read
+10/11/2017 23:58:08.414 INFO  [LOGGER_SYS] B_LEAD: 40% Percentage of Images Read
+10/11/2017 23:58:08.414 INFO  [LOGGER_SYS] A_LEAD: 40% Percentage of Images Read
+10/11/2017 23:58:08.683 INFO  [LOGGER_SYS] B_LEAD: 50% Percentage of Images Read
+10/11/2017 23:58:08.684 INFO  [LOGGER_SYS] A_LEAD: 50% Percentage of Images Read
+10/11/2017 23:58:08.940 INFO  [LOGGER_SYS] B_LEAD: 60% Percentage of Images Read
+10/11/2017 23:58:08.943 INFO  [LOGGER_SYS] A_LEAD: 60% Percentage of Images Read
+10/11/2017 23:58:09.200 INFO  [LOGGER_SYS] B_LEAD: 70% Percentage of Images Read
+10/11/2017 23:58:09.203 INFO  [LOGGER_SYS] A_LEAD: 70% Percentage of Images Read
+10/11/2017 23:58:09.460 INFO  [LOGGER_SYS] B_LEAD: 80% Percentage of Images Read
+10/11/2017 23:58:09.463 INFO  [LOGGER_SYS] A_LEAD: 80% Percentage of Images Read
+10/11/2017 23:58:09.721 INFO  [LOGGER_SYS] B_LEAD: 90% Percentage of Images Read
+10/11/2017 23:58:09.724 INFO  [LOGGER_SYS] A_LEAD: 90% Percentage of Images Read
+10/11/2017 23:58:09.983 INFO  [LOGGER_SYS] B_LEAD: 100% Percentage of Images Read
+10/11/2017 23:58:09.986 INFO  [LOGGER_SYS] A_LEAD: 100% Percentage of Images Read
+10/11/2017 23:58:10.006 INFO  [LOGGER_INIT] RANK 2: Images Read from Disk
+10/11/2017 23:58:10.006 INFO  [LOGGER_INIT] B_LEAD: Images Read from Disk
+10/11/2017 23:58:10.006 INFO  [LOGGER_INIT] B_LEAD: Setting 0 to Offset between Images and Original Images
+10/11/2017 23:58:10.006 INFO  [LOGGER_INIT] B_LEAD: Offset between Images and Original Images are Set to 0
+10/11/2017 23:58:10.006 INFO  [LOGGER_INIT] B_LEAD: Substructing Mean of Noise, Making the Noise Have Zero Mean
+10/11/2017 23:58:10.011 INFO  [LOGGER_INIT] RANK 1: Images Read from Disk
+10/11/2017 23:58:10.011 INFO  [LOGGER_INIT] A_LEAD: Images Read from Disk
+10/11/2017 23:58:10.012 INFO  [LOGGER_INIT] A_LEAD: Setting 0 to Offset between Images and Original Images
+10/11/2017 23:58:10.012 INFO  [LOGGER_INIT] A_LEAD: Offset between Images and Original Images are Set to 0
+10/11/2017 23:58:10.012 INFO  [LOGGER_INIT] A_LEAD: Substructing Mean of Noise, Making the Noise Have Zero Mean
+10/11/2017 23:58:10.725 INFO  [LOGGER_INIT] B_LEAD: Mean of Noise Substructed
+10/11/2017 23:58:10.725 INFO  [LOGGER_INIT] B_LEAD: Performing Statistics of 2D Images
+10/11/2017 23:58:10.888 INFO  [LOGGER_INIT] A_LEAD: Mean of Noise Substructed
+10/11/2017 23:58:10.889 INFO  [LOGGER_INIT] A_LEAD: Performing Statistics of 2D Images
+10/11/2017 23:58:11.812 INFO  [LOGGER_INIT] B_LEAD: Statistics Performed of 2D Images
+10/11/2017 23:58:11.812 INFO  [LOGGER_INIT] B_LEAD: Displaying Statistics of 2D Images Before Normalising
+10/11/2017 23:58:11.813 INFO  [LOGGER_INIT] B_LEAD: Mean of Centre : 0.00465408
+10/11/2017 23:58:11.813 INFO  [LOGGER_INIT] B_LEAD: Standard Deviation of Noise  : 1
+10/11/2017 23:58:11.813 INFO  [LOGGER_INIT] B_LEAD: Standard Deviation of Data   : 1.00221
+10/11/2017 23:58:11.813 INFO  [LOGGER_INIT] B_LEAD: Standard Deviation of Signal : 0.00220679
+10/11/2017 23:58:11.814 INFO  [LOGGER_INIT] B_LEAD: Standard Devation of Standard Deviation of Noise : 0
+10/11/2017 23:58:11.814 INFO  [LOGGER_INIT] B_LEAD: Statistics of 2D Images Bofore Normalising Displayed
+10/11/2017 23:58:11.814 INFO  [LOGGER_INIT] B_LEAD: Masking on 2D Images
+10/11/2017 23:58:11.937 INFO  [LOGGER_INIT] A_LEAD: Statistics Performed of 2D Images
+10/11/2017 23:58:11.937 INFO  [LOGGER_INIT] A_LEAD: Displaying Statistics of 2D Images Before Normalising
+10/11/2017 23:58:11.938 INFO  [LOGGER_INIT] A_LEAD: Mean of Centre : 0.00247225
+10/11/2017 23:58:11.938 INFO  [LOGGER_INIT] A_LEAD: Standard Deviation of Noise  : 1
+10/11/2017 23:58:11.938 INFO  [LOGGER_INIT] A_LEAD: Standard Deviation of Data   : 1.00209
+10/11/2017 23:58:11.938 INFO  [LOGGER_INIT] A_LEAD: Standard Deviation of Signal : 0.00208903
+10/11/2017 23:58:11.938 INFO  [LOGGER_INIT] A_LEAD: Standard Devation of Standard Deviation of Noise : 0
+10/11/2017 23:58:11.939 INFO  [LOGGER_INIT] A_LEAD: Statistics of 2D Images Bofore Normalising Displayed
+10/11/2017 23:58:11.939 INFO  [LOGGER_INIT] A_LEAD: Masking on 2D Images
+10/11/2017 23:58:13.384 INFO  [LOGGER_INIT] B_LEAD: 2D Images Masked
+10/11/2017 23:58:13.385 INFO  [LOGGER_INIT] B_LEAD: Normalising 2D Images, Making the Noise Have Standard Deviation of 1
+10/11/2017 23:58:13.447 INFO  [LOGGER_INIT] B_LEAD: 2D Images Normalised
+10/11/2017 23:58:13.448 INFO  [LOGGER_INIT] B_LEAD: Displaying Statistics of 2D Images After Normalising
+10/11/2017 23:58:13.448 INFO  [LOGGER_INIT] B_LEAD: Mean of Centre : 0.00465408
+10/11/2017 23:58:13.448 INFO  [LOGGER_INIT] B_LEAD: Standard Deviation of Noise  : 1
+10/11/2017 23:58:13.448 INFO  [LOGGER_INIT] B_LEAD: Standard Deviation of Data   : 1.00221
+10/11/2017 23:58:13.448 INFO  [LOGGER_INIT] B_LEAD: Standard Deviation of Signal : 0.00220679
+10/11/2017 23:58:13.449 INFO  [LOGGER_INIT] B_LEAD: Standard Devation of Standard Deviation of Noise : 0
+10/11/2017 23:58:13.449 INFO  [LOGGER_INIT] B_LEAD: Statistics of 2D Images After Normalising Displayed
+10/11/2017 23:58:13.449 INFO  [LOGGER_INIT] B_LEAD: Performing Fourier Transform on 2D Images
+10/11/2017 23:58:13.521 INFO  [LOGGER_INIT] A_LEAD: 2D Images Masked
+10/11/2017 23:58:13.521 INFO  [LOGGER_INIT] A_LEAD: Normalising 2D Images, Making the Noise Have Standard Deviation of 1
+10/11/2017 23:58:13.639 INFO  [LOGGER_INIT] A_LEAD: 2D Images Normalised
+10/11/2017 23:58:13.639 INFO  [LOGGER_INIT] A_LEAD: Displaying Statistics of 2D Images After Normalising
+10/11/2017 23:58:13.639 INFO  [LOGGER_INIT] A_LEAD: Mean of Centre : 0.00247225
+10/11/2017 23:58:13.639 INFO  [LOGGER_INIT] A_LEAD: Standard Deviation of Noise  : 1
+10/11/2017 23:58:13.639 INFO  [LOGGER_INIT] A_LEAD: Standard Deviation of Data   : 1.00209
+10/11/2017 23:58:13.640 INFO  [LOGGER_INIT] A_LEAD: Standard Deviation of Signal : 0.00208903
+10/11/2017 23:58:13.640 INFO  [LOGGER_INIT] A_LEAD: Standard Devation of Standard Deviation of Noise : 0
+10/11/2017 23:58:13.640 INFO  [LOGGER_INIT] A_LEAD: Statistics of 2D Images After Normalising Displayed
+10/11/2017 23:58:13.640 INFO  [LOGGER_INIT] A_LEAD: Performing Fourier Transform on 2D Images
+10/11/2017 23:58:13.982 INFO  [LOGGER_INIT] B_LEAD: Fourier Transform on 2D Images Performed
+10/11/2017 23:58:13.983 INFO  [LOGGER_INIT] B_LEAD: 2D Images Initialised
+10/11/2017 23:58:13.983 INFO  [LOGGER_INIT] B_LEAD: Generating CTFs
+10/11/2017 23:58:14.104 INFO  [LOGGER_INIT] A_LEAD: Fourier Transform on 2D Images Performed
+10/11/2017 23:58:14.104 INFO  [LOGGER_INIT] A_LEAD: 2D Images Initialised
+10/11/2017 23:58:14.104 INFO  [LOGGER_INIT] A_LEAD: Generating CTFs
+10/11/2017 23:58:14.576 INFO  [LOGGER_INIT] B_LEAD: CTFs Generated
+10/11/2017 23:58:14.576 INFO  [LOGGER_INIT] B_LEAD: Initialising Particle Filters
+10/11/2017 23:58:14.582 INFO  [LOGGER_INIT] B_LEAD: Particle Filters Initialised
+10/11/2017 23:58:14.715 INFO  [LOGGER_INIT] A_LEAD: CTFs Generated
+10/11/2017 23:58:14.715 INFO  [LOGGER_INIT] A_LEAD: Initialising Particle Filters
+10/11/2017 23:58:14.717 INFO  [LOGGER_INIT] A_LEAD: Particle Filters Initialised
+10/11/2017 23:58:14.717 INFO  [LOGGER_INIT] A_LEAD: Storing GroupID
+10/11/2017 23:58:14.762 INFO  [LOGGER_INIT] MASTER: Number of Group: 10
+10/11/2017 23:58:14.763 INFO  [LOGGER_INIT] MASTER: Setting Up Space for Storing Sigma
+10/11/2017 23:58:14.763 INFO  [LOGGER_INIT] MASTER: Setting Up Space for Storing Intensity Scale
+10/11/2017 23:58:14.763 INFO  [LOGGER_INIT] MASTER: Information of Groups Broadcasted
+10/11/2017 23:58:14.763 INFO  [LOGGER_ROUND] A_LEAD: Applying Solvent Flatten on Reference(s)
+10/11/2017 23:58:14.763 INFO  [LOGGER_ROUND] B_LEAD: Applying Solvent Flatten on Reference(s)
+10/11/2017 23:58:14.763 INFO  [LOGGER_ROUND] A_LEAD: Inverse Fourier Transforming Reference 0
+10/11/2017 23:58:14.763 INFO  [LOGGER_ROUND] B_LEAD: Inverse Fourier Transforming Reference 0
+10/11/2017 23:58:14.935 INFO  [LOGGER_ROUND] B_LEAD: Subtracting Background from Reference 0
+10/11/2017 23:58:14.973 INFO  [LOGGER_ROUND] A_LEAD: Subtracting Background from Reference 0
+10/11/2017 23:58:15.027 INFO  [LOGGER_ROUND] B_LEAD: Mean of Background Noise of Reference 0: -1.59784e-17
+10/11/2017 23:58:15.038 INFO  [LOGGER_ROUND] B_LEAD: Performing Solvent Flatten of Reference 0
+10/11/2017 23:58:15.065 INFO  [LOGGER_ROUND] A_LEAD: Mean of Background Noise of Reference 0: -1.59784e-17
+10/11/2017 23:58:15.076 INFO  [LOGGER_ROUND] A_LEAD: Performing Solvent Flatten of Reference 0
+10/11/2017 23:58:15.135 INFO  [LOGGER_ROUND] B_LEAD: Fourier Transforming Reference 0
+10/11/2017 23:58:15.191 INFO  [LOGGER_ROUND] A_LEAD: Fourier Transforming Reference 0
+10/11/2017 23:58:15.235 INFO  [LOGGER_INIT] B_LEAD: Setting Up Projectors and Reconstructors of _model
+10/11/2017 23:58:15.235 INFO  [LOGGER_INIT] B_LEAD: Appending Projectors and Reconstructors
+10/11/2017 23:58:15.235 INFO  [LOGGER_INIT] B_LEAD: Appending Projector of Reference 0
+10/11/2017 23:58:15.235 INFO  [LOGGER_INIT] B_LEAD: Appending Reconstructor of Reference 0
+10/11/2017 23:58:15.236 INFO  [LOGGER_INIT] B_LEAD: Projectors and Reconstructors Appended
+10/11/2017 23:58:15.236 INFO  [LOGGER_INIT] B_LEAD: Setting Up MPI Environment of Reconstructors
+10/11/2017 23:58:15.236 INFO  [LOGGER_INIT] B_LEAD: MPI Environment of Reconstructors Set Up
+10/11/2017 23:58:15.236 INFO  [LOGGER_INIT] B_LEAD: Refreshing Projectors
+10/11/2017 23:58:15.281 INFO  [LOGGER_INIT] A_LEAD: Setting Up Projectors and Reconstructors of _model
+10/11/2017 23:58:15.282 INFO  [LOGGER_INIT] A_LEAD: Appending Projectors and Reconstructors
+10/11/2017 23:58:15.282 INFO  [LOGGER_INIT] A_LEAD: Appending Projector of Reference 0
+10/11/2017 23:58:15.282 INFO  [LOGGER_INIT] A_LEAD: Appending Reconstructor of Reference 0
+10/11/2017 23:58:15.282 INFO  [LOGGER_INIT] A_LEAD: Projectors and Reconstructors Appended
+10/11/2017 23:58:15.282 INFO  [LOGGER_INIT] A_LEAD: Setting Up MPI Environment of Reconstructors
+10/11/2017 23:58:15.283 INFO  [LOGGER_INIT] A_LEAD: MPI Environment of Reconstructors Set Up
+10/11/2017 23:58:15.283 INFO  [LOGGER_INIT] A_LEAD: Refreshing Projectors
+10/11/2017 23:58:17.396 INFO  [LOGGER_INIT] B_LEAD: Projectors Refreshed
+10/11/2017 23:58:17.397 INFO  [LOGGER_INIT] B_LEAD: Refreshing Reconstructors
+10/11/2017 23:58:17.397 INFO  [LOGGER_SYS] B_LEAD: Refreshing Reconstructor(s) with Frequency Upper Boundary : 49
+10/11/2017 23:58:17.397 INFO  [LOGGER_SYS] B_LEAD: Reconstructor of Class 0 Initialising
+10/11/2017 23:58:17.397 INFO  [LOGGER_RECO] B_LEAD: Initialising Kernels
+10/11/2017 23:58:17.481 INFO  [LOGGER_INIT] A_LEAD: Projectors Refreshed
+10/11/2017 23:58:17.481 INFO  [LOGGER_INIT] A_LEAD: Refreshing Reconstructors
+10/11/2017 23:58:17.481 INFO  [LOGGER_SYS] A_LEAD: Refreshing Reconstructor(s) with Frequency Upper Boundary : 49
+10/11/2017 23:58:17.481 INFO  [LOGGER_SYS] A_LEAD: Reconstructor of Class 0 Initialising
+10/11/2017 23:58:17.481 INFO  [LOGGER_RECO] A_LEAD: Initialising Kernels
+10/11/2017 23:58:17.784 INFO  [LOGGER_RECO] B_LEAD: Creating Fourier Transform Plans
+10/11/2017 23:58:17.788 INFO  [LOGGER_RECO] B_LEAD: Allocating Spaces
+10/11/2017 23:58:17.871 INFO  [LOGGER_RECO] A_LEAD: Creating Fourier Transform Plans
+10/11/2017 23:58:17.875 INFO  [LOGGER_RECO] A_LEAD: Allocating Spaces
+10/11/2017 23:58:18.222 INFO  [LOGGER_SYS] B_LEAD: Reconstructor of Class 0 Setting Up Max Radius
+10/11/2017 23:58:18.222 INFO  [LOGGER_INIT] B_LEAD: Reconstructors Refreshed
+10/11/2017 23:58:18.313 INFO  [LOGGER_SYS] A_LEAD: Reconstructor of Class 0 Setting Up Max Radius
+10/11/2017 23:58:18.313 INFO  [LOGGER_INIT] A_LEAD: Reconstructors Refreshed
+10/11/2017 23:58:18.313 INFO  [LOGGER_SYS] A_LEAD: Refreshing Scale
+10/11/2017 23:58:18.313 INFO  [LOGGER_SYS] B_LEAD: Refreshing Scale
+10/11/2017 23:58:18.313 INFO  [LOGGER_INIT] MASTER: Projectors and Reconstructors Set Up
+10/11/2017 23:58:18.314 INFO  [LOGGER_INIT] MASTER: Re-balancing Intensity Scale
+10/11/2017 23:58:18.314 INFO  [LOGGER_INIT] MASTER: Re-balancing Intensity Scale Using Random Projections
+10/11/2017 23:58:18.314 WARN  [LOGGER_SYS] MASTER: _rS is Larger than _r, Set _rS to _r
+10/11/2017 23:58:18.314 INFO  [LOGGER_SYS] MASTER: Upper Boundary Frequency for Scale Correction: 7
+10/11/2017 23:58:18.549 INFO  [LOGGER_ROUND] MASTER: Accumulating Intensity Scale Information from All Processes
+10/11/2017 23:58:18.549 INFO  [LOGGER_ROUND] MASTER: Median Intensity Scale: 0.00310543
+10/11/2017 23:58:18.549 INFO  [LOGGER_ROUND] MASTER: Removing Extreme Values from Intensity Scale
+10/11/2017 23:58:18.549 INFO  [LOGGER_SYS] A_LEAD: Correcting Scale
+10/11/2017 23:58:18.549 INFO  [LOGGER_SYS] B_LEAD: Correcting Scale
+10/11/2017 23:58:18.549 INFO  [LOGGER_ROUND] MASTER: Average Intensity Scale: 0.00310543
+10/11/2017 23:58:18.549 INFO  [LOGGER_ROUND] MASTER: Standard Deviation of Intensity Scale: 0
+10/11/2017 23:58:18.560 INFO  [LOGGER_ROUND] A_LEAD: Refreshing Projectors After Intensity Scale Correction
+10/11/2017 23:58:18.560 INFO  [LOGGER_ROUND] B_LEAD: Refreshing Projectors After Intensity Scale Correction
+10/11/2017 23:58:20.585 INFO  [LOGGER_INIT] B_LEAD: Estimating Initial Sigma
+10/11/2017 23:58:20.585 INFO  [LOGGER_INIT] A_LEAD: Estimating Initial Sigma
+10/11/2017 23:58:20.585 INFO  [LOGGER_INIT] MASTER: Intensity Scale Re-balanced
+10/11/2017 23:58:20.586 INFO  [LOGGER_INIT] A_LEAD: Calculating Average Image
+10/11/2017 23:58:20.586 INFO  [LOGGER_INIT] B_LEAD: Calculating Average Image
+10/11/2017 23:58:20.746 INFO  [LOGGER_INIT] A_LEAD: Calculating Average Power Spectrum
+10/11/2017 23:58:20.747 INFO  [LOGGER_INIT] B_LEAD: Calculating Average Power Spectrum
+10/11/2017 23:58:21.278 INFO  [LOGGER_INIT] A_LEAD: Calculating Expectation for Initializing Sigma
+10/11/2017 23:58:21.329 INFO  [LOGGER_INIT] B_LEAD: Calculating Expectation for Initializing Sigma
+10/11/2017 23:58:22.120 INFO  [LOGGER_INIT] A_LEAD: Substract avgPs and psAvg for _sig
+10/11/2017 23:58:22.121 INFO  [LOGGER_INIT] A_LEAD: Calculating Reciprocal of Sigma
+10/11/2017 23:58:22.121 INFO  [LOGGER_INIT] A_LEAD: Estimating Initial Sigma Using Random Projections
+10/11/2017 23:58:22.121 INFO  [LOGGER_INIT] A_LEAD: Calculating Average Image
+10/11/2017 23:58:22.195 INFO  [LOGGER_INIT] B_LEAD: Substract avgPs and psAvg for _sig
+10/11/2017 23:58:22.196 INFO  [LOGGER_INIT] B_LEAD: Calculating Reciprocal of Sigma
+10/11/2017 23:58:22.196 INFO  [LOGGER_INIT] B_LEAD: Estimating Initial Sigma Using Random Projections
+10/11/2017 23:58:22.196 INFO  [LOGGER_INIT] B_LEAD: Calculating Average Image
+10/11/2017 23:58:22.278 INFO  [LOGGER_INIT] A_LEAD: Calculating Average Power Spectrum
+10/11/2017 23:58:22.353 INFO  [LOGGER_INIT] B_LEAD: Calculating Average Power Spectrum
+10/11/2017 23:58:23.051 INFO  [LOGGER_INIT] A_LEAD: Calculating Expectation for Initializing Sigma
+10/11/2017 23:58:23.277 INFO  [LOGGER_INIT] B_LEAD: Calculating Expectation for Initializing Sigma
+10/11/2017 23:58:23.929 INFO  [LOGGER_INIT] A_LEAD: Substract avgPs and psAvg for _sig
+10/11/2017 23:58:23.929 INFO  [LOGGER_INIT] A_LEAD: Calculating Reciprocal of Sigma
+10/11/2017 23:58:24.112 INFO  [LOGGER_INIT] B_LEAD: Substract avgPs and psAvg for _sig
+10/11/2017 23:58:24.112 INFO  [LOGGER_INIT] B_LEAD: Calculating Reciprocal of Sigma
+10/11/2017 23:58:24.113 INFO  [LOGGER_INIT] MASTER: Sigma Initialised
+10/11/2017 23:58:24.113 INFO  [LOGGER_ROUND] MASTER: Saving Some Data
+10/11/2017 23:58:24.113 INFO  [LOGGER_ROUND] MASTER: Entering Iteration
+10/11/2017 23:58:24.113 INFO  [LOGGER_ROUND] MASTER: Round 0
+10/11/2017 23:58:24.113 INFO  [LOGGER_ROUND] MASTER: Search Type : Global Search
+10/11/2017 23:58:24.114 INFO  [LOGGER_ROUND] MASTER: Performing Expectation
+10/11/2017 23:58:24.114 INFO  [LOGGER_ROUND] A_LEAD: Allocating Space for Pre-calcuation in Expectation
+10/11/2017 23:58:24.114 INFO  [LOGGER_ROUND] B_LEAD: Allocating Space for Pre-calcuation in Expectation
+10/11/2017 23:58:24.115 INFO  [LOGGER_ROUND] MASTER: Waiting for All Processes Finishing Expectation
+10/11/2017 23:58:24.135 INFO  [LOGGER_ROUND] B_LEAD: Space for Pre-calcuation in Expectation Allocated
+10/11/2017 23:58:24.196 INFO  [LOGGER_ROUND] A_LEAD: Space for Pre-calcuation in Expectation Allocated
+10/11/2017 23:58:24.196 INFO  [LOGGER_ROUND] A_LEAD: Minimum Standard Deviation of Rotation in Scanning Phase: 0.0464159
+10/11/2017 23:58:24.197 INFO  [LOGGER_ROUND] A_LEAD: Minimum Standard Deviation of Translation in Scanning Phase: 0.813954
+10/11/2017 23:58:37.111 INFO  [LOGGER_ROUND] A_LEAD: 10% Initial Phase of Global Search Performed
+10/11/2017 23:58:39.017 INFO  [LOGGER_ROUND] B_LEAD: 10% Initial Phase of Global Search Performed
+10/11/2017 23:58:53.071 INFO  [LOGGER_ROUND] A_LEAD: 20% Initial Phase of Global Search Performed
+10/11/2017 23:58:53.092 INFO  [LOGGER_ROUND] A_LEAD: 30% Initial Phase of Global Search Performed
+10/11/2017 23:58:55.892 INFO  [LOGGER_ROUND] B_LEAD: 20% Initial Phase of Global Search Performed
+10/11/2017 23:58:55.966 INFO  [LOGGER_ROUND] B_LEAD: 30% Initial Phase of Global Search Performed
+10/11/2017 23:59:09.517 INFO  [LOGGER_ROUND] A_LEAD: 40% Initial Phase of Global Search Performed
+10/11/2017 23:59:10.355 INFO  [LOGGER_ROUND] B_LEAD: 40% Initial Phase of Global Search Performed
+10/11/2017 23:59:24.423 INFO  [LOGGER_ROUND] B_LEAD: 50% Initial Phase of Global Search Performed
+10/11/2017 23:59:24.785 INFO  [LOGGER_ROUND] B_LEAD: 60% Initial Phase of Global Search Performed
+10/11/2017 23:59:27.215 INFO  [LOGGER_ROUND] A_LEAD: 50% Initial Phase of Global Search Performed
+10/11/2017 23:59:27.299 INFO  [LOGGER_ROUND] A_LEAD: 60% Initial Phase of Global Search Performed
+10/11/2017 23:59:38.349 INFO  [LOGGER_ROUND] B_LEAD: 70% Initial Phase of Global Search Performed
+10/11/2017 23:59:38.405 INFO  [LOGGER_ROUND] B_LEAD: 80% Initial Phase of Global Search Performed
+10/11/2017 23:59:44.137 INFO  [LOGGER_ROUND] A_LEAD: 70% Initial Phase of Global Search Performed
+10/11/2017 23:59:44.228 INFO  [LOGGER_ROUND] A_LEAD: 80% Initial Phase of Global Search Performed
+10/11/2017 23:59:48.107 INFO  [LOGGER_ROUND] B_LEAD: 90% Initial Phase of Global Search Performed
+10/11/2017 23:59:48.226 INFO  [LOGGER_ROUND] B_LEAD: Initial Phase of Global Search Performed.
+10/11/2017 23:59:48.227 INFO  [LOGGER_ROUND] B_LEAD: Initial Phase of Global Search in Hemisphere B Performed
+10/11/2017 23:59:49.023 INFO  [LOGGER_ROUND] B_LEAD: 10% Expectation Performed
+10/11/2017 23:59:49.429 INFO  [LOGGER_ROUND] B_LEAD: 20% Expectation Performed
+10/11/2017 23:59:49.851 INFO  [LOGGER_ROUND] B_LEAD: 30% Expectation Performed
+10/11/2017 23:59:50.333 INFO  [LOGGER_ROUND] B_LEAD: 40% Expectation Performed
+10/11/2017 23:59:50.691 INFO  [LOGGER_ROUND] B_LEAD: 50% Expectation Performed
+10/11/2017 23:59:51.228 INFO  [LOGGER_ROUND] B_LEAD: 60% Expectation Performed
+10/11/2017 23:59:51.561 INFO  [LOGGER_ROUND] B_LEAD: 70% Expectation Performed
+10/11/2017 23:59:52.086 INFO  [LOGGER_ROUND] B_LEAD: 80% Expectation Performed
+10/11/2017 23:59:52.463 INFO  [LOGGER_ROUND] B_LEAD: 90% Expectation Performed
+10/11/2017 23:59:53.153 INFO  [LOGGER_ROUND] B_LEAD: Freeing Space for Pre-calcuation in Expectation
+10/11/2017 23:59:53.153 INFO  [LOGGER_ROUND] RANK 2: Expectation Accomplished, with Filtering 11670 Times over 937 Images
+10/11/2017 23:59:53.643 INFO  [LOGGER_ROUND] A_LEAD: 90% Initial Phase of Global Search Performed
+10/11/2017 23:59:53.746 INFO  [LOGGER_ROUND] A_LEAD: Initial Phase of Global Search Performed.
+10/11/2017 23:59:53.746 INFO  [LOGGER_ROUND] A_LEAD: Initial Phase of Global Search in Hemisphere A Performed
+10/11/2017 23:59:54.514 INFO  [LOGGER_ROUND] A_LEAD: 10% Expectation Performed
+10/11/2017 23:59:54.912 INFO  [LOGGER_ROUND] A_LEAD: 20% Expectation Performed
+10/11/2017 23:59:55.350 INFO  [LOGGER_ROUND] A_LEAD: 30% Expectation Performed
+10/11/2017 23:59:55.868 INFO  [LOGGER_ROUND] A_LEAD: 40% Expectation Performed
+10/11/2017 23:59:56.260 INFO  [LOGGER_ROUND] A_LEAD: 50% Expectation Performed
+10/11/2017 23:59:56.754 INFO  [LOGGER_ROUND] A_LEAD: 60% Expectation Performed
+10/11/2017 23:59:57.104 INFO  [LOGGER_ROUND] A_LEAD: 70% Expectation Performed
+10/11/2017 23:59:57.607 INFO  [LOGGER_ROUND] A_LEAD: 80% Expectation Performed
+10/11/2017 23:59:58.046 INFO  [LOGGER_ROUND] A_LEAD: 90% Expectation Performed
+10/11/2017 23:59:58.574 INFO  [LOGGER_ROUND] A_LEAD: Freeing Space for Pre-calcuation in Expectation
+10/11/2017 23:59:58.574 INFO  [LOGGER_ROUND] RANK 1: Expectation Accomplished, with Filtering 11666 Times over 938 Images
+10/11/2017 23:59:58.575 INFO  [LOGGER_ROUND] MASTER: All Processes Finishing Expectation
+10/11/2017 23:59:58.575 INFO  [LOGGER_ROUND] MASTER: Determining Percentage of Images Belonging to Each Class
+10/11/2017 23:59:58.577 INFO  [LOGGER_ROUND] MASTER: 100% Percentage of Images Belonging to Class 0
+10/11/2017 23:59:58.577 INFO  [LOGGER_ROUND] MASTER: Percentage of Images Belonging to Each Class Determined
+10/11/2017 23:59:58.577 INFO  [LOGGER_ROUND] MASTER: Best Projections Saved
+10/11/2017 23:59:58.577 INFO  [LOGGER_ROUND] MASTER: Saving Database
+10/11/2017 23:59:58.899 INFO  [LOGGER_ROUND] MASTER: Database Saved
+10/11/2017 23:59:58.899 INFO  [LOGGER_ROUND] MASTER: Calculating Variance of Rotation and Translation
+10/11/2017 23:59:58.900 INFO  [LOGGER_SYS] A_LEAD: Maximum Rotation Variance: 0.126058
+10/11/2017 23:59:58.900 INFO  [LOGGER_SYS] B_LEAD: Maximum Rotation Variance: 0.126058
+10/11/2017 23:59:58.903 INFO  [LOGGER_ROUND] MASTER: Rotation Variance : 0.103539
+10/11/2017 23:59:58.903 INFO  [LOGGER_ROUND] MASTER: Translation Variance : 14.1935, 12.655
+10/11/2017 23:59:58.903 INFO  [LOGGER_ROUND] MASTER: Standard Deviation of Rotation Variance : 0.00821566
+10/11/2017 23:59:58.903 INFO  [LOGGER_ROUND] MASTER: Standard Deviation of Translation Variance : 8.77815, 7.7738
+10/11/2017 23:59:58.906 INFO  [LOGGER_ROUND] MASTER: Variance of Rotation and Translation Calculated
+10/11/2017 23:59:58.906 INFO  [LOGGER_ROUND] MASTER: Calculating Changes of Rotation between Iterations
+10/11/2017 23:59:58.911 INFO  [LOGGER_ROUND] MASTER: Average Rotation Change : 0.318962
+10/11/2017 23:59:58.911 INFO  [LOGGER_ROUND] MASTER: Standard Deviation of Rotation Change : 0.19106
+10/11/2017 23:59:58.912 INFO  [LOGGER_ROUND] MASTER: Performing Maximization
+10/11/2017 23:59:58.912 INFO  [LOGGER_ROUND] MASTER: Normalisation Noise
+10/11/2017 23:59:58.912 INFO  [LOGGER_ROUND] MASTER: Re-Loading Images from Original Images
+10/11/2017 23:59:58.912 INFO  [LOGGER_ROUND] MASTER: Re-Masking Images
+10/11/2017 23:59:58.912 INFO  [LOGGER_ROUND] MASTER: Saving Sigma and Tau
+10/11/2017 23:59:58.912 INFO  [LOGGER_ROUND] A_LEAD: Generate Sigma for the Next Iteration
+10/11/2017 23:59:58.912 INFO  [LOGGER_ROUND] A_LEAD: Clearing Up Sigma
+10/11/2017 23:59:58.912 INFO  [LOGGER_ROUND] B_LEAD: Generate Sigma for the Next Iteration
+10/11/2017 23:59:58.913 INFO  [LOGGER_ROUND] A_LEAD: Recalculating Sigma
+10/11/2017 23:59:58.913 INFO  [LOGGER_ROUND] B_LEAD: Clearing Up Sigma
+10/11/2017 23:59:58.913 INFO  [LOGGER_ROUND] B_LEAD: Recalculating Sigma
+11/11/2017 00:00:00.854 INFO  [LOGGER_ROUND] B_LEAD: Averaging Sigma of Images Belonging to the Same Group
+11/11/2017 00:00:00.855 INFO  [LOGGER_ROUND] B_LEAD: Reconstruct Reference
+11/11/2017 00:00:00.855 INFO  [LOGGER_ROUND] B_LEAD: Allocating Space for Pre-calcuation in Reconstruction
+11/11/2017 00:00:00.858 INFO  [LOGGER_ROUND] B_LEAD: Inserting High Probability 2D Images into Reconstructor
+11/11/2017 00:00:01.670 INFO  [LOGGER_ROUND] A_LEAD: Averaging Sigma of Images Belonging to the Same Group
+11/11/2017 00:00:01.671 INFO  [LOGGER_ROUND] A_LEAD: Reconstruct Reference
+11/11/2017 00:00:01.671 INFO  [LOGGER_ROUND] A_LEAD: Allocating Space for Pre-calcuation in Reconstruction
+11/11/2017 00:00:01.673 INFO  [LOGGER_ROUND] A_LEAD: Inserting High Probability 2D Images into Reconstructor
+11/11/2017 00:00:31.454 INFO  [LOGGER_ROUND] A_LEAD: Reconstructing Reference 0 for Next Iteration
+11/11/2017 00:00:31.454 INFO  [LOGGER_RECO] A_LEAD: Reconstructing Under 3D Mode
+11/11/2017 00:00:31.454 INFO  [LOGGER_RECO] A_LEAD: Allreducing T
+11/11/2017 00:00:31.454 INFO  [LOGGER_RECO] A_LEAD: Waiting for Synchronizing all Processes in Hemisphere A
+11/11/2017 00:00:31.455 INFO  [LOGGER_RECO] A_LEAD: Normalising T and F
+11/11/2017 00:00:31.672 INFO  [LOGGER_RECO] A_LEAD: Symmetrizing T
+11/11/2017 00:00:31.933 INFO  [LOGGER_ROUND] B_LEAD: Reconstructing Reference 0 for Next Iteration
+11/11/2017 00:00:31.934 INFO  [LOGGER_RECO] B_LEAD: Reconstructing Under 3D Mode
+11/11/2017 00:00:31.934 INFO  [LOGGER_RECO] B_LEAD: Allreducing T
+11/11/2017 00:00:31.934 INFO  [LOGGER_RECO] B_LEAD: Waiting for Synchronizing all Processes in Hemisphere B
+11/11/2017 00:00:31.935 INFO  [LOGGER_RECO] B_LEAD: Normalising T and F
+11/11/2017 00:00:32.043 INFO  [LOGGER_RECO] B_LEAD: Symmetrizing T
+11/11/2017 00:00:35.865 INFO  [LOGGER_SYS] A_LEAD: End of Avg = 1.17931, 1.06696, 0.891953, 0.891953, 0.891953
+11/11/2017 00:00:35.865 INFO  [LOGGER_SYS] A_LEAD: End of FSC = 1
+11/11/2017 00:00:36.185 INFO  [LOGGER_RECO] A_LEAD: Initialising W
+11/11/2017 00:00:36.349 INFO  [LOGGER_SYS] B_LEAD: End of Avg = 1.16597, 1.07128, 0.916511, 0.916511, 0.916511
+11/11/2017 00:00:36.350 INFO  [LOGGER_SYS] B_LEAD: End of FSC = 1
+11/11/2017 00:00:36.498 INFO  [LOGGER_RECO] A_LEAD: Balancing Weights Round 0
+11/11/2017 00:00:36.498 INFO  [LOGGER_RECO] A_LEAD: Determining C
+11/11/2017 00:00:36.588 INFO  [LOGGER_RECO] A_LEAD: Convoluting C
+11/11/2017 00:00:36.658 INFO  [LOGGER_RECO] B_LEAD: Initialising W
+11/11/2017 00:00:36.975 INFO  [LOGGER_RECO] B_LEAD: Balancing Weights Round 0
+11/11/2017 00:00:36.976 INFO  [LOGGER_RECO] B_LEAD: Determining C
+11/11/2017 00:00:37.066 INFO  [LOGGER_RECO] B_LEAD: Convoluting C
+11/11/2017 00:00:39.332 INFO  [LOGGER_RECO] A_LEAD: Re-Calculating W
+11/11/2017 00:00:39.488 INFO  [LOGGER_RECO] A_LEAD: Calculating Distance to Total Balanced
+11/11/2017 00:00:39.868 INFO  [LOGGER_RECO] B_LEAD: Re-Calculating W
+11/11/2017 00:00:40.028 INFO  [LOGGER_RECO] B_LEAD: Calculating Distance to Total Balanced
+11/11/2017 00:00:40.791 INFO  [LOGGER_RECO] A_LEAD: Distance to Total Balanced: 10.2935
+11/11/2017 00:00:40.791 INFO  [LOGGER_RECO] A_LEAD: Balancing Weights Round 1
+11/11/2017 00:00:40.791 INFO  [LOGGER_RECO] A_LEAD: Determining C
+11/11/2017 00:00:40.876 INFO  [LOGGER_RECO] A_LEAD: Convoluting C
+11/11/2017 00:00:41.340 INFO  [LOGGER_RECO] B_LEAD: Distance to Total Balanced: 10.3047
+11/11/2017 00:00:41.340 INFO  [LOGGER_RECO] B_LEAD: Balancing Weights Round 1
+11/11/2017 00:00:41.341 INFO  [LOGGER_RECO] B_LEAD: Determining C
+11/11/2017 00:00:41.430 INFO  [LOGGER_RECO] B_LEAD: Convoluting C
+11/11/2017 00:00:43.484 INFO  [LOGGER_RECO] A_LEAD: Re-Calculating W
+11/11/2017 00:00:43.666 INFO  [LOGGER_RECO] A_LEAD: Calculating Distance to Total Balanced
+11/11/2017 00:00:44.199 INFO  [LOGGER_RECO] B_LEAD: Re-Calculating W
+11/11/2017 00:00:44.361 INFO  [LOGGER_RECO] B_LEAD: Calculating Distance to Total Balanced
+11/11/2017 00:00:44.906 INFO  [LOGGER_RECO] A_LEAD: Distance to Total Balanced: 0.8683
+11/11/2017 00:00:44.906 INFO  [LOGGER_RECO] A_LEAD: Balancing Weights Round 2
+11/11/2017 00:00:44.906 INFO  [LOGGER_RECO] A_LEAD: Determining C
+11/11/2017 00:00:44.996 INFO  [LOGGER_RECO] A_LEAD: Convoluting C
+11/11/2017 00:00:45.658 INFO  [LOGGER_RECO] B_LEAD: Distance to Total Balanced: 0.86627
+11/11/2017 00:00:45.659 INFO  [LOGGER_RECO] B_LEAD: Balancing Weights Round 2
+11/11/2017 00:00:45.659 INFO  [LOGGER_RECO] B_LEAD: Determining C
+11/11/2017 00:00:45.745 INFO  [LOGGER_RECO] B_LEAD: Convoluting C
+11/11/2017 00:00:47.442 INFO  [LOGGER_RECO] A_LEAD: Re-Calculating W
+11/11/2017 00:00:47.614 INFO  [LOGGER_RECO] A_LEAD: Calculating Distance to Total Balanced
+11/11/2017 00:00:48.345 INFO  [LOGGER_RECO] B_LEAD: Re-Calculating W
+11/11/2017 00:00:48.497 INFO  [LOGGER_RECO] B_LEAD: Calculating Distance to Total Balanced
+11/11/2017 00:00:48.818 INFO  [LOGGER_RECO] A_LEAD: Distance to Total Balanced: 0.744808
+11/11/2017 00:00:48.818 INFO  [LOGGER_RECO] A_LEAD: Balancing Weights Round 3
+11/11/2017 00:00:48.818 INFO  [LOGGER_RECO] A_LEAD: Determining C
+11/11/2017 00:00:48.912 INFO  [LOGGER_RECO] A_LEAD: Convoluting C
+11/11/2017 00:00:49.727 INFO  [LOGGER_RECO] B_LEAD: Distance to Total Balanced: 0.737761
+11/11/2017 00:00:49.728 INFO  [LOGGER_RECO] B_LEAD: Balancing Weights Round 3
+11/11/2017 00:00:49.728 INFO  [LOGGER_RECO] B_LEAD: Determining C
+11/11/2017 00:00:49.810 INFO  [LOGGER_RECO] B_LEAD: Convoluting C
+11/11/2017 00:00:51.291 INFO  [LOGGER_RECO] A_LEAD: Re-Calculating W
+11/11/2017 00:00:51.446 INFO  [LOGGER_RECO] A_LEAD: Calculating Distance to Total Balanced
+11/11/2017 00:00:52.216 INFO  [LOGGER_RECO] B_LEAD: Re-Calculating W
+11/11/2017 00:00:52.446 INFO  [LOGGER_RECO] B_LEAD: Calculating Distance to Total Balanced
+11/11/2017 00:00:52.627 INFO  [LOGGER_RECO] A_LEAD: Distance to Total Balanced: 0.472644
+11/11/2017 00:00:52.627 INFO  [LOGGER_RECO] A_LEAD: Balancing Weights Round 4
+11/11/2017 00:00:52.627 INFO  [LOGGER_RECO] A_LEAD: Determining C
+11/11/2017 00:00:52.725 INFO  [LOGGER_RECO] A_LEAD: Convoluting C
+11/11/2017 00:00:53.689 INFO  [LOGGER_RECO] B_LEAD: Distance to Total Balanced: 0.464465
+11/11/2017 00:00:53.689 INFO  [LOGGER_RECO] B_LEAD: Balancing Weights Round 4
+11/11/2017 00:00:53.690 INFO  [LOGGER_RECO] B_LEAD: Determining C
+11/11/2017 00:00:53.785 INFO  [LOGGER_RECO] B_LEAD: Convoluting C
+11/11/2017 00:00:55.073 INFO  [LOGGER_RECO] A_LEAD: Re-Calculating W
+11/11/2017 00:00:55.242 INFO  [LOGGER_RECO] A_LEAD: Calculating Distance to Total Balanced
+11/11/2017 00:00:56.137 INFO  [LOGGER_RECO] B_LEAD: Re-Calculating W
+11/11/2017 00:00:56.286 INFO  [LOGGER_RECO] B_LEAD: Calculating Distance to Total Balanced
+11/11/2017 00:00:56.436 INFO  [LOGGER_RECO] A_LEAD: Distance to Total Balanced: 0.228856
+11/11/2017 00:00:56.436 INFO  [LOGGER_RECO] A_LEAD: Balancing Weights Round 5
+11/11/2017 00:00:56.436 INFO  [LOGGER_RECO] A_LEAD: Determining C
+11/11/2017 00:00:56.530 INFO  [LOGGER_RECO] A_LEAD: Convoluting C
+11/11/2017 00:00:57.657 INFO  [LOGGER_RECO] B_LEAD: Distance to Total Balanced: 0.228897
+11/11/2017 00:00:57.657 INFO  [LOGGER_RECO] B_LEAD: Balancing Weights Round 5
+11/11/2017 00:00:57.657 INFO  [LOGGER_RECO] B_LEAD: Determining C
+11/11/2017 00:00:57.743 INFO  [LOGGER_RECO] B_LEAD: Convoluting C
+11/11/2017 00:00:58.868 INFO  [LOGGER_RECO] A_LEAD: Re-Calculating W
+11/11/2017 00:00:59.023 INFO  [LOGGER_RECO] A_LEAD: Calculating Distance to Total Balanced
+11/11/2017 00:01:00.088 INFO  [LOGGER_RECO] B_LEAD: Re-Calculating W
+11/11/2017 00:01:00.229 INFO  [LOGGER_RECO] A_LEAD: Distance to Total Balanced: 0.204239
+11/11/2017 00:01:00.229 INFO  [LOGGER_RECO] A_LEAD: Balancing Weights Round 6
+11/11/2017 00:01:00.229 INFO  [LOGGER_RECO] A_LEAD: Determining C
+11/11/2017 00:01:00.238 INFO  [LOGGER_RECO] B_LEAD: Calculating Distance to Total Balanced
+11/11/2017 00:01:00.315 INFO  [LOGGER_RECO] A_LEAD: Convoluting C
+11/11/2017 00:01:01.850 INFO  [LOGGER_RECO] B_LEAD: Distance to Total Balanced: 0.204387
+11/11/2017 00:01:01.851 INFO  [LOGGER_RECO] B_LEAD: Balancing Weights Round 6
+11/11/2017 00:01:01.851 INFO  [LOGGER_RECO] B_LEAD: Determining C
+11/11/2017 00:01:01.938 INFO  [LOGGER_RECO] B_LEAD: Convoluting C
+11/11/2017 00:01:02.645 INFO  [LOGGER_RECO] A_LEAD: Re-Calculating W
+11/11/2017 00:01:02.813 INFO  [LOGGER_RECO] A_LEAD: Calculating Distance to Total Balanced
+11/11/2017 00:01:04.011 INFO  [LOGGER_RECO] A_LEAD: Distance to Total Balanced: 0.180239
+11/11/2017 00:01:04.012 INFO  [LOGGER_RECO] A_LEAD: Balancing Weights Round 7
+11/11/2017 00:01:04.012 INFO  [LOGGER_RECO] A_LEAD: Determining C
+11/11/2017 00:01:04.096 INFO  [LOGGER_RECO] A_LEAD: Convoluting C
+11/11/2017 00:01:04.443 INFO  [LOGGER_RECO] B_LEAD: Re-Calculating W
+11/11/2017 00:01:04.591 INFO  [LOGGER_RECO] B_LEAD: Calculating Distance to Total Balanced
+11/11/2017 00:01:06.178 INFO  [LOGGER_RECO] B_LEAD: Distance to Total Balanced: 0.180484
+11/11/2017 00:01:06.178 INFO  [LOGGER_RECO] B_LEAD: Balancing Weights Round 7
+11/11/2017 00:01:06.178 INFO  [LOGGER_RECO] B_LEAD: Determining C
+11/11/2017 00:01:06.266 INFO  [LOGGER_RECO] B_LEAD: Convoluting C
+11/11/2017 00:01:06.615 INFO  [LOGGER_RECO] A_LEAD: Re-Calculating W
+11/11/2017 00:01:06.770 INFO  [LOGGER_RECO] A_LEAD: Calculating Distance to Total Balanced
+11/11/2017 00:01:07.966 INFO  [LOGGER_RECO] A_LEAD: Distance to Total Balanced: 0.15671
+11/11/2017 00:01:07.966 INFO  [LOGGER_RECO] A_LEAD: Balancing Weights Round 8
+11/11/2017 00:01:07.966 INFO  [LOGGER_RECO] A_LEAD: Determining C
+11/11/2017 00:01:08.051 INFO  [LOGGER_RECO] A_LEAD: Convoluting C
+11/11/2017 00:01:08.632 INFO  [LOGGER_RECO] B_LEAD: Re-Calculating W
+11/11/2017 00:01:08.780 INFO  [LOGGER_RECO] B_LEAD: Calculating Distance to Total Balanced
+11/11/2017 00:01:10.324 INFO  [LOGGER_RECO] B_LEAD: Distance to Total Balanced: 0.157033
+11/11/2017 00:01:10.324 INFO  [LOGGER_RECO] B_LEAD: Balancing Weights Round 8
+11/11/2017 00:01:10.324 INFO  [LOGGER_RECO] B_LEAD: Determining C
+11/11/2017 00:01:10.405 INFO  [LOGGER_RECO] B_LEAD: Convoluting C
+11/11/2017 00:01:10.700 INFO  [LOGGER_RECO] A_LEAD: Re-Calculating W
+11/11/2017 00:01:10.864 INFO  [LOGGER_RECO] A_LEAD: Calculating Distance to Total Balanced
+11/11/2017 00:01:12.085 INFO  [LOGGER_RECO] A_LEAD: Distance to Total Balanced: 0.134034
+11/11/2017 00:01:12.086 INFO  [LOGGER_RECO] A_LEAD: Balancing Weights Round 9
+11/11/2017 00:01:12.086 INFO  [LOGGER_RECO] A_LEAD: Determining C
+11/11/2017 00:01:12.171 INFO  [LOGGER_RECO] A_LEAD: Convoluting C
+11/11/2017 00:01:12.788 INFO  [LOGGER_RECO] B_LEAD: Re-Calculating W
+11/11/2017 00:01:12.930 INFO  [LOGGER_RECO] B_LEAD: Calculating Distance to Total Balanced
+11/11/2017 00:01:14.463 INFO  [LOGGER_RECO] B_LEAD: Distance to Total Balanced: 0.134408
+11/11/2017 00:01:14.464 INFO  [LOGGER_RECO] B_LEAD: Balancing Weights Round 9
+11/11/2017 00:01:14.464 INFO  [LOGGER_RECO] B_LEAD: Determining C
+11/11/2017 00:01:14.549 INFO  [LOGGER_RECO] B_LEAD: Convoluting C
+11/11/2017 00:01:14.694 INFO  [LOGGER_RECO] A_LEAD: Re-Calculating W
+11/11/2017 00:01:14.863 INFO  [LOGGER_RECO] A_LEAD: Calculating Distance to Total Balanced
+11/11/2017 00:01:16.195 INFO  [LOGGER_RECO] A_LEAD: Distance to Total Balanced: 0.112819
+11/11/2017 00:01:16.195 INFO  [LOGGER_RECO] A_LEAD: Balancing Weights Round 10
+11/11/2017 00:01:16.195 INFO  [LOGGER_RECO] A_LEAD: Determining C
+11/11/2017 00:01:16.281 INFO  [LOGGER_RECO] A_LEAD: Convoluting C
+11/11/2017 00:01:17.024 INFO  [LOGGER_RECO] B_LEAD: Re-Calculating W
+11/11/2017 00:01:17.186 INFO  [LOGGER_RECO] B_LEAD: Calculating Distance to Total Balanced
+11/11/2017 00:01:18.636 INFO  [LOGGER_RECO] B_LEAD: Distance to Total Balanced: 0.113216
+11/11/2017 00:01:18.637 INFO  [LOGGER_RECO] B_LEAD: Balancing Weights Round 10
+11/11/2017 00:01:18.637 INFO  [LOGGER_RECO] B_LEAD: Determining C
+11/11/2017 00:01:18.693 INFO  [LOGGER_RECO] A_LEAD: Re-Calculating W
+11/11/2017 00:01:18.719 INFO  [LOGGER_RECO] B_LEAD: Convoluting C
+11/11/2017 00:01:18.860 INFO  [LOGGER_RECO] A_LEAD: Calculating Distance to Total Balanced
+11/11/2017 00:01:20.307 INFO  [LOGGER_RECO] A_LEAD: Distance to Total Balanced: 0.0936369
+11/11/2017 00:01:20.308 INFO  [LOGGER_RECO] A_LEAD: Balancing Weights Round 11
+11/11/2017 00:01:20.308 INFO  [LOGGER_RECO] A_LEAD: Determining C
+11/11/2017 00:01:20.395 INFO  [LOGGER_RECO] A_LEAD: Convoluting C
+11/11/2017 00:01:21.045 INFO  [LOGGER_RECO] B_LEAD: Re-Calculating W
+11/11/2017 00:01:21.189 INFO  [LOGGER_RECO] B_LEAD: Calculating Distance to Total Balanced
+11/11/2017 00:01:22.683 INFO  [LOGGER_RECO] B_LEAD: Distance to Total Balanced: 0.0940282
+11/11/2017 00:01:22.683 INFO  [LOGGER_RECO] B_LEAD: Balancing Weights Round 11
+11/11/2017 00:01:22.683 INFO  [LOGGER_RECO] B_LEAD: Determining C
+11/11/2017 00:01:22.722 INFO  [LOGGER_RECO] A_LEAD: Re-Calculating W
+11/11/2017 00:01:22.764 INFO  [LOGGER_RECO] B_LEAD: Convoluting C
+11/11/2017 00:01:22.877 INFO  [LOGGER_RECO] A_LEAD: Calculating Distance to Total Balanced
+11/11/2017 00:01:24.266 INFO  [LOGGER_RECO] A_LEAD: Distance to Total Balanced: 0.0768586
+11/11/2017 00:01:24.266 INFO  [LOGGER_RECO] A_LEAD: Balancing Weights Round 12
+11/11/2017 00:01:24.267 INFO  [LOGGER_RECO] A_LEAD: Determining C
+11/11/2017 00:01:24.351 INFO  [LOGGER_RECO] A_LEAD: Convoluting C
+11/11/2017 00:01:25.103 INFO  [LOGGER_RECO] B_LEAD: Re-Calculating W
+11/11/2017 00:01:25.260 INFO  [LOGGER_RECO] B_LEAD: Calculating Distance to Total Balanced
+11/11/2017 00:01:26.702 INFO  [LOGGER_RECO] A_LEAD: Re-Calculating W
+11/11/2017 00:01:26.730 INFO  [LOGGER_RECO] B_LEAD: Distance to Total Balanced: 0.0772246
+11/11/2017 00:01:26.730 INFO  [LOGGER_RECO] B_LEAD: Balancing Weights Round 12
+11/11/2017 00:01:26.730 INFO  [LOGGER_RECO] B_LEAD: Determining C
+11/11/2017 00:01:26.808 INFO  [LOGGER_RECO] B_LEAD: Convoluting C
+11/11/2017 00:01:26.869 INFO  [LOGGER_RECO] A_LEAD: Calculating Distance to Total Balanced
+11/11/2017 00:01:28.294 INFO  [LOGGER_RECO] A_LEAD: Distance to Total Balanced: 0.0626053
+11/11/2017 00:01:28.294 INFO  [LOGGER_RECO] A_LEAD: Balancing Weights Round 13
+11/11/2017 00:01:28.295 INFO  [LOGGER_RECO] A_LEAD: Determining C
+11/11/2017 00:01:28.379 INFO  [LOGGER_RECO] A_LEAD: Convoluting C
+11/11/2017 00:01:29.212 INFO  [LOGGER_RECO] B_LEAD: Re-Calculating W
+11/11/2017 00:01:29.370 INFO  [LOGGER_RECO] B_LEAD: Calculating Distance to Total Balanced
+11/11/2017 00:01:30.756 INFO  [LOGGER_RECO] A_LEAD: Re-Calculating W
+11/11/2017 00:01:30.788 INFO  [LOGGER_RECO] B_LEAD: Distance to Total Balanced: 0.0629338
+11/11/2017 00:01:30.789 INFO  [LOGGER_RECO] B_LEAD: Balancing Weights Round 13
+11/11/2017 00:01:30.789 INFO  [LOGGER_RECO] B_LEAD: Determining C
+11/11/2017 00:01:30.868 INFO  [LOGGER_RECO] B_LEAD: Convoluting C
+11/11/2017 00:01:30.910 INFO  [LOGGER_RECO] A_LEAD: Calculating Distance to Total Balanced
+11/11/2017 00:01:32.333 INFO  [LOGGER_RECO] A_LEAD: Distance to Total Balanced: 0.0507803
+11/11/2017 00:01:32.333 INFO  [LOGGER_RECO] A_LEAD: Balancing Weights Round 14
+11/11/2017 00:01:32.333 INFO  [LOGGER_RECO] A_LEAD: Determining C
+11/11/2017 00:01:32.429 INFO  [LOGGER_RECO] A_LEAD: Convoluting C
+11/11/2017 00:01:33.173 INFO  [LOGGER_RECO] B_LEAD: Re-Calculating W
+11/11/2017 00:01:33.320 INFO  [LOGGER_RECO] B_LEAD: Calculating Distance to Total Balanced
+11/11/2017 00:01:34.770 INFO  [LOGGER_RECO] B_LEAD: Distance to Total Balanced: 0.0510663
+11/11/2017 00:01:34.770 INFO  [LOGGER_RECO] B_LEAD: Balancing Weights Round 14
+11/11/2017 00:01:34.770 INFO  [LOGGER_RECO] B_LEAD: Determining C
+11/11/2017 00:01:34.801 INFO  [LOGGER_RECO] A_LEAD: Re-Calculating W
+11/11/2017 00:01:34.855 INFO  [LOGGER_RECO] B_LEAD: Convoluting C
+11/11/2017 00:01:34.956 INFO  [LOGGER_RECO] A_LEAD: Calculating Distance to Total Balanced
+11/11/2017 00:01:36.354 INFO  [LOGGER_RECO] A_LEAD: Distance to Total Balanced: 0.0411428
+11/11/2017 00:01:36.355 INFO  [LOGGER_RECO] A_LEAD: Balancing Weights Round 15
+11/11/2017 00:01:36.355 INFO  [LOGGER_RECO] A_LEAD: Determining C
+11/11/2017 00:01:36.474 INFO  [LOGGER_RECO] A_LEAD: Convoluting C
+11/11/2017 00:01:37.170 INFO  [LOGGER_RECO] B_LEAD: Re-Calculating W
+11/11/2017 00:01:37.318 INFO  [LOGGER_RECO] B_LEAD: Calculating Distance to Total Balanced
+11/11/2017 00:01:38.795 INFO  [LOGGER_RECO] B_LEAD: Distance to Total Balanced: 0.0413865
+11/11/2017 00:01:38.795 INFO  [LOGGER_RECO] B_LEAD: Balancing Weights Round 15
+11/11/2017 00:01:38.795 INFO  [LOGGER_RECO] B_LEAD: Determining C
+11/11/2017 00:01:38.875 INFO  [LOGGER_RECO] A_LEAD: Re-Calculating W
+11/11/2017 00:01:38.888 INFO  [LOGGER_RECO] B_LEAD: Convoluting C
+11/11/2017 00:01:39.042 INFO  [LOGGER_RECO] A_LEAD: Calculating Distance to Total Balanced
+11/11/2017 00:01:40.439 INFO  [LOGGER_RECO] A_LEAD: Distance to Total Balanced: 0.0333834
+11/11/2017 00:01:40.439 INFO  [LOGGER_RECO] A_LEAD: Balancing Weights Round 16
+11/11/2017 00:01:40.439 INFO  [LOGGER_RECO] A_LEAD: Determining C
+11/11/2017 00:01:40.608 INFO  [LOGGER_RECO] A_LEAD: Convoluting C
+11/11/2017 00:01:41.200 INFO  [LOGGER_RECO] B_LEAD: Re-Calculating W
+11/11/2017 00:01:41.357 INFO  [LOGGER_RECO] B_LEAD: Calculating Distance to Total Balanced
+11/11/2017 00:01:42.798 INFO  [LOGGER_RECO] B_LEAD: Distance to Total Balanced: 0.0335883
+11/11/2017 00:01:42.799 INFO  [LOGGER_RECO] B_LEAD: Balancing Weights Round 16
+11/11/2017 00:01:42.799 INFO  [LOGGER_RECO] B_LEAD: Determining C
+11/11/2017 00:01:42.859 INFO  [LOGGER_RECO] A_LEAD: Re-Calculating W
+11/11/2017 00:01:42.897 INFO  [LOGGER_RECO] B_LEAD: Convoluting C
+11/11/2017 00:01:43.014 INFO  [LOGGER_RECO] A_LEAD: Calculating Distance to Total Balanced
+11/11/2017 00:01:44.419 INFO  [LOGGER_RECO] A_LEAD: Distance to Total Balanced: 0.0271819
+11/11/2017 00:01:44.419 INFO  [LOGGER_RECO] A_LEAD: Balancing Weights Round 17
+11/11/2017 00:01:44.419 INFO  [LOGGER_RECO] A_LEAD: Determining C
+11/11/2017 00:01:44.503 INFO  [LOGGER_RECO] A_LEAD: Convoluting C
+11/11/2017 00:01:45.153 INFO  [LOGGER_RECO] B_LEAD: Re-Calculating W
+11/11/2017 00:01:45.300 INFO  [LOGGER_RECO] B_LEAD: Calculating Distance to Total Balanced
+11/11/2017 00:01:46.742 INFO  [LOGGER_RECO] B_LEAD: Distance to Total Balanced: 0.0273526
+11/11/2017 00:01:46.742 INFO  [LOGGER_RECO] B_LEAD: Balancing Weights Round 17
+11/11/2017 00:01:46.742 INFO  [LOGGER_RECO] B_LEAD: Determining C
+11/11/2017 00:01:46.769 INFO  [LOGGER_RECO] A_LEAD: Re-Calculating W
+11/11/2017 00:01:46.832 INFO  [LOGGER_RECO] B_LEAD: Convoluting C
+11/11/2017 00:01:46.943 INFO  [LOGGER_RECO] A_LEAD: Calculating Distance to Total Balanced
+11/11/2017 00:01:48.345 INFO  [LOGGER_RECO] A_LEAD: Distance to Total Balanced: 0.0222419
+11/11/2017 00:01:48.345 INFO  [LOGGER_RECO] A_LEAD: Balancing Weights Round 18
+11/11/2017 00:01:48.345 INFO  [LOGGER_RECO] A_LEAD: Determining C
+11/11/2017 00:01:48.429 INFO  [LOGGER_RECO] A_LEAD: Convoluting C
+11/11/2017 00:01:49.131 INFO  [LOGGER_RECO] B_LEAD: Re-Calculating W
+11/11/2017 00:01:49.294 INFO  [LOGGER_RECO] B_LEAD: Calculating Distance to Total Balanced
+11/11/2017 00:01:50.662 INFO  [LOGGER_RECO] A_LEAD: Re-Calculating W
+11/11/2017 00:01:50.716 INFO  [LOGGER_RECO] B_LEAD: Distance to Total Balanced: 0.0223837
+11/11/2017 00:01:50.717 INFO  [LOGGER_RECO] B_LEAD: Balancing Weights Round 18
+11/11/2017 00:01:50.717 INFO  [LOGGER_RECO] B_LEAD: Determining C
+11/11/2017 00:01:50.817 INFO  [LOGGER_RECO] A_LEAD: Calculating Distance to Total Balanced
+11/11/2017 00:01:50.855 INFO  [LOGGER_RECO] B_LEAD: Convoluting C
+11/11/2017 00:01:52.264 INFO  [LOGGER_RECO] A_LEAD: Distance to Total Balanced: 0.0183073
+11/11/2017 00:01:52.265 INFO  [LOGGER_RECO] A_LEAD: Balancing Weights Round 19
+11/11/2017 00:01:52.265 INFO  [LOGGER_RECO] A_LEAD: Determining C
+11/11/2017 00:01:52.349 INFO  [LOGGER_RECO] A_LEAD: Convoluting C
+11/11/2017 00:01:53.152 INFO  [LOGGER_RECO] B_LEAD: Re-Calculating W
+11/11/2017 00:01:53.300 INFO  [LOGGER_RECO] B_LEAD: Calculating Distance to Total Balanced
+11/11/2017 00:01:54.590 INFO  [LOGGER_RECO] A_LEAD: Re-Calculating W
+11/11/2017 00:01:54.729 INFO  [LOGGER_RECO] B_LEAD: Distance to Total Balanced: 0.0184251
+11/11/2017 00:01:54.730 INFO  [LOGGER_RECO] B_LEAD: Balancing Weights Round 19
+11/11/2017 00:01:54.730 INFO  [LOGGER_RECO] B_LEAD: Determining C
+11/11/2017 00:01:54.745 INFO  [LOGGER_RECO] A_LEAD: Calculating Distance to Total Balanced
+11/11/2017 00:01:54.818 INFO  [LOGGER_RECO] B_LEAD: Convoluting C
+11/11/2017 00:01:56.107 INFO  [LOGGER_RECO] A_LEAD: Distance to Total Balanced: 0.0151664
+11/11/2017 00:01:56.107 INFO  [LOGGER_RECO] A_LEAD: Balancing Weights Round 20
+11/11/2017 00:01:56.107 INFO  [LOGGER_RECO] A_LEAD: Determining C
+11/11/2017 00:01:56.193 INFO  [LOGGER_RECO] A_LEAD: Convoluting C
+11/11/2017 00:01:57.150 INFO  [LOGGER_RECO] B_LEAD: Re-Calculating W
+11/11/2017 00:01:57.311 INFO  [LOGGER_RECO] B_LEAD: Calculating Distance to Total Balanced
+11/11/2017 00:01:58.453 INFO  [LOGGER_RECO] A_LEAD: Re-Calculating W
+11/11/2017 00:01:58.608 INFO  [LOGGER_RECO] A_LEAD: Calculating Distance to Total Balanced
+11/11/2017 00:01:58.799 INFO  [LOGGER_RECO] B_LEAD: Distance to Total Balanced: 0.0152645
+11/11/2017 00:01:58.800 INFO  [LOGGER_RECO] B_LEAD: Balancing Weights Round 20
+11/11/2017 00:01:58.800 INFO  [LOGGER_RECO] B_LEAD: Determining C
+11/11/2017 00:01:58.878 INFO  [LOGGER_RECO] B_LEAD: Convoluting C
+11/11/2017 00:01:59.851 INFO  [LOGGER_RECO] A_LEAD: Distance to Total Balanced: 0.0126488
+11/11/2017 00:01:59.851 INFO  [LOGGER_RECO] A_LEAD: Balancing Weights Round 21
+11/11/2017 00:01:59.851 INFO  [LOGGER_RECO] A_LEAD: Determining C
+11/11/2017 00:01:59.936 INFO  [LOGGER_RECO] A_LEAD: Convoluting C
+11/11/2017 00:02:01.245 INFO  [LOGGER_RECO] B_LEAD: Re-Calculating W
+11/11/2017 00:02:01.423 INFO  [LOGGER_RECO] B_LEAD: Calculating Distance to Total Balanced
+11/11/2017 00:02:02.065 INFO  [LOGGER_RECO] A_LEAD: Re-Calculating W
+11/11/2017 00:02:02.236 INFO  [LOGGER_RECO] A_LEAD: Calculating Distance to Total Balanced
+11/11/2017 00:02:02.873 INFO  [LOGGER_RECO] B_LEAD: Distance to Total Balanced: 0.012731
+11/11/2017 00:02:02.873 INFO  [LOGGER_RECO] B_LEAD: Balancing Weights Round 21
+11/11/2017 00:02:02.873 INFO  [LOGGER_RECO] B_LEAD: Determining C
+11/11/2017 00:02:02.952 INFO  [LOGGER_RECO] B_LEAD: Convoluting C
+11/11/2017 00:02:03.433 INFO  [LOGGER_RECO] A_LEAD: Distance to Total Balanced: 0.0106202
+11/11/2017 00:02:03.433 INFO  [LOGGER_RECO] A_LEAD: Balancing Weights Round 22
+11/11/2017 00:02:03.433 INFO  [LOGGER_RECO] A_LEAD: Determining C
+11/11/2017 00:02:03.577 INFO  [LOGGER_RECO] A_LEAD: Convoluting C
+11/11/2017 00:02:05.266 INFO  [LOGGER_RECO] B_LEAD: Re-Calculating W
+11/11/2017 00:02:05.504 INFO  [LOGGER_RECO] B_LEAD: Calculating Distance to Total Balanced
+11/11/2017 00:02:05.966 INFO  [LOGGER_RECO] A_LEAD: Re-Calculating W
+11/11/2017 00:02:06.131 INFO  [LOGGER_RECO] A_LEAD: Calculating Distance to Total Balanced
+11/11/2017 00:02:06.907 INFO  [LOGGER_RECO] B_LEAD: Distance to Total Balanced: 0.0106894
+11/11/2017 00:02:06.908 INFO  [LOGGER_RECO] B_LEAD: Balancing Weights Round 22
+11/11/2017 00:02:06.908 INFO  [LOGGER_RECO] B_LEAD: Determining C
+11/11/2017 00:02:06.987 INFO  [LOGGER_RECO] B_LEAD: Convoluting C
+11/11/2017 00:02:07.322 INFO  [LOGGER_RECO] A_LEAD: Distance to Total Balanced: 0.00897561
+11/11/2017 00:02:07.322 INFO  [LOGGER_RECO] A_LEAD: Allreducing F
+11/11/2017 00:02:07.322 INFO  [LOGGER_RECO] A_LEAD: Waiting for Synchronizing all Processes in Hemisphere A
+11/11/2017 00:02:07.323 INFO  [LOGGER_RECO] A_LEAD: Symmetrizing F
+11/11/2017 00:02:09.491 INFO  [LOGGER_RECO] B_LEAD: Re-Calculating W
+11/11/2017 00:02:09.708 INFO  [LOGGER_RECO] B_LEAD: Calculating Distance to Total Balanced
+11/11/2017 00:02:11.258 INFO  [LOGGER_RECO] B_LEAD: Distance to Total Balanced: 0.00903421
+11/11/2017 00:02:11.258 INFO  [LOGGER_RECO] B_LEAD: Allreducing F
+11/11/2017 00:02:11.259 INFO  [LOGGER_RECO] B_LEAD: Waiting for Synchronizing all Processes in Hemisphere B
+11/11/2017 00:02:11.259 INFO  [LOGGER_RECO] B_LEAD: Symmetrizing F
+11/11/2017 00:02:15.469 INFO  [LOGGER_RECO] A_LEAD: Correcting Convolution Kernel
+11/11/2017 00:02:16.699 INFO  [LOGGER_RECO] A_LEAD: Convolution Kernel Corrected
+11/11/2017 00:02:17.478 INFO  [LOGGER_ROUND] A_LEAD: Freeing Space for Pre-calcuation in Reconstruction
+11/11/2017 00:02:17.479 INFO  [LOGGER_ROUND] A_LEAD: Reference(s) Reconstructed
+11/11/2017 00:02:21.004 INFO  [LOGGER_RECO] B_LEAD: Correcting Convolution Kernel
+11/11/2017 00:02:22.203 INFO  [LOGGER_RECO] B_LEAD: Convolution Kernel Corrected
+11/11/2017 00:02:23.077 INFO  [LOGGER_ROUND] B_LEAD: Freeing Space for Pre-calcuation in Reconstruction
+11/11/2017 00:02:23.077 INFO  [LOGGER_ROUND] B_LEAD: Reference(s) Reconstructed
+11/11/2017 00:02:26.219 INFO  [LOGGER_ROUND] MASTER: Maximization Performed
+11/11/2017 00:02:26.219 INFO  [LOGGER_ROUND] MASTER: Saving Reference(s)
+11/11/2017 00:02:26.219 INFO  [LOGGER_ROUND] MASTER: Calculating FSC(s)
+11/11/2017 00:02:26.219 INFO  [LOGGER_COMPARE] MASTER: Setting Size of _FSC
+11/11/2017 00:02:26.384 INFO  [LOGGER_ROUND] A_LEAD: Saving Reference 0
+11/11/2017 00:02:26.518 INFO  [LOGGER_ROUND] B_LEAD: Saving Reference 0
+11/11/2017 00:02:27.239 INFO  [LOGGER_COMPARE] MASTER: Gathering References from Hemisphere A and Hemisphere B
+11/11/2017 00:02:27.239 INFO  [LOGGER_COMPARE] A_LEAD: Sending Reference 0 from Hemisphere A
+11/11/2017 00:02:27.239 INFO  [LOGGER_COMPARE] B_LEAD: Sending Reference 0 from Hemisphere B
+11/11/2017 00:02:27.239 INFO  [LOGGER_COMPARE] MASTER: Allocating A and B in Fourier Space with Size: 256 X 256 X 256
+11/11/2017 00:02:27.239 INFO  [LOGGER_COMPARE] A_LEAD: Size of Reference 0 to be Sent: 8454144
+11/11/2017 00:02:27.239 INFO  [LOGGER_COMPARE] B_LEAD: Size of Reference 0 to be Sent: 8454144
+11/11/2017 00:02:27.239 INFO  [LOGGER_COMPARE] A_LEAD: Zero, REAL = 458.092, IMAG = 0
+11/11/2017 00:02:27.239 INFO  [LOGGER_COMPARE] B_LEAD: Zero, REAL = 661.183, IMAG = 0
+11/11/2017 00:02:27.239 INFO  [LOGGER_COMPARE] MASTER: Size of Hemisphere A of Reference 0 to be Received: 8454144
+11/11/2017 00:02:27.239 INFO  [LOGGER_COMPARE] MASTER: Size of Hemisphere A of Reference 0 to be Received: 8454144
+11/11/2017 00:02:27.240 INFO  [LOGGER_COMPARE] MASTER: Receiving Reference 0 from Hemisphere A
+11/11/2017 00:02:27.302 INFO  [LOGGER_COMPARE] A_LEAD: Receiving Reference 0 from MASTER
+11/11/2017 00:02:27.302 INFO  [LOGGER_COMPARE] MASTER: Receiving Reference 0 from Hemisphere B
+11/11/2017 00:02:27.364 INFO  [LOGGER_COMPARE] B_LEAD: Receiving Reference 0 from MASTER
+11/11/2017 00:02:27.364 INFO  [LOGGER_COMPARE] MASTER: Zero, REAL = 458.092, IMAG = 0
+11/11/2017 00:02:27.364 INFO  [LOGGER_COMPARE] MASTER: Zero, REAL = 661.183, IMAG = 0
+11/11/2017 00:02:27.364 INFO  [LOGGER_COMPARE] MASTER: Calculating FSC of Core Region of Reference 0
+11/11/2017 00:02:27.695 INFO  [LOGGER_COMPARE] MASTER: Core Region is 144 x 144 x 144
+11/11/2017 00:02:27.695 INFO  [LOGGER_COMPARE] MASTER: Core Region Extract Factor: 0.5625
+11/11/2017 00:02:27.695 INFO  [LOGGER_COMPARE] MASTER: Extracing Core Region from Reference 0
+11/11/2017 00:02:27.778 INFO  [LOGGER_COMPARE] MASTER: Determining Core Region FSC of Reference 0
+11/11/2017 00:02:28.218 INFO  [LOGGER_COMPARE] MASTER: Averaging A and B
+11/11/2017 00:02:28.243 INFO  [LOGGER_COMPARE] MASTER: Sending Reference 0 to Hemisphere A
+11/11/2017 00:02:28.293 INFO  [LOGGER_COMPARE] MASTER: Reference 0 Sent to Hemisphere A
+11/11/2017 00:02:28.293 INFO  [LOGGER_COMPARE] MASTER: Sending Reference 0 to Hemisphere B
+11/11/2017 00:02:28.332 INFO  [LOGGER_COMPARE] MASTER: Reference 0 Sent to Hemisphere B
+11/11/2017 00:02:28.336 INFO  [LOGGER_COMPARE] B_LEAD: Broadcasting Reference 0 from B_LEAD
+11/11/2017 00:02:28.336 INFO  [LOGGER_COMPARE] A_LEAD: Broadcasting Reference 0 from A_LEAD
+11/11/2017 00:02:28.340 INFO  [LOGGER_COMPARE] MASTER: Reference 0 Broadcasted from A_LEAD and B_LEAD
+11/11/2017 00:02:28.340 INFO  [LOGGER_COMPARE] MASTER: Broadcasting FSC from MASTER
+11/11/2017 00:02:28.341 INFO  [LOGGER_COMPARE] MASTER: FSC Broadcasted from MASTER
+11/11/2017 00:02:28.341 INFO  [LOGGER_ROUND] MASTER: Calculating SNR(s)
+11/11/2017 00:02:28.341 INFO  [LOGGER_ROUND] MASTER: Saving FSC(s)
+11/11/2017 00:02:28.343 INFO  [LOGGER_ROUND] MASTER: Current Cutoff Frequency: 6 (Spatial), 56.1067 (Angstrom)
+11/11/2017 00:02:28.343 INFO  [LOGGER_ROUND] MASTER: Recording Current Resolution
+11/11/2017 00:02:28.343 INFO  [LOGGER_ROUND] MASTER: Current Resolution (Report): 18 (Spatial), 18.7022 (Angstrom)
+11/11/2017 00:02:28.344 INFO  [LOGGER_ROUND] MASTER: Current Resolution (Cutoff): 18 (Spatial), 18.7022 (Angstrom)
+11/11/2017 00:02:28.344 INFO  [LOGGER_ROUND] MASTER: Updating Cutoff Frequency in Model
+11/11/2017 00:02:28.344 INFO  [LOGGER_SYS] MASTER: _r = 7
+11/11/2017 00:02:28.344 INFO  [LOGGER_SYS] MASTER: _searchType = 0
+11/11/2017 00:02:28.345 INFO  [LOGGER_SYS] MASTER: Using rVariDecreaseFactor 0.05
+11/11/2017 00:02:28.345 INFO  [LOGGER_ROUND] MASTER: Increasing Cutoff Frequency or Not: 0, as the Translation Variance is 14.1935, 12.655, and the Previous Translation Variance is 1.79769e+308, 1.79769e+308
+11/11/2017 00:02:28.345 INFO  [LOGGER_ROUND] MASTER: Resetting Parameters Determining Increase Frequency
+11/11/2017 00:02:28.345 INFO  [LOGGER_ROUND] MASTER: Recording Current Highest Frequency
+11/11/2017 00:02:28.345 INFO  [LOGGER_ROUND] MASTER: Determining the Search Type of the Next Iteration
+11/11/2017 00:02:28.346 INFO  [LOGGER_ROUND] B_LEAD: Inverse Fourier Transforming Reference 0
+11/11/2017 00:02:28.346 INFO  [LOGGER_ROUND] A_LEAD: Inverse Fourier Transforming Reference 0
+11/11/2017 00:02:28.346 INFO  [LOGGER_ROUND] MASTER: Recording Top Resolution
+11/11/2017 00:02:28.346 INFO  [LOGGER_ROUND] MASTER: Updating Cutoff Frequency
+11/11/2017 00:02:28.346 INFO  [LOGGER_ROUND] MASTER: New Cutoff Frequency: 6 (Spatial), 56.1067 (Angstrom)
+11/11/2017 00:02:28.346 INFO  [LOGGER_ROUND] MASTER: Updating Frequency Boundary of Reconstructor
+11/11/2017 00:02:28.346 INFO  [LOGGER_SYS] MASTER: Resetting Frequency Boundary of Reconstructor to 49
+11/11/2017 00:02:28.347 INFO  [LOGGER_ROUND] MASTER: Solvent Flattening
+11/11/2017 00:02:28.347 INFO  [LOGGER_ROUND] MASTER: Preparing to Reconstruct Reference(s) at Nyquist
+11/11/2017 00:02:28.347 INFO  [LOGGER_ROUND] MASTER: Resetting to Nyquist Limit
+11/11/2017 00:02:28.347 INFO  [LOGGER_ROUND] MASTER: Refreshing Reconstructors
+11/11/2017 00:02:28.347 INFO  [LOGGER_ROUND] MASTER: Reconstructing References(s) at Nyquist
+11/11/2017 00:02:28.348 INFO  [LOGGER_ROUND] MASTER: Saving Final Reference(s)
+11/11/2017 00:02:28.348 INFO  [LOGGER_ROUND] MASTER: Calculating Final FSC(s)
+11/11/2017 00:02:28.348 INFO  [LOGGER_COMPARE] MASTER: Setting Size of _FSC
+11/11/2017 00:02:28.587 INFO  [LOGGER_ROUND] A_LEAD: Subtracting Background from Reference 0
+11/11/2017 00:02:28.613 INFO  [LOGGER_ROUND] B_LEAD: Subtracting Background from Reference 0
+11/11/2017 00:02:28.728 INFO  [LOGGER_ROUND] B_LEAD: Mean of Background Noise of Reference 0: -0.000970313
+11/11/2017 00:02:28.728 INFO  [LOGGER_ROUND] A_LEAD: Mean of Background Noise of Reference 0: -0.000970313
+11/11/2017 00:02:28.739 INFO  [LOGGER_ROUND] B_LEAD: Performing Solvent Flatten of Reference 0
+11/11/2017 00:02:28.739 INFO  [LOGGER_ROUND] A_LEAD: Performing Solvent Flatten of Reference 0
+11/11/2017 00:02:28.838 INFO  [LOGGER_ROUND] A_LEAD: Fourier Transforming Reference 0
+11/11/2017 00:02:28.848 INFO  [LOGGER_ROUND] B_LEAD: Fourier Transforming Reference 0
+11/11/2017 00:02:28.927 INFO  [LOGGER_ROUND] A_LEAD: Refreshing Projectors
+11/11/2017 00:02:28.950 INFO  [LOGGER_ROUND] B_LEAD: Refreshing Projectors
+11/11/2017 00:02:30.918 INFO  [LOGGER_ROUND] A_LEAD: Resetting Reconstructors
+11/11/2017 00:02:30.918 INFO  [LOGGER_SYS] A_LEAD: Resetting Reconstructor(s) with Frequency Upper Boundary : 49
+11/11/2017 00:02:31.106 INFO  [LOGGER_ROUND] B_LEAD: Resetting Reconstructors
+11/11/2017 00:02:31.106 INFO  [LOGGER_SYS] B_LEAD: Resetting Reconstructor(s) with Frequency Upper Boundary : 49
+11/11/2017 00:02:31.174 INFO  [LOGGER_SYS] A_LEAD: Resetting Reconstructor(s) with Frequency Upper Boundary : 126
+11/11/2017 00:02:31.346 INFO  [LOGGER_SYS] B_LEAD: Resetting Reconstructor(s) with Frequency Upper Boundary : 126
+11/11/2017 00:02:31.407 INFO  [LOGGER_ROUND] A_LEAD: Allocating Space for Pre-calcuation in Reconstruction
+11/11/2017 00:02:31.418 INFO  [LOGGER_ROUND] A_LEAD: Inserting High Probability 2D Images into Reconstructor
+11/11/2017 00:02:31.555 INFO  [LOGGER_ROUND] B_LEAD: Allocating Space for Pre-calcuation in Reconstruction
+11/11/2017 00:02:31.568 INFO  [LOGGER_ROUND] B_LEAD: Inserting High Probability 2D Images into Reconstructor
+11/11/2017 00:05:32.930 INFO  [LOGGER_ROUND] A_LEAD: Reconstructing Reference 0 for Next Iteration
+11/11/2017 00:05:32.931 INFO  [LOGGER_RECO] A_LEAD: Reconstructing Under 3D Mode
+11/11/2017 00:05:32.931 INFO  [LOGGER_RECO] A_LEAD: Allreducing T
+11/11/2017 00:05:32.931 INFO  [LOGGER_RECO] A_LEAD: Waiting for Synchronizing all Processes in Hemisphere A
+11/11/2017 00:05:32.932 INFO  [LOGGER_RECO] A_LEAD: Normalising T and F
+11/11/2017 00:05:33.045 INFO  [LOGGER_RECO] A_LEAD: Symmetrizing T
+11/11/2017 00:05:42.043 INFO  [LOGGER_ROUND] B_LEAD: Reconstructing Reference 0 for Next Iteration
+11/11/2017 00:05:42.044 INFO  [LOGGER_RECO] B_LEAD: Reconstructing Under 3D Mode
+11/11/2017 00:05:42.044 INFO  [LOGGER_RECO] B_LEAD: Allreducing T
+11/11/2017 00:05:42.044 INFO  [LOGGER_RECO] B_LEAD: Waiting for Synchronizing all Processes in Hemisphere B
+11/11/2017 00:05:42.045 INFO  [LOGGER_RECO] B_LEAD: Normalising T and F
+11/11/2017 00:05:42.146 INFO  [LOGGER_RECO] B_LEAD: Symmetrizing T
+11/11/2017 00:05:43.635 INFO  [LOGGER_SYS] A_LEAD: End of Avg = 0.351353, 0.386619, 0.333344, 0.333344, 0.333344
+11/11/2017 00:05:43.635 INFO  [LOGGER_SYS] A_LEAD: End of FSC = 0.168951
+11/11/2017 00:05:44.190 INFO  [LOGGER_RECO] A_LEAD: Initialising W
+11/11/2017 00:05:44.496 INFO  [LOGGER_RECO] A_LEAD: Balancing Weights Round 0
+11/11/2017 00:05:44.496 INFO  [LOGGER_RECO] A_LEAD: Determining C
+11/11/2017 00:05:44.611 INFO  [LOGGER_RECO] A_LEAD: Convoluting C
+11/11/2017 00:05:46.574 INFO  [LOGGER_RECO] A_LEAD: Re-Calculating W
+11/11/2017 00:05:46.998 INFO  [LOGGER_RECO] A_LEAD: Calculating Distance to Total Balanced
+11/11/2017 00:05:48.339 INFO  [LOGGER_RECO] A_LEAD: Distance to Total Balanced: 10.5075
+11/11/2017 00:05:48.339 INFO  [LOGGER_RECO] A_LEAD: Balancing Weights Round 1
+11/11/2017 00:05:48.339 INFO  [LOGGER_RECO] A_LEAD: Determining C
+11/11/2017 00:05:48.420 INFO  [LOGGER_RECO] A_LEAD: Convoluting C
+11/11/2017 00:05:50.377 INFO  [LOGGER_RECO] A_LEAD: Re-Calculating W
+11/11/2017 00:05:50.828 INFO  [LOGGER_RECO] A_LEAD: Calculating Distance to Total Balanced
+11/11/2017 00:05:52.169 INFO  [LOGGER_RECO] A_LEAD: Distance to Total Balanced: 0.304836
+11/11/2017 00:05:52.169 INFO  [LOGGER_RECO] A_LEAD: Balancing Weights Round 2
+11/11/2017 00:05:52.169 INFO  [LOGGER_RECO] A_LEAD: Determining C
+11/11/2017 00:05:52.249 INFO  [LOGGER_RECO] A_LEAD: Convoluting C
+11/11/2017 00:05:53.385 INFO  [LOGGER_SYS] B_LEAD: End of Avg = 0.356617, 0.375889, 0.3349, 0.3349, 0.3349
+11/11/2017 00:05:53.385 INFO  [LOGGER_SYS] B_LEAD: End of FSC = 0.168951
+11/11/2017 00:05:53.937 INFO  [LOGGER_RECO] B_LEAD: Initialising W
+11/11/2017 00:05:54.249 INFO  [LOGGER_RECO] B_LEAD: Balancing Weights Round 0
+11/11/2017 00:05:54.249 INFO  [LOGGER_RECO] B_LEAD: Determining C
+11/11/2017 00:05:54.331 INFO  [LOGGER_RECO] B_LEAD: Convoluting C
+11/11/2017 00:05:54.515 INFO  [LOGGER_RECO] A_LEAD: Re-Calculating W
+11/11/2017 00:05:54.937 INFO  [LOGGER_RECO] A_LEAD: Calculating Distance to Total Balanced
+11/11/2017 00:05:56.283 INFO  [LOGGER_RECO] A_LEAD: Distance to Total Balanced: 0.282981
+11/11/2017 00:05:56.283 INFO  [LOGGER_RECO] A_LEAD: Balancing Weights Round 3
+11/11/2017 00:05:56.284 INFO  [LOGGER_RECO] A_LEAD: Determining C
+11/11/2017 00:05:56.371 INFO  [LOGGER_RECO] A_LEAD: Convoluting C
+11/11/2017 00:05:56.725 INFO  [LOGGER_RECO] B_LEAD: Re-Calculating W
+11/11/2017 00:05:57.147 INFO  [LOGGER_RECO] B_LEAD: Calculating Distance to Total Balanced
+11/11/2017 00:05:58.753 INFO  [LOGGER_RECO] B_LEAD: Distance to Total Balanced: 10.4091
+11/11/2017 00:05:58.754 INFO  [LOGGER_RECO] B_LEAD: Balancing Weights Round 1
+11/11/2017 00:05:58.754 INFO  [LOGGER_RECO] B_LEAD: Determining C
+11/11/2017 00:05:58.846 INFO  [LOGGER_RECO] B_LEAD: Convoluting C
+11/11/2017 00:05:58.931 INFO  [LOGGER_RECO] A_LEAD: Re-Calculating W
+11/11/2017 00:05:59.347 INFO  [LOGGER_RECO] A_LEAD: Calculating Distance to Total Balanced
+11/11/2017 00:06:00.707 INFO  [LOGGER_RECO] A_LEAD: Distance to Total Balanced: 0.254992
+11/11/2017 00:06:00.707 INFO  [LOGGER_RECO] A_LEAD: Balancing Weights Round 4
+11/11/2017 00:06:00.707 INFO  [LOGGER_RECO] A_LEAD: Determining C
+11/11/2017 00:06:00.793 INFO  [LOGGER_RECO] A_LEAD: Convoluting C
+11/11/2017 00:06:01.154 INFO  [LOGGER_RECO] B_LEAD: Re-Calculating W
+11/11/2017 00:06:01.647 INFO  [LOGGER_RECO] B_LEAD: Calculating Distance to Total Balanced
+11/11/2017 00:06:02.857 INFO  [LOGGER_RECO] A_LEAD: Re-Calculating W
+11/11/2017 00:06:03.192 INFO  [LOGGER_RECO] B_LEAD: Distance to Total Balanced: 0.304623
+11/11/2017 00:06:03.193 INFO  [LOGGER_RECO] B_LEAD: Balancing Weights Round 2
+11/11/2017 00:06:03.193 INFO  [LOGGER_RECO] B_LEAD: Determining C
+11/11/2017 00:06:03.274 INFO  [LOGGER_RECO] A_LEAD: Calculating Distance to Total Balanced
+11/11/2017 00:06:03.280 INFO  [LOGGER_RECO] B_LEAD: Convoluting C
+11/11/2017 00:06:04.682 INFO  [LOGGER_RECO] A_LEAD: Distance to Total Balanced: 0.228852
+11/11/2017 00:06:04.682 INFO  [LOGGER_RECO] A_LEAD: Balancing Weights Round 5
+11/11/2017 00:06:04.682 INFO  [LOGGER_RECO] A_LEAD: Determining C
+11/11/2017 00:06:04.762 INFO  [LOGGER_RECO] A_LEAD: Convoluting C
+11/11/2017 00:06:05.421 INFO  [LOGGER_RECO] B_LEAD: Re-Calculating W
+11/11/2017 00:06:05.919 INFO  [LOGGER_RECO] B_LEAD: Calculating Distance to Total Balanced
+11/11/2017 00:06:07.006 INFO  [LOGGER_RECO] A_LEAD: Re-Calculating W
+11/11/2017 00:06:07.423 INFO  [LOGGER_RECO] A_LEAD: Calculating Distance to Total Balanced
+11/11/2017 00:06:07.517 INFO  [LOGGER_RECO] B_LEAD: Distance to Total Balanced: 0.282609
+11/11/2017 00:06:07.517 INFO  [LOGGER_RECO] B_LEAD: Balancing Weights Round 3
+11/11/2017 00:06:07.517 INFO  [LOGGER_RECO] B_LEAD: Determining C
+11/11/2017 00:06:07.596 INFO  [LOGGER_RECO] B_LEAD: Convoluting C
+11/11/2017 00:06:08.808 INFO  [LOGGER_RECO] A_LEAD: Distance to Total Balanced: 0.204168
+11/11/2017 00:06:08.808 INFO  [LOGGER_RECO] A_LEAD: Balancing Weights Round 6
+11/11/2017 00:06:08.808 INFO  [LOGGER_RECO] A_LEAD: Determining C
+11/11/2017 00:06:08.889 INFO  [LOGGER_RECO] A_LEAD: Convoluting C
+11/11/2017 00:06:09.832 INFO  [LOGGER_RECO] B_LEAD: Re-Calculating W
+11/11/2017 00:06:10.328 INFO  [LOGGER_RECO] B_LEAD: Calculating Distance to Total Balanced
+11/11/2017 00:06:11.222 INFO  [LOGGER_RECO] A_LEAD: Re-Calculating W
+11/11/2017 00:06:11.645 INFO  [LOGGER_RECO] A_LEAD: Calculating Distance to Total Balanced
+11/11/2017 00:06:11.895 INFO  [LOGGER_RECO] B_LEAD: Distance to Total Balanced: 0.254736
+11/11/2017 00:06:11.895 INFO  [LOGGER_RECO] B_LEAD: Balancing Weights Round 4
+11/11/2017 00:06:11.895 INFO  [LOGGER_RECO] B_LEAD: Determining C
+11/11/2017 00:06:11.977 INFO  [LOGGER_RECO] B_LEAD: Convoluting C
+11/11/2017 00:06:13.007 INFO  [LOGGER_RECO] A_LEAD: Distance to Total Balanced: 0.180117
+11/11/2017 00:06:13.007 INFO  [LOGGER_RECO] A_LEAD: Balancing Weights Round 7
+11/11/2017 00:06:13.007 INFO  [LOGGER_RECO] A_LEAD: Determining C
+11/11/2017 00:06:13.088 INFO  [LOGGER_RECO] A_LEAD: Convoluting C
+11/11/2017 00:06:14.197 INFO  [LOGGER_RECO] B_LEAD: Re-Calculating W
+11/11/2017 00:06:14.607 INFO  [LOGGER_RECO] B_LEAD: Calculating Distance to Total Balanced
+11/11/2017 00:06:15.289 INFO  [LOGGER_RECO] A_LEAD: Re-Calculating W
+11/11/2017 00:06:15.711 INFO  [LOGGER_RECO] A_LEAD: Calculating Distance to Total Balanced
+11/11/2017 00:06:16.185 INFO  [LOGGER_RECO] B_LEAD: Distance to Total Balanced: 0.228692
+11/11/2017 00:06:16.185 INFO  [LOGGER_RECO] B_LEAD: Balancing Weights Round 5
+11/11/2017 00:06:16.186 INFO  [LOGGER_RECO] B_LEAD: Determining C
+11/11/2017 00:06:16.339 INFO  [LOGGER_RECO] B_LEAD: Convoluting C
+11/11/2017 00:06:17.036 INFO  [LOGGER_RECO] A_LEAD: Distance to Total Balanced: 0.156553
+11/11/2017 00:06:17.036 INFO  [LOGGER_RECO] A_LEAD: Balancing Weights Round 8
+11/11/2017 00:06:17.036 INFO  [LOGGER_RECO] A_LEAD: Determining C
+11/11/2017 00:06:17.117 INFO  [LOGGER_RECO] A_LEAD: Convoluting C
+11/11/2017 00:06:18.567 INFO  [LOGGER_RECO] B_LEAD: Re-Calculating W
+11/11/2017 00:06:18.985 INFO  [LOGGER_RECO] B_LEAD: Calculating Distance to Total Balanced
+11/11/2017 00:06:19.362 INFO  [LOGGER_RECO] A_LEAD: Re-Calculating W
+11/11/2017 00:06:19.798 INFO  [LOGGER_RECO] A_LEAD: Calculating Distance to Total Balanced
+11/11/2017 00:06:20.589 INFO  [LOGGER_RECO] B_LEAD: Distance to Total Balanced: 0.204102
+11/11/2017 00:06:20.589 INFO  [LOGGER_RECO] B_LEAD: Balancing Weights Round 6
+11/11/2017 00:06:20.589 INFO  [LOGGER_RECO] B_LEAD: Determining C
+11/11/2017 00:06:20.668 INFO  [LOGGER_RECO] B_LEAD: Convoluting C
+11/11/2017 00:06:21.107 INFO  [LOGGER_RECO] A_LEAD: Distance to Total Balanced: 0.13386
+11/11/2017 00:06:21.107 INFO  [LOGGER_RECO] A_LEAD: Balancing Weights Round 9
+11/11/2017 00:06:21.107 INFO  [LOGGER_RECO] A_LEAD: Determining C
+11/11/2017 00:06:21.190 INFO  [LOGGER_RECO] A_LEAD: Convoluting C
+11/11/2017 00:06:23.005 INFO  [LOGGER_RECO] B_LEAD: Re-Calculating W
+11/11/2017 00:06:23.476 INFO  [LOGGER_RECO] B_LEAD: Calculating Distance to Total Balanced
+11/11/2017 00:06:23.618 INFO  [LOGGER_RECO] A_LEAD: Re-Calculating W
+11/11/2017 00:06:24.036 INFO  [LOGGER_RECO] A_LEAD: Calculating Distance to Total Balanced
+11/11/2017 00:06:24.985 INFO  [LOGGER_RECO] B_LEAD: Distance to Total Balanced: 0.180141
+11/11/2017 00:06:24.985 INFO  [LOGGER_RECO] B_LEAD: Balancing Weights Round 7
+11/11/2017 00:06:24.985 INFO  [LOGGER_RECO] B_LEAD: Determining C
+11/11/2017 00:06:25.064 INFO  [LOGGER_RECO] B_LEAD: Convoluting C
+11/11/2017 00:06:25.341 INFO  [LOGGER_RECO] A_LEAD: Distance to Total Balanced: 0.112642
+11/11/2017 00:06:25.342 INFO  [LOGGER_RECO] A_LEAD: Balancing Weights Round 10
+11/11/2017 00:06:25.342 INFO  [LOGGER_RECO] A_LEAD: Determining C
+11/11/2017 00:06:25.426 INFO  [LOGGER_RECO] A_LEAD: Convoluting C
+11/11/2017 00:06:27.520 INFO  [LOGGER_RECO] B_LEAD: Re-Calculating W
+11/11/2017 00:06:27.598 INFO  [LOGGER_RECO] A_LEAD: Re-Calculating W
+11/11/2017 00:06:27.941 INFO  [LOGGER_RECO] B_LEAD: Calculating Distance to Total Balanced
+11/11/2017 00:06:28.022 INFO  [LOGGER_RECO] A_LEAD: Calculating Distance to Total Balanced
+11/11/2017 00:06:29.275 INFO  [LOGGER_RECO] B_LEAD: Distance to Total Balanced: 0.156654
+11/11/2017 00:06:29.275 INFO  [LOGGER_RECO] B_LEAD: Balancing Weights Round 8
+11/11/2017 00:06:29.275 INFO  [LOGGER_RECO] B_LEAD: Determining C
+11/11/2017 00:06:29.306 INFO  [LOGGER_RECO] A_LEAD: Distance to Total Balanced: 0.0934685
+11/11/2017 00:06:29.307 INFO  [LOGGER_RECO] A_LEAD: Balancing Weights Round 11
+11/11/2017 00:06:29.307 INFO  [LOGGER_RECO] A_LEAD: Determining C
+11/11/2017 00:06:29.358 INFO  [LOGGER_RECO] B_LEAD: Convoluting C
+11/11/2017 00:06:29.393 INFO  [LOGGER_RECO] A_LEAD: Convoluting C
+11/11/2017 00:06:31.679 INFO  [LOGGER_RECO] A_LEAD: Re-Calculating W
+11/11/2017 00:06:31.742 INFO  [LOGGER_RECO] B_LEAD: Re-Calculating W
+11/11/2017 00:06:32.104 INFO  [LOGGER_RECO] A_LEAD: Calculating Distance to Total Balanced
+11/11/2017 00:06:32.164 INFO  [LOGGER_RECO] B_LEAD: Calculating Distance to Total Balanced
+11/11/2017 00:06:33.379 INFO  [LOGGER_RECO] A_LEAD: Distance to Total Balanced: 0.0767062
+11/11/2017 00:06:33.379 INFO  [LOGGER_RECO] A_LEAD: Balancing Weights Round 12
+11/11/2017 00:06:33.379 INFO  [LOGGER_RECO] A_LEAD: Determining C
+11/11/2017 00:06:33.460 INFO  [LOGGER_RECO] A_LEAD: Convoluting C
+11/11/2017 00:06:33.493 INFO  [LOGGER_RECO] B_LEAD: Distance to Total Balanced: 0.134017
+11/11/2017 00:06:33.493 INFO  [LOGGER_RECO] B_LEAD: Balancing Weights Round 9
+11/11/2017 00:06:33.494 INFO  [LOGGER_RECO] B_LEAD: Determining C
+11/11/2017 00:06:33.574 INFO  [LOGGER_RECO] B_LEAD: Convoluting C
+11/11/2017 00:06:35.767 INFO  [LOGGER_RECO] A_LEAD: Re-Calculating W
+11/11/2017 00:06:35.847 INFO  [LOGGER_RECO] B_LEAD: Re-Calculating W
+11/11/2017 00:06:36.186 INFO  [LOGGER_RECO] A_LEAD: Calculating Distance to Total Balanced
+11/11/2017 00:06:36.271 INFO  [LOGGER_RECO] B_LEAD: Calculating Distance to Total Balanced
+11/11/2017 00:06:37.481 INFO  [LOGGER_RECO] A_LEAD: Distance to Total Balanced: 0.0624724
+11/11/2017 00:06:37.481 INFO  [LOGGER_RECO] A_LEAD: Balancing Weights Round 13
+11/11/2017 00:06:37.481 INFO  [LOGGER_RECO] A_LEAD: Determining C
+11/11/2017 00:06:37.564 INFO  [LOGGER_RECO] A_LEAD: Convoluting C
+11/11/2017 00:06:37.604 INFO  [LOGGER_RECO] B_LEAD: Distance to Total Balanced: 0.112835
+11/11/2017 00:06:37.604 INFO  [LOGGER_RECO] B_LEAD: Balancing Weights Round 10
+11/11/2017 00:06:37.605 INFO  [LOGGER_RECO] B_LEAD: Determining C
+11/11/2017 00:06:37.684 INFO  [LOGGER_RECO] B_LEAD: Convoluting C
+11/11/2017 00:06:39.919 INFO  [LOGGER_RECO] A_LEAD: Re-Calculating W
+11/11/2017 00:06:39.947 INFO  [LOGGER_RECO] B_LEAD: Re-Calculating W
+11/11/2017 00:06:40.348 INFO  [LOGGER_RECO] A_LEAD: Calculating Distance to Total Balanced
+11/11/2017 00:06:40.369 INFO  [LOGGER_RECO] B_LEAD: Calculating Distance to Total Balanced
+11/11/2017 00:06:41.633 INFO  [LOGGER_RECO] A_LEAD: Distance to Total Balanced: 0.0506677
+11/11/2017 00:06:41.634 INFO  [LOGGER_RECO] A_LEAD: Balancing Weights Round 14
+11/11/2017 00:06:41.634 INFO  [LOGGER_RECO] A_LEAD: Determining C
+11/11/2017 00:06:41.669 INFO  [LOGGER_RECO] B_LEAD: Distance to Total Balanced: 0.0936757
+11/11/2017 00:06:41.669 INFO  [LOGGER_RECO] B_LEAD: Balancing Weights Round 11
+11/11/2017 00:06:41.670 INFO  [LOGGER_RECO] B_LEAD: Determining C
+11/11/2017 00:06:41.720 INFO  [LOGGER_RECO] A_LEAD: Convoluting C
+11/11/2017 00:06:41.752 INFO  [LOGGER_RECO] B_LEAD: Convoluting C
+11/11/2017 00:06:44.091 INFO  [LOGGER_RECO] A_LEAD: Re-Calculating W
+11/11/2017 00:06:44.098 INFO  [LOGGER_RECO] B_LEAD: Re-Calculating W
+11/11/2017 00:06:44.509 INFO  [LOGGER_RECO] A_LEAD: Calculating Distance to Total Balanced
+11/11/2017 00:06:44.520 INFO  [LOGGER_RECO] B_LEAD: Calculating Distance to Total Balanced
+11/11/2017 00:06:45.804 INFO  [LOGGER_RECO] B_LEAD: Distance to Total Balanced: 0.0769111
+11/11/2017 00:06:45.804 INFO  [LOGGER_RECO] B_LEAD: Balancing Weights Round 12
+11/11/2017 00:06:45.804 INFO  [LOGGER_RECO] B_LEAD: Determining C
+11/11/2017 00:06:45.811 INFO  [LOGGER_RECO] A_LEAD: Distance to Total Balanced: 0.0410492
+11/11/2017 00:06:45.811 INFO  [LOGGER_RECO] A_LEAD: Balancing Weights Round 15
+11/11/2017 00:06:45.811 INFO  [LOGGER_RECO] A_LEAD: Determining C
+11/11/2017 00:06:45.923 INFO  [LOGGER_RECO] B_LEAD: Convoluting C
+11/11/2017 00:06:45.954 INFO  [LOGGER_RECO] A_LEAD: Convoluting C
+11/11/2017 00:06:48.255 INFO  [LOGGER_RECO] A_LEAD: Re-Calculating W
+11/11/2017 00:06:48.256 INFO  [LOGGER_RECO] B_LEAD: Re-Calculating W
+11/11/2017 00:06:48.679 INFO  [LOGGER_RECO] B_LEAD: Calculating Distance to Total Balanced
+11/11/2017 00:06:48.680 INFO  [LOGGER_RECO] A_LEAD: Calculating Distance to Total Balanced
+11/11/2017 00:06:49.966 INFO  [LOGGER_RECO] B_LEAD: Distance to Total Balanced: 0.0626639
+11/11/2017 00:06:49.966 INFO  [LOGGER_RECO] B_LEAD: Balancing Weights Round 13
+11/11/2017 00:06:49.966 INFO  [LOGGER_RECO] B_LEAD: Determining C
+11/11/2017 00:06:49.976 INFO  [LOGGER_RECO] A_LEAD: Distance to Total Balanced: 0.0333068
+11/11/2017 00:06:49.976 INFO  [LOGGER_RECO] A_LEAD: Balancing Weights Round 16
+11/11/2017 00:06:49.977 INFO  [LOGGER_RECO] A_LEAD: Determining C
+11/11/2017 00:06:50.071 INFO  [LOGGER_RECO] B_LEAD: Convoluting C
+11/11/2017 00:06:50.074 INFO  [LOGGER_RECO] A_LEAD: Convoluting C
+11/11/2017 00:06:52.335 INFO  [LOGGER_RECO] A_LEAD: Re-Calculating W
+11/11/2017 00:06:52.345 INFO  [LOGGER_RECO] B_LEAD: Re-Calculating W
+11/11/2017 00:06:52.839 INFO  [LOGGER_RECO] A_LEAD: Calculating Distance to Total Balanced
+11/11/2017 00:06:52.853 INFO  [LOGGER_RECO] B_LEAD: Calculating Distance to Total Balanced
+11/11/2017 00:06:54.119 INFO  [LOGGER_RECO] A_LEAD: Distance to Total Balanced: 0.0271195
+11/11/2017 00:06:54.119 INFO  [LOGGER_RECO] A_LEAD: Balancing Weights Round 17
+11/11/2017 00:06:54.119 INFO  [LOGGER_RECO] A_LEAD: Determining C
+11/11/2017 00:06:54.161 INFO  [LOGGER_RECO] B_LEAD: Distance to Total Balanced: 0.0508397
+11/11/2017 00:06:54.162 INFO  [LOGGER_RECO] B_LEAD: Balancing Weights Round 14
+11/11/2017 00:06:54.162 INFO  [LOGGER_RECO] B_LEAD: Determining C
+11/11/2017 00:06:54.202 INFO  [LOGGER_RECO] A_LEAD: Convoluting C
+11/11/2017 00:06:54.253 INFO  [LOGGER_RECO] B_LEAD: Convoluting C
+11/11/2017 00:06:56.429 INFO  [LOGGER_RECO] A_LEAD: Re-Calculating W
+11/11/2017 00:06:56.481 INFO  [LOGGER_RECO] B_LEAD: Re-Calculating W
+11/11/2017 00:06:56.850 INFO  [LOGGER_RECO] A_LEAD: Calculating Distance to Total Balanced
+11/11/2017 00:06:56.903 INFO  [LOGGER_RECO] B_LEAD: Calculating Distance to Total Balanced
+11/11/2017 00:06:58.137 INFO  [LOGGER_RECO] A_LEAD: Distance to Total Balanced: 0.0221913
+11/11/2017 00:06:58.137 INFO  [LOGGER_RECO] A_LEAD: Balancing Weights Round 18
+11/11/2017 00:06:58.137 INFO  [LOGGER_RECO] A_LEAD: Determining C
+11/11/2017 00:06:58.222 INFO  [LOGGER_RECO] B_LEAD: Distance to Total Balanced: 0.0411996
+11/11/2017 00:06:58.223 INFO  [LOGGER_RECO] B_LEAD: Balancing Weights Round 15
+11/11/2017 00:06:58.223 INFO  [LOGGER_RECO] B_LEAD: Determining C
+11/11/2017 00:06:58.301 INFO  [LOGGER_RECO] B_LEAD: Convoluting C
+11/11/2017 00:06:58.308 INFO  [LOGGER_RECO] A_LEAD: Convoluting C
+11/11/2017 00:07:00.516 INFO  [LOGGER_RECO] A_LEAD: Re-Calculating W
+11/11/2017 00:07:00.612 INFO  [LOGGER_RECO] B_LEAD: Re-Calculating W
+11/11/2017 00:07:00.934 INFO  [LOGGER_RECO] A_LEAD: Calculating Distance to Total Balanced
+11/11/2017 00:07:01.033 INFO  [LOGGER_RECO] B_LEAD: Calculating Distance to Total Balanced
+11/11/2017 00:07:02.234 INFO  [LOGGER_RECO] A_LEAD: Distance to Total Balanced: 0.0182663
+11/11/2017 00:07:02.235 INFO  [LOGGER_RECO] A_LEAD: Balancing Weights Round 19
+11/11/2017 00:07:02.235 INFO  [LOGGER_RECO] A_LEAD: Determining C
+11/11/2017 00:07:02.315 INFO  [LOGGER_RECO] A_LEAD: Convoluting C
+11/11/2017 00:07:02.370 INFO  [LOGGER_RECO] B_LEAD: Distance to Total Balanced: 0.0334358
+11/11/2017 00:07:02.370 INFO  [LOGGER_RECO] B_LEAD: Balancing Weights Round 16
+11/11/2017 00:07:02.370 INFO  [LOGGER_RECO] B_LEAD: Determining C
+11/11/2017 00:07:02.470 INFO  [LOGGER_RECO] B_LEAD: Convoluting C
+11/11/2017 00:07:04.575 INFO  [LOGGER_RECO] A_LEAD: Re-Calculating W
+11/11/2017 00:07:04.655 INFO  [LOGGER_RECO] B_LEAD: Re-Calculating W
+11/11/2017 00:07:04.998 INFO  [LOGGER_RECO] A_LEAD: Calculating Distance to Total Balanced
+11/11/2017 00:07:05.076 INFO  [LOGGER_RECO] B_LEAD: Calculating Distance to Total Balanced
+11/11/2017 00:07:06.310 INFO  [LOGGER_RECO] A_LEAD: Distance to Total Balanced: 0.015133
+11/11/2017 00:07:06.311 INFO  [LOGGER_RECO] A_LEAD: Balancing Weights Round 20
+11/11/2017 00:07:06.311 INFO  [LOGGER_RECO] A_LEAD: Determining C
+11/11/2017 00:07:06.391 INFO  [LOGGER_RECO] A_LEAD: Convoluting C
+11/11/2017 00:07:06.435 INFO  [LOGGER_RECO] B_LEAD: Distance to Total Balanced: 0.0272292
+11/11/2017 00:07:06.436 INFO  [LOGGER_RECO] B_LEAD: Balancing Weights Round 17
+11/11/2017 00:07:06.436 INFO  [LOGGER_RECO] B_LEAD: Determining C
+11/11/2017 00:07:06.527 INFO  [LOGGER_RECO] B_LEAD: Convoluting C
+11/11/2017 00:07:08.673 INFO  [LOGGER_RECO] A_LEAD: Re-Calculating W
+11/11/2017 00:07:08.749 INFO  [LOGGER_RECO] B_LEAD: Re-Calculating W
+11/11/2017 00:07:09.116 INFO  [LOGGER_RECO] A_LEAD: Calculating Distance to Total Balanced
+11/11/2017 00:07:09.192 INFO  [LOGGER_RECO] B_LEAD: Calculating Distance to Total Balanced
+11/11/2017 00:07:10.406 INFO  [LOGGER_RECO] A_LEAD: Distance to Total Balanced: 0.0126216
+11/11/2017 00:07:10.407 INFO  [LOGGER_RECO] A_LEAD: Balancing Weights Round 21
+11/11/2017 00:07:10.407 INFO  [LOGGER_RECO] A_LEAD: Determining C
+11/11/2017 00:07:10.487 INFO  [LOGGER_RECO] A_LEAD: Convoluting C
+11/11/2017 00:07:10.531 INFO  [LOGGER_RECO] B_LEAD: Distance to Total Balanced: 0.022284
+11/11/2017 00:07:10.531 INFO  [LOGGER_RECO] B_LEAD: Balancing Weights Round 18
+11/11/2017 00:07:10.531 INFO  [LOGGER_RECO] B_LEAD: Determining C
+11/11/2017 00:07:10.694 INFO  [LOGGER_RECO] B_LEAD: Convoluting C
+11/11/2017 00:07:12.709 INFO  [LOGGER_RECO] A_LEAD: Re-Calculating W
+11/11/2017 00:07:12.926 INFO  [LOGGER_RECO] B_LEAD: Re-Calculating W
+11/11/2017 00:07:13.133 INFO  [LOGGER_RECO] A_LEAD: Calculating Distance to Total Balanced
+11/11/2017 00:07:13.346 INFO  [LOGGER_RECO] B_LEAD: Calculating Distance to Total Balanced
+11/11/2017 00:07:14.434 INFO  [LOGGER_RECO] A_LEAD: Distance to Total Balanced: 0.0105979
+11/11/2017 00:07:14.435 INFO  [LOGGER_RECO] A_LEAD: Balancing Weights Round 22
+11/11/2017 00:07:14.435 INFO  [LOGGER_RECO] A_LEAD: Determining C
+11/11/2017 00:07:14.518 INFO  [LOGGER_RECO] A_LEAD: Convoluting C
+11/11/2017 00:07:14.725 INFO  [LOGGER_RECO] B_LEAD: Distance to Total Balanced: 0.0183445
+11/11/2017 00:07:14.725 INFO  [LOGGER_RECO] B_LEAD: Balancing Weights Round 19
+11/11/2017 00:07:14.726 INFO  [LOGGER_RECO] B_LEAD: Determining C
+11/11/2017 00:07:14.868 INFO  [LOGGER_RECO] B_LEAD: Convoluting C
+11/11/2017 00:07:16.560 INFO  [LOGGER_RECO] A_LEAD: Re-Calculating W
+11/11/2017 00:07:17.038 INFO  [LOGGER_RECO] A_LEAD: Calculating Distance to Total Balanced
+11/11/2017 00:07:17.075 INFO  [LOGGER_RECO] B_LEAD: Re-Calculating W
+11/11/2017 00:07:17.496 INFO  [LOGGER_RECO] B_LEAD: Calculating Distance to Total Balanced
+11/11/2017 00:07:18.306 INFO  [LOGGER_RECO] A_LEAD: Distance to Total Balanced: 0.00895713
+11/11/2017 00:07:18.307 INFO  [LOGGER_RECO] A_LEAD: Allreducing F
+11/11/2017 00:07:18.307 INFO  [LOGGER_RECO] A_LEAD: Waiting for Synchronizing all Processes in Hemisphere A
+11/11/2017 00:07:18.307 INFO  [LOGGER_RECO] A_LEAD: Symmetrizing F
+11/11/2017 00:07:18.878 INFO  [LOGGER_RECO] B_LEAD: Distance to Total Balanced: 0.0151992
+11/11/2017 00:07:18.878 INFO  [LOGGER_RECO] B_LEAD: Balancing Weights Round 20
+11/11/2017 00:07:18.878 INFO  [LOGGER_RECO] B_LEAD: Determining C
+11/11/2017 00:07:19.059 INFO  [LOGGER_RECO] B_LEAD: Convoluting C
+11/11/2017 00:07:21.310 INFO  [LOGGER_RECO] B_LEAD: Re-Calculating W
+11/11/2017 00:07:21.735 INFO  [LOGGER_RECO] B_LEAD: Calculating Distance to Total Balanced
+11/11/2017 00:07:23.394 INFO  [LOGGER_RECO] B_LEAD: Distance to Total Balanced: 0.0126779
+11/11/2017 00:07:23.395 INFO  [LOGGER_RECO] B_LEAD: Balancing Weights Round 21
+11/11/2017 00:07:23.395 INFO  [LOGGER_RECO] B_LEAD: Determining C
+11/11/2017 00:07:23.473 INFO  [LOGGER_RECO] B_LEAD: Convoluting C
+11/11/2017 00:07:25.756 INFO  [LOGGER_RECO] B_LEAD: Re-Calculating W
+11/11/2017 00:07:26.172 INFO  [LOGGER_RECO] B_LEAD: Calculating Distance to Total Balanced
+11/11/2017 00:07:27.814 INFO  [LOGGER_RECO] B_LEAD: Distance to Total Balanced: 0.010646
+11/11/2017 00:07:27.815 INFO  [LOGGER_RECO] B_LEAD: Balancing Weights Round 22
+11/11/2017 00:07:27.815 INFO  [LOGGER_RECO] B_LEAD: Determining C
+11/11/2017 00:07:27.895 INFO  [LOGGER_RECO] B_LEAD: Convoluting C
+11/11/2017 00:07:30.356 INFO  [LOGGER_RECO] B_LEAD: Re-Calculating W
+11/11/2017 00:07:30.771 INFO  [LOGGER_RECO] B_LEAD: Calculating Distance to Total Balanced
+11/11/2017 00:07:32.011 INFO  [LOGGER_RECO] B_LEAD: Distance to Total Balanced: 0.00899852
+11/11/2017 00:07:32.012 INFO  [LOGGER_RECO] B_LEAD: Allreducing F
+11/11/2017 00:07:32.012 INFO  [LOGGER_RECO] B_LEAD: Waiting for Synchronizing all Processes in Hemisphere B
+11/11/2017 00:07:32.012 INFO  [LOGGER_RECO] B_LEAD: Symmetrizing F
+11/11/2017 00:07:32.195 INFO  [LOGGER_RECO] A_LEAD: Correcting Convolution Kernel
+11/11/2017 00:07:33.447 INFO  [LOGGER_RECO] A_LEAD: Convolution Kernel Corrected
+11/11/2017 00:07:34.228 INFO  [LOGGER_ROUND] A_LEAD: Freeing Space for Pre-calcuation in Reconstruction
+11/11/2017 00:07:34.228 INFO  [LOGGER_ROUND] A_LEAD: Reference(s) Reconstructed
+11/11/2017 00:07:34.407 INFO  [LOGGER_ROUND] A_LEAD: Saving Reference 0
+11/11/2017 00:07:45.683 INFO  [LOGGER_RECO] B_LEAD: Correcting Convolution Kernel
+11/11/2017 00:07:46.822 INFO  [LOGGER_RECO] B_LEAD: Convolution Kernel Corrected
+11/11/2017 00:07:47.661 INFO  [LOGGER_ROUND] B_LEAD: Freeing Space for Pre-calcuation in Reconstruction
+11/11/2017 00:07:47.661 INFO  [LOGGER_ROUND] B_LEAD: Reference(s) Reconstructed
+11/11/2017 00:07:47.837 INFO  [LOGGER_ROUND] B_LEAD: Saving Reference 0
+11/11/2017 00:07:48.579 INFO  [LOGGER_COMPARE] B_LEAD: Sending Reference 0 from Hemisphere B
+11/11/2017 00:07:48.579 INFO  [LOGGER_COMPARE] MASTER: Gathering References from Hemisphere A and Hemisphere B
+11/11/2017 00:07:48.579 INFO  [LOGGER_COMPARE] A_LEAD: Sending Reference 0 from Hemisphere A
+11/11/2017 00:07:48.579 INFO  [LOGGER_COMPARE] B_LEAD: Size of Reference 0 to be Sent: 8454144
+11/11/2017 00:07:48.579 INFO  [LOGGER_COMPARE] MASTER: Allocating A and B in Fourier Space with Size: 256 X 256 X 256
+11/11/2017 00:07:48.579 INFO  [LOGGER_COMPARE] A_LEAD: Size of Reference 0 to be Sent: 8454144
+11/11/2017 00:07:48.579 INFO  [LOGGER_COMPARE] B_LEAD: Zero, REAL = 657.49, IMAG = 0
+11/11/2017 00:07:48.579 INFO  [LOGGER_COMPARE] A_LEAD: Zero, REAL = 457.411, IMAG = 0
+11/11/2017 00:07:48.579 INFO  [LOGGER_COMPARE] MASTER: Size of Hemisphere A of Reference 0 to be Received: 8454144
+11/11/2017 00:07:48.579 INFO  [LOGGER_COMPARE] MASTER: Size of Hemisphere A of Reference 0 to be Received: 8454144
+11/11/2017 00:07:48.579 INFO  [LOGGER_COMPARE] MASTER: Receiving Reference 0 from Hemisphere A
+11/11/2017 00:07:48.641 INFO  [LOGGER_COMPARE] A_LEAD: Receiving Reference 0 from MASTER
+11/11/2017 00:07:48.641 INFO  [LOGGER_COMPARE] MASTER: Receiving Reference 0 from Hemisphere B
+11/11/2017 00:07:48.700 INFO  [LOGGER_COMPARE] B_LEAD: Receiving Reference 0 from MASTER
+11/11/2017 00:07:48.700 INFO  [LOGGER_COMPARE] MASTER: Zero, REAL = 457.411, IMAG = 0
+11/11/2017 00:07:48.700 INFO  [LOGGER_COMPARE] MASTER: Zero, REAL = 657.49, IMAG = 0
+11/11/2017 00:07:48.700 INFO  [LOGGER_COMPARE] MASTER: Calculating FSC of Core Region of Reference 0
+11/11/2017 00:07:48.996 INFO  [LOGGER_COMPARE] MASTER: Core Region is 144 x 144 x 144
+11/11/2017 00:07:48.996 INFO  [LOGGER_COMPARE] MASTER: Core Region Extract Factor: 0.5625
+11/11/2017 00:07:48.997 INFO  [LOGGER_COMPARE] MASTER: Extracing Core Region from Reference 0
+11/11/2017 00:07:49.066 INFO  [LOGGER_COMPARE] MASTER: Determining Core Region FSC of Reference 0
+11/11/2017 00:07:49.670 INFO  [LOGGER_COMPARE] MASTER: Averaging A and B
+11/11/2017 00:07:49.695 INFO  [LOGGER_COMPARE] MASTER: Sending Reference 0 to Hemisphere A
+11/11/2017 00:07:49.745 INFO  [LOGGER_COMPARE] MASTER: Reference 0 Sent to Hemisphere A
+11/11/2017 00:07:49.745 INFO  [LOGGER_COMPARE] MASTER: Sending Reference 0 to Hemisphere B
+11/11/2017 00:07:49.784 INFO  [LOGGER_COMPARE] MASTER: Reference 0 Sent to Hemisphere B
+11/11/2017 00:07:49.787 INFO  [LOGGER_COMPARE] B_LEAD: Broadcasting Reference 0 from B_LEAD
+11/11/2017 00:07:49.787 INFO  [LOGGER_COMPARE] A_LEAD: Broadcasting Reference 0 from A_LEAD
+11/11/2017 00:07:49.790 INFO  [LOGGER_COMPARE] MASTER: Reference 0 Broadcasted from A_LEAD and B_LEAD
+11/11/2017 00:07:49.790 INFO  [LOGGER_COMPARE] MASTER: Broadcasting FSC from MASTER
+11/11/2017 00:07:49.791 INFO  [LOGGER_COMPARE] MASTER: FSC Broadcasted from MASTER
+11/11/2017 00:07:49.791 INFO  [LOGGER_ROUND] MASTER: Saving Final FSC(s)

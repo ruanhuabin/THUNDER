@@ -1,0 +1,11 @@
+prefix=/opt/gsl-2.4-intel
+exec_prefix=/opt/gsl-2.4-intel
+libdir=/opt/gsl-2.4-intel/lib
+includedir=/opt/gsl-2.4-intel/include
+GSL_CBLAS_LIB=-lgslcblas
+
+Name: GSL
+Description: GNU Scientific Library
+Version: 2.4
+Libs: -L/opt/gsl-2.4-intel/lib -lgsl ${GSL_CBLAS_LIB} -lm -lm 
+Cflags: -I/opt/gsl-2.4-intel/include
